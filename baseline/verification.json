@@ -1,0 +1,24 @@
+{
+  "migration_date": "2026-10-11",
+  "exact_source_file_comparison": "passed; 39 files",
+  "preserved_originals": "passed; 12 files",
+  "translation_reproduction": "passed; all four generated files byte-identical",
+  "application_checks": {
+    "status": "passed",
+    "languages": [
+      "de",
+      "en",
+      "zh"
+    ],
+    "chapters_per_language": 26,
+    "sections_per_language": 235,
+    "figures_per_language": 10,
+    "math_per_language": 19,
+    "paragraphs": 657,
+    "search_cases": 24,
+    "ui_handlers": "navigation, source anchors, figure anchors, reading, checklist, notes, calculator, search, chat, zoom, language switch, language persistence, translated model answers",
+    "browser_visual_qa": "not available"
+  },
+  "github_pages_status": "Workflow prepared; repository Pages setting and initial publish require the documented GitHub administration step.",
+  "browser_visual_qa": "not available"
+}

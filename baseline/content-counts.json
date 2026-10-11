@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "languages": [
+    "de",
+    "en",
+    "zh"
+  ],
+  "chapters_per_language": 26,
+  "sections_per_language": 235,
+  "figures_per_language": 10,
+  "math_per_language": 19,
+  "paragraphs": 657,
+  "search_cases": 24,
+  "browser_visual_qa": "not available"
+}

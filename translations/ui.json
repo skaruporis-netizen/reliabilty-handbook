@@ -1,0 +1,1414 @@
+{
+  "Grundlagen & Systemkontext": {
+    "en": "Fundamentals & system context",
+    "zh": "基础与系统背景"
+  },
+  "Modellierung & Fehleranalyse": {
+    "en": "Modeling & failure analysis",
+    "zh": "建模与故障分析"
+  },
+  "Komponenten & Zulieferer": {
+    "en": "Components & suppliers",
+    "zh": "组件与供应商"
+  },
+  "Statistik & Systemnachweis": {
+    "en": "Statistics & system evidence",
+    "zh": "统计与系统验证"
+  },
+  "Feld & Verbesserung": {
+    "en": "Field performance & improvement",
+    "zh": "现场表现与改进"
+  },
+  "Fallstudien": {
+    "en": "Case studies",
+    "zh": "案例研究"
+  },
+  "Kontext klären": {
+    "en": "Clarify the context",
+    "zh": "明确背景"
+  },
+  "Funktion · Grenze · Nutzung": {
+    "en": "Function · Boundary · Use",
+    "zh": "功能 · 边界 · 使用"
+  },
+  "System modellieren": {
+    "en": "Model the system",
+    "zh": "建立系统模型"
+  },
+  "Ketten · Architektur · Anforderungen": {
+    "en": "Chains · Architecture · Requirements",
+    "zh": "链路 · 架构 · 要求"
+  },
+  "Fehler analysieren": {
+    "en": "Analyze failures",
+    "zh": "分析故障"
+  },
+  "FMEA · Ursachen · Reserven": {
+    "en": "FMEA · Causes · Margins",
+    "zh": "FMEA · 原因 · 裕量"
+  },
+  "Nachweis planen": {
+    "en": "Plan the evidence",
+    "zh": "规划验证"
+  },
+  "Statistik · Stichprobe · Profil": {
+    "en": "Statistics · Sample · Profile",
+    "zh": "统计 · 样本 · 使用特征"
+  },
+  "Komponente absichern": {
+    "en": "Verify the component",
+    "zh": "验证组件"
+  },
+  "Evidenz · Grenzen · Version": {
+    "en": "Evidence · Limits · Version",
+    "zh": "证据 · 界限 · 版本"
+  },
+  "Integration prüfen": {
+    "en": "Verify integration",
+    "zh": "验证集成"
+  },
+  "Zusammenspiel · Use Cases": {
+    "en": "Interaction · Use cases",
+    "zh": "协同运行 · 使用场景"
+  },
+  "Entscheidung treffen": {
+    "en": "Make the decision",
+    "zh": "作出决策"
+  },
+  "Freigabe · Bedingungen · Änderungen": {
+    "en": "Release · Conditions · Changes",
+    "zh": "批准 · 条件 · 变更"
+  },
+  "Lernen & verbessern": {
+    "en": "Learn & improve",
+    "zh": "学习与改进"
+  },
+  "Feld · Ursachen · Wirksamkeit": {
+    "en": "Field · Causes · Effectiveness",
+    "zh": "现场 · 原因 · 有效性"
+  },
+  "Zuliefernachweis bewerten": {
+    "en": "Assess supplier evidence",
+    "zh": "评估供应商证据"
+  },
+  "Passt die vorhandene Evidenz zu unserem Einsatz?": {
+    "en": "Does the available evidence fit our application?",
+    "zh": "现有证据是否适用于我们的使用场景？"
+  },
+  "Einsatz beschreiben": {
+    "en": "Describe the application",
+    "zh": "描述使用场景"
+  },
+  "Ein Nachweis gilt für eine konkrete Ausführung und Anwendung. Beginne mit dem benötigten Einsatz, bevor du einen Prüfbericht bewertest.": {
+    "en": "Evidence applies to a specific configuration and application. Start with the intended use before assessing a test report.",
+    "zh": "证据适用于特定配置和应用。在评估测试报告前，先明确预期使用场景。"
+  },
+  "Funktion und zulässige Degradation benannt": {
+    "en": "Function and permitted degradation specified",
+    "zh": "已明确功能和允许的性能衰退"
+  },
+  "Einbau, Umgebung und Nutzungsprofil festgelegt": {
+    "en": "Installation, environment and usage profile defined",
+    "zh": "已确定安装方式、环境和使用特征"
+  },
+  "Ausführung, Hardware- und Firmwarestand erfasst": {
+    "en": "Configuration, hardware and firmware versions recorded",
+    "zh": "已记录配置、硬件版本和固件版本"
+  },
+  "Evidenz abgleichen": {
+    "en": "Compare the evidence",
+    "zh": "核对证据"
+  },
+  "Prüfe die vorhandenen Nachweise gegen den tatsächlichen Einsatz. Ein anderes Labor allein begründet keine vollständige Wiederholung.": {
+    "en": "Compare the existing evidence with the actual application. A different laboratory alone does not justify repeating all tests.",
+    "zh": "将现有证据与实际使用场景进行比较。仅仅因为实验室不同，并不足以成为重复全部测试的理由。"
+  },
+  "Berichtsmuster passt zum Lieferstand": {
+    "en": "Test-report sample matches the supplied version",
+    "zh": "测试报告中的样品与交付版本一致"
+  },
+  "Messort, Belastungsprofil und beobachtete Funktion passen": {
+    "en": "Measurement location, stress profile and observed function match",
+    "zh": "测量位置、应力特征和观察的功能相符"
+  },
+  "Musterrepräsentativität, Ausfälle und Zensierungen sind dokumentiert": {
+    "en": "Sample representativeness, failures and censoring documented",
+    "zh": "已记录样本代表性、失效和删失数据"
+  },
+  "Statistische Aussage und Modellannahmen sind nachvollziehbar": {
+    "en": "Statistical claim and model assumptions are traceable",
+    "zh": "统计结论和模型假设可追溯"
+  },
+  "Lücken schließen": {
+    "en": "Close the gaps",
+    "zh": "弥补证据缺口"
+  },
+  "Unterschiede werden technisch begründet. Wähle gezielte Ergänzungen für einen veränderten Mechanismus, eine neue Belastung oder eine fehlende Aussage.": {
+    "en": "Provide a technical rationale for differences. Select targeted additions for a changed mechanism, a new stress or a missing claim.",
+    "zh": "从技术角度说明差异。针对机制变化、新的应力或缺失的结论，选择有针对性的补充验证。"
+  },
+  "Abweichungen und ihre Wirkung beschrieben": {
+    "en": "Deviations and their effects described",
+    "zh": "已描述偏差及其影响"
+  },
+  "Zusätzlicher Nachweis hat klares Ziel und Akzeptanzkriterium": {
+    "en": "Additional evidence has a clear objective and acceptance criterion",
+    "zh": "补充验证具有明确目标和验收准则"
+  },
+  "Integration prüft reale Einbaubedingungen und Übergaben": {
+    "en": "Integration testing covers actual installation conditions and handoffs",
+    "zh": "集成测试涵盖实际安装条件和接口交接"
+  },
+  "Übernahme entscheiden": {
+    "en": "Decide on acceptance",
+    "zh": "决定是否采纳"
+  },
+  "Halte fest, für welchen Einsatz und welche Version die Evidenz akzeptiert wird. Richte den Rückmeldeweg ein.": {
+    "en": "Record the application and version for which the evidence is accepted. Establish a feedback channel.",
+    "zh": "记录证据被接受所适用的使用场景和版本。建立反馈渠道。"
+  },
+  "Akzeptiert, eingeschränkt akzeptiert oder weitere Evidenz nötig": {
+    "en": "Accepted, accepted with restrictions or further evidence required",
+    "zh": "已接受、有条件接受或需要更多证据"
+  },
+  "Bedingungen und Verantwortliche festgehalten": {
+    "en": "Conditions and responsible people recorded",
+    "zh": "已记录条件和责任人"
+  },
+  "Änderungsmitteilung und Feldmonitoring eingerichtet": {
+    "en": "Change notification and field monitoring established",
+    "zh": "已建立变更通知和现场监测机制"
+  },
+  "Funktionieren die Teile im tatsächlichen Zusammenspiel?": {
+    "en": "Do the parts work together in the actual system?",
+    "zh": "各部件在实际系统中能否协同工作？"
+  },
+  "Grenze & Ketten": {
+    "en": "Boundary & chains",
+    "zh": "边界与链路"
+  },
+  "Definiere Beginn und Erfolgspunkt der Funktion. Das Ende kann am Gerät oder erst im bestätigten Untersuchungsablauf liegen.": {
+    "en": "Define where the function starts and what constitutes success. The endpoint may be at the device or only at the confirmed examination workflow.",
+    "zh": "定义功能的起点和成功判据。终点可能位于设备端，也可能直到检查流程得到确认时才达到。"
+  },
+  "Produkt- oder Ablaufgrenze festgelegt": {
+    "en": "Product or workflow boundary defined",
+    "zh": "已确定产品边界或流程边界"
+  },
+  "Funktions- und Signalketten erfasst": {
+    "en": "Functional and signal chains recorded",
+    "zh": "已记录功能链和信号链"
+  },
+  "Inputs, Outputs, Zustände, Feedback und gemeinsame Ressourcen benannt": {
+    "en": "Inputs, outputs, states, feedback and shared resources identified",
+    "zh": "已明确输入、输出、状态、反馈和共享资源"
+  },
+  "Risiken & Versionen": {
+    "en": "Risks & versions",
+    "zh": "风险与版本"
+  },
+  "Die Übergabe braucht mehr als ein passendes Datenformat. Eine alte Bereitschaftsmeldung kann einen neuen Auftrag falsch freigeben.": {
+    "en": "A handoff needs more than a matching data format. An old readiness message can incorrectly authorize a new request.",
+    "zh": "接口交接不仅需要匹配的数据格式。旧的就绪消息可能错误地放行新任务。"
+  },
+  "Versionen und Schnittstellenverträge dokumentiert": {
+    "en": "Versions and interface contracts documented",
+    "zh": "已记录版本和接口契约"
+  },
+  "Fehlende, falsche, verspätete, veraltete und doppelte Signale analysiert": {
+    "en": "Missing, incorrect, late, stale and duplicate signals analyzed",
+    "zh": "已分析缺失、错误、延迟、过期和重复的信号"
+  },
+  "Gemeinsame Ursachen und Rückfallebenen betrachtet": {
+    "en": "Common causes and fallback levels considered",
+    "zh": "已考虑共同原因和降级后备层级"
+  },
+  "Tests & Reserven": {
+    "en": "Tests & margins",
+    "zh": "测试与裕量"
+  },
+  "Prüfe den Normalfall, ungünstige zulässige Kombinationen und Wiederanlauf. Explorative Grenzsuche ist eine zusätzliche Aussage.": {
+    "en": "Test normal operation, unfavorable permitted combinations and restart. Exploratory limit testing provides an additional kind of evidence.",
+    "zh": "测试正常工况、允许范围内的不利组合和重新启动。探索性极限测试提供另一类补充证据。"
+  },
+  "Erwartete Funktion und erlaubte Fehlerreaktion vorab definiert": {
+    "en": "Expected function and permitted failure response defined in advance",
+    "zh": "已预先定义预期功能和允许的故障响应"
+  },
+  "Last, Versorgung, Timing und Nachrichten gezielt variiert": {
+    "en": "Load, supply, timing and messages varied systematically",
+    "zh": "已针对性地改变负载、供电、时序和消息"
+  },
+  "Reale Einbaubedingungen und physikalische Wirkungen abgesichert": {
+    "en": "Actual installation conditions and physical effects verified",
+    "zh": "已验证实际安装条件和物理影响"
+  },
+  "Messbarer Abstand zu relevanten Grenzen und Unsicherheit dokumentiert": {
+    "en": "Measurable margin to relevant limits and uncertainty documented",
+    "zh": "已记录与相关极限的可测量裕量及其不确定性"
+  },
+  "Nachweis & Freigabe": {
+    "en": "Evidence & release",
+    "zh": "证据与批准"
+  },
+  "Verknüpfe jede Anforderung mit passender Evidenz und benenne den Geltungsbereich.": {
+    "en": "Link each requirement to suitable evidence and state its scope of validity.",
+    "zh": "将每项要求与相应证据关联，并说明其适用范围。"
+  },
+  "Ergebnisse mit Konfiguration und Zuständen reproduzierbar": {
+    "en": "Results reproducible with configuration and states recorded",
+    "zh": "记录配置和状态，使结果可复现"
+  },
+  "Rückkehr aus Störung und Rückfallebene geprüft": {
+    "en": "Recovery from disruption and fallback level tested",
+    "zh": "已测试故障恢复和后备层级"
+  },
+  "Nachweismatrix, Freigabebedingungen und offene Punkte dokumentiert": {
+    "en": "Evidence matrix, release conditions and open issues documented",
+    "zh": "已记录证据矩阵、批准条件和未解决事项"
+  },
+  "Lebensdauer nachweisen": {
+    "en": "Demonstrate lifetime",
+    "zh": "验证寿命"
+  },
+  "Welche Aussage soll der Versuch belegen?": {
+    "en": "What claim should the test demonstrate?",
+    "zh": "试验要证明什么结论？"
+  },
+  "Ziel & Population": {
+    "en": "Target & population",
+    "zh": "目标与总体"
+  },
+  "Erst die gewünschte Aussage, dann der Versuchsplan. Lege die Einheit der Nutzung fest: Stunden, Zyklen oder Kalenderzeit.": {
+    "en": "Define the desired claim before the test plan. Specify the unit of use: hours, cycles or calendar time.",
+    "zh": "先确定所需结论，再制定试验计划。明确使用量单位：小时、循环次数或日历时间。"
+  },
+  "Funktion, Ausfallkriterium und Population beschrieben": {
+    "en": "Function, failure criterion and population described",
+    "zh": "已描述功能、失效判据和总体"
+  },
+  "Zielnutzung und Zuverlässigkeitsziel festgelegt": {
+    "en": "Target use and reliability target defined",
+    "zh": "已确定目标使用量和可靠性目标"
+  },
+  "Konfidenzniveau und Richtung der Grenze vorab vereinbart": {
+    "en": "Confidence level and bound direction agreed in advance",
+    "zh": "已预先约定置信水平和界限方向"
+  },
+  "Modell & Daten": {
+    "en": "Model & data",
+    "zh": "模型与数据"
+  },
+  "Die Modellwahl folgt Daten, Mechanismus und Prüfart. Stundenaddition und binomialer Nachweis beruhen auf unterschiedlichen Annahmen.": {
+    "en": "Select the model based on data, mechanism and test type. Pooling operating hours and a binomial demonstration rely on different assumptions.",
+    "zh": "依据数据、机制和试验类型选择模型。累加运行小时数与二项分布验证所依赖的假设不同。"
+  },
+  "Unabhängigkeit und Repräsentativität begründet": {
+    "en": "Independence and representativeness justified",
+    "zh": "已说明独立性和代表性的依据"
+  },
+  "Verteilung beziehungsweise Rate passt zur Frage": {
+    "en": "Distribution or rate fits the question",
+    "zh": "分布或发生率适合所研究的问题"
+  },
+  "Zensierungen, Abbrüche und Rohdaten werden erfasst": {
+    "en": "Censoring, test terminations and raw data recorded",
+    "zh": "记录删失、试验终止和原始数据"
+  },
+  "Prüfplan festlegen": {
+    "en": "Define the test plan",
+    "zh": "制定试验计划"
+  },
+  "Plane Stichprobe, Prüfnutzung, akzeptierte Ausfälle und Chance auf einen bestandenen Nachweis zusammen. Ein kleines Budget verändert keine statistische Anforderung.": {
+    "en": "Plan the sample, test exposure, accepted failures and probability of passing the demonstration together. A small budget does not change a statistical requirement.",
+    "zh": "统筹规划样本、试验使用量、可接受的失效数和通过验证的概率。预算较少不会改变统计要求。"
+  },
+  "Annahmezahl und Entscheidung vor Testbeginn festgelegt": {
+    "en": "Acceptance number and decision rule defined before testing",
+    "zh": "已在试验前确定接收数和决策规则"
+  },
+  "Nachweiserfolgswahrscheinlichkeit bewertet": {
+    "en": "Probability of passing the demonstration assessed",
+    "zh": "已评估通过验证的概率"
+  },
+  "Beschleunigung nur mit passendem validiertem Mechanismus": {
+    "en": "Acceleration only with a suitable validated mechanism",
+    "zh": "仅在机制适用且经过验证时采用加速试验"
+  },
+  "Funktionsbeobachtung während und nach Belastung geplant": {
+    "en": "Function monitoring during and after stress planned",
+    "zh": "已规划应力施加期间及之后的功能监测"
+  },
+  "Aussage berichten": {
+    "en": "Report the claim",
+    "zh": "报告结论"
+  },
+  "Berichte Schätzung, Unsicherheitsgrenze, Modell und Geltungsbereich gemeinsam.": {
+    "en": "Report the estimate, uncertainty bound, model and scope together.",
+    "zh": "同时报告估计值、不确定性界限、模型和适用范围。"
+  },
+  "Alle Einheiten einschließlich erfolgreicher und zensierter dokumentiert": {
+    "en": "All units documented, including successful and censored units",
+    "zh": "已记录所有单元，包括成功完成试验和删失的单元"
+  },
+  "Relevante Ausfälle technisch untersucht": {
+    "en": "Relevant failures technically investigated",
+    "zh": "已对相关失效进行技术调查"
+  },
+  "Aussage auf geprüfte Nutzung und Population begrenzt": {
+    "en": "Claim limited to the tested use and population",
+    "zh": "结论仅限于已测试的使用量和总体"
+  },
+  "FMEA vorbereiten": {
+    "en": "Prepare an FMEA",
+    "zh": "准备 FMEA"
+  },
+  "Von Inputs und Outputs zur Systemwirkung.": {
+    "en": "From inputs and outputs to system effects.",
+    "zh": "从输入和输出到系统影响。"
+  },
+  "System abgrenzen": {
+    "en": "Define the system boundary",
+    "zh": "界定系统边界"
+  },
+  "Betrachte das System und seine Umgebung und wende die gleiche Sicht auf Subsysteme erneut an.": {
+    "en": "Consider the system and its environment, then apply the same view recursively to subsystems.",
+    "zh": "考察系统及其环境，并对各子系统重复采用同样的分析视角。"
+  },
+  "Systemgrenze und Bewertungsfunktion festgelegt": {
+    "en": "System boundary and function under assessment defined",
+    "zh": "已确定系统边界和评估的功能"
+  },
+  "Inputs, Outputs, zusätzliche Einwirkungen und Rückwirkungen erfasst": {
+    "en": "Inputs, outputs, additional influences and effects on the environment recorded",
+    "zh": "已记录输入、输出、额外作用及对环境的反作用"
+  },
+  "Zustände und Nutzung ergänzt": {
+    "en": "States and use added",
+    "zh": "已补充状态和使用情况"
+  },
+  "Ketten & Architektur": {
+    "en": "Chains & architecture",
+    "zh": "链路与架构"
+  },
+  "Zerlege entlang von Funktionen und Signalen und ordne die Umsetzung in Hardware und Software zu.": {
+    "en": "Decompose along functions and signals and map their implementation to hardware and software.",
+    "zh": "沿功能和信号进行分解，并映射到硬件和软件实现。"
+  },
+  "Funktions- und Signalketten mit Übergaben beschrieben": {
+    "en": "Functional and signal chains with handoffs described",
+    "zh": "已描述包含接口交接的功能链和信号链"
+  },
+  "Architekturbezug und Anforderungen verknüpft": {
+    "en": "Architecture relationships and requirements linked",
+    "zh": "已关联架构关系和要求"
+  },
+  "Annahmen und zugesicherte Leistungen der Schnittstellen dokumentiert": {
+    "en": "Interface assumptions and guaranteed capabilities documented",
+    "zh": "已记录接口假设和承诺的性能"
+  },
+  "Fehler & Wirkungen": {
+    "en": "Failures & effects",
+    "zh": "故障与影响"
+  },
+  "Formuliere konkrete Abweichungen einschließlich Zeit und Kontext. Folge ihrer Wirkung über die Ebenen.": {
+    "en": "Describe specific deviations, including timing and context. Trace their effects across levels.",
+    "zh": "描述具体偏差，包括时间和背景。追踪其在各层级的影响。"
+  },
+  "Lokale, nächsthöhere und Systemwirkung getrennt": {
+    "en": "Local, next-level and system effects distinguished",
+    "zh": "已区分局部影响、上一层级影响和系统影响"
+  },
+  "Ursachen und vorhandene Kontrollen beschrieben": {
+    "en": "Causes and existing controls described",
+    "zh": "已描述原因和现有控制措施"
+  },
+  "Fehlerkombinationen und gemeinsame Ursachen zusätzlich bewertet": {
+    "en": "Failure combinations and common causes additionally assessed",
+    "zh": "已额外评估故障组合和共同原因"
+  },
+  "Maßnahmen & Rückmeldung": {
+    "en": "Actions & feedback",
+    "zh": "措施与反馈"
+  },
+  "Eine Maßnahme endet mit einem Wirksamkeitsnachweis. Neue Befunde verändern die FMEA.": {
+    "en": "An action is completed by demonstrating effectiveness. New findings update the FMEA.",
+    "zh": "措施应以有效性验证作为完成依据。新发现应更新 FMEA。"
+  },
+  "Verantwortliche, Termin und Prüfziel vereinbart": {
+    "en": "Responsible people, deadline and test objective agreed",
+    "zh": "已约定责任人、期限和测试目标"
+  },
+  "Wirksamkeit und Restzustand bewertet": {
+    "en": "Effectiveness and remaining condition assessed",
+    "zh": "已评估有效性和剩余状态"
+  },
+  "Änderungen in Anforderungen, Modellen und Tests zurückgeführt": {
+    "en": "Changes fed back into requirements, models and tests",
+    "zh": "已将变更反馈到要求、模型和测试中"
+  },
+  "Feldausfall untersuchen": {
+    "en": "Investigate a field failure",
+    "zh": "调查现场失效"
+  },
+  "Vom Ereignis zur nachgewiesenen Verbesserung.": {
+    "en": "From an event to demonstrated improvement.",
+    "zh": "从事件到经过验证的改进。"
+  },
+  "Ereignis sichern": {
+    "en": "Capture the event",
+    "zh": "保全事件信息"
+  },
+  "Serviceaustausch, bestätigter Funktionsverlust und No Fault Found sind verschiedene Ereignisse.": {
+    "en": "Service replacement, confirmed loss of function and No Fault Found are different events.",
+    "zh": "维修更换、已确认的功能丧失和未发现故障（No Fault Found）是不同类型的事件。"
+  },
+  "Funktion, Zeitpunkt, Zustand und Konfiguration gesichert": {
+    "en": "Function, time, state and configuration captured",
+    "zh": "已保全功能、时间、状态和配置的信息"
+  },
+  "Befund und seine Sicherheit dokumentiert": {
+    "en": "Finding and its certainty documented",
+    "zh": "已记录调查发现及其确定程度"
+  },
+  "Mehrfachmeldungen desselben Ereignisses erkannt": {
+    "en": "Duplicate reports of the same event identified",
+    "zh": "已识别同一事件的重复报告"
+  },
+  "Nenner & Kohorten": {
+    "en": "Denominator & cohorts",
+    "zh": "分母与队列"
+  },
+  "Die bloße Ausfallzahl reicht nicht. Nutzung, Alter, Version und Meldeverfahren beeinflussen den Vergleich.": {
+    "en": "The failure count alone is insufficient. Use, age, version and reporting procedures affect the comparison.",
+    "zh": "仅有失效数量并不够。使用情况、服役时间、版本和报告方式都会影响比较。"
+  },
+  "Passender Nenner und Beobachtungsdauer erfasst": {
+    "en": "Suitable denominator and observation period recorded",
+    "zh": "已记录合适的分母和观察期"
+  },
+  "Vergleichbare Kohorten gebildet": {
+    "en": "Comparable cohorts formed",
+    "zh": "已建立可比较的队列"
+  },
+  "Zensierung und wiederkehrende Ereignisse passend behandelt": {
+    "en": "Censoring and recurrent events handled appropriately",
+    "zh": "已恰当处理删失和重复发生的事件"
+  },
+  "Unsicherheit und Datenqualität bewertet": {
+    "en": "Uncertainty and data quality assessed",
+    "zh": "已评估不确定性和数据质量"
+  },
+  "Ursache unterscheiden": {
+    "en": "Distinguish causes",
+    "zh": "区分原因"
+  },
+  "Stelle konkurrierende Hypothesen auf und wähle Prüfungen, die sie voneinander trennen.": {
+    "en": "Develop competing hypotheses and select tests that distinguish between them.",
+    "zh": "提出相互竞争的假设，并选择能够区分这些假设的测试。"
+  },
+  "Symptom, Hypothese, Befund und Mechanismus getrennt": {
+    "en": "Symptom, hypothesis, finding and mechanism distinguished",
+    "zh": "已区分症状、假设、调查发现和机制"
+  },
+  "Auslösende Kombination reproduziert oder Unsicherheit dokumentiert": {
+    "en": "Triggering combination reproduced or uncertainty documented",
+    "zh": "已复现触发组合，或记录其不确定性"
+  },
+  "Komponente, Spezifikation und Integration offen geprüft": {
+    "en": "Component, specification and integration investigated without preconceptions",
+    "zh": "已无预设结论地检查组件、规格和集成"
+  },
+  "Verbessern & lernen": {
+    "en": "Improve & learn",
+    "zh": "改进与学习"
+  },
+  "Ein Neustart ist eine Wiederherstellung. Eine nachhaltige Verbesserung braucht eine wirksame Maßnahme und geeigneten Nachweis.": {
+    "en": "A restart restores operation. Lasting improvement requires an effective action and suitable evidence.",
+    "zh": "重启只是恢复运行。持续改进需要有效措施和适当证据。"
+  },
+  "Wirkmechanismus der Maßnahme begründet": {
+    "en": "Action mechanism justified",
+    "zh": "已说明措施作用机制的依据"
+  },
+  "Reproduktions- und Regressionstest bestanden": {
+    "en": "Reproduction and regression tests passed",
+    "zh": "已通过复现测试和回归测试"
+  },
+  "Feldwirksamkeit mit passendem Vergleich bewertet": {
+    "en": "Field effectiveness assessed with an appropriate comparison",
+    "zh": "已通过适当比较评估现场有效性"
+  },
+  "FMEA, Modelle, Supplier-Anforderungen und Prüfnachweise aktualisiert": {
+    "en": "FMEA, models, supplier requirements and test evidence updated",
+    "zh": "已更新 FMEA、模型、供应商要求和测试证据"
+  },
+  "Änderung bewerten": {
+    "en": "Assess a change",
+    "zh": "评估变更"
+  },
+  "Was berührt ein Update oder neuer Einsatz?": {
+    "en": "What does an update or new application affect?",
+    "zh": "更新或新的使用场景会影响哪些方面？"
+  },
+  "Änderung erfassen": {
+    "en": "Record the change",
+    "zh": "记录变更"
+  },
+  "Der Name einer Änderung sagt wenig über ihre Wirkung. Eine neue Firmware kann auch die Hardwarebelastung verändern.": {
+    "en": "A change's name says little about its effect. New firmware can also change hardware stress.",
+    "zh": "变更的名称不能充分说明其影响。新固件也可能改变硬件承受的应力。"
+  },
+  "Alter und neuer Stand eindeutig dokumentiert": {
+    "en": "Old and new versions clearly documented",
+    "zh": "已明确记录旧版本和新版本"
+  },
+  "Betroffene Nutzung und Versionskombination beschrieben": {
+    "en": "Affected use and version combination described",
+    "zh": "已描述受影响的使用场景和版本组合"
+  },
+  "Änderungsweg und Verantwortliche festgelegt": {
+    "en": "Change process and responsible people defined",
+    "zh": "已确定变更流程和责任人"
+  },
+  "Wirkung verfolgen": {
+    "en": "Trace the effects",
+    "zh": "追踪影响"
+  },
+  "Verfolge Funktion, Architektur, Schnittstellen, Mechanismus und bestehende Evidenz.": {
+    "en": "Trace the function, architecture, interfaces, mechanism and existing evidence.",
+    "zh": "追踪功能、架构、接口、机制和现有证据。"
+  },
+  "Timing, Protokoll, Ressourcen und Leistungsaufnahme bewertet": {
+    "en": "Timing, protocol, resources and power consumption assessed",
+    "zh": "已评估时序、协议、资源和功耗"
+  },
+  "Betroffene Anforderungen und Nachweise markiert": {
+    "en": "Affected requirements and evidence marked",
+    "zh": "已标记受影响的要求和证据"
+  },
+  "Unbetroffenheit erhaltener Evidenz begründet": {
+    "en": "Validity of retained evidence justified",
+    "zh": "已说明保留证据未受影响的依据"
+  },
+  "Gezielt prüfen": {
+    "en": "Test selectively",
+    "zh": "开展针对性测试"
+  },
+  "Ergänze betroffene Nachweise und führe gezielte Regression durch. Ein fremdes Update begründet nicht die Neuqualifikation aller Komponenten.": {
+    "en": "Supplement affected evidence and run targeted regression tests. An update to another element does not justify requalifying every component.",
+    "zh": "补充受影响的证据，并开展针对性回归测试。其他元素的更新并不足以成为对所有组件重新鉴定的理由。"
+  },
+  "Kompatibilität betroffener Kombinationen nachgewiesen": {
+    "en": "Compatibility of affected combinations demonstrated",
+    "zh": "已验证受影响组合的兼容性"
+  },
+  "Neue thermische oder mechanische Wirkung passend geprüft": {
+    "en": "New thermal or mechanical effects appropriately tested",
+    "zh": "已对新的热效应或机械影响进行适当测试"
+  },
+  "Rückfallebenen und Wiederanlauf berücksichtigt": {
+    "en": "Fallback levels and restart considered",
+    "zh": "已考虑后备层级和重新启动"
+  },
+  "Gültigkeit entscheiden": {
+    "en": "Decide on validity",
+    "zh": "决定有效性"
+  },
+  "Offene Kombinationen werden nicht als freigegeben behandelt. Feldbeobachtung allein ersetzt die Entscheidung nicht.": {
+    "en": "Unresolved combinations are not treated as released. Field observation alone does not replace the decision.",
+    "zh": "尚未解决的组合不能视为已批准。仅靠现场观察不能替代决策。"
+  },
+  "Unverändert gültig, unter Bedingungen gültig oder zusätzliche Evidenz nötig": {
+    "en": "Valid unchanged, valid under conditions or additional evidence required",
+    "zh": "仍然有效、有条件有效或需要补充证据"
+  },
+  "Freigabestatus, Einschränkungen und Nachweise aktualisiert": {
+    "en": "Release status, restrictions and evidence updated",
+    "zh": "已更新批准状态、限制条件和证据"
+  },
+  "Monitoring und Folgeschritte festgelegt": {
+    "en": "Monitoring and follow-up steps defined",
+    "zh": "已确定监测和后续步骤"
+  },
+  "Das interaktive Handbuch zur Zuverlässigkeit von Röntgensystemen. Lernen, Methoden auswählen und Nachweise Schritt für Schritt bearbeiten.": {
+    "en": "The interactive handbook on X-ray system reliability. Learn, select methods and work through evidence step by step.",
+    "zh": "X 射线系统可靠性交互手册。学习知识、选择方法，并逐步开展验证。"
+  },
+  "Reliability · Handbuch & Werkstatt": {
+    "en": "Reliability · Handbook & Workshop",
+    "zh": "Reliability · 手册与工作坊"
+  },
+  "Zum Inhalt": {
+    "en": "Skip to content",
+    "zh": "跳转到正文"
+  },
+  "Handbuch & Werkstatt": {
+    "en": "Handbook & Workshop",
+    "zh": "手册与工作坊"
+  },
+  "Röntgensysteme · V03": {
+    "en": "X-ray systems · V03",
+    "zh": "X 射线系统 · V03"
+  },
+  "Hauptnavigation": {
+    "en": "Main navigation",
+    "zh": "主导航"
+  },
+  "Übersicht": {
+    "en": "Overview",
+    "zh": "概览"
+  },
+  "Methodennavigator": {
+    "en": "Method navigator",
+    "zh": "方法导航"
+  },
+  "Schaubilder": {
+    "en": "Diagrams",
+    "zh": "图示"
+  },
+  "Meine Arbeitsmappe": {
+    "en": "My workbook",
+    "zh": "我的工作簿"
+  },
+  "DAS HANDBUCH": {
+    "en": "THE HANDBOOK",
+    "zh": "手册"
+  },
+  "20 Kapitel": {
+    "en": "20 chapters",
+    "zh": "20 章"
+  },
+  "Kapitel": {
+    "en": "Chapter",
+    "zh": "章"
+  },
+  "KAPITEL": {
+    "en": "CHAPTER",
+    "zh": "章"
+  },
+  "von 20 Kapiteln gelesen": {
+    "en": "of 20 chapters read",
+    "zh": "/ 20 章已读"
+  },
+  "0 von 20 Kapiteln gelesen": {
+    "en": "0 of 20 chapters read",
+    "zh": "0 / 20 章已读"
+  },
+  "Word-Fassung herunterladen ↗": {
+    "en": "Download Word version ↗",
+    "zh": "下载 Word 版本 ↗"
+  },
+  "Navigation öffnen": {
+    "en": "Open navigation",
+    "zh": "打开导航"
+  },
+  "Thema suchen oder Frage eingeben …": {
+    "en": "Search a topic or enter a question …",
+    "zh": "搜索主题或输入问题…"
+  },
+  "Handbuch durchsuchen": {
+    "en": "Search the handbook",
+    "zh": "搜索手册"
+  },
+  "Assistent": {
+    "en": "Assistant",
+    "zh": "助手"
+  },
+  "Reliability · Lernen, anwenden, verbessern.": {
+    "en": "Reliability · Learn, apply, improve.",
+    "zh": "Reliability · 学习、应用、改进。"
+  },
+  "Grundlage: ChatGPT XYZ3 · 9. Oktober 2026": {
+    "en": "Based on: ChatGPT XYZ3 · October 9, 2026",
+    "zh": "依据：ChatGPT XYZ3 · 2026 年 10 月 9 日"
+  },
+  "Handbuch-Assistent öffnen": {
+    "en": "Open handbook assistant",
+    "zh": "打开手册助手"
+  },
+  "Frage zum Handbuch?": {
+    "en": "Question about the handbook?",
+    "zh": "有手册相关的问题？"
+  },
+  "Handbuch-Assistent": {
+    "en": "Handbook assistant",
+    "zh": "手册助手"
+  },
+  "DEIN WEG INS HANDBUCH": {
+    "en": "YOUR WAY INTO THE HANDBOOK",
+    "zh": "开启手册之旅"
+  },
+  "Assistent schließen": {
+    "en": "Close assistant",
+    "zh": "关闭助手"
+  },
+  "Antworten aus dem Handbuch, mit Fundstellen. Fragen bleiben in deinem Browser.": {
+    "en": "Answers from the handbook, with source locations. Questions stay in your browser.",
+    "zh": "依据手册作答，并提供出处。问题保留在你的浏览器中。"
+  },
+  "Was unterscheidet Qualität und Zuverlässigkeit?": {
+    "en": "What is the difference between quality and reliability?",
+    "zh": "质量与可靠性有何区别？"
+  },
+  "Qualität oder Zuverlässigkeit?": {
+    "en": "Quality or reliability?",
+    "zh": "质量还是可靠性？"
+  },
+  "Muss ich Zulieferprüfungen wiederholen?": {
+    "en": "Do I need to repeat supplier tests?",
+    "zh": "我需要重复供应商的测试吗？"
+  },
+  "Zuliefernachweise": {
+    "en": "Supplier evidence",
+    "zh": "供应商证据"
+  },
+  "Was bedeutet 95 Prozent Konfidenzniveau?": {
+    "en": "What does a 95 percent confidence level mean?",
+    "zh": "95% 置信水平意味着什么？"
+  },
+  "Konfidenzniveau": {
+    "en": "Confidence level",
+    "zh": "置信水平"
+  },
+  "Deine Frage": {
+    "en": "Your question",
+    "zh": "你的问题"
+  },
+  "Stelle deine Frage …": {
+    "en": "Ask your question …",
+    "zh": "提出你的问题…"
+  },
+  "Frage absenden": {
+    "en": "Send question",
+    "zh": "发送问题"
+  },
+  "Schaubild schließen": {
+    "en": "Close diagram",
+    "zh": "关闭图示"
+  },
+  "Speichern im Browser ist blockiert. Du kannst deine Mappe exportieren.": {
+    "en": "Saving in the browser is blocked. You can export your workbook.",
+    "zh": "浏览器中的保存功能被阻止。你可以导出工作簿。"
+  },
+  "Zum Nachschlagen": {
+    "en": "For reference",
+    "zh": "参考资料"
+  },
+  "ZUM NACHSCHLAGEN": {
+    "en": "FOR REFERENCE",
+    "zh": "参考资料"
+  },
+  "ZUVERLÄSSIGKEIT VON RÖNTGENSYSTEMEN": {
+    "en": "X-RAY SYSTEM RELIABILITY",
+    "zh": "X 射线系统可靠性"
+  },
+  "WISSEN, DAS IN DER PRAXIS HILFT": {
+    "en": "KNOWLEDGE FOR PRACTICAL WORK",
+    "zh": "助力实践的知识"
+  },
+  "Von der Frage zum belastbaren Nachweis.": {
+    "en": "From a question to sound evidence.",
+    "zh": "从问题走向可靠证据。"
+  },
+  "Von der Frage zum": {
+    "en": "From a question to",
+    "zh": "从问题走向"
+  },
+  "belastbaren Nachweis.": {
+    "en": "sound evidence.",
+    "zh": "可靠证据。"
+  },
+  "Verstehe Zuverlässigkeit. Wähle die passende Methode. Und verbinde Komponenten, Integration und Felderfahrung zu einem nachvollziehbaren Ergebnis.": {
+    "en": "Understand reliability. Choose the right method. Connect components, integration and field experience to reach a traceable result.",
+    "zh": "理解可靠性，选择适当方法，并将组件、集成和现场经验联系起来，形成可追溯的结果。"
+  },
+  "Aufgabe bearbeiten": {
+    "en": "Work on a task",
+    "zh": "处理任务"
+  },
+  "Mit den Grundlagen beginnen": {
+    "en": "Start with the fundamentals",
+    "zh": "从基础开始"
+  },
+  "Lernweg: Verstehen, Nachweisen, Verbessern": {
+    "en": "Learning path: Understand, demonstrate, improve",
+    "zh": "学习路径：理解、验证、改进"
+  },
+  "Verstehen & zerlegen": {
+    "en": "Understand & decompose",
+    "zh": "理解与分解"
+  },
+  "Analysieren & nachweisen": {
+    "en": "Analyze & demonstrate",
+    "zh": "分析与验证"
+  },
+  "Beobachten & verbessern": {
+    "en": "Observe & improve",
+    "zh": "观察与改进"
+  },
+  "Abschnitte": {
+    "en": "Sections",
+    "zh": "节"
+  },
+  "Arbeitswege": {
+    "en": "Workflows",
+    "zh": "工作流程"
+  },
+  "Woran arbeitest du gerade?": {
+    "en": "What are you working on?",
+    "zh": "你正在处理什么任务？"
+  },
+  "Alle Arbeitswege ↗": {
+    "en": "All workflows ↗",
+    "zh": "所有工作流程 ↗"
+  },
+  "Schritt für Schritt starten →": {
+    "en": "Start step by step →",
+    "zh": "逐步开始 →"
+  },
+  "Der rote Faden": {
+    "en": "The guiding thread",
+    "zh": "贯穿全程的主线"
+  },
+  "Ein Lebenszyklus. Verbundene Nachweise.": {
+    "en": "One lifecycle. Connected evidence.",
+    "zh": "一个生命周期，相互关联的证据。"
+  },
+  "STATION": {
+    "en": "STAGE",
+    "zh": "阶段"
+  },
+  "Neue Erkenntnisse aus dem Feld führen zurück in Anforderungen, Modelle und Prüfungen. Die interaktiven Arbeitswege und Schaubilder helfen dir, den passenden Einstieg zu finden.": {
+    "en": "New field findings feed back into requirements, models and tests. Interactive workflows and diagrams help you find the right starting point.",
+    "zh": "现场的新发现反馈到要求、模型和测试中。交互式工作流程和图示帮助你找到合适的切入点。"
+  },
+  "Einfach fragen, gezielt weiterlesen.": {
+    "en": "Ask a question, then read the relevant sections.",
+    "zh": "直接提问，有针对性地继续阅读。"
+  },
+  "Wie bereite ich eine FMEA vor?": {
+    "en": "How do I prepare an FMEA?",
+    "zh": "如何准备 FMEA？"
+  },
+  "Was bedeutet Konfidenzniveau?": {
+    "en": "What does confidence level mean?",
+    "zh": "置信水平意味着什么？"
+  },
+  "Wie werte ich Feldausfälle aus?": {
+    "en": "How do I analyze field failures?",
+    "zh": "如何分析现场失效？"
+  },
+  "vergrößern": {
+    "en": "enlarge",
+    "zh": "放大"
+  },
+  "Zum Vergrößern anklicken": {
+    "en": "Click to enlarge",
+    "zh": "点击放大"
+  },
+  "Diese Stelle gibt es nicht.": {
+    "en": "This location does not exist.",
+    "zh": "此位置不存在。"
+  },
+  "Über die Navigation findest du alle Kapitel und Anhänge.": {
+    "en": "Use the navigation to find all chapters and appendices.",
+    "zh": "通过导航可找到所有章节和附录。"
+  },
+  "Handbuch": {
+    "en": "Handbook",
+    "zh": "手册"
+  },
+  "Nachschlagen": {
+    "en": "Reference",
+    "zh": "查阅"
+  },
+  "Musterantwort ansehen": {
+    "en": "View sample answer",
+    "zh": "查看参考答案"
+  },
+  "← Voriges Kapitel": {
+    "en": "← Previous chapter",
+    "zh": "← 上一章"
+  },
+  "← Übersicht": {
+    "en": "← Overview",
+    "zh": "← 概览"
+  },
+  "Nächstes Kapitel →": {
+    "en": "Next chapter →",
+    "zh": "下一章 →"
+  },
+  "Jetzt anwenden →": {
+    "en": "Apply it now →",
+    "zh": "立即应用 →"
+  },
+  "IN DIESEM KAPITEL": {
+    "en": "IN THIS CHAPTER",
+    "zh": "本章内容"
+  },
+  "✓ Als gelesen markiert": {
+    "en": "✓ Marked as read",
+    "zh": "✓ 已标记为已读"
+  },
+  "Als gelesen markieren": {
+    "en": "Mark as read",
+    "zh": "标记为已读"
+  },
+  "Erkläre": {
+    "en": "Explain",
+    "zh": "解释"
+  },
+  "✦ Assistent fragen": {
+    "en": "✦ Ask the assistant",
+    "zh": "✦ 询问助手"
+  },
+  "Im Arbeitsweg anwenden ↗": {
+    "en": "Apply in a workflow ↗",
+    "zh": "在工作流程中应用 ↗"
+  },
+  "VISUELLE ORIENTIERUNG": {
+    "en": "VISUAL GUIDE",
+    "zh": "图示导览"
+  },
+  "Das Ganze im Blick.": {
+    "en": "See the whole picture.",
+    "zh": "掌握全貌。"
+  },
+  "Vom Lebenszyklus bis zum Ereignistrend. Öffne ein Schaubild in voller Größe oder springe direkt zum zugehörigen Kapitel.": {
+    "en": "From the lifecycle to event trends. Open a diagram at full size or jump directly to its chapter.",
+    "zh": "从生命周期到事件趋势。打开完整尺寸的图示，或直接跳转到相关章节。"
+  },
+  "Im Zusammenhang lesen →": {
+    "en": "Read in context →",
+    "zh": "结合上下文阅读 →"
+  },
+  "METHODENNAVIGATOR": {
+    "en": "METHOD NAVIGATOR",
+    "zh": "方法导航"
+  },
+  "Eine Frage. Ein klarer Arbeitsweg.": {
+    "en": "One question. A clear workflow.",
+    "zh": "一个问题，一条清晰的工作流程。"
+  },
+  "Wähle deine Aufgabe. Die Schritte verbinden Methodenauswahl, passende Kapitel und deine eigene Dokumentation.": {
+    "en": "Choose your task. The steps connect method selection, relevant chapters and your own documentation.",
+    "zh": "选择你的任务。各步骤将方法选择、相关章节和你自己的记录联系起来。"
+  },
+  "Deine Bewertungsaufgabe": {
+    "en": "Your assessment task",
+    "zh": "你的评估任务"
+  },
+  "Zum Beispiel: Detektor in neuem Einbau qualifizieren": {
+    "en": "For example: Qualify a detector in a new installation",
+    "zh": "例如：鉴定新安装方式下的探测器"
+  },
+  "Arbeitsschritte": {
+    "en": "Work steps",
+    "zh": "工作步骤"
+  },
+  "SCHRITT": {
+    "en": "STEP",
+    "zh": "步骤"
+  },
+  "VON": {
+    "en": "OF",
+    "zh": "/"
+  },
+  "Notizen, Befund und noch offene Fragen": {
+    "en": "Notes, findings and open questions",
+    "zh": "笔记、调查发现和未解决的问题"
+  },
+  "Was wissen wir? Welche Evidenz fehlt? Was ist der nächste konkrete Schritt?": {
+    "en": "What do we know? What evidence is missing? What is the next concrete step?",
+    "zh": "我们知道什么？缺少哪些证据？下一项具体步骤是什么？"
+  },
+  "Arbeitsmappe exportieren ↓": {
+    "en": "Export workbook ↓",
+    "zh": "导出工作簿 ↓"
+  },
+  "Nächster Schritt →": {
+    "en": "Next step →",
+    "zh": "下一步 →"
+  },
+  "Meine Mappe ansehen →": {
+    "en": "View my workbook →",
+    "zh": "查看我的工作簿 →"
+  },
+  "Häkchen dokumentieren deinen Arbeitsstand und sind keine technische Freigabe. Notizen und Fortschritt werden lokal in diesem Browser gespeichert. Für die Weitergabe exportiere deine Mappe.": {
+    "en": "Check marks record your work progress and do not constitute technical release. Notes and progress are stored locally in this browser. Export your workbook to share it.",
+    "zh": "勾选项记录工作进度，并不代表技术批准。笔记和进度保存在当前浏览器本地。如需分享，请导出工作簿。"
+  },
+  "Zur Übersicht": {
+    "en": "Back to overview",
+    "zh": "返回概览"
+  },
+  "HANDBUCHSUCHE": {
+    "en": "HANDBOOK SEARCH",
+    "zh": "手册搜索"
+  },
+  "Passende Stellen zu deiner Frage.": {
+    "en": "Relevant passages for your question.",
+    "zh": "与你的问题相关的内容。"
+  },
+  "Die": {
+    "en": "The",
+    "zh": "最相关的"
+  },
+  "passendsten Abschnitte": {
+    "en": "most relevant sections",
+    "zh": "节"
+  },
+  "Keine passenden Abschnitte gefunden": {
+    "en": "No relevant sections found",
+    "zh": "未找到相关内容"
+  },
+  "Noch keine Fundstelle.": {
+    "en": "No source location found yet.",
+    "zh": "尚未找到出处。"
+  },
+  "Versuche einen technischen Begriff wie FMEA, Feuchte, Zuverlässigkeit, Integration oder Konfidenzniveau.": {
+    "en": "Try a technical term such as FMEA, humidity, reliability, integration or confidence level.",
+    "zh": "尝试使用技术术语，例如 FMEA、湿度、可靠性、集成或置信水平。"
+  },
+  "DEINE WERKSTATT": {
+    "en": "YOUR WORKSHOP",
+    "zh": "你的工作坊"
+  },
+  "Wissen in Arbeit übersetzen.": {
+    "en": "Turn knowledge into action.",
+    "zh": "将知识化为实践。"
+  },
+  "Dein Fortschritt, deine Arbeitsnotizen und ein kleiner Rechner für den binomialen Nullausfallnachweis.": {
+    "en": "Your progress, work notes and a small calculator for a binomial zero-failure demonstration.",
+    "zh": "你的进度、工作笔记，以及用于二项分布零失效验证的小型计算器。"
+  },
+  "Noch keine Bewertungsaufgabe benannt.": {
+    "en": "No assessment task named yet.",
+    "zh": "尚未命名评估任务。"
+  },
+  " / 20 Kapitel gelesen": {
+    "en": " / 20 chapters read",
+    "zh": " / 20 章已读"
+  },
+  "Kapitel gelesen": {
+    "en": "chapters read",
+    "zh": "章已读"
+  },
+  "erledigte Prüfpunkte": {
+    "en": "completed checklist items",
+    "zh": "项检查已完成"
+  },
+  "Notizfelder ausgefüllt": {
+    "en": "note fields filled in",
+    "zh": "个笔记字段已填写"
+  },
+  "Weiterarbeiten →": {
+    "en": "Continue working →",
+    "zh": "继续工作 →"
+  },
+  "Mappe herunterladen ↓": {
+    "en": "Download workbook ↓",
+    "zh": "下载工作簿 ↓"
+  },
+  "Sicherung exportieren": {
+    "en": "Export backup",
+    "zh": "导出备份"
+  },
+  "Sicherung importieren": {
+    "en": "Import backup",
+    "zh": "导入备份"
+  },
+  "Die Mappe wird in deinem Browser gespeichert. Jeder Besucher hat seinen eigenen Arbeitsstand. Die Sicherung überträgt ihn auf einen anderen Browser.": {
+    "en": "The workbook is saved in your browser. Each visitor has their own work progress. A backup transfers it to another browser.",
+    "zh": "工作簿保存在你的浏览器中。每位访问者都有自己的工作进度。通过备份可将其转移到另一个浏览器。"
+  },
+  "Nullausfall-Stichprobe": {
+    "en": "Zero-failure sample size",
+    "zh": "零失效样本量"
+  },
+  "Jede unabhängige repräsentative Einheit absolviert die vollständige Zielnutzung. Keine Ausfälle werden akzeptiert.": {
+    "en": "Each independent representative unit completes the full target use. No failures are accepted.",
+    "zh": "每个独立且有代表性的单元均完成全部目标使用量。不接受任何失效。"
+  },
+  "Geforderte Zuverlässigkeit R₀ in Prozent": {
+    "en": "Required reliability R₀ in percent",
+    "zh": "要求的可靠性 R₀（百分比）"
+  },
+  "Einseitiges Konfidenzniveau in Prozent": {
+    "en": "One-sided confidence level in percent",
+    "zh": "单侧置信水平（百分比）"
+  },
+  "Musterzahl berechnen →": {
+    "en": "Calculate sample size →",
+    "zh": "计算样本量 →"
+  },
+  "n ≥ ln(1 − C) / ln(R₀), aufgerundet. Der Rechner ersetzt keine Prüfung von Unabhängigkeit, Repräsentativität, Nutzungsprofil und Mechanismus.": {
+    "en": "n ≥ ln(1 − C) / ln(R₀), rounded up. The calculator does not replace checking independence, representativeness, usage profile and mechanism.",
+    "zh": "n ≥ ln(1 − C) / ln(R₀)，向上取整。计算器不能替代对独立性、代表性、使用特征和机制的检查。"
+  },
+  "Grundlage in Kapitel 15": {
+    "en": "Basis in Chapter 15",
+    "zh": "依据见第 15 章"
+  },
+  "Schulungs- und Arbeitshilfe: Die Beispiele sind Lehrfälle. Projektziele, Schutzgrenzen und Freigaben folgen den tatsächlich gültigen Anforderungen und Unternehmensprozessen.": {
+    "en": "Training and work aid: The examples are teaching cases. Project targets, protection limits and releases follow the actual applicable requirements and company processes.",
+    "zh": "培训与工作辅助工具：示例为教学案例。项目目标、防护界限和批准应遵循实际适用的要求与企业流程。"
+  },
+  "Bitte gib beide Werte strikt zwischen 0 und 100 Prozent ein.": {
+    "en": "Enter both values strictly between 0 and 100 percent.",
+    "zh": "请将两个数值均输入为严格大于 0 且小于 100 的百分数。"
+  },
+  "Einheiten": {
+    "en": "units",
+    "zh": "个单元"
+  },
+  "Benötigt werden": {
+    "en": "Required:",
+    "zh": "所需数量："
+  },
+  "vollständige unabhängige Erfolge ohne Ausfall. Die einseitige untere Grenze beträgt dann": {
+    "en": "complete independent successes without failure. The one-sided lower bound is then",
+    "zh": "次完整、独立且无失效的成功试验。此时单侧下限为"
+  },
+  "Prozent.": {
+    "en": "percent.",
+    "zh": "%。"
+  },
+  "Prozent": {
+    "en": "percent",
+    "zh": "%"
+  },
+  "Dieser Link ist nicht gültig.": {
+    "en": "This link is invalid.",
+    "zh": "此链接无效。"
+  },
+  "Wähle eine Aufgabe oder ein Kapitel aus der Navigation.": {
+    "en": "Choose a task or chapter from the navigation.",
+    "zh": "从导航中选择一个任务或章节。"
+  },
+  "Hallo! Beschreibe dein Thema oder deine Bewertungsfrage. Ich gebe dir eine handbuchbasierte Einordnung und verweise auf passende Kapitel. Ich nutze feste Fachantworten und Textstellen aus dieser Fassung; ich bin kein allgemeines KI-Modell.": {
+    "en": "Hello! Describe your topic or assessment question. I will give you an explanation based on the handbook and point to relevant chapters. I use predefined technical answers and passages from this edition; I am not a general-purpose AI model.",
+    "zh": "你好！请描述你的主题或评估问题。我会依据手册进行解读，并指向相关章节。我使用本版本中的预设专业答案和文本内容，并非通用人工智能模型。"
+  },
+  "GEFUNDENE HANDBUCHSTELLE": {
+    "en": "HANDBOOK PASSAGE FOUND",
+    "zh": "找到的手册内容"
+  },
+  "GRENZE DER HANDBUCHGRUNDLAGE": {
+    "en": "LIMIT OF THE HANDBOOK'S SCOPE",
+    "zh": "手册依据的范围限制"
+  },
+  "EINORDNUNG AUS DEM HANDBUCH": {
+    "en": "EXPLANATION FROM THE HANDBOOK",
+    "zh": "来自手册的解读"
+  },
+  "Zur konkreten Fundstelle →": {
+    "en": "Go to the specific passage →",
+    "zh": "前往具体出处 →"
+  },
+  "Reliability · Arbeitsmappe": {
+    "en": "Reliability · Workbook",
+    "zh": "Reliability · 工作簿"
+  },
+  "Arbeitsmappe": {
+    "en": "Workbook",
+    "zh": "工作簿"
+  },
+  "Aufgabe:": {
+    "en": "Task:",
+    "zh": "任务："
+  },
+  "Noch nicht benannt": {
+    "en": "Not yet named",
+    "zh": "尚未命名"
+  },
+  "Grundlage:": {
+    "en": "Based on:",
+    "zh": "依据："
+  },
+  "Export:": {
+    "en": "Export:",
+    "zh": "导出："
+  },
+  "Notizen:": {
+    "en": "Notes:",
+    "zh": "笔记："
+  },
+  "Passende Kapitel:": {
+    "en": "Relevant chapters:",
+    "zh": "相关章节："
+  },
+  "Gelesene Kapitel:": {
+    "en": "Chapters read:",
+    "zh": "已读章节："
+  },
+  "Die Mappe ist Arbeitsdokumentation, keine technische Freigabe.": {
+    "en": "The workbook documents your work; it is not a technical release.",
+    "zh": "工作簿用于记录工作，并不代表技术批准。"
+  },
+  "Arbeitsmappe exportiert.": {
+    "en": "Workbook exported.",
+    "zh": "工作簿已导出。"
+  },
+  "Diese Datei ist keine gültige Reliability-Sicherung.": {
+    "en": "This file is not a valid Reliability backup.",
+    "zh": "此文件不是有效的 Reliability 备份。"
+  },
+  "Arbeitsmappe importiert.": {
+    "en": "Workbook imported.",
+    "zh": "工作簿已导入。"
+  },
+  "Die Sicherung ist zu groß.": {
+    "en": "The backup is too large.",
+    "zh": "备份过大。"
+  },
+  "Qualität beschreibt, wie gut ein Produkt Anforderungen und relevante Bedürfnisse erfüllt. Zuverlässigkeit beschreibt, ob eine festgelegte Funktion unter festgelegten Bedingungen über eine festgelegte Dauer oder Nutzung erhalten bleibt. Sie ist ein Qualitätsmerkmal. Ein Wasserkocher kann heute gut funktionieren und dennoch nach wenigen Wochen ausfallen.": {
+    "en": "Quality describes how well a product meets requirements and relevant needs. Reliability describes whether a defined function is maintained under defined conditions for a defined duration or amount of use. It is a quality characteristic. A kettle can work well today and still fail after a few weeks.",
+    "zh": "质量描述产品满足要求和相关需求的程度。可靠性描述规定功能能否在规定条件下、在规定时间或使用量内保持。它是质量的一项特性。电热水壶今天可能运作良好，却仍会在几周后失效。"
+  },
+  "Passende Zuliefernachweise werden übernommen. Prüfe zuerst Ausführung und Version, Funktion, Einbau, Nutzungsprofil, Messort, Musterrepräsentativität und statistische Aussage. Neue Belastungen, geänderte Ausführungen oder verbleibende Lücken benötigen gezielte ergänzende Evidenz. Ein anderes Labor allein ist kein technischer Grund, alle Prüfungen zu wiederholen. Im Feld folgen Monitoring, Ursachenanalyse und Wirksamkeitsnachweis.": {
+    "en": "Suitable supplier evidence is accepted. First check configuration and version, function, installation, usage profile, measurement location, sample representativeness and statistical claim. New stresses, changed configurations or remaining gaps need targeted supplementary evidence. A different laboratory alone is no technical reason to repeat all tests. Field operation is followed by monitoring, root-cause analysis and verification of effectiveness.",
+    "zh": "适用的供应商证据可以采纳。首先检查配置和版本、功能、安装方式、使用特征、测量位置、样本代表性和统计结论。新的应力、配置变化或仍存在的缺口需要有针对性的补充证据。仅仅因为实验室不同，并不能从技术上证明需要重复所有测试。在现场使用中，应开展监测、原因分析和有效性验证。"
+  },
+  "95 Prozent Konfidenzniveau beschreibt die Überdeckungseigenschaft eines statistischen Verfahrens über wiederholte Stichproben unter seinen Annahmen. Es ist weder ein Zuverlässigkeitsziel von 95 Prozent noch die Chance, dass ein Test besteht. Für einen Mindestwert verwenden wir eine vorab festgelegte einseitige untere Grenze. Bei 29 unabhängigen Erfolgen ohne Ausfall liegt diese bei etwa 0,9019 für 95 Prozent Konfidenzniveau.": {
+    "en": "A 95 percent confidence level describes the coverage property of a statistical procedure over repeated samples under its assumptions. It is neither a reliability target of 95 percent nor the probability of passing a test. For a minimum value, we use a one-sided lower bound specified in advance. With 29 independent successes and no failures, this bound is about 0.9019 at a 95 percent confidence level.",
+    "zh": "95% 置信水平描述统计方法在其假设成立时、在重复抽样中对真实参数的覆盖性质。它既不是 95% 的可靠性目标，也不是通过测试的概率。对于最小值要求，我们使用预先规定的单侧下限。在 29 次独立成功且无失效的情况下，95% 置信水平对应的下限约为 0.9019。"
+  },
+  "Beginne mit der Systemgrenze. Erfasse Funktion, Inputs, Outputs, Zustände, Übergänge und zusätzliche Einwirkungen. Zerlege anschließend Funktions- und Signalketten und ordne sie den Architekturelementen zu. Variiere Übergaben: fehlend, falsch, verspätet, veraltet, doppelt oder in falscher Reihenfolge. Die FMEA verfolgt lokale Wirkung, nächsthöhere Ebene und Systemwirkung getrennt.": {
+    "en": "Start with the system boundary. Record the function, inputs, outputs, states, transitions and additional influences. Then decompose functional and signal chains and map them to architecture elements. Vary handoffs: missing, incorrect, late, stale, duplicate or out of sequence. The FMEA traces local effects, the next higher level and system effects separately.",
+    "zh": "从系统边界开始。记录功能、输入、输出、状态、状态转换和额外作用。随后分解功能链和信号链，并映射到架构元素。改变接口交接情况：缺失、错误、延迟、过期、重复或顺序错误。FMEA 分别追踪局部影响、上一层级影响和系统影响。"
+  },
+  "Die FMEA startet bei einer möglichen Abweichung einer Funktion oder Schnittstelle und untersucht Ursachen und Wirkungen. Benenne den Fehler konkret mit Zeit und Kontext: „Bereitschaftsmeldung gehört zum alten Auftrag“ ist hilfreicher als „Detektor defekt“. Halte Maßnahmen, Verantwortliche und Wirksamkeitsnachweis fest. Fehlerkombinationen und gemeinsame Ursachen können zusätzliche Methoden wie FTA oder RBD erfordern.": {
+    "en": "An FMEA starts with a possible deviation of a function or interface and investigates causes and effects. Describe the failure concretely, with timing and context: “The readiness message belongs to the previous request” is more useful than “Detector defective.” Record actions, responsible people and verification of effectiveness. Failure combinations and common causes may require additional methods such as FTA or RBD.",
+    "zh": "FMEA 从功能或接口的潜在偏差入手，调查原因和影响。结合时间和背景具体描述故障：“就绪消息属于旧任务”比“探测器损坏”更有帮助。记录措施、责任人和有效性验证。故障组合和共同原因可能需要 FTA 或 RBD 等其他方法。"
+  },
+  "Die Badewannenkurve ist ein Denkmodell für frühe Ausfälle, einen ungefähr konstanten Bereich und spätere Verschleißausfälle. Ob eine Komponente diesen Verlauf zeigt, muss mit geeigneten Daten geprüft werden. Schaubild G zeigt angenommene Beiträge und keine aus Felddaten geschätzte Kurve. Softwaresequenzfehler werden durch dieses Verschleißbild allein nicht erklärt.": {
+    "en": "The bathtub curve is a conceptual model for early failures, an approximately constant region and later wear-out failures. Whether a component follows this pattern must be checked using suitable data. Diagram G shows assumed contributions rather than a curve estimated from field data. Software sequence errors are not explained by this wear-out model alone.",
+    "zh": "浴盆曲线是用于理解早期失效、近似恒定阶段和后期磨损失效的概念模型。组件是否具有这种变化规律，必须通过适当数据检验。图示 G 展示的是假设的贡献，而非根据现场数据估计的曲线。仅靠这一磨损模型无法解释软件序列错误。"
+  },
+  "MTTF ist eine mittlere Zeit bis zum betrachteten Ausfall. MTBF beschreibt mittlere Abstände zwischen betrachteten Ausfällen in einem geeigneten reparierbaren Modell. Beide brauchen eine klare Ereignis- und Zeitdefinition und sind keine garantierte Mindestlebensdauer. Für frühe Ausfälle können Quantile wie B10 und ihre Unsicherheit hilfreicher sein.": {
+    "en": "MTTF is the mean time to the failure under consideration. MTBF describes mean intervals between the failures under consideration in a suitable repairable-system model. Both require clear definitions of the event and time, and neither guarantees a minimum lifetime. For early failures, quantiles such as B10 and their uncertainty may be more useful.",
+    "zh": "MTTF 是发生所考虑失效的平均时间。MTBF 在适当的可修复系统模型中描述所考虑失效之间的平均间隔。二者都需要明确的事件定义和时间定义，也都不能保证最低寿命。对于早期失效，B10 等分位数及其不确定性可能更有帮助。"
+  },
+  "Das zweiparametrige Weibullmodell verwendet η als Skalenparameter und β als Formparameter. β < 1 beschreibt fallende, β = 1 konstante und β > 1 steigende Hazard Rate. B10 ist die Nutzung, bis zu der im Modell zehn Prozent ausgefallen sind. Noch funktionierende Einheiten liefern rechtszensierte Überlebensinformation und müssen in die Auswertung eingehen. Wenige Ausfälle verlangen besondere Vorsicht bei Schätzung und Konfidenzgrenzen.": {
+    "en": "The two-parameter Weibull model uses η as the scale parameter and β as the shape parameter. β < 1 describes a decreasing hazard rate, β = 1 a constant rate and β > 1 an increasing rate. B10 is the amount of use by which ten percent have failed in the model. Units still functioning provide right-censored survival information and must be included in the analysis. Few failures call for particular care when estimating parameters and confidence bounds.",
+    "zh": "二参数威布尔模型使用 η 作为尺度参数、β 作为形状参数。β < 1 表示风险率递减，β = 1 表示恒定，β > 1 表示递增。B10 是模型中累计 10% 单元失效时的使用量。仍在正常工作的单元提供右删失生存信息，必须纳入分析。失效数量较少时，参数估计和置信界限需要特别谨慎。"
+  },
+  "Im binomialen Nullausfallnachweis absolviert jede unabhängige repräsentative Einheit die vollständige definierte Zielnutzung. Bei 95 Prozent einseitigem Konfidenzniveau braucht ein Ziel R ≥ 0,90 mindestens 29 Erfolge ohne Ausfall; R ≥ 0,95 braucht 59, R ≥ 0,99 braucht 299. Ein Gerät mit vielen Zyklen ist keine entsprechende Zahl unabhängiger Geräte. Die Arbeitsmappe enthält einen Rechner für diesen Ansatz.": {
+    "en": "In a binomial zero-failure demonstration, each independent representative unit completes the entire defined target use. At a 95 percent one-sided confidence level, a target of R ≥ 0.90 requires at least 29 successes without failure; R ≥ 0.95 requires 59, and R ≥ 0.99 requires 299. One device undergoing many cycles is not an equivalent number of independent devices. The workbook includes a calculator for this approach.",
+    "zh": "在二项分布零失效验证中，每个独立且有代表性的单元都要完成全部规定的目标使用量。在 95% 单侧置信水平下，目标 R ≥ 0.90 至少需要 29 次成功且无失效；R ≥ 0.95 需要 59 次，R ≥ 0.99 需要 299 次。一台设备经历很多循环并不等同于相应数量的独立设备。工作簿中提供了用于这一方法的计算器。"
+  },
+  "Beschleunigung braucht einen passenden physikalischen Mechanismus, ein validiertes Übertragungsmodell und geeignete Daten. Eine höhere Temperatur kann auch einen anderen Mechanismus aktivieren. Arrhenius, Peck und mechanische Ansätze beantworten unterschiedliche Fragen. HALT dient der explorativen Schwachstellen- und Grenzsuche; ein darauf abgestimmtes HASS sucht Fertigungsfehler. Daraus folgt allein kein allgemeiner Lebensdauernachweis.": {
+    "en": "Acceleration requires a suitable physical mechanism, a validated extrapolation model and appropriate data. A higher temperature can also activate a different mechanism. Arrhenius, Peck and mechanical approaches answer different questions. HALT is used for exploratory weakness and limit testing; a corresponding HASS seeks manufacturing defects. These alone do not establish a general lifetime demonstration.",
+    "zh": "加速试验需要适用的物理机制、经过验证的外推模型和适当数据。更高的温度也可能激活另一种机制。阿伦尼乌斯模型、Peck 模型和机械方法回答不同的问题。HALT 用于探索性弱点和极限测试；与之匹配的 HASS 用于发现制造缺陷。仅靠这些方法不能形成普遍适用的寿命验证。"
+  },
+  "Die MCF beschreibt die mittlere kumulierte Zahl definierter wiederkehrender Ereignisse pro Einheit bis zur betrachteten Nutzung. Reparierte Einheiten bleiben in der Beobachtung. An jedem Ereigniszeitpunkt addiert die nichtparametrische Schätzung Ereigniszahl geteilt durch beobachtete Einheiten. Die MCF ist keine Ausfallwahrscheinlichkeit und kann größer als eins werden.": {
+    "en": "The MCF describes the mean cumulative number of defined recurrent events per unit up to the amount of use considered. Repaired units remain under observation. At each event time, the nonparametric estimate adds the number of events divided by the number of observed units. The MCF is not a failure probability and can exceed one.",
+    "zh": "MCF 描述每个单元截至所考虑使用量时，规定的重复事件的平均累计数量。维修后的单元仍继续接受观察。在每个事件时点，非参数估计累加事件数除以观察单元数的值。MCF 不是失效概率，其值可以大于 1。"
+  },
+  "Ein Potenzgesetz-NHPP kann wiederkehrende Ereignisse mit zeitabhängiger Intensität beschreiben: M(t) = a·tᵇ und m(t) = a·b·tᵇ⁻¹. Bei b < 1 sinkt die modellierte Intensität, bei b = 1 bleibt sie konstant, bei b > 1 steigt sie. Veränderungen von Nutzung, Meldeweg oder Produktstand beeinflussen Trends. Ein fallender Verlauf allein belegt die Ursache oder Wirksamkeit einer Maßnahme noch nicht.": {
+    "en": "A power-law NHPP can describe recurrent events with time-dependent intensity: M(t) = a·tᵇ and m(t) = a·b·tᵇ⁻¹. For b < 1 the modeled intensity decreases, for b = 1 it remains constant, and for b > 1 it increases. Changes in use, reporting channels or product version affect trends. A decreasing trend alone does not establish the cause or effectiveness of an action.",
+    "zh": "幂律 NHPP 可以描述强度随时间变化的重复事件：M(t) = a·tᵇ，m(t) = a·b·tᵇ⁻¹。b < 1 时模型强度下降，b = 1 时保持恒定，b > 1 时上升。使用情况、报告渠道或产品版本的变化都会影响趋势。仅凭下降趋势尚不能证明原因或措施的有效性。"
+  },
+  "Innerhalb der Produktgrenze bleibt die rekursive Zerlegung in Subsysteme der Ausgangspunkt. Eine SoS-Sicht wird an der übergreifenden Ablaufgrenze geprüft, wenn beteiligte Systeme eigene operative Zwecke und eigenständige Führung haben. Ein Raumwechsel eines Detektors reicht dafür nicht. Dokumentiere eigenen Zweck, Änderungsbefugnis und Änderungsweg statt eine Einordnung nur aus der Komplexität abzuleiten.": {
+    "en": "Within the product boundary, recursive decomposition into subsystems remains the starting point. A system-of-systems perspective is considered at the broader workflow boundary when participating systems have their own operational purposes and independent management. Moving a detector to another room is insufficient. Document each system's own purpose, authority to make changes and change process rather than deriving the classification solely from complexity.",
+    "zh": "在产品边界内，递归分解为子系统仍是出发点。当参与系统具有各自的运行目的和独立管理时，才在跨系统的流程边界上考虑系统之系统（SoS）视角。仅仅把探测器移到另一个房间并不足以构成 SoS。应记录各系统自身的目的、变更权限和变更流程，而不是仅依据复杂性进行分类。"
+  },
+  "STPA ergänzt Fehleranalysen um Steuerung, Freigaben und Rückmeldungen. Betrachte Controller, Befehl, gesteuerten Prozess und Feedback. Ein erforderlicher Befehl kann fehlen, ein unzulässiger gegeben werden, zu früh oder spät kommen oder zu lange wirken. STPA ist eine Gefährdungsanalyse, keine Formel für eine Ausfallwahrscheinlichkeit. Sie ist besonders hilfreich bei problematischen Abläufen trotz intakter Einzelteile.": {
+    "en": "STPA supplements failure analyses with control, authorizations and feedback. Consider the controller, command, controlled process and feedback. A required command may be missing, a prohibited one may be given, a command may arrive too early or late, or remain effective too long. STPA is a hazard analysis, not a formula for failure probability. It is particularly useful for problematic workflows despite intact individual parts.",
+    "zh": "STPA 为故障分析补充控制、授权和反馈视角。考察控制器、指令、受控过程和反馈。必要指令可能缺失，不允许的指令可能被发出，指令可能过早或过晚到达，或持续作用过久。STPA 是危险分析方法，不是失效概率公式。即使各个部件完好，流程仍有问题时，它尤其有帮助。"
+  },
+  "Ein Fehlerbaum startet beim unerwünschten Ereignis und sucht Ursachen und Kombinationen. Ein RBD beschreibt die Erfolgsstruktur einer Funktion. Redundanz hilft gegen begründet unabhängige Ausfälle; eine gemeinsame Versorgung, Kühlung oder Softwareursache kann beide Kanäle treffen. Modelliere gemeinsame Ursachen vor einer Parallelrechnung. Schaubild I zeigt FTA und RBD am selben Treppenhauslicht.": {
+    "en": "A fault tree starts with an undesired event and identifies causes and combinations. An RBD describes the success structure of a function. Redundancy helps against failures whose independence is justified; a shared supply, cooling system or software cause can affect both channels. Model common causes before calculating a parallel arrangement. Diagram I shows FTA and RBD for the same stairwell light.",
+    "zh": "故障树从不希望发生的事件入手，寻找原因和组合。RBD 描述功能成功所需的结构。冗余有助于应对具有合理独立性依据的失效；共用供电、冷却或软件原因可能同时影响两个通道。在计算并联结构前，应先对共同原因建模。图示 I 以同一楼梯间照明为例展示 FTA 和 RBD。"
+  },
+  "Ein Update kann Timing, Protokollverhalten, Ressourcen, Leistungsaufnahme und damit Hardwarebelastung verändern. Bewerte die tatsächlich betroffenen Funktionen und Nachweise, halte erlaubte Versionskombinationen fest und führe gezielte Kompatibilitäts- und Regressionstests durch. Eine ungeprüfte Kombination ist nicht freigegeben; zusätzliche Feldbeobachtung allein ersetzt die Freigabe nicht.": {
+    "en": "An update can change timing, protocol behavior, resources, power consumption and consequently hardware stress. Assess the functions and evidence actually affected, record permitted version combinations, and run targeted compatibility and regression tests. An untested combination is not released; additional field observation alone does not replace release.",
+    "zh": "更新可能改变时序、协议行为、资源和功耗，进而改变硬件应力。评估实际受影响的功能和证据，记录允许的版本组合，并开展有针对性的兼容性测试和回归测试。未经测试的组合不能获得批准；仅增加现场观察不能替代批准。"
+  },
+  "Kapitel 12 ordnet allgemeine Hardwareprüfungen nach Mechanismus und Fragestellung: elektrische Belastung, Aufbau- und Verbindungstechnik, Temperaturwechsel, Feuchte und Kondensation, mechanische Festigkeit und Ermüdung, Vibration, Schock und Fall, Strahlenfestigkeit, Lagerung sowie kombinierte Belastungen. Lege Profil, Messort, Funktion während und nach Belastung, Muster, Ausfallkriterium und Abbruchregel vorab fest. Eine bestandene Normprüfung und ein statistischer Lebensdauernachweis sind verschiedene Aussagen.": {
+    "en": "Chapter 12 organizes general hardware tests by mechanism and question: electrical stress, assembly and interconnection technology, temperature cycling, humidity and condensation, mechanical strength and fatigue, vibration, shock and drop, radiation resistance, storage and combined stresses. Specify the profile, measurement location, function during and after stress, samples, failure criterion and stopping rule in advance. Passing a standards test and a statistical lifetime demonstration are different claims.",
+    "zh": "第 12 章根据机制和问题对通用硬件测试进行分类：电应力、装配与互连技术、温度循环、湿度与冷凝、机械强度与疲劳、振动、冲击与跌落、耐辐射性、储存和组合应力。应预先明确应力特征、测量位置、应力施加期间及之后的功能、样本、失效判据和停止规则。通过标准测试与统计寿命验证是不同的结论。"
+  },
+  "Übernimm akzeptierte Komponentenstände und prüfe, ob Spezifikation, Einbau, Schnittstellen und reale Use Cases passen. Wähle Normalfälle, ungünstige zulässige Kombinationen und Wiederanlauf. Variiere zum Beispiel Versorgung, Nachrichtenlaufzeit, alte Auftragskennungen und Last. Dokumentiere Fehlerreaktion und messbaren Abstand zu definierten Grenzen. Explorative Tests außerhalb der Spezifikation sind ein anderer Nachweis als die Erfüllung zulässiger Betriebsfälle.": {
+    "en": "Use accepted component versions and check whether specifications, installation, interfaces and actual use cases fit. Select normal cases, unfavorable permitted combinations and restart scenarios. Vary, for example, the supply, message transit time, old request identifiers and load. Document failure responses and measurable margins to defined limits. Exploratory tests outside the specification provide different evidence from demonstrating compliance in permitted operating cases.",
+    "zh": "采用已接受的组件版本，并检查规格、安装方式、接口和实际使用场景是否匹配。选择正常工况、允许范围内的不利组合和重新启动场景。例如，改变供电、消息传输时间、旧任务标识和负载。记录故障响应以及与规定界限之间的可测量裕量。规格范围外的探索性测试，与证明允许工况下符合要求所提供的证据不同。"
+  },
+  "MBSE verbindet Systemgrenze, Funktionen, Zustände, Schnittstellen, Architektur, Anforderungen und Nachweise in verknüpften Modellen. Eine Zeichnung allein genügt dafür nicht. Ein geändertes Bereitschaftssignal muss beispielsweise bis zu betroffener Funktion, Versionskombination und Integrationstest verfolgt werden. Ziel ist ein nachvollziehbarer Zusammenhang zwischen Bedarf, Umsetzung und Evidenz.": {
+    "en": "MBSE connects the system boundary, functions, states, interfaces, architecture, requirements and evidence in linked models. A drawing alone is insufficient. For example, a changed readiness signal must be traced to the affected function, version combination and integration test. The aim is a traceable relationship between needs, implementation and evidence.",
+    "zh": "MBSE 在相互关联的模型中连接系统边界、功能、状态、接口、架构、要求和证据。仅有一张图还不够。例如，就绪信号的变更必须追溯到受影响的功能、版本组合和集成测试。目标是在需求、实现和证据之间建立可追溯的联系。"
+  },
+  "Grenze das betrachtete System von seiner Umgebung ab. Beschreibe beabsichtigte Inputs und Outputs sowie zusätzliche Einwirkungen auf das System und Rückwirkungen auf die Umgebung. Ergänze Zustand, Vorgeschichte, Timing und Nutzung. Innerhalb dieser Grenze zerlegst du in Subsysteme und wendest dieselbe Betrachtung erneut an. Funktions- und Signalketten helfen, Übergaben zu analysieren, bevor die Hardware- und Softwarearchitektur zugeordnet wird.": {
+    "en": "Define the boundary between the system under consideration and its environment. Describe intended inputs and outputs, additional influences on the system and effects on the environment. Add state, history, timing and use. Within this boundary, decompose the system into subsystems and apply the same analysis recursively. Functional and signal chains help analyze handoffs before mapping the hardware and software architecture.",
+    "zh": "界定所考察系统与其环境之间的边界。描述预期输入和输出、对系统的额外作用及对环境的反作用。补充状态、历史、时序和使用情况。在此边界内，将系统分解为子系统，并递归采用相同分析方法。在映射硬件和软件架构之前，功能链和信号链有助于分析接口交接。"
+  },
+  "Definiere zuerst das Ereignis und den passenden Nenner: Aufnahme, Betriebsstunde, Gerätejahr oder andere Exposition. Trenne bestätigte Funktionsausfälle, Serviceaustausch und No Fault Found; dokumentiere Version, Alter und Nutzung. Vergleiche geeignete Kohorten mit Unsicherheit. Untersuche konkurrierende Ursachen, prüfe die Maßnahme unter auslösenden Bedingungen und führe das Ergebnis in Anforderungen, FMEA, Modelle und Supplier-Nachweise zurück.": {
+    "en": "First define the event and the appropriate denominator: acquisition, operating hour, device-year or other exposure. Distinguish confirmed functional failures, service replacement and No Fault Found; document version, age and use. Compare suitable cohorts with uncertainty included. Investigate competing causes, test the action under triggering conditions, and feed the result back into requirements, FMEA, models and supplier evidence.",
+    "zh": "首先定义事件和适当的分母：采集次数、运行小时、设备年或其他暴露量。区分已确认的功能失效、维修更换和未发现故障（No Fault Found），并记录版本、服役时间和使用情况。比较合适的队列，同时考虑不确定性。调查相互竞争的原因，在触发条件下测试措施，并将结果反馈到要求、FMEA、模型和供应商证据中。"
+  },
+  "Verifikation prüft die Erfüllung festgelegter Anforderungen. Validierung prüft, ob das resultierende Produkt im vorgesehenen Kontext die benötigte Anwendung erfüllt. Qualifikation bezeichnet hier die begründete Eignung einer Ausführung für festgelegte Bedingungen und Nutzung. Eine Freigabe bündelt geeignete Evidenz für eine konkrete Konfiguration und einen konkreten Einsatz; sie verspricht keine absolute Ausfallfreiheit.": {
+    "en": "Verification checks fulfillment of specified requirements. Validation checks whether the resulting product meets the needed application in its intended context. Here, qualification means the justified suitability of a configuration for specified conditions and use. A release brings together suitable evidence for a specific configuration and application; it does not promise absolute freedom from failure.",
+    "zh": "验证（Verification）检查是否满足规定要求。确认（Validation）检查最终产品在预期背景下是否满足所需应用。这里的鉴定（Qualification）指有依据地确认某种配置适用于规定条件和使用情况。批准汇集适用于特定配置和使用场景的证据，并不保证绝对不会失效。"
+  },
+  "Verfügbarkeit beschreibt den Anteil beziehungsweise Zeitpunkt, zu dem die definierte Fähigkeit nutzbar ist. Zuverlässigkeit einer Mission bleibt davon getrennt: Ein kurzer Abbruch kann die Mission verlieren, obwohl das Gerät schnell wieder bereitsteht. Resilienz betrachtet Bewältigung einer Störung und Aufrechterhaltung oder Wiederherstellung der Leistung. Eine Pufferung ist nur dann ausreichend, wenn sie für den definierten Ablauf spezifiziert und abgesichert ist.": {
+    "en": "Availability describes the proportion of time, or the points in time, at which the defined capability can be used. Mission reliability remains separate: a brief interruption can cause the mission to fail even if the device is quickly ready again. Resilience considers coping with a disruption and maintaining or restoring performance. Buffering is sufficient only when it is specified and verified for the defined workflow.",
+    "zh": "可用性描述规定能力可被使用的时间比例或时间点。任务可靠性是另一项概念：即使设备很快恢复就绪，短暂中断仍可能导致任务失败。韧性关注对扰动的应对，以及性能的保持或恢复。只有针对规定流程制定要求并验证后，缓冲机制才可视为足够。"
+  },
+  "Dazu enthält dieses Handbuch keine belastbare Antwort. Ich helfe dir bei Zuverlässigkeit, Systemzerlegung, Prüfmethoden, Statistik und Feldverbesserung.": {
+    "en": "This handbook does not contain a sound answer to that. I can help with reliability, system decomposition, test methods, statistics and field improvement.",
+    "zh": "本手册对此没有可靠的答案。我可以帮助你了解可靠性、系统分解、测试方法、统计和现场改进。"
+  },
+  "Das Handbuch gibt dazu keine konkrete klinische oder produktspezifische Handlungsanweisung. Solche Entscheidungen benötigen die freigegebenen Produkt- und Klinikprozesse. Für die technische Nachweisplanung findest du die methodische Einordnung in Kapitel 16 und 17.": {
+    "en": "The handbook does not provide specific clinical or product-specific instructions for that. Such decisions require approved product and clinical processes. Chapters 16 and 17 provide the methodological context for planning technical evidence.",
+    "zh": "手册对此不提供具体的临床或产品操作指导。此类决策需要遵循已批准的产品和临床流程。有关技术验证规划的方法说明，可参阅第 16 章和第 17 章。"
+  },
+  "Ich finde dazu keine ausreichend passende Stelle im Handbuch. Formuliere die Frage mit einem technischen Begriff oder beschreibe Funktion, Nutzung und beobachteten Fehler. Ich erfinde keine Nachweise.": {
+    "en": "I cannot find a sufficiently relevant passage in the handbook. Rephrase your question using a technical term or describe the function, use and observed failure. I do not invent evidence.",
+    "zh": "我在手册中找不到足够相关的内容。请使用技术术语重新表述问题，或描述功能、使用情况和观察到的故障。我不会编造证据。"
+  },
+  "Zu deiner Frage finde ich diese Handbuchstelle. Sie ist ein Auszug und keine speziell auf dein Produkt geprüfte Antwort.": {
+    "en": "I found this handbook passage for your question. It is an excerpt, not an answer verified specifically for your product.",
+    "zh": "针对你的问题，我找到了这段手册内容。它是摘录，并非针对你的产品专门验证过的答案。"
+  },
+  "Zur Vertiefungsübung in Kapitel": {
+    "en": "For the advanced exercise in Chapter",
+    "zh": "关于本章的进阶练习：第"
+  },
+  "Zur Vertiefungsübung in Kapitel ": {
+    "en": "For the advanced exercise in Chapter ",
+    "zh": "关于进阶练习，第 "
+  },
+  "Zu Kapitel": {
+    "en": "For Chapter",
+    "zh": "关于第"
+  },
+  "Zu Kapitel ": {
+    "en": "For Chapter ",
+    "zh": "关于第 "
+  },
+  "Übung": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "Vertiefungsübung": {
+    "en": "Advanced exercise",
+    "zh": "进阶练习"
+  },
+  "Einführung": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "Erkläre ": {
+    "en": "Explain ",
+    "zh": "解释 "
+  },
+  "Die deutsche Word-Fassung herunterladen ↗": {
+    "en": "Download the German Word version ↗",
+    "zh": "下载德语 Word 版本 ↗"
+  },
+  "Sprachwahl": {
+    "en": "Language selection",
+    "zh": "语言选择"
+  }
+}

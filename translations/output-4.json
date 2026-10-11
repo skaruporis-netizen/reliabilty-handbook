@@ -1,0 +1,1134 @@
+{
+  "u0905": {
+    "en": "<strong>Test question</strong>",
+    "zh": "<strong>检验问题</strong>"
+  },
+  "u0906": {
+    "en": "<strong>Targeted variation</strong>",
+    "zh": "<strong>有针对性的变化</strong>"
+  },
+  "u0907": {
+    "en": "<strong>Expected observation</strong>",
+    "zh": "<strong>预期观察结果</strong>"
+  },
+  "u0908": {
+    "en": "<strong>Is readiness valid</strong>",
+    "zh": "<strong>就绪状态是否有效</strong>"
+  },
+  "u0909": {
+    "en": "<strong>Delay a message or send one from an old job</strong>",
+    "zh": "<strong>延迟消息或发送旧任务中的消息</strong>"
+  },
+  "u0910": {
+    "en": "<strong>No unchecked use of outdated information</strong>",
+    "zh": "<strong>不未经检查就使用过时信息</strong>"
+  },
+  "u0911": {
+    "en": "<strong>Does image assignment remain correct</strong>",
+    "zh": "<strong>图像归属是否保持正确</strong>"
+  },
+  "u0912": {
+    "en": "<strong>Interrupt and restart transmission</strong>",
+    "zh": "<strong>中断传输并重新启动</strong>"
+  },
+  "u0913": {
+    "en": "<strong>Consistent assignment and defined response</strong>",
+    "zh": "<strong>一致的归属和规定的响应</strong>"
+  },
+  "u0914": {
+    "en": "<strong>Is the installation suitable</strong>",
+    "zh": "<strong>安装是否适合</strong>"
+  },
+  "u0915": {
+    "en": "<strong>Relevant combination of thermal loads</strong>",
+    "zh": "<strong>相关热负载组合</strong>"
+  },
+  "u0916": {
+    "en": "<strong>Function within evidenced conditions</strong>",
+    "zh": "<strong>在证据所支持的条件内实现功能</strong>"
+  },
+  "u0917": {
+    "en": "<strong>Is recovery complete</strong>",
+    "zh": "<strong>恢复是否完整</strong>"
+  },
+  "u0918": {
+    "en": "<strong>Restart in different states</strong>",
+    "zh": "<strong>在不同状态下重新启动</strong>"
+  },
+  "u0919": {
+    "en": "<strong>No old job is continued unintentionally</strong>",
+    "zh": "<strong>不会意外继续旧任务</strong>"
+  },
+  "u0920": {
+    "en": "<strong>How large is the margin</strong>",
+    "zh": "<strong>裕量有多大</strong>"
+  },
+  "u0921": {
+    "en": "<strong>Vary load and timing in a controlled manner</strong>",
+    "zh": "<strong>受控地改变负载和时序</strong>"
+  },
+  "u0922": {
+    "en": "<strong>Measurable distance from defined limits</strong>",
+    "zh": "<strong>与规定限值之间可测量的距离</strong>"
+  },
+  "u0923": {
+    "en": "The expectations in this table are general learning objectives; specific product protection functions and acceptance values are defined in the approved project process. Fault injection must not endanger a clinically used application or bypass protection functions in an uncontrolled manner.",
+    "zh": "本表中的预期结果是一般教学目标；具体的产品保护功能和验收值由获批的项目流程规定。故障注入不得危及临床使用的应用，也不得不受控制地绕过保护功能。"
+  },
+  "u0924": {
+    "en": "Test the entire workflow and its fallback levels",
+    "zh": "检验整个流程及其后备层级"
+  },
+  "u0925": {
+    "en": "A test begins with the defined job and ends at the agreed point of success. We check identity, sequence, state and time at the handoffs. Simulators can deliberately generate unusual responses or delays; real counterpart systems additionally test actual interoperability and implementation details.",
+    "zh": "测试从规定的任务开始，到约定的成功点结束。我们检查交接时的身份、顺序、状态和时间。模拟器可以有针对性地产生异常响应或延迟；真实的对端系统还用于检验实际互操作性和实现细节。"
+  },
+  "u0926": {
+    "en": "At the archive connection, for example, we inject an interrupted connection, a delayed acknowledgment and a duplicate response. The test oracle distinguishes successful archiving, permissible local buffering, pending transmission and an unambiguous error. A visible image file alone does not confirm completion of the entire workflow.",
+    "zh": "例如，在归档连接处，我们注入连接中断、确认延迟和重复响应。测试判定依据区分成功归档、允许的本地缓冲、待完成传输以及明确的错误。仅仅能看到图像文件，还不能确认整个流程已经完成。"
+  },
+  "u0927": {
+    "en": "Testing the return to normal operation is part of this. After an interruption, pending jobs must be assigned correctly and completed exactly according to the agreed transmission logic. Fallback levels must cause neither unnoticed data loss nor an impermissible acquisition sequence. Which repetitions are technically and clinically permissible is established in the product process.",
+    "zh": "其中也包括检验恢复正常运行。中断后，未完成的任务必须正确归属，并严格按照约定的传输逻辑完成。后备层级既不得造成未被察觉的数据丢失，也不得产生不允许的采集顺序。哪些重复操作在技术和临床上允许，由产品流程规定。"
+  },
+  "u0928": {
+    "en": "Under electromagnetic disturbances, we observe the affected function and fault response in the relevant operating state. The component report and system test share the same reference to installation and essential performance. <a href=\"#sources/source_N28\">[N28]</a>",
+    "zh": "发生电磁干扰时，我们在相关运行状态下观察受影响的功能和故障响应。组件报告和系统试验对安装条件及基本性能采用相同的参考依据。<a href=\"#sources/source_N28\">[N28]</a>"
+  },
+  "u0929": {
+    "en": "Make results interpretable",
+    "zh": "使结果能够解释"
+  },
+  "u0930": {
+    "en": "We record the test configuration, versions, initial state, stimuli, time history and result. Timestamps across multiple elements need a suitable common basis or documented uncertainty. Otherwise, a message that appears early may actually have arrived later.",
+    "zh": "我们记录测试配置、版本、初始状态、激励、时间历程和结果。多个要素的时间戳需要适当的共同基准，或记录其不确定性。否则，看似较早的消息实际上可能较晚才到达。"
+  },
+  "u0931": {
+    "en": "A success criterion is more than the absence of a crash. For an acquisition, completeness, assignment, image quality, timing and status may be relevant. An error in the test oracle can produce many false successes. The measurement chain is therefore also checked. Observability and logging are designed early, rather than only after a field failure that is difficult to reproduce.",
+    "zh": "成功判据不只是没有崩溃。对于一次采集，完整性、归属、图像质量、时序和状态都可能相关。测试判定依据中的错误会产生大量误判为成功的结果。因此，测量链也要检查。可观测性和日志记录应在早期设计，而不是等到出现难以复现的现场故障后才考虑。"
+  },
+  "u0932": {
+    "en": "Our approach",
+    "zh": "实施步骤"
+  },
+  "u0933": {
+    "en": "Check accepted component revisions and operating limits.",
+    "zh": "检查已认可的组件版本及使用限值。"
+  },
+  "u0934": {
+    "en": "Prioritize integration risks from architecture, I/O and FMEA.",
+    "zh": "根据架构、I/O 和 FMEA 确定集成风险的优先级。"
+  },
+  "u0935": {
+    "en": "Select normal cases, unfavorable permissible combinations and recovery.",
+    "zh": "选择正常情况、不利但允许的组合以及恢复过程。"
+  },
+  "u0936": {
+    "en": "Combine physical and virtual levels according to the conclusions they support.",
+    "zh": "根据物理层面和虚拟层面能够支持的结论，将两者结合。"
+  },
+  "u0937": {
+    "en": "Document fault responses, performance margins and remaining uncertainty.",
+    "zh": "记录故障响应、性能裕量和剩余不确定性。"
+  },
+  "u0938": {
+    "en": "Test the entire workflow, including return from a fallback level.",
+    "zh": "检验整个流程，包括从后备层级返回。"
+  },
+  "u0939": {
+    "en": "The result is version-specific evidence of system function. A passed system test script answers only the requirements and conditions actually observed.",
+    "zh": "结果是针对特定版本的系统功能证据。通过的系统测试脚本只能回答实际观察到的要求和条件。"
+  },
+  "u0940": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0941": {
+    "en": "Two smartphones work individually, but video transmission between them fails under load. Which integration questions remain open even though both devices have passed their individual tests?",
+    "zh": "两部智能手机单独使用时都正常，但它们之间的视频传输在负载下中断。尽管两台设备都通过了单机测试，还有哪些集成问题未解决？"
+  },
+  "u0942": {
+    "en": "17 Assess release and changes with justification",
+    "zh": "17 有依据地评估发布与变更"
+  },
+  "u0943": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0944": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_C\">示意图 C  </a>|  基础资料 <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0945": {
+    "en": "Distinguish three evidence questions",
+    "zh": "区分三类证据问题"
+  },
+  "u0946": {
+    "en": "Verification asks whether the implementation meets the specified requirements. Validation asks whether the resulting product fulfills the required application in the intended context. Here, qualification means a justified assessment of a design's suitability for specified conditions and use. The terms are aligned with the process definitions that apply across the company.",
+    "zh": "验证关注实现是否满足规定要求。确认关注最终产品在预期情境中是否满足所需应用。这里的鉴定是指有依据地评估某一设计在规定条件和用途下的适用性。这些术语应与公司统一采用的流程定义协调一致。"
+  },
+  "u0947": {
+    "en": "Everyday example: A bookshelf is built according to a drawing. Its dimensions and load capacity meet the requirements: this can be verified. Whether it suits the user's actual large, heavy books is part of validating the need. Testing a particular design under a specified load profile supports its qualification for that use.",
+    "zh": "日常示例：按照图纸制作书架。尺寸和承载能力满足要求，这可以验证。它是否适合用户实际使用的大而重的书籍，属于对需求的确认。对某种具体设计在规定负载谱下进行试验，有助于鉴定其对该用途的适用性。"
+  },
+  "u0948": {
+    "en": "Release is a justified decision",
+    "zh": "发布是有依据的决策"
+  },
+  "u0949": {
+    "en": "A release brings together requirements, analyses, supplier evidence, tests, deviations and relevant field experience. It states for which configuration and use the evidence is sufficient. It does not promise absolute freedom from failures. Open issues are not resolved simply because enough other tests are green.",
+    "zh": "发布汇集要求、分析、供应商证据、测试、偏差和相关现场经验，说明对于哪些配置和用途，证据已经充分。发布并不承诺绝对不会失效。不能仅因足够多的其他测试通过，就认为未解决问题已经解决。"
+  },
+  "u0950": {
+    "en": "An evidence matrix makes the relationships reviewable. Each relevant requirement refers to evidence, its result and its scope of validity. A row such as “thermal test passed” without specimen identity and profile is of little use. Permissible adopted evidence is identified as such so that its conditions can be checked later.",
+    "zh": "证据矩阵（Evidence Matrix）使这些关联可供审核。每项相关要求都指向相应证据、结果和适用范围。像“热试验通过”这样未标明样品身份和试验谱的条目，帮助很小。允许沿用的证据应明确标识，以便日后检查其成立条件。"
+  },
+  "u0951": {
+    "en": "<strong>Requirement in the teaching example</strong>",
+    "zh": "<strong>教学示例中的要求</strong>"
+  },
+  "u0952": {
+    "en": "<strong>Evidence</strong>",
+    "zh": "<strong>证据</strong>"
+  },
+  "u0953": {
+    "en": "<strong>Scope of validity</strong>",
+    "zh": "<strong>适用范围</strong>"
+  },
+  "u0954": {
+    "en": "<strong>Decision</strong>",
+    "zh": "<strong>决策</strong>"
+  },
+  "u0955": {
+    "en": "<strong>Cable survives target movement</strong>",
+    "zh": "<strong>电缆能够承受目标运动量</strong>"
+  },
+  "u0956": {
+    "en": "<strong>Supplier test with appropriate statistics</strong>",
+    "zh": "<strong>采用适当统计方法的供应商试验</strong>"
+  },
+  "u0957": {
+    "en": "<strong>Defined cable and installation revision</strong>",
+    "zh": "<strong>规定的电缆和安装版本</strong>"
+  },
+  "u0958": {
+    "en": "<strong>Adoption after suitability review</strong>",
+    "zh": "<strong>适用性审核后沿用</strong>"
+  },
+  "u0959": {
+    "en": "<strong>Status belongs to the current job</strong>",
+    "zh": "<strong>状态属于当前任务</strong>"
+  },
+  "u0960": {
+    "en": "<strong>Integration test with outdated messages</strong>",
+    "zh": "<strong>使用过时消息的集成测试</strong>"
+  },
+  "u0961": {
+    "en": "<strong>Defined software version</strong>",
+    "zh": "<strong>规定的软件版本</strong>"
+  },
+  "u0962": {
+    "en": "<strong>Fulfilled or targeted action</strong>",
+    "zh": "<strong>满足要求或采取针对性措施</strong>"
+  },
+  "u0963": {
+    "en": "<strong>Temperature remains within the evidenced range</strong>",
+    "zh": "<strong>温度保持在证据所支持的范围内</strong>"
+  },
+  "u0964": {
+    "en": "<strong>Thermal system evidence</strong>",
+    "zh": "<strong>系统热性能证据</strong>"
+  },
+  "u0965": {
+    "en": "<strong>Profile and installation configuration</strong>",
+    "zh": "<strong>试验谱和安装配置</strong>"
+  },
+  "u0966": {
+    "en": "<strong>Application confirmed or restricted</strong>",
+    "zh": "<strong>确认或限制应用</strong>"
+  },
+  "u0967": {
+    "en": "Assess changes by tracing their effects",
+    "zh": "沿变更的影响进行评估"
+  },
+  "u0968": {
+    "en": "A new housing color may be purely cosmetic or technically relevant, depending on material and process. A new cable material can change flexibility and aging. A seemingly minor timeout can influence many state transitions. Calling a change small therefore says nothing about the depth of evidence required.",
+    "zh": "外壳的新颜色可能只是外观变化，也可能具有技术影响，取决于材料和工艺。新的电缆材料可能改变柔韧性和老化行为。看似很小的超时调整可能影响许多状态转换。因此，将变更称为“小变更”，并不能说明所需证据的深度。"
+  },
+  "u0969": {
+    "en": "We trace the change through function, architecture, mechanism and use to the affected evidence. Unaffected evidence remains usable if its lack of impact is justified. Affected evidence is supplemented or repeated. This decision is documented, rather than either retesting everything or adopting every earlier report unchanged.",
+    "zh": "我们沿功能、架构、机理和使用情况追踪变更，直到受影响的证据。如果能够论证某项证据不受影响，就可以继续使用。受影响的证据则需补充或重新取得。应记录这一决策，而不是一概重新测试全部内容，或原样沿用所有既有报告。"
+  },
+  "u0970": {
+    "en": "Application to the X-ray system",
+    "zh": "应用于 X 射线系统"
+  },
+  "u0971": {
+    "en": "New detector firmware can affect image readout timing and readiness. The mechanical design has remained the same. This initially suggests assessing state and interface evidence. If the new firmware also produces different power dissipation, thermal evidence may be affected too. The effects are checked, rather than inferred from the version name.",
+    "zh": "新的探测器固件可能影响图像读出时序和就绪状态，而机械设计没有改变。这首先提示需要评估状态和接口证据。如果新固件还产生不同的耗散功率，热性能证据也可能受到影响。应检查实际影响，而不是根据版本名称推断。"
+  },
+  "u0972": {
+    "en": "A new use with a higher exposure sequence rate may approach existing limits even though no component has changed. A change of use case is therefore also a possible technical change. Medical risk management and regulatory approvals are separately incorporated according to applicable company processes; the evidence matrix does not replace them.",
+    "zh": "即使没有任何零部件改变，采用更高曝光序列频率的新用途，也可能触及既有限值。因此，用例变化也可能构成技术变更。应按照适用的公司流程，另外纳入医疗风险管理和法规批准；证据矩阵不能替代这些工作。"
+  },
+  "u0973": {
+    "en": "Account for changes in external systems",
+    "zh": "考虑外部系统的变更"
+  },
+  "u0974": {
+    "en": "Our release identifies the tested and permitted counterpart systems, versions, functions and boundary conditions. If an operator reports an archive upgrade, we assess its effect on this basis. An external update is no reason to requalify all components, but may require targeted compatibility evidence.",
+    "zh": "我们的发布文件列明经过测试和允许使用的对端系统、版本、功能及边界条件。如果运营方报告归档系统升级，我们就评估其对这一基础的影响。外部更新并不意味着必须重新鉴定全部组件，但可能需要针对性的兼容性证据。"
+  },
+  "u0975": {
+    "en": "For example, the decision may be: remains valid unchanged, valid under a documented condition, or additional evidence required. Open combinations are not treated as released combinations. For temporary use under conditions, responsible parties, limits and follow-up activities are documented.",
+    "zh": "例如，决策可以是：原样继续有效、在记录的条件下有效，或需要额外证据。未经确认的组合不能按已批准发布的组合处理。对于附条件的临时使用，应记录责任人、限值和后续活动。"
+  },
+  "u0976": {
+    "en": "Our approach",
+    "zh": "实施步骤"
+  },
+  "u0977": {
+    "en": "Clearly define the configuration and operating scope to be released.",
+    "zh": "明确规定拟发布的配置及使用范围。"
+  },
+  "u0978": {
+    "en": "Check requirements and the evidence matrix for completeness and suitability.",
+    "zh": "检查要求和证据矩阵的完整性及适用性。"
+  },
+  "u0979": {
+    "en": "Assess deviations, limits and remaining uncertainty.",
+    "zh": "评估偏差、限值和剩余不确定性。"
+  },
+  "u0980": {
+    "en": "Analyze changes through their actual effects.",
+    "zh": "根据实际影响分析变更。"
+  },
+  "u0981": {
+    "en": "Document the decision with conditions, responsible parties and follow-up activities.",
+    "zh": "记录决策及其条件、责任人和后续活动。"
+  },
+  "u0982": {
+    "en": "Name tested counterpart systems and versions in the release; identify open combinations.",
+    "zh": "在发布文件中列明已测试的对端系统和版本，并标识未经确认的组合。"
+  },
+  "u0983": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0984": {
+    "en": "A manufacturer changes only a thermostat's software. Why can this still affect the evidence for a mechanical or thermal component?",
+    "zh": "制造商仅修改恒温器的软件。为什么这仍可能影响机械组件或热相关组件的证据？"
+  },
+  "u0985": {
+    "en": "18 Monitor quality and reliability in the field",
+    "zh": "18 监测现场质量与可靠性"
+  },
+  "u0986": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0987": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_C\">示意图 C  </a>|  基础资料 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0988": {
+    "en": "Without a denominator, a failure count can easily mislead",
+    "zh": "没有分母，失效次数很容易造成误导"
+  },
+  "u0989": {
+    "en": "In one month, a bicycle workshop repairs ten e-bikes and five conventional bicycles. This does not establish that e-bikes are twice as unreliable. Perhaps ten times as many e-bikes were sold, or they are used much more intensively. We need the population, observation duration and usage.",
+    "zh": "一家自行车维修店一个月修理了十辆电动自行车和五辆普通自行车。由此不能推断电动自行车的不可靠性是普通自行车的两倍。也许电动自行车的销量是普通自行车的十倍，或者使用强度大得多。我们需要总体、观察时长和使用情况。"
+  },
+  "u0990": {
+    "en": "In the field, we distinguish events per acquisition, per operating hour, per device-year or per another suitable exposure measure. The denominator must fit the function and mechanism. A mechanical motion failure cannot be explained solely by the number of image acquisitions. Calendar age, operating age and version help make populations comparable.",
+    "zh": "在现场，我们区分每次采集、每运行小时、每设备年或每个其他适当暴露量的事件数。分母必须与功能和机理相匹配。机械运动故障不能仅用图像采集次数解释。日历年龄、运行年龄和版本有助于使总体具有可比性。"
+  },
+  "u0991": {
+    "en": "Define events precisely",
+    "zh": "清晰定义事件"
+  },
+  "u0992": {
+    "en": "Acquisition abort, system restart, confirmed component failure, service replacement and No Fault Found are different events. A replacement can be a diagnostic measure without the removed part being defective. Conversely, a relevant loss of function may occur without a replacement. We document findings and their certainty, rather than only spare-parts consumption.",
+    "zh": "采集中止、系统重启、已确认的组件失效、维修更换和 No Fault Found（未发现故障）是不同事件。更换可能是一项诊断措施，被拆下的零件并不一定有缺陷。反之，相关功能丧失也可能在未进行更换的情况下发生。我们记录调查结果及其确定程度，而不只是备件消耗。"
+  },
+  "u0993": {
+    "en": "An initial report may be recorded as a signal even if its cause remains open. For quantitative statements, its status is maintained traceably. Multiple tickets for the same event are not counted repeatedly without checking. Several different events on the same device, however, may be relevant and need an appropriate model of dependence and restoration.",
+    "zh": "即使原因尚未查明，首次报告也可以作为信号记录。为了进行定量分析，应以可追溯的方式维护其状态。同一事件的多个工单，不能未经检查就重复计数。相反，同一设备上的多个不同事件可能具有相关性，需要适当的依赖关系和恢复模型。"
+  },
+  "u0994": {
+    "en": "A numerical example",
+    "zh": "数值示例"
+  },
+  "u0995": {
+    "en": "In the fictional dataset, 40 events occur in two million acquisitions before an action. This corresponds to 20 events per million acquisitions. Afterwards, 25 events occur in two and a half million acquisitions, corresponding to ten per million. The point estimate of the rate has halved. The raw count has fallen by only 15 events.",
+    "zh": "在这个虚构数据集中，采取措施前，两百万次采集发生了 40 个事件，相当于每百万次采集 20 个事件。采取措施后，两百五十万次采集发生了 25 个事件，相当于每百万次采集十个事件。发生率的点估计减半，而原始计数只减少了 15 个事件。"
+  },
+  "u0996": {
+    "en": "Whether the action caused this change initially remains open. Usage, age, device variants, reporting behavior and other changes may differ. Statistical uncertainty is also considered. The calculation illustrates the appropriate denominator and does not yet prove effectiveness or statistical significance.",
+    "zh": "这一变化是否由该措施引起，起初仍未确定。使用情况、年龄、设备变型、报告行为及其他变化都可能不同。还要考虑统计不确定性。该计算说明了适当分母的重要性，但尚不能证明有效性或统计显著性。"
+  },
+  "u0997": {
+    "en": "Cohorts and data quality",
+    "zh": "队列与数据质量"
+  },
+  "u0998": {
+    "en": "We form suitable groups by commissioning date, age, usage, hardware revision, software version and relevant operating conditions. New devices with brief observation cannot automatically be compared with old devices observed over many years. Right-censored observations and differences in reporting depth are made visible.",
+    "zh": "我们根据投入使用时间、年龄、使用情况、硬件版本、软件版本和相关使用条件形成适当分组。观察时间较短的新设备，不能直接与观察多年的老设备比较。应明确展示右删失观察和报告详尽程度的差异。"
+  },
+  "u0999": {
+    "en": "A software update may also improve fault detection. If more events then appear in the log, first check whether the function has changed or only its detection. Conversely, an infrequent service visit may mean that failures were not reported. Data quality is a prerequisite for statistics, not an afterthought.",
+    "zh": "软件更新也可能同时改善故障检测。如果随后日志中出现更多事件，首先应检查变化的是功能本身，还是仅仅检测能力。反过来，维修访问很少，也可能意味着失效没有被报告。数据质量是统计的前提，而不是事后补充的评论。"
+  },
+  "u1000": {
+    "en": "Design logs with a purpose",
+    "zh": "有目的地设计日志"
+  },
+  "u1001": {
+    "en": "A useful event record contains time, event definition, device and configuration reference, operating state, usage, relevant measurements and the subsequent findings. Causally important messages across multiple elements can be aligned in time. Patient data are not collected unnecessarily for technical analyses; privacy, access and retention follow applicable processes.",
+    "zh": "有用的事件记录包含时间、事件定义、设备及配置关联、运行状态、使用情况、相关测量值和后续调查结果。多个要素中对因果分析重要的消息应能按时间关联。技术分析不应不必要地收集患者数据；数据保护、访问和保留应遵循适用流程。"
+  },
+  "u1002": {
+    "en": "Everyday example: When a car will not start, the message “error” is of little help. Battery condition, outdoor temperature and the starting attempt help distinguish hypotheses. Suitable state and load data are similarly valuable for the X-ray system, provided they are recorded purposefully and interpretably.",
+    "zh": "日常示例：汽车无法启动时，“错误”消息帮助不大。电池状态、室外温度和启动尝试有助于区分假设。对于 X 射线系统，适当的状态和负载数据同样有价值，前提是记录有针对性且能够解释。"
+  },
+  "u1003": {
+    "en": "Analyze repaired systems with recurring events",
+    "zh": "分析发生重复事件的已维修系统"
+  },
+  "u1004": {
+    "en": "In a repairable system, the same unit can fail multiple times. A time-to-first-failure curve then loses part of the history. The mean cumulative number of events, called the Mean Cumulative Function or MCF, describes how many defined events a unit experiences on average up to usage t. It is not a failure probability and can exceed one. <a href=\"#sources/source_Q27\">[Q27]</a>",
+    "zh": "对于可修复系统，同一个体可能多次失效。因此，首次失效时间曲线会丢失部分历史。平均累计事件数，英文为 Mean Cumulative Function，简称 MCF，描述一个个体在使用量达到 t 时平均经历了多少个规定事件。它不是失效概率，可以大于一。<a href=\"#sources/source_Q27\">[Q27]</a>"
+  },
+  "u1005": {
+    "en": "With exact event times, a common usage axis and suitable independent right censoring, a nonparametric estimate adds the ratio of event count d to observed units Y at each event time. Repaired units can continue contributing to observation. Here Y counts observed units, not only units with no previous failure.",
+    "zh": "当事件时间精确、使用量坐标统一且存在适当的独立右删失时，非参数估计在每个事件时点加上事件数 d 与观察个体数 Y 的比值。修复后的个体可以继续参与观察。这里 Y 计数的是处于观察中的个体，而不仅是此前未失效的个体。"
+  },
+  "u1007": {
+    "en": "In the small teaching example, four systems are observed. One event occurs at 100 hours and two more at 200 hours. All four remain under observation. The estimate first rises to 0.25 and then to 0.75 events per system. After one censoring, three systems remain under observation. Another event at 300 hours increases the value by one third to approximately 1.083. This is not a proportion of 108.3 percent defective systems.",
+    "zh": "在这个小型教学示例中，观察了四个系统。100 小时时发生一个事件，200 小时时又发生两个事件。四个系统仍全部处于观察中。估计值先升至每个系统 0.25 个事件，再升至 0.75 个事件。一次删失后，仍观察三个系统。300 小时时的又一个事件使该值增加三分之一，达到约 1.083。这并不表示有 108.3% 的系统存在缺陷。"
+  },
+  "u1008": {
+    "en": "Diagram F Recurring events in the MCF teaching example  Author's illustration for the described teaching case.",
+    "zh": "示意图 F MCF 教学示例中的重复事件  为所述教学案例自行绘制。"
+  },
+  "u1009": {
+    "en": "Diagram F Recurring events in the MCF teaching example  Author's illustration for the described teaching case.",
+    "zh": "示意图 F MCF 教学示例中的重复事件  为所述教学案例自行绘制。"
+  },
+  "u1010": {
+    "en": "We compare cohorts on the same usage axis with identical event definitions. Uncertainty intervals must account for repeated observations within each system. Different usage profiles, changing versions and informative observation termination can bias a comparison. The teaching diagram explains the estimate and is not statistical evidence of effectiveness.",
+    "zh": "我们采用相同的使用量坐标和相同的事件定义比较队列。不确定性区间必须考虑每个系统内的重复观察。不同的使用谱、变化的版本以及信息性观察终止可能使比较产生偏差。教学图解释估计方法，并非有效性的统计证据。"
+  },
+  "u1011": {
+    "en": "Record operational availability separately",
+    "zh": "单独记录运行可用度"
+  },
+  "u1012": {
+    "en": "Operational availability is the fraction of the previously defined required operating time during which the agreed capability is usable. Waiting times for spare parts or service may be included. Planned maintenance is explicitly included or excluded. It must not disappear from the denominator incidentally. By contrast, the simple formula in Chapter 9 describes idealized availability under narrower model assumptions.",
+    "zh": "运行可用度是预先规定的所需运行时间中，约定能力可用的时间比例。等待备件或维修的时间可能包括在内。计划维护应明确纳入或排除，不能随意从分母中消失。相比之下，第 9 章的简单公式描述的是在更严格模型假设下的理想化可用度。"
+  },
+  "u1013": {
+    "en": "With ten required operating hours and two hours of unplanned unavailability, the fraction is eight out of ten, or 80 percent. A brief acquisition abort can affect mission reliability without greatly changing the daily fraction. Both metrics provide different, useful information.",
+    "zh": "所需运行时间为十小时，非计划不可用时间为两小时，则可用时间占十小时中的八小时，即 80%。短暂的采集中止可能影响任务可靠性，却不会明显改变当天的可用比例。两个指标提供不同且有用的信息。"
+  },
+  "u1014": {
+    "en": "Connect field observation with product surveillance",
+    "zh": "将现场观察与产品监测相结合"
+  },
+  "u1015": {
+    "en": "For medical devices, post-market surveillance connects field information with ongoing product assessment. The MDR addresses this particularly in Articles 83 to 86. Applicable reports and obligations depend on the specific product and its classification. Reliability data contribute to this process; they do not replace the other required information. <a href=\"#sources/source_N26\">[N26]</a>",
+    "zh": "对于医疗器械，上市后监督将现场信息与持续的产品评估相结合。MDR 尤其在第 83 至 86 条对此作出规定。适用的报告和义务取决于具体产品及其分类。可靠性数据是该流程的一部分，不能替代其他所需信息。<a href=\"#sources/source_N26\">[N26]</a>"
+  },
+  "u1016": {
+    "en": "Turn signals into decisions",
+    "zh": "将信号转化为决策"
+  },
+  "u1017": {
+    "en": "A monitoring plan describes metrics, data sources, updates, comparison groups and responsibility for assessment. Critical individual events may require investigation and escalation independently of any trend. Thresholds for clusters are defined for each project. Field monitoring is connected to applicable quality and safety processes.",
+    "zh": "监测计划描述测量指标、数据来源、更新方式、比较组以及评估责任。关键的单个事件可能需要调查和升级处理，不取决于是否存在趋势。事件聚集的阈值按项目规定。现场监测应与适用的质量和安全流程相结合。"
+  },
+  "u1018": {
+    "en": "Our approach",
+    "zh": "实施步骤"
+  },
+  "u1019": {
+    "en": "Agree on event definitions with development and service.",
+    "zh": "与开发和维修部门约定事件定义。"
+  },
+  "u1020": {
+    "en": "Secure usage, population, version and age as denominators and context.",
+    "zh": "确保使用情况、总体、版本和年龄信息可用于分母及背景说明。"
+  },
+  "u1021": {
+    "en": "Check data quality, duplicate counting and unresolved findings.",
+    "zh": "检查数据质量、重复计数和未解决的调查结果。"
+  },
+  "u1022": {
+    "en": "Analyze comparable cohorts and suitable uncertainty intervals.",
+    "zh": "分析可比较的队列和适当的不确定性区间。"
+  },
+  "u1023": {
+    "en": "Pass signals to root cause analysis, the supplier and system development.",
+    "zh": "将信号传递给原因分析、供应商和系统开发。"
+  },
+  "u1024": {
+    "en": "Analyze recurring events with a suitable MCF, record operational availability with a defined denominator and incorporate product surveillance.",
+    "zh": "使用适当的 MCF 分析重复事件，以规定的分母记录运行可用度，并纳入产品监测。"
+  },
+  "u1025": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u1026": {
+    "en": "After introducing an improved error log, the number of recorded router restarts doubles. Which explanations do you investigate before reporting deteriorated reliability?",
+    "zh": "引入更完善的错误日志后，记录的路由器重启次数翻倍。在报告可靠性下降之前，你会检查哪些解释？"
+  },
+  "u1027": {
+    "en": "Advanced exercise",
+    "zh": "深化练习"
+  },
+  "u1028": {
+    "en": "Two repairable systems are observed for 200 hours. System 1 has events at 50 and 150 hours, and system 2 at 150 hours. How does the MCF evolve if both are observed continuously?",
+    "zh": "两个可修复系统被观察 200 小时。系统 1 在 50 和 150 小时时发生事件，系统 2 在 150 小时时发生事件。如果两个系统始终处于观察中，MCF 如何变化？"
+  },
+  "u1029": {
+    "en": "19 Eliminate failure causes and demonstrate improvements",
+    "zh": "19 消除失效原因并证明改进"
+  },
+  "u1030": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u1031": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N05\">[N05]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_C\">示意图 C  </a>|  基础资料 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N05\">[N05]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u1032": {
+    "en": "Replacing a spare part is not yet root cause analysis",
+    "zh": "更换备件还不等于原因分析"
+  },
+  "u1033": {
+    "en": "A television cuts out. After replacing a cable, it works again. Perhaps the cable was defective; perhaps a loose connector was merely reseated during replacement. The result matters, but does not yet prove the cause. We distinguish failure symptoms, hypothesis, findings and confirmed mechanism.",
+    "zh": "电视机时断时续。更换电缆后又恢复工作。也许电缆有缺陷，也许更换时只是重新插紧了一个松动的插头。结果很重要，但还不能证明原因。我们区分故障表现、假设、调查结果和已确认的机理。"
+  },
+  "u1034": {
+    "en": "Root Cause Analysis, or RCA, investigates the cause using evidence. FRACAS means Failure Reporting, Analysis and Corrective Action System. It connects failure reporting, investigation, correction and effectiveness verification. The goal is a closed learning process, not just a completely filled-out failure list.",
+    "zh": "Root Cause Analysis，简称 RCA，即根本原因分析，依据证据调查原因。FRACAS 表示 Failure Reporting, Analysis and Corrective Action System，即故障报告、分析和纠正措施系统。它将故障报告、调查、纠正和有效性验证相结合。目标是形成闭环学习流程，而不只是把故障清单填写完整。"
+  },
+  "u1035": {
+    "en": "Distinguish hypotheses through targeted investigation",
+    "zh": "有针对性地区分假设"
+  },
+  "u1036": {
+    "en": "We first preserve the state and relevant data. Then we formulate competing explanations and select investigations that distinguish them. A measurement does not become proof merely because it fits our preferred explanation. If a failure cannot be reproduced, we document the remaining uncertainty.",
+    "zh": "我们首先保存状态和相关数据，然后提出相互竞争的解释，并选择能够区分它们的调查方法。一个测量值不会仅因符合我们偏好的解释，就成为证明。如果故障无法复现，应记录剩余不确定性。"
+  },
+  "u1037": {
+    "en": "Ishikawa diagrams help collect possible categories of influence. 5 Why can lead to deeper questions. Neither method replaces measurement or robust findings. The chain does not end at “operator error” or “supplier at fault” while specification, usability or integration assumptions remain unresolved.",
+    "zh": "石川图有助于收集可能的影响因素类别。5 Why 可以引出更深入的问题。两种方法都不能替代测量或可靠的调查结果。如果规范、可用性或集成假设仍未澄清，分析链就不能止于“操作错误”或“供应商的责任”。"
+  },
+  "u1038": {
+    "en": "Suspected misuse is traced back to display, assignment, feedback and usage context. Findings concerning safety-related operating actions feed into the usability assessment. <a href=\"#sources/source_N29\">[N29]</a>",
+    "zh": "对于疑似误操作，应追溯显示、归属、反馈和使用情境。涉及安全相关操作行为的发现，应纳入可用性评估。<a href=\"#sources/source_N29\">[N29]</a>"
+  },
+  "u1039": {
+    "en": "Separate cause from area of responsibility",
+    "zh": "区分原因与责任范围"
+  },
+  "u1040": {
+    "en": "An X-ray acquisition abort can arise from a faulty component, an incorrect system requirement, an integration gap, a test gap or insufficiently described use. Several areas can contribute jointly. A detector showing thermal abnormalities may have a material weakness while also having been operated outside its approved operating range.",
+    "zh": "X 射线采集中止可能源于有故障的组件、错误的系统要求、集成缺口、测试缺口或描述不充分的使用情况。多个方面可能共同造成影响。出现热异常的探测器可能存在材料弱点，同时又被用于获批使用范围之外。"
+  },
+  "u1041": {
+    "en": "The technical cause is investigated independently of early organizational blame. Actions are then assigned jointly. For example, a supplier correction can be combined with a change to installation conditions and an integration test.",
+    "zh": "技术原因的调查应独立于早期的组织归责。随后共同分配措施。例如，供应商的纠正可以与安装条件变更和集成测试相结合。"
+  },
+  "u1042": {
+    "en": "Correction and corrective action",
+    "zh": "纠正与纠正措施"
+  },
+  "u1043": {
+    "en": "An immediate correction restores the current state, for example through replacement or restart. A corrective action eliminates the relevant cause, for example through improved strain relief or state checking. A restart can restore function while leaving the triggering sequence unchanged.",
+    "zh": "立即纠正使当前状态恢复，例如通过更换或重新启动。纠正措施消除相关原因，例如改进应力消除结构或状态检查。重新启动可以恢复功能，但触发故障的序列仍未改变。"
+  },
+  "u1044": {
+    "en": "Each action is given a mechanism of effect: why should this particular change prevent the failure? We define a reproduction or verification test and a regression test for unwanted side effects. For variants, we check which are affected.",
+    "zh": "每项措施都应说明其作用机理：为什么这项具体变更能够防止失效？为此，我们规定复现测试或验证测试，以及检查不良副作用的回归测试。对于各个变型，应检查哪些受到影响。"
+  },
+  "u1045": {
+    "en": "Demonstrate effectiveness",
+    "zh": "证明有效性"
+  },
+  "u1046": {
+    "en": "Everyday example: A dripping seal is replaced. A brief inspection initially shows no water. If leakage occurs only after heating, effectiveness must be checked in that state. At the X-ray system, the action is correspondingly tested against the failure-triggering combination and other relevant use cases.",
+    "zh": "日常示例：更换漏水的密封件。简短检查初步未见水。如果泄漏只在受热后发生，就必须在该状态下检查有效性。对于 X 射线系统，相应地应针对触发故障的组合及其他相关用例测试措施。"
+  },
+  "u1047": {
+    "en": "In the field, we compare suitable cohorts, usage and event definitions where possible. For a rare failure, even a month without a report requires sufficient usage and an appropriate statistical assessment. A new population's initial operating period and reporting behavior also matter. Uncertainty and unconfirmed cases remain visible.",
+    "zh": "在现场，我们尽可能比较适当的队列、使用情况和事件定义。对于罕见故障，即使一个月没有报告，也需要足够的使用量和适当的统计评估。新总体的初始运行期和报告行为也很重要。应明确保留不确定性和未经确认的案例。"
+  },
+  "u1048": {
+    "en": "Reliability growth as a verifiable development",
+    "zh": "将可靠性增长视为可检验的发展"
+  },
+  "u1049": {
+    "en": "An improvement program connects failure discovery, root cause analysis, change and renewed demonstration. A fixed software version does not acquire fewer faults merely as time passes. Improvement needs an effective action or another objectively explained development.",
+    "zh": "改进计划将故障发现、原因分析、变更和重新提供证据相结合。一个固定软件版本不会仅因时间流逝而减少故障。改进需要有效措施，或其他能够客观解释的变化。"
+  },
+  "u1050": {
+    "en": "For recurring events, a nonhomogeneous Poisson process, or NHPP, with a power law may be suitable. We use a as the scale parameter and b as the exponent so that these symbols are not confused with the Weibull shape parameter β. The expected cumulative count and event intensity are: <a href=\"#sources/source_Q28\">[Q28]</a>",
+    "zh": "对于重复事件，采用幂律的非齐次泊松过程，简称 NHPP，可能适用。我们用 a 表示尺度参数，b 表示指数，以免这些符号与威布尔形状参数 β 混淆。期望累计事件数和事件强度为：<a href=\"#sources/source_Q28\">[Q28]</a>"
+  },
+  "u1052": {
+    "en": "For 0 less than b less than 1, the modeled intensity decreases; for b equal to 1, it remains constant; and for b greater than 1, it increases. The cumulative count nevertheless continues to increase. Some sources define a growth exponent as 1 minus b; the parameterization used must therefore be clarified before comparing numbers.",
+    "zh": "当 0 小于 b 小于 1 时，模型强度下降；b 等于 1 时保持恒定；b 大于 1 时上升。但累计事件数仍继续增加。有些资料将增长指数定义为 1 减 b，因此在比较数值之前，必须明确采用的参数化方式。"
+  },
+  "u1053": {
+    "en": "A decreasing trend does not prove the effect of an individual action. Lower usage, different reporting channels or a changed cohort can also have effects. Before and after a release, we compare defined events, exposure and configuration. Trend tests and model fitting supplement the technical findings. Testing with ongoing changes and a field estimate for a fixed released revision answer different questions.",
+    "zh": "下降趋势不能证明单项措施的效果。使用量减少、报告渠道不同或队列变化也可能产生影响。发布前后，我们比较规定的事件、暴露量和配置。趋势检验和模型拟合补充技术调查结果。持续变更过程中的测试与针对固定已发布版本的现场估计，回答的是不同问题。"
+  },
+  "u1054": {
+    "en": "Diagram J Power-law models before and after an action  Author's illustration for the described teaching case.",
+    "zh": "示意图 J 措施前后的幂律模型  为所述教学案例自行绘制。"
+  },
+  "u1055": {
+    "en": "Diagram J Power-law models before and after an action  Author's illustration for the described teaching case.",
+    "zh": "示意图 J 措施前后的幂律模型  为所述教学案例自行绘制。"
+  },
+  "u1056": {
+    "en": "The two logarithmic plots separate observation before and after an action. Each phase starts with its own local usage time at zero; events already counted are not deleted retrospectively. Synthetic event times and explicitly assumed model curves M(t) = a t^b are shown, rather than fitted field results. Before the action b equals 1.2, and afterwards b equals 0.8. The slope of the model line in the log-log plot corresponds to b.",
+    "zh": "两个对数图分别展示措施前后的观察。每个阶段都从自身的局部使用时间零点开始；已计数的事件不会事后删除。图中展示的是合成事件时间和明确假设的模型曲线 M(t) = a t^b，而不是拟合的现场结果。措施前 b 等于 1.2，措施后 b 等于 0.8。双对数图中模型直线的斜率对应 b。"
+  },
+  "u1057": {
+    "en": "The different slopes illustrate the Crow-AMSAA method, or power-law NHPP. Demonstrating effectiveness requires comparable event definitions and usage, appropriate model fitting with uncertainty, and technical evidence for the action. A bend alone does not prove a cause. Phases with changed product revisions are identified; a single unchanged model is not fitted across the change without checking. <a href=\"#sources/source_Q28\">[Q28]</a>",
+    "zh": "不同斜率说明了 Crow-AMSAA 方法，即幂律 NHPP。要证明有效性，需要可比较的事件定义和使用情况、带有不确定性评估的适当模型拟合，以及措施的技术证据。仅有曲线转折不能证明原因。产品版本发生变化的阶段应予以标识；不能未经检查就跨越变更拟合一个不变模型。<a href=\"#sources/source_Q28\">[Q28]</a>"
+  },
+  "u1058": {
+    "en": "Feed knowledge back",
+    "zh": "反馈知识"
+  },
+  "u1059": {
+    "en": "A closed case changes the FMEA, system model, supplier requirements, test profiles or logs where needed. Otherwise, the cause remains in the report and can recur in the next project. An improvement is actively practiced only when the new knowledge influences the next decision.",
+    "zh": "结案后，应在必要时更新 FMEA、系统模型、供应商要求、试验谱或日志。否则，原因只停留在报告中，可能在下一个项目中再次出现。只有当新知识影响下一次决策时，改进才真正得到落实。"
+  },
+  "u1060": {
+    "en": "Our approach",
+    "zh": "实施步骤"
+  },
+  "u1061": {
+    "en": "Preserve the event, state, usage and version.",
+    "zh": "保存事件、状态、使用情况和版本。"
+  },
+  "u1062": {
+    "en": "Formulate several hypotheses and test them with suitable findings.",
+    "zh": "提出多个假设，并用适当的调查结果检验。"
+  },
+  "u1063": {
+    "en": "Document the cause, mechanism and failure effect.",
+    "zh": "记录原因、机理和失效影响。"
+  },
+  "u1064": {
+    "en": "Distinguish immediate correction from a lasting action with a mechanism of effect.",
+    "zh": "区分立即纠正与具备作用机理的持久措施。"
+  },
+  "u1065": {
+    "en": "Demonstrate reproduction, regression and field effectiveness.",
+    "zh": "提供复现、回归和现场有效性的证据。"
+  },
+  "u1066": {
+    "en": "Update models, requirements and evidence, and close the case with justification.",
+    "zh": "更新模型、要求和证据，并有依据地结案。"
+  },
+  "u1067": {
+    "en": "Explicitly state the parameterization of any growth model used.",
+    "zh": "明确说明所用增长模型的参数化方式。"
+  },
+  "u1068": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u1069": {
+    "en": "A WLAN problem disappears after a router restart. Which data and tests do you need before you can close the failure case as durably resolved?",
+    "zh": "路由器重启后，WLAN 问题消失了。在将故障案例作为已持久解决而结案之前，你需要哪些数据和检验？"
+  },
+  "u1070": {
+    "en": "20 Apply case studies and work templates",
+    "zh": "20 应用案例研究与工作模板"
+  },
+  "u1071": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u1072": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Original teaching cases with methodological links to the preceding chapters  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_B\">示意图 B  </a><a href=\"#figures/diagram_C\">示意图 C  </a>|  与前面章节的方法相联系的原创教学案例  |  <a href=\"#home\">目录</a>"
+  },
+  "u1073": {
+    "en": "Six failure paths through the same investigation workflow",
+    "zh": "沿同一调查流程分析六条故障路径"
+  },
+  "u1074": {
+    "en": "The following teaching cases are fictional. They show how the same task can lead to different analysis paths. Chapter numbers refer to this edition.",
+    "zh": "以下教学案例均为虚构。它们说明，同一任务可以引出不同的分析路径。章节编号指的是本版本。"
+  },
+  "u1075": {
+    "en": "<strong>Path</strong>",
+    "zh": "<strong>路径</strong>"
+  },
+  "u1076": {
+    "en": "<strong>Initial problem</strong>",
+    "zh": "<strong>初始问题</strong>"
+  },
+  "u1077": {
+    "en": "<strong>Suitable starting point</strong>",
+    "zh": "<strong>适当的切入点</strong>"
+  },
+  "u1078": {
+    "en": "<strong>T1 Readiness</strong>",
+    "zh": "<strong>T1 就绪状态</strong>"
+  },
+  "u1079": {
+    "en": "<strong>An old status triggers an inappropriate enable</strong>",
+    "zh": "<strong>旧状态触发不适当的许可</strong>"
+  },
+  "u1080": {
+    "en": "<strong>5 8 9 16</strong>",
+    "zh": "<strong>5 8 9 16</strong>"
+  },
+  "u1081": {
+    "en": "<strong>T2 Assignment</strong>",
+    "zh": "<strong>T2 归属</strong>"
+  },
+  "u1082": {
+    "en": "<strong>A mobile detector is assigned to the wrong job</strong>",
+    "zh": "<strong>移动探测器被关联到错误任务</strong>"
+  },
+  "u1083": {
+    "en": "<strong>3 5 8 16</strong>",
+    "zh": "<strong>3 5 8 16</strong>"
+  },
+  "u1084": {
+    "en": "<strong>T3 Archive</strong>",
+    "zh": "<strong>T3 归档</strong>"
+  },
+  "u1085": {
+    "en": "<strong>The archive connection is interrupted</strong>",
+    "zh": "<strong>归档连接中断</strong>"
+  },
+  "u1086": {
+    "en": "<strong>6 16 18</strong>",
+    "zh": "<strong>6 16 18</strong>"
+  },
+  "u1087": {
+    "en": "<strong>T4 Update</strong>",
+    "zh": "<strong>T4 更新</strong>"
+  },
+  "u1088": {
+    "en": "<strong>An external version changes timing behavior</strong>",
+    "zh": "<strong>外部版本改变时序行为</strong>"
+  },
+  "u1089": {
+    "en": "<strong>6 13 17</strong>",
+    "zh": "<strong>6 13 17</strong>"
+  },
+  "u1090": {
+    "en": "<strong>T5 Peak load</strong>",
+    "zh": "<strong>T5 峰值负载</strong>"
+  },
+  "u1091": {
+    "en": "<strong>An unfamiliar acquisition sequence raises the temperature</strong>",
+    "zh": "<strong>不熟悉的采集序列使温度上升</strong>"
+  },
+  "u1092": {
+    "en": "<strong>4 10 11 12 15</strong>",
+    "zh": "<strong>4 10 11 12 15</strong>"
+  },
+  "u1093": {
+    "en": "<strong>T6 Field trend</strong>",
+    "zh": "<strong>T6 现场趋势</strong>"
+  },
+  "u1094": {
+    "en": "<strong>Recurring events increase after a release</strong>",
+    "zh": "<strong>发布后重复事件增加</strong>"
+  },
+  "u1095": {
+    "en": "<strong>18 19</strong>",
+    "zh": "<strong>18 19</strong>"
+  },
+  "u1096": {
+    "en": "T1 guides the detailed case study in this chapter. In addition to interface FMEA, our control analysis considers when enable and feedback are permissible. The evidence reproduces the triggering sequence and checks whether the action reliably detects an outdated message.",
+    "zh": "T1 贯穿本章的详细案例研究。除接口 FMEA 外，我们还在控制分析中考虑何时允许许可和反馈。证据应复现触发顺序，并检查措施能否可靠地识别过时消息。"
+  },
+  "u1097": {
+    "en": "For T2, we first ask where assignment is created and when it becomes valid. Logs containing only a device identifier are insufficient: job, detector, state and time must be linked. The integration test also changes assignment during a pending operation. The success criterion includes the correct identity of the result, not just the existence of an image.",
+    "zh": "对于 T2，我们首先问归属关系在哪里建立，以及何时生效。仅包含设备标识的日志不够：必须关联任务、探测器、状态和时间。集成测试还应在操作未完成时改变归属关系。成功判据包括结果身份正确，而不只是存在一幅图像。"
+  },
+  "u1098": {
+    "en": "For T3, we investigate connection, acknowledgment and fallback level. Local buffering is used only if specified and supported by evidence for the application. The test interrupts the connection before and after an acknowledged handoff, then checks completeness, assignment and restart. In the field, we record the duration of impairment and affected operations separately.",
+    "zh": "对于 T3，我们调查连接、确认和后备层级。只有当本地缓冲针对该应用已有规定和充分保障时，才使用它。测试在已确认交接的前后分别中断连接，随后检查完整性、归属和恢复运行。在现场，我们分别记录受限时长和受影响的操作。"
+  },
+  "u1099": {
+    "en": "For T4, we first preserve the entire version combination. Then we compare the interface contract before and after the update. A deliberately delayed status can test time dependence. The release is supplemented for the affected combination; unaffected mechanical evidence remains usable provided the change does not influence its assumptions.",
+    "zh": "对于 T4，我们首先保存完整的版本组合，再比较更新前后的接口契约。刻意延迟状态消息可以检验时间依赖性。针对受影响的组合补充发布依据；只要变更不影响其假设，未受影响的机械证据仍可使用。"
+  },
+  "u1100": {
+    "en": "For T5, we compare the actual load sequence with the qualified profile. Temperature at the relevant location, power dissipation, cooling and pause times form the technical hypothesis. Supplier evidence shows which loads are already covered. Targeted integration measurements and, where needed, mechanism-appropriate life testing close the gap. This keeps physics and component evidence visible in the overall workflow.",
+    "zh": "对于 T5，我们将实际负载顺序与已鉴定的使用谱比较。相关位置的温度、耗散功率、冷却和暂停时间构成技术假设。供应商证据说明哪些负载已被覆盖。有针对性的集成测量，以及必要时符合机理的寿命试验，可弥补缺口。这样，物理机理和组件证据就能在整体流程中清晰体现。"
+  },
+  "u1101": {
+    "en": "For T6, we begin with event definition, cohort and denominator. An MCF can show repeated events; a suitable trend model supports assessment. We then distinguish technical hypotheses using reproducible tests. Only a connection between findings, action and robust effectiveness verification justifies the improvement decision.",
+    "zh": "对于 T6，我们从事件定义、队列和分母开始。MCF 可以展示重复事件，适当的趋势模型有助于评估。随后，通过可复现的测试区分技术假设。只有调查结果、措施和可靠的有效性验证之间建立联系，才能支持改进决策。"
+  },
+  "u1102": {
+    "en": "T1 A job must produce the right image",
+    "zh": "T1 一个任务必须产生正确图像"
+  },
+  "u1103": {
+    "en": "The following case study is entirely fictional. It connects the methods and is not a report about a customer failure or an actual product in use. Under high load, sporadic acquisition aborts occur. Replacing the detector initially appears to help, but the failure returns.",
+    "zh": "以下案例研究完全虚构。它将各种方法联系起来，并非关于客户故障或实际使用产品的报告。高负载下偶尔发生采集中止。更换探测器起初似乎有所帮助，但故障又再次出现。"
+  },
+  "u1104": {
+    "en": "A simple everyday analogy is collecting a pizza: the message “ready” applies only to a particular order. An old notification must not be used for the next order. When several orders are processed simultaneously, order, status and output need consistent assignment. In the X-ray system, this relationship is technical and safety-related, but the assignment problem is easy to understand through this analogy.",
+    "zh": "一个简单的日常类比是取披萨：“做好了”的消息只适用于某个具体订单。旧通知不能用于下一个订单。同时处理多个订单时，订单、状态和输出必须保持一致的归属关系。在 X 射线系统中，这种关联具有技术和安全意义，但用这个类比就能轻松理解归属问题。"
+  },
+  "u1105": {
+    "en": "Step 1 Define the event and boundary",
+    "zh": "步骤 1 规定事件和边界"
+  },
+  "u1106": {
+    "en": "We first define the system function: for a valid job, a correspondingly assigned, usable image is to be provided. An abort is documented with state, time and result. We distinguish a missing image, an image with impermissible quality, a protective interruption and a successful restart.",
+    "zh": "首先规定系统功能：对于有效任务，应提供归属正确且可用的图像。记录中止时的状态、时间和结果。我们区分图像缺失、质量不合要求的图像、保护性中断以及成功恢复运行。"
+  },
+  "u1107": {
+    "en": "The initial boundary encompasses the entire system. We then consider the detector and its communication separately. In this second view, system control, exposure coordination, power supply and cooling are part of its environment. Diagram B prevents us from attributing all causes to the replaceable detector.",
+    "zh": "初始边界包含整个系统。随后单独考察探测器及其通信。在第二种视角下，系统控制、曝光协调、供电和冷却属于探测器的环境。示意图 B 可防止我们把所有原因都归入可更换的探测器。"
+  },
+  "u1108": {
+    "en": "Step 2 Model usage and chains",
+    "zh": "步骤 2 对使用情况和链路建模"
+  },
+  "u1109": {
+    "en": "We record exposure sequence, pauses, communication, temperature, hardware revisions and software versions. The normal workflow contains job, configuration, readiness, enable, exposure and image provision. Every signal has a job reference, validity and expected state.",
+    "zh": "我们记录曝光序列、暂停、通信、温度、硬件和软件版本。正常流程包括任务、配置、就绪、许可、曝光和图像提供。每个信号都应具有任务关联、有效性和预期状态。"
+  },
+  "u1110": {
+    "en": "The usage profile contains both distributed individual acquisitions and a permissible sequence with high utilization. We check which loads can occur together. A higher temperature and a later message are not treated as independent without justification.",
+    "zh": "使用谱既包含分散的单次采集，也包含允许的高利用率序列。我们检查哪些负载可能同时出现。不能无依据地将较高温度和较晚消息视为独立。"
+  },
+  "u1111": {
+    "en": "Step 3 Connect hypotheses and failure analyses",
+    "zh": "步骤 3 将假设与失效分析相结合"
+  },
+  "u1112": {
+    "en": "We investigate four teaching hypotheses: temperature-dependent detector function, a power-supply dip, interrupted image transmission and outdated readiness. Interface FMEA traces local deviations to system effects. The fault tree connects alternative paths to the top event “no usable image.”",
+    "zh": "我们研究四个教学假设：与温度有关的探测器功能、供电跌落、图像传输中断以及过时的就绪状态。接口 FMEA 将局部偏差追踪到系统影响。故障树将备选路径连接到顶事件“无可用图像”。"
+  },
+  "u1113": {
+    "en": "<strong>Hypothesis</strong>",
+    "zh": "<strong>假设</strong>"
+  },
+  "u1114": {
+    "en": "<strong>Distinguishing finding</strong>",
+    "zh": "<strong>用于区分的调查结果</strong>"
+  },
+  "u1115": {
+    "en": "<strong>Targeted investigation</strong>",
+    "zh": "<strong>针对性调查</strong>"
+  },
+  "u1116": {
+    "en": "<strong>Temperature-dependent function</strong>",
+    "zh": "<strong>与温度有关的功能</strong>"
+  },
+  "u1117": {
+    "en": "<strong>Failure follows local temperature</strong>",
+    "zh": "<strong>故障随局部温度变化</strong>"
+  },
+  "u1118": {
+    "en": "<strong>Vary load and cooling in a controlled manner</strong>",
+    "zh": "<strong>受控地改变负载和冷却</strong>"
+  },
+  "u1119": {
+    "en": "<strong>Power-supply dip</strong>",
+    "zh": "<strong>供电跌落</strong>"
+  },
+  "u1120": {
+    "en": "<strong>Electrical dip at the corresponding time</strong>",
+    "zh": "<strong>时间上相对应的电气跌落</strong>"
+  },
+  "u1121": {
+    "en": "<strong>Measure the relevant supply during the workflow</strong>",
+    "zh": "<strong>在流程中测量相关供电</strong>"
+  },
+  "u1122": {
+    "en": "<strong>Transmission failure</strong>",
+    "zh": "<strong>传输故障</strong>"
+  },
+  "u1123": {
+    "en": "<strong>Data or identifiers are missing</strong>",
+    "zh": "<strong>数据或标识缺失</strong>"
+  },
+  "u1124": {
+    "en": "<strong>Deliberately interrupt transmission and observe</strong>",
+    "zh": "<strong>有针对性地中断传输并观察</strong>"
+  },
+  "u1125": {
+    "en": "<strong>Outdated status</strong>",
+    "zh": "<strong>过时状态</strong>"
+  },
+  "u1126": {
+    "en": "<strong>Status does not belong to the current state</strong>",
+    "zh": "<strong>状态消息不属于当前状态</strong>"
+  },
+  "u1127": {
+    "en": "<strong>Inject old and delayed messages in a controlled manner</strong>",
+    "zh": "<strong>受控地注入旧消息和延迟消息</strong>"
+  },
+  "u1128": {
+    "en": "Step 4 Reconcile supplier evidence",
+    "zh": "步骤 4 核对供应商证据"
+  },
+  "u1129": {
+    "en": "The supplier has qualified its defined design and load. We check the actual revision, temperature profile, observed functions and boundary conditions. If the evidence fits, we adopt it. If a relevant gap remains, we define a supplement. We do not routinely repeat every climatic and mechanical test merely because an abort occurs in the system.",
+    "zh": "供应商已对其规定的设计和负载完成鉴定。我们检查实际版本、温度谱、观察的功能和边界条件。如果证据适用，就予以沿用。如果仍有相关缺口，就规定补充工作。不能仅因系统发生中止，就一概重复所有气候和机械试验。"
+  },
+  "u1130": {
+    "en": "In this teaching case, normal component behavior is initially within the evidenced conditions. This finding alone nevertheless does not exclude every component-related cause. We record each hypothesis as confirmed, refuted or still open, and continue targeted investigation.",
+    "zh": "在这个教学案例中，组件的正常行为最初处于证据所支持的条件内。但仅凭这一结果仍不能排除所有组件原因。我们逐一记录各假设是已确认、已否定还是仍未确定，并继续有针对性地调查。"
+  },
+  "u1131": {
+    "en": "Step 5 Perform a distinguishing test",
+    "zh": "步骤 5 进行可区分假设的测试"
+  },
+  "u1132": {
+    "en": "Under controlled conditions, we generate a delayed readiness message from a previous job. At the same time, we check the detector state and system control decisions using consistent timestamps. The teaching case reveals that the receiver uses the stored value without sufficient reference to the current job and validity.",
+    "zh": "在受控条件下，我们产生来自前一任务的延迟就绪消息。同时，使用一致的时间戳检查探测器状态和系统控制的决策。教学案例显示：接收方使用存储值时，缺少充分的当前任务和有效性关联。"
+  },
+  "u1133": {
+    "en": "The cause therefore lies in integration or the interface contract. Replacing the component may simply have restarted the workflow and thus helped briefly. An additional lengthy mechanical test would not have addressed this failure path.",
+    "zh": "因此，原因在于集成或接口契约。更换组件可能只是重新启动了流程，所以短暂奏效。额外进行长时间机械试验，也无法处理这条故障路径。"
+  },
+  "u1134": {
+    "en": "Step 6 Derive requirements and actions",
+    "zh": "步骤 6 推导要求和措施"
+  },
+  "u1135": {
+    "en": "An updated requirement describes how status message, job identifier, validity and enable relate to one another. Sender and receiver receive an agreed contract. The specific technical solution is designed and tested in the product process; the teaching case does not prescribe a universal protection algorithm.",
+    "zh": "更新后的要求描述状态消息、任务标识、有效性和许可如何相互关联。发送方和接收方采用协调一致的契约。具体技术方案在产品流程中设计和检验；本教学案例不规定通用保护算法。"
+  },
+  "u1136": {
+    "en": "<strong>Model reference</strong>",
+    "zh": "<strong>模型关联</strong>"
+  },
+  "u1137": {
+    "en": "<strong>Evidence question</strong>",
+    "zh": "<strong>证据问题</strong>"
+  },
+  "u1138": {
+    "en": "<strong>Evidence in the teaching case</strong>",
+    "zh": "<strong>教学案例中的证据</strong>"
+  },
+  "u1139": {
+    "en": "<strong>Function: provide image</strong>",
+    "zh": "<strong>功能：提供图像</strong>"
+  },
+  "u1140": {
+    "en": "<strong>Do job and output remain consistent</strong>",
+    "zh": "<strong>任务和输出是否保持一致</strong>"
+  },
+  "u1141": {
+    "en": "<strong>End-to-end acquisition workflow</strong>",
+    "zh": "<strong>贯通的采集流程</strong>"
+  },
+  "u1142": {
+    "en": "<strong>Interface: readiness</strong>",
+    "zh": "<strong>接口：就绪状态</strong>"
+  },
+  "u1143": {
+    "en": "<strong>Is outdated information detected</strong>",
+    "zh": "<strong>是否识别过时信息</strong>"
+  },
+  "u1144": {
+    "en": "<strong>Integration test with old identifiers</strong>",
+    "zh": "<strong>使用旧标识的集成测试</strong>"
+  },
+  "u1145": {
+    "en": "<strong>State: restart</strong>",
+    "zh": "<strong>状态：恢复运行</strong>"
+  },
+  "u1146": {
+    "en": "<strong>Are earlier jobs handled correctly</strong>",
+    "zh": "<strong>是否正确处理先前任务</strong>"
+  },
+  "u1147": {
+    "en": "<strong>Recovery sequences at several points</strong>",
+    "zh": "<strong>在多个位置进行恢复序列测试</strong>"
+  },
+  "u1148": {
+    "en": "<strong>Profile: high load</strong>",
+    "zh": "<strong>使用谱：高负载</strong>"
+  },
+  "u1149": {
+    "en": "<strong>Does assignment work under relevant load</strong>",
+    "zh": "<strong>归属关系在相关负载下是否有效</strong>"
+  },
+  "u1150": {
+    "en": "<strong>Stress and timing variations</strong>",
+    "zh": "<strong>应力和时序变化</strong>"
+  },
+  "u1151": {
+    "en": "Step 7 Regression and release",
+    "zh": "步骤 7 回归与发布"
+  },
+  "u1152": {
+    "en": "We repeat the triggering case and test adjacent sequences: normal operation, startup, restart, duplicate message, connection loss and relevant variants. Virtual tests extend sequence coverage; real tests investigate physically relevant effects. The evidence matrix identifies the tested configuration and remaining limits.",
+    "zh": "我们重复触发故障的案例，并检验相邻序列：正常运行、启动、恢复运行、重复消息、连接丢失以及相关变型。虚拟测试扩展序列覆盖率；实物试验研究物理上相关的影响。证据矩阵列明已测试的配置和剩余限制。"
+  },
+  "u1153": {
+    "en": "Release is not based solely on the disappearance of the abort. We also check whether the action creates any false inhibitions, impermissible waiting times or new inconsistencies. In Diagram A, the work then proceeds to field analysis.",
+    "zh": "发布依据不只是中止现象已经消失。我们还检查措施是否产生误阻止、不允许的等待时间或新的不一致。在示意图 A 中，这项工作随后进入现场分析。"
+  },
+  "u1154": {
+    "en": "Step 8 Effectiveness and learning",
+    "zh": "步骤 8 有效性与学习"
+  },
+  "u1155": {
+    "en": "We observe comparable versions and usage groups. Logs distinguish the old failure path from other acquisition aborts. A decrease in total replacements without appropriate event data would not be sufficient evidence of effectiveness. New findings prompt reassessment of the causal hypothesis.",
+    "zh": "我们观察可比较的版本和使用组。日志区分旧故障路径与其他采集中止。没有相应事件数据，仅总更换量下降不足以证明有效性。出现新调查结果时，应重新评估原因假设。"
+  },
+  "u1156": {
+    "en": "The closed case updates FMEA, interface model, requirements and test cases. Diagram C shows the path: a field failure leads to K18 and K19, and its cause leads further to K8 and K16. New evidence questions may add K11 or K15. One case often needs several paths.",
+    "zh": "结案后，更新 FMEA、接口模型、要求和测试用例。示意图 C 展示这一路径：现场故障引向 K18 和 K19，其原因进一步引向 K8 和 K16。新的证据问题可能需要加入 K11 或 K15。一个案例往往需要多条路径。"
+  },
+  "u1157": {
+    "en": "Further short teaching cases",
+    "zh": "其他简短教学案例"
+  },
+  "u1158": {
+    "en": "A tube problem occurs only under a particular load sequence. We begin with the usage profile and physical mechanism, check supplier evidence and plan appropriate quantitative assurance if needed. A standard functional test alone is insufficient for a wear-related statement.",
+    "zh": "射线管问题只在特定负载顺序下发生。我们从使用谱和物理机理入手，检查供应商证据，并在必要时规划适当的定量保障。仅进行标准功能测试，不足以支持有关磨损的结论。"
+  },
+  "u1159": {
+    "en": "A bracket develops play after many movements. The load path, joint and cyclic profile are checked. Static FEM evidence does not answer the fatigue question.",
+    "zh": "支架在多次运动后出现松旷。应检查载荷路径、连接和循环谱。静态 FEM 证据不能回答疲劳问题。"
+  },
+  "u1160": {
+    "en": "A software function requires increasing memory after long operation. We use long-duration testing and resource monitoring, check restart and the operational profile, and feed the findings back into architecture and regression. Replacing the electronics without supporting findings would not be a lasting solution.",
+    "zh": "软件功能长时间运行后，所需内存不断增加。我们采用长时间运行测试和资源监测，检查恢复运行与运行谱，并将调查结果反馈到架构和回归测试。没有相应调查依据就更换电子硬件，不能构成持久解决方案。"
+  },
+  "u1161": {
+    "en": "Our approach",
+    "zh": "实施步骤"
+  },
+  "u1162": {
+    "en": "Choose the appropriate failure path T1 to T6 as the starting point and follow it through to evidence of effectiveness.",
+    "zh": "选择适当的故障路径 T1 至 T6 作为切入点，并沿路径追踪直至获得有效性证据。"
+  },
+  "u1163": {
+    "en": "Record the assessment boundary, usage and hypotheses.",
+    "zh": "记录评估边界、使用情况和假设。"
+  },
+  "u1164": {
+    "en": "Select evidence and compare results with requirements.",
+    "zh": "选择证据，并将结果与要求比较。"
+  },
+  "u1165": {
+    "en": "Check actions and feed findings back into models and field monitoring.",
+    "zh": "检查措施，并将发现反馈到模型和现场监测。"
+  },
+  "u1166": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u1167": {
+    "en": "Choose a familiar everyday failure, such as no hot water or an intermittent headphone. Work through it using a system fact sheet, three hypotheses, suitable evidence and an effectiveness check. Then use the same steps for a technical X-ray function.",
+    "zh": "选择一个熟悉的日常故障，例如没有热水或耳机时断时续。使用系统概况表、三个假设、适当证据和有效性检查来分析它。随后，将相同步骤用于某项 X 射线技术功能。"
+  },
+  "u1168": {
+    "en": "Appendix A Sample answers",
+    "zh": "附录 A 参考答案"
+  },
+  "u1169": {
+    "en": "Chapters 1 to 5",
+    "zh": "第 1 至 5 章"
+  },
+  "u1170": {
+    "en": "For Chapter 1: For a continuous connection, every unplanned restart is a possible functional failure, even if the router quickly becomes available again. An automatic restart can demonstrate good recoverability, but mission reliability remains separate. Planned interruptions are defined beforehand.",
+    "zh": "第 1 章：对于连续连接，每次非计划重启都可能构成功能失效，即使路由器很快重新可用。自动重启可以显示良好的可恢复性，但任务可靠性仍是另一回事。计划中断应事先定义。"
+  },
+  "u1171": {
+    "en": "For Chapter 2: The manufacturer provides evidence for the washing machine's function and specified installation conditions. The installation assessment checks whether space, supporting surface, mounting and ventilation match these. Justified integration evidence may be needed without repeating the entire device qualification.",
+    "zh": "第 2 章：制造商为洗衣机功能及其规定的安装条件提供证据。安装评估检查空间、支承面、固定方式和通风是否与之匹配。可能需要有依据的集成证据，但不必重复整个设备鉴定。"
+  },
+  "u1172": {
+    "en": "For Chapter 3: For the refrigerator as a whole, power supply, room and user are external. For the compressor, control, refrigeration circuit, mounting and parts of the appliance are additionally included in the environment. Heat and energy flows remain relevant at both boundaries.",
+    "zh": "第 3 章：对于整个冰箱，供电、房间和用户位于外部。对于压缩机，控制、制冷回路、固定结构和设备的部分部件也属于环境。热流和能量流在两种边界上都仍然相关。"
+  },
+  "u1173": {
+    "en": "For the advanced exercise in Chapter 3: Moving between rooms alone is insufficient. For an independent system, in particular an operational purpose of its own and independent management would need to be justified. In the described product, the detector remains a subsystem. When it is moved, we check assignment, configuration and state.",
+    "zh": "第 3 章深化练习：仅仅更换房间还不够。要成为独立系统，尤其需要论证自身的运行目的和独立管理。在所述产品中，探测器仍是子系统。转移时，我们检查归属、配置和状态。"
+  },
+  "u1174": {
+    "en": "For Chapter 4: Required information includes operating force, key and lock design, humidity, temperature, maintenance, contamination and permissible wear. Ten calendar years with ten versus one hundred operations a day produce different cycle counts. They may nevertheless contain common calendar-time-dependent mechanisms.",
+    "zh": "第 4 章：所需信息包括操作力、钥匙和锁的设计、湿度、温度、维护、污染和允许的磨损。十个日历年内，每天操作十次和一百次会产生不同的循环次数，但仍可能包含相同的、与日历时间有关的机理。"
+  },
+  "u1175": {
+    "en": "For Chapter 5: Providing power, negotiating communication, regulating charging current and storing energy in the battery are subfunctions. Mechanical connection, data and energy are different flows. A connected cable may be unsuitable, damaged or insufficiently capable.",
+    "zh": "第 5 章：提供电源、协商通信、调节充电电流和在电池中储存能量都是子功能。机械连接、数据和能量是不同的流。已连接的电缆仍可能不适合、已损坏或性能不足。"
+  },
+  "u1176": {
+    "en": "Chapters 6 to 10",
+    "zh": "第 6 至 10 章"
+  },
+  "u1177": {
+    "en": "For Chapter 6: A second repeater can cover certain local failures or coverage problems. A shared router, electrical circuit, configuration and radio interference remain possible common causes. Use of the alternative path must also work.",
+    "zh": "第 6 章：第二个中继器可以应对某些局部故障或覆盖问题。共享路由器、电路、配置和无线电干扰仍是可能的共同原因。替代路径的使用也必须有效。"
+  },
+  "u1178": {
+    "en": "For the advanced exercise in Chapter 6: Open means untested. The combination is therefore not released. We assess the effect of the change and perform a targeted compatibility demonstration. Limited use under conditions requires an explicitly justified and permissible decision in the product process; additional field observation alone does not replace release. An archive upgrade does not imply requalification of all components.",
+    "zh": "第 6 章深化练习：“未确定”意味着未经检验，因此该组合尚未获准发布。我们检查变更影响，并提供有针对性的兼容性证据。附条件的有限使用，需要产品流程中明确论证且允许的决策；额外的现场观察本身不能替代发布批准。不能从归档升级推导出必须重新鉴定所有组件。"
+  },
+  "u1179": {
+    "en": "For Chapter 7: Runtime per charge is specified for a defined power profile. Cycle life and calendar age describe capacity or function under different stresses. A population target adds the number of suitable units and the demonstration level. Targets are derived from the application, rather than adopted from the exercise.",
+    "zh": "第 7 章：每次充电后的运行时间应针对规定的功率谱确定。循环寿命和日历年龄分别描述不同应力下的容量或功能。总体目标还应补充适用个体数量和证据水平。目标值来自应用，而不是照搬练习。"
+  },
+  "u1180": {
+    "en": "For Chapter 8: The function is to indicate a button press acoustically within a defined time. The failure mode is delayed output. Causes may be delayed radio transmission or an incorrect software state. The visitor receives no timely feedback; “doorbell defective” identifies neither the deviation nor its timing.",
+    "zh": "第 8 章：功能是在规定时间内以声音提示按键动作。失效模式是输出延迟。原因可能是无线传输延迟或软件状态错误。来访者未得到及时反馈；“门铃坏了”既没有指出偏差，也没有说明时间关系。"
+  },
+  "u1181": {
+    "en": "For Chapter 9: Damp storage can damage both lamps or contacts together. Independent batteries do not eliminate this common cause. Origin and storage must be included in the redundancy assessment.",
+    "zh": "第 9 章：潮湿存储可能同时损坏两盏灯或其触点。独立电池不能消除这一共同原因。来源和存储条件必须纳入冗余评估。"
+  },
+  "u1182": {
+    "en": "For the advanced exercise in Chapter 9: The split gives 20 FIT for the common portion and 180 FIT for the independent portion. This is not yet the redundant system's failure probability. Only events whose independence is justified may enter a parallel calculation; common causes are additionally accounted for in the architecture model.",
+    "zh": "第 9 章深化练习：划分后，共同部分为 20 FIT，独立部分为 180 FIT。这还不是冗余系统的失效概率。只有经论证独立的事件才能用于并联计算；架构模型中还应额外考虑共同原因。"
+  },
+  "u1183": {
+    "en": "For Chapter 10: Aging, corrosion and joint play can change load-bearing capability. Relevant combinations of condition, wind load, use and previous storage must be checked. A limit test on a new specimen alone does not establish a margin for the aged condition.",
+    "zh": "第 10 章：老化、腐蚀和铰接处松旷可能改变承载能力。应检查状态、风载荷、使用情况和先前存储条件的相关组合。仅对新样品进行极限试验，不能为老化状态的裕量提供依据。"
+  },
+  "u1184": {
+    "en": "Chapters 11 to 15",
+    "zh": "第 11 至 15 章"
+  },
+  "u1185": {
+    "en": "For Chapter 11: First compare the actual temperature and installation range with the manufacturer's limits. Then check which design and function the existing evidence covers. A targeted thermal supplement may be useful; repeating a rain test does not close a thermal gap without a corresponding temperature assessment.",
+    "zh": "第 11 章：首先将实际温度和安装范围与制造商限值比较，然后检查既有证据覆盖哪些设计和功能。针对性的热性能补充可能有帮助；没有相应温度评估，重复淋雨试验不能弥补热性能缺口。"
+  },
+  "u1186": {
+    "en": "For Chapter 12: The final test shows that the measured function was present afterwards. Unobserved interruptions during vibration remain unresolved. The evidence needs suitable observation during stressing if such failures are relevant.",
+    "zh": "第 12 章：最终检验表明，所测功能在试验后仍然存在。振动期间未经观察的中断仍未确定。如果此类故障相关，就需要在施加应力过程中进行适当观察来提供证据。"
+  },
+  "u1187": {
+    "en": "For Chapter 13: Other files, boundary sizes, corrupted contents, connection loss, concurrent use, interruption and restart are possible additional cases. Function, profile and failure analysis determine which are needed. Arbitrarily many random files without a test oracle are also insufficient.",
+    "zh": "第 13 章：其他文件、极限大小、损坏内容、连接丢失、并行使用、中断和恢复运行，都可能是额外用例。所需用例由功能、使用谱和失效分析决定。没有测试判定依据，再多的随机文件也不够。"
+  },
+  "u1188": {
+    "en": "For Chapter 14: The eight devices still functioning contain survival information. Averaging only the two failures ignores this information and describes a different, selected group. A censoring-aware method and appropriate model assumptions are required.",
+    "zh": "第 14 章：仍正常工作的八台设备包含生存信息。如果只对两次失效取平均，就忽略了这些信息，并描述了另一个经过选择的组。需要正确处理删失的方法和适当模型假设。"
+  },
+  "u1189": {
+    "en": "For Chapter 15: Five successes up to target usage do not permit a binomial zero-failure demonstration of 99 percent reliability at a 95 percent confidence level. Consider a larger sample, an adjusted requirement, suitable additional evidence or a justified alternative model. Under a justified Weibull model with a known shape parameter, longer testing can provide a different evidence basis. With β equal to 2, five specimens need approximately 7.72 times the target usage. The model assumption and its uncertainty are decisive. Higher stress without validated extrapolation does not resolve the deficiency.",
+    "zh": "第 15 章：五个样品成功达到目标使用量，不能在 95% 置信水平下，以二项分布零失效方法证明 99% 的可靠性。应考虑增大样本、调整要求、补充适当证据，或采用有依据的其他模型。在形状参数已知且有依据的威布尔模型下，延长试验可提供另一种证据基础。当 β 等于 2 时，五个样品需要达到约 7.72 倍的目标使用量。模型假设及其不确定性至关重要。未经确认的加速外推，仅提高应力不能解决这一不足。"
+  }
+}

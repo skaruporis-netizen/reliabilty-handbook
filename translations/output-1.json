@@ -1,0 +1,1342 @@
+{
+  "u0000": {
+    "en": "1 Understanding quality and reliability",
+    "zh": "1 理解质量与可靠性"
+  },
+  "u0001": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0002": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a>|  Foundations <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N01\">[N01]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a>|  基础 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N01\">[N01]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0003": {
+    "en": "A function can work well today and fail tomorrow",
+    "zh": "今天功能良好，明天也可能失效"
+  },
+  "u0004": {
+    "en": "A new electric kettle heats water quickly, is easy to use and does not leak. It therefore meets important quality requirements. If its switch stops working after a few weeks, it lacks reliability over its intended use. Conversely, a long-lasting kettle may be poorly designed: it lasts for years, but its handle becomes unpleasantly hot. Long service life alone does not make it a good product.",
+    "zh": "新电水壶加热快、操作方便且不漏水，因此满足了重要的质量要求。如果几周后开关不再工作，它在预定使用期内就缺乏可靠性。反过来，耐用的电水壶也可能设计不佳：它使用多年仍未损坏，但手柄却烫得令人不适。仅有较长寿命并不能使它成为好产品。"
+  },
+  "u0005": {
+    "en": "Quality describes the extent to which a product meets its requirements and relevant needs. Reliability describes its ability to perform a specified function under specified conditions for a specified duration or amount of use. It is therefore an aspect of quality, but not quality as a whole. We always ask: Which function, under which conditions, over what use, and with what permissible deviation?",
+    "zh": "质量描述产品满足其要求和相关需求的程度。可靠性描述产品在规定条件下，在规定持续时间或使用量内完成规定功能的能力。因此，可靠性是质量的一项特性，而不是质量的全部。我们始终要问：什么功能、什么条件、多少使用量，以及允许多大偏差？"
+  },
+  "u0006": {
+    "en": "For technical products, we use the German term Zuverlässigkeit here to mean reliability. Outside engineering, the term Reliabilität is also used for the consistency of measurement methods. A clearly agreed glossary prevents colleagues from using the same word to mean different things.",
+    "zh": "对于技术产品，本书用德语词 Zuverlässigkeit 表示 Reliability，即可靠性。在技术领域之外，Reliabilität 也用于描述测量方法的信度。明确约定的术语表可以避免同事用同一个词表达不同含义。"
+  },
+  "u0007": {
+    "en": "How hardware and software interact",
+    "zh": "硬件与软件如何相互作用"
+  },
+  "u0008": {
+    "en": "Hardware can fail through wear, corrosion, material fatigue or other physical mechanisms. Manufacturing deviations may also become apparent only later. Software does not wear out like a solder joint. However, an existing programming defect may be activated by a rare input, a particular state or an unfavorable sequence of events. Resources can be exhausted during operation, for example by a memory leak.",
+    "zh": "硬件可能因磨损、腐蚀、材料疲劳或其他物理机制而失效。制造偏差也可能到后来才显现。软件不会像焊点一样磨损，但已有的程序缺陷可能被罕见输入、特定状态或不利的事件顺序触发。运行期间也可能耗尽资源，例如内存泄漏导致资源耗尽。"
+  },
+  "u0009": {
+    "en": "Their interaction forms a third level of analysis. Two elements that are suitable individually can lose a function when used together. A working kettle connected to an unsuitable power strip illustrates this: the switch and heater need not be defective if the supply shuts off under load. Similarly, a qualified detector paired with a qualified generator can cause an acquisition to abort if their ready and enable signals do not align in time.",
+    "zh": "二者的相互作用构成第三个分析层面。两个单独使用都合适的元素，组合后可能丧失功能。正常工作的电水壶接到不合适的插线板上就是例子：如果供电在负载下切断，开关和加热器并不一定有缺陷。同样，通过鉴定的探测器与通过鉴定的发生器配合使用时，如果就绪信号与允许信号在时间上不匹配，也可能造成采集中止。"
+  },
+  "u0010": {
+    "en": "A failure is therefore defined in terms of a function, not just a damaged component. A missing image, an unacceptable loss of image quality or a required repeat can also be a functional failure. Which events are counted must be established before the assessment. A planned maintenance interruption must be treated differently from an unplanned acquisition abort.",
+    "zh": "因此，失效应按功能定义，而不只是按损坏的零部件定义。图像缺失、不可接受的图像质量下降或必须重拍，也可能属于功能失效。评估前必须确定统计哪些事件。计划维护中断与非计划采集中止应区别处理。"
+  },
+  "u0011": {
+    "en": "Putting related terms in context",
+    "zh": "正确理解相关术语"
+  },
+  "u0012": {
+    "en": "<strong>Term</strong>",
+    "zh": "<strong>术语</strong>"
+  },
+  "u0013": {
+    "en": "<strong>Guiding question</strong>",
+    "zh": "<strong>引导问题</strong>"
+  },
+  "u0014": {
+    "en": "<strong>Everyday example</strong>",
+    "zh": "<strong>日常例子</strong>"
+  },
+  "u0015": {
+    "en": "<strong>Quality</strong>",
+    "zh": "<strong>质量</strong>"
+  },
+  "u0016": {
+    "en": "<strong>Does the product meet the relevant requirements</strong>",
+    "zh": "<strong>产品是否满足相关要求</strong>"
+  },
+  "u0017": {
+    "en": "<strong>A bicycle fits the user, is safe to operate and is well made</strong>",
+    "zh": "<strong>自行车尺寸合适、操作安全且制造精良</strong>"
+  },
+  "u0018": {
+    "en": "<strong>Reliability</strong>",
+    "zh": "<strong>可靠性</strong>"
+  },
+  "u0019": {
+    "en": "<strong>Is the defined function maintained throughout use</strong>",
+    "zh": "<strong>规定功能是否在使用过程中得以保持</strong>"
+  },
+  "u0020": {
+    "en": "<strong>The gear shifting works over the agreed distance</strong>",
+    "zh": "<strong>变速机构在约定里程内正常工作</strong>"
+  },
+  "u0021": {
+    "en": "<strong>Availability</strong>",
+    "zh": "<strong>可用性</strong>"
+  },
+  "u0022": {
+    "en": "<strong>Is the function usable at the time being considered</strong>",
+    "zh": "<strong>在所考察的时刻功能是否可用</strong>"
+  },
+  "u0023": {
+    "en": "<strong>After a repair, the bicycle is ready for use again</strong>",
+    "zh": "<strong>维修后自行车再次可用</strong>"
+  },
+  "u0024": {
+    "en": "<strong>Maintainability</strong>",
+    "zh": "<strong>维修性</strong>"
+  },
+  "u0025": {
+    "en": "<strong>How easily can the function be restored</strong>",
+    "zh": "<strong>恢复功能有多容易</strong>"
+  },
+  "u0026": {
+    "en": "<strong>An inner tube can be replaced without special tools</strong>",
+    "zh": "<strong>无需专用工具即可更换内胎</strong>"
+  },
+  "u0027": {
+    "en": "<strong>Robustness</strong>",
+    "zh": "<strong>鲁棒性</strong>"
+  },
+  "u0028": {
+    "en": "<strong>How insensitive is the function to deviations</strong>",
+    "zh": "<strong>功能对偏差的敏感程度有多低</strong>"
+  },
+  "u0029": {
+    "en": "<strong>The gear shifting tolerates dirt and small adjustment errors</strong>",
+    "zh": "<strong>变速机构能容忍污物和轻微调整误差</strong>"
+  },
+  "u0030": {
+    "en": "<strong>Safety</strong>",
+    "zh": "<strong>安全性</strong>"
+  },
+  "u0031": {
+    "en": "<strong>Are unacceptable risks avoided</strong>",
+    "zh": "<strong>是否避免了不可接受的风险</strong>"
+  },
+  "u0032": {
+    "en": "<strong>The brake prevents a dangerous loss of control</strong>",
+    "zh": "<strong>制动器防止危险的失控</strong>"
+  },
+  "u0033": {
+    "en": "A system can shut down safely and thereby lose its useful function. The shutdown may provide appropriate protection even though it reduces availability. Conversely, a system can run for a long time and still have a safety problem. Dependability is an overarching term that brings together reliability, availability and maintainability, among other attributes. Security addresses protection against relevant intentional or unauthorized influences; it can affect reliability and safety.",
+    "zh": "系统可以安全停机，却因此丧失其使用功能。虽然停机会降低可用性，但仍可能是正确的保护措施。反过来，系统可能运行很久，却仍存在安全问题。Dependability（可信性）是一个上位概念，综合了可靠性、可用性和维修性等属性。Security（安保性）关注对相关蓄意或未经授权影响的防护；它可能影响可靠性和安全性。"
+  },
+  "u0034": {
+    "en": "Application to an X-ray system",
+    "zh": "应用于X射线系统"
+  },
+  "u0035": {
+    "en": "We distinguish the clinical task, the technical function and the elements required. The task may be to provide an image suitable for diagnosis. This requires, for example, positioning, exposure, detection, image processing and data delivery. Whether a missing pixel constitutes a system failure depends on its effect relative to the specified performance requirement. A restart may interrupt the workflow and must be assessed against that workflow's requirements.",
+    "zh": "我们区分临床任务、技术功能和所需元素。任务可能是提供可用于诊断的图像。为此，例如需要定位、曝光、探测、图像处理和数据提供。缺失一个像素是否构成系统失效，取决于其相对于规定性能要求的影响。重启可能中断工作流程，必须依据该流程的要求进行评估。"
+  },
+  "u0036": {
+    "en": "From a working part to a successful examination",
+    "zh": "从部件正常工作到检查成功完成"
+  },
+  "u0037": {
+    "en": "An examination succeeds only when the required performance is achieved throughout the entire agreed process. We can therefore ask three questions: Does the component maintain its function? Does the integrated device deliver the image? And does the image reach the correct clinical workflow? These levels complement one another. The system profile states which level is assessed. Chapter 3 and Diagram D show how we distinguish the product boundary from the process boundary.",
+    "zh": "只有在整个约定流程中实现所需性能，检查才算成功。因此，我们可以提出三个问题：组件能否持续完成其功能？集成设备能否提供图像？图像能否进入正确的临床工作流程？这些层面相互补充。系统概况说明评估哪个层面。第3章和示意图D说明如何区分产品边界与流程边界。"
+  },
+  "u0038": {
+    "en": "A reliable image archive can store a correct image while the overall task fails because of an incorrect order assignment. In a device test, the endpoint may already be the correctly delivered image file. In an assessment of the clinical process, confirmed archiving may also be required. We explicitly define the endpoint before counting successes.",
+    "zh": "可靠的图像归档系统可以存储正确的图像，但总体任务仍可能因错误的医嘱关联而失败。在设备测试中，终点可以是正确提供图像文件。在临床流程评估中，还可能要求确认归档。统计成功次数之前，我们明确规定终点。"
+  },
+  "u0039": {
+    "en": "Here, resilience means the ability to handle a disturbance and maintain or restore the agreed performance. Approved local buffering can, for example, bridge an interrupted archive connection. Whether it is sufficient for a particular process depends on identity assurance, capacity, restart behavior and the permissible time window.",
+    "zh": "本书中，韧性指应对扰动并维持或恢复约定性能的能力。例如，经批准的本地缓冲可以渡过归档连接中断。它是否足以满足特定流程，取决于身份确认、容量、恢复运行方式和允许的时间窗口。"
+  },
+  "u0040": {
+    "en": "How we proceed",
+    "zh": "工作步骤"
+  },
+  "u0041": {
+    "en": "Record the function to be assessed and its performance range in one sentence.",
+    "zh": "用一句话记录要评估的功能及其性能范围。"
+  },
+  "u0042": {
+    "en": "Define the start, end and unit of use, such as an acquisition, operating hour or life cycle.",
+    "zh": "定义使用的起点、终点和单位，例如一次采集、一个运行小时或一个生命周期。"
+  },
+  "u0043": {
+    "en": "Define failure, degradation, restoration and planned interruption separately.",
+    "zh": "分别定义失效、退化、恢复和计划中断。"
+  },
+  "u0044": {
+    "en": "Keep hardware defects, software defects and integration defects open as possible causes.",
+    "zh": "将硬件缺陷、软件缺陷和集成缺陷都保留为可能原因。"
+  },
+  "u0045": {
+    "en": "Check the terminology against real events together with development, quality and service teams.",
+    "zh": "与开发、质量和服务团队一起，用真实事件检验术语。"
+  },
+  "u0046": {
+    "en": "Define the assessment endpoint: component, device or examination process.",
+    "zh": "确定评估终点：组件、设备或检查流程。"
+  },
+  "u0047": {
+    "en": "The result is a glossary of functions and events. The most common reasoning error is to equate a functional test passed on the first day with evidence of service life. Another is to count only replacement parts and overlook functional losses that do not involve replacement.",
+    "zh": "成果是一份功能与事件术语表。最常见的思维错误是把第一天通过功能测试等同于寿命证明。另一个错误是只统计更换件，忽视无需更换部件的功能丧失。"
+  },
+  "u0048": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0049": {
+    "en": "A router briefly fails every week and restarts itself after one minute. Is it reliable, available and easy to restore? First formulate the required function. A model answer is provided in Appendix A.",
+    "zh": "路由器每周短暂失效一次，一分钟后自动重启。它是否可靠、可用且容易恢复？先表述所需功能。参考答案见附录A。"
+  },
+  "u0050": {
+    "en": "2 Defining the life cycle and responsibilities",
+    "zh": "2 确定生命周期与职责"
+  },
+  "u0051": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0052": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a>|  Foundations <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a>|  基础 <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0053": {
+    "en": "A good component needs a suitable application",
+    "zh": "优良部件需要适当应用"
+  },
+  "u0054": {
+    "en": "Someone buying a kitchen expects the refrigerator manufacturer to supply a functioning appliance. The kitchen planner must nevertheless ensure that the installation recess provides enough space and the necessary ventilation. If the refrigerator overheats in a cabinet that is too tight and poorly ventilated, pointing to the appliance manufacturer alone will not solve the problem.",
+    "zh": "购买厨房设备的人期望冰箱制造商提供能正常工作的设备。但厨房设计人员仍必须确保安装空间足够且具有必要通风。如果冰箱在过窄、通风不良的柜内过热，仅指向设备制造商并不能解决问题。"
+  },
+  "u0055": {
+    "en": "Likewise, we distinguish assurance of a supplied component from its correct application in the system. The supplier provides the agreed function, quality and evidence. We describe the actual application, assess whether the evidence is suitable and take responsibility for our system integration. A division of roles does not replace technical checks of their handovers. Specific responsibilities are agreed within the project; this handbook does not prescribe a binding organizational structure.",
+    "zh": "同样，我们区分外购组件的保障与它在系统中的正确应用。供应商提供约定的功能、质量和证据。我们描述实际应用，评估证据的适用性，并负责自身的系统集成。角色分工不能替代对交接内容的技术检查。具体职责在项目中约定；本手册不强制规定组织结构。"
+  },
+  "u0056": {
+    "en": "Consider the entire life history",
+    "zh": "考虑完整的生命周期历程"
+  },
+  "u0057": {
+    "en": "Reliability begins before the first customer acquisition. During development, we select requirements, materials and architecture. Manufacturing introduces variation and possibly latent defects. Storage and transport can cause prior damage. Loads and environmental conditions act during operation; repairs and updates change the configuration during service. Even a stored spare part ages while its operating-hour counter remains at zero.",
+    "zh": "可靠性工作始于客户第一次采集之前。开发阶段选择要求、材料和架构。制造过程会产生变异，也可能产生潜在缺陷。储存和运输可能造成先期损伤。运行期间负载和环境条件发挥作用；服务期间维修和更新改变配置。即使运行小时计数仍为零，库存备件也会老化。"
+  },
+  "u0058": {
+    "en": "A flashlight illustrates the different time measures: its LED may have few operating hours, while a battery left inside for years can leak. Operating duration and calendar age answer different questions. For the X-ray system, we therefore record the usage history separately from relevant life-cycle loads.",
+    "zh": "手电筒说明了不同时间尺度：LED可能仅运行很少的小时数，而放置多年的电池却可能漏液。运行时长和日历年龄回答不同问题。因此，对于X射线系统，我们分别记录使用历史和相关生命周期负载。"
+  },
+  "u0059": {
+    "en": "Agree on tasks at handovers",
+    "zh": "约定交接任务"
+  },
+  "u0060": {
+    "en": "<strong>Participating role</strong>",
+    "zh": "<strong>参与角色</strong>"
+  },
+  "u0061": {
+    "en": "<strong>Typical contribution</strong>",
+    "zh": "<strong>典型贡献</strong>"
+  },
+  "u0062": {
+    "en": "<strong>Required handover</strong>",
+    "zh": "<strong>所需交接内容</strong>"
+  },
+  "u0063": {
+    "en": "<strong>System development</strong>",
+    "zh": "<strong>系统开发</strong>"
+  },
+  "u0064": {
+    "en": "<strong>Use cases, architecture and actual operating conditions</strong>",
+    "zh": "<strong>用例、架构与实际使用条件</strong>"
+  },
+  "u0065": {
+    "en": "<strong>Testable requirements and an integration concept</strong>",
+    "zh": "<strong>可测试的要求与集成方案</strong>"
+  },
+  "u0066": {
+    "en": "<strong>Supplier and supplier management</strong>",
+    "zh": "<strong>供应商与供应商管理</strong>"
+  },
+  "u0067": {
+    "en": "<strong>Component development and agreed qualification</strong>",
+    "zh": "<strong>组件开发与约定鉴定</strong>"
+  },
+  "u0068": {
+    "en": "<strong>Version-specific reports, raw data and operating limits</strong>",
+    "zh": "<strong>对应版本的报告、原始数据和使用限制</strong>"
+  },
+  "u0069": {
+    "en": "<strong>Quality and risk management</strong>",
+    "zh": "<strong>质量与风险管理</strong>"
+  },
+  "u0070": {
+    "en": "<strong>Process control and assessment of relevant risks</strong>",
+    "zh": "<strong>过程控制与相关风险评估</strong>"
+  },
+  "u0071": {
+    "en": "<strong>Release criteria and addressed deviations</strong>",
+    "zh": "<strong>放行准则与已处理偏差</strong>"
+  },
+  "u0072": {
+    "en": "<strong>Manufacturing and logistics</strong>",
+    "zh": "<strong>制造与物流</strong>"
+  },
+  "u0073": {
+    "en": "<strong>Reproducible manufacturing and handling</strong>",
+    "zh": "<strong>可重复的制造与处理</strong>"
+  },
+  "u0074": {
+    "en": "<strong>Process data, traceability and change information</strong>",
+    "zh": "<strong>过程数据、可追溯性与变更信息</strong>"
+  },
+  "u0075": {
+    "en": "<strong>Service and field analysis</strong>",
+    "zh": "<strong>服务与现场分析</strong>"
+  },
+  "u0076": {
+    "en": "<strong>Record events and investigate defects</strong>",
+    "zh": "<strong>记录事件并调查缺陷</strong>"
+  },
+  "u0077": {
+    "en": "<strong>Linked usage, configuration and failure findings</strong>",
+    "zh": "<strong>关联的使用、配置和故障调查结果</strong>"
+  },
+  "u0078": {
+    "en": "Supplier management is assigned a clearly named role. The project defines who approves requirements, accepts evidence and closes failure cases with the supplier.",
+    "zh": "供应商管理应由明确指定的角色承担。项目规定由谁批准要求、接受证据，并与供应商共同完成故障案例闭环。"
+  },
+  "u0079": {
+    "en": "Adopt evidence without accepting it blindly",
+    "zh": "采纳证据而非盲目接受"
+  },
+  "u0080": {
+    "en": "We adopt suitable supplier evidence and specifically check the remaining gaps. First, we ask whether the tested version, manufacturing process, usage and loads cover our application. Suitable evidence may be adopted. For a relevant gap, we select a targeted supplement. A different installation situation may, for example, require a thermal integration test without reopening the mechanical component qualification.",
+    "zh": "我们采纳合适的供应商证据，并有针对性地检查剩余缺口。首先考察受测版本、制造过程、使用方式和负载是否覆盖我们的应用。适当的证据可以采纳。对于相关缺口，选择针对性补充。例如，不同安装情况可能需要热集成测试，而不必重新开展组件机械鉴定。"
+  },
+  "u0081": {
+    "en": "Adoption applies within a documented scope. If a qualified cable is suddenly moved more frequently or routed differently, the impact of the change must be assessed. A road bicycle tire is not unsuitable merely because it bursts on a gravel path; the first question is whether this application was agreed and assured.",
+    "zh": "证据采纳适用于有记录的范围。如果通过鉴定的电缆突然被更频繁地移动或改变布线，必须评估变更影响。公路自行车轮胎在碎石路上爆胎，并不单凭这一点就说明它不合格；首要问题是该使用场景是否已约定并得到保障。"
+  },
+  "u0082": {
+    "en": "The reliability plan",
+    "zh": "可靠性计划"
+  },
+  "u0083": {
+    "en": "A concise plan describes assessment objectives, functions, operating profiles, responsible persons, methods, required data and decision points. It connects preventive work with subsequent field monitoring. A plan consisting solely of field metrics comes too late if critical interfaces were not analyzed beforehand.",
+    "zh": "精简的计划描述评估目标、功能、使用剖面、责任人、方法、所需数据和决策时点。它把预防性工作与后续现场监测联系起来。如果关键接口未事先分析，只有现场指标的计划就为时已晚。"
+  },
+  "u0084": {
+    "en": "The plan is updated as new information arrives. An unknown failure mechanism may trigger additional analyses. New usage may limit evidence that was previously sufficient. Documentation should show which decision follows from which finding, rather than merely maintaining a list of planned tests.",
+    "zh": "获得新信息时更新计划。未知失效机制可能引发补充分析。新的使用方式可能限制原先充分的证据。文件应显示每项决策源于何种发现，而不只是持续更新计划测试清单。"
+  },
+  "u0085": {
+    "en": "Distinguish three areas of responsibility",
+    "zh": "区分三个责任领域"
+  },
+  "u0086": {
+    "en": "The following division helps organize the work. It identifies areas of responsibility and is not a legal allocation. Purchasing an external part does not turn it into evidence without limits.",
+    "zh": "下列划分有助于开展工作。它表示责任领域，并非法定责任分配。购买外部部件并不会使它成为适用范围无限的证据。"
+  },
+  "u0087": {
+    "en": "<strong>Area</strong>",
+    "zh": "<strong>领域</strong>"
+  },
+  "u0088": {
+    "en": "<strong>Example</strong>",
+    "zh": "<strong>例子</strong>"
+  },
+  "u0089": {
+    "en": "<strong>Our task</strong>",
+    "zh": "<strong>我们的任务</strong>"
+  },
+  "u0090": {
+    "en": "<strong>A In-house development</strong>",
+    "zh": "<strong>A 自主开发</strong>"
+  },
+  "u0091": {
+    "en": "<strong>Control and integration</strong>",
+    "zh": "<strong>控制与集成</strong>"
+  },
+  "u0092": {
+    "en": "<strong>Develop requirements and produce our own evidence</strong>",
+    "zh": "<strong>制定要求并形成自身证据</strong>"
+  },
+  "u0093": {
+    "en": "<strong>B Supplied items</strong>",
+    "zh": "<strong>B 外购供应</strong>"
+  },
+  "u0094": {
+    "en": "<strong>Detector and generator</strong>",
+    "zh": "<strong>探测器与发生器</strong>"
+  },
+  "u0095": {
+    "en": "<strong>Specify the application and adopt suitable evidence</strong>",
+    "zh": "<strong>规定应用并采纳合适证据</strong>"
+  },
+  "u0096": {
+    "en": "<strong>C Operator environment</strong>",
+    "zh": "<strong>C 运营方环境</strong>"
+  },
+  "u0097": {
+    "en": "<strong>Network and archive</strong>",
+    "zh": "<strong>网络与归档系统</strong>"
+  },
+  "u0098": {
+    "en": "<strong>Agree on interface conditions and verify the overall function</strong>",
+    "zh": "<strong>协调接口条件并验证整体功能</strong>"
+  },
+  "u0099": {
+    "en": "For each handover, we agree on contacts, technical assumptions and a change process. The operator may change its network independently; a supplier may update firmware. We therefore record a shared configuration baseline, even when the individual systems have different life cycles. The manufacturer's responsibility for its own product remains.",
+    "zh": "每项交接都应约定联系人、技术假设和变更流程。运营方可能独立修改网络；供应商可能更新固件。因此，即使各系统生命周期不同，我们也要记录共同的配置基线。制造商对自身产品的责任仍然存在。"
+  },
+  "u0100": {
+    "en": "Use standards as a guide",
+    "zh": "以标准作为指引"
+  },
+  "u0101": {
+    "en": "The table assigns standards to evidence questions. Applicability and detailed requirements are checked through the standards process; only public catalog descriptions were evaluated here.",
+    "zh": "该表将标准对应到证据问题。适用性和详细要求通过标准管理流程核查；此处仅评估了公开目录说明。"
+  },
+  "u0102": {
+    "en": "<strong>Document or framework</strong>",
+    "zh": "<strong>文件或框架</strong>"
+  },
+  "u0103": {
+    "en": "<strong>Guiding question</strong>",
+    "zh": "<strong>引导问题</strong>"
+  },
+  "u0104": {
+    "en": "<strong>Chapter</strong>",
+    "zh": "<strong>章节</strong>"
+  },
+  "u0105": {
+    "en": "<strong>IEC 60601-1 and applicable particular standards</strong>",
+    "zh": "<strong>IEC 60601-1及适用的专用标准</strong>"
+  },
+  "u0106": {
+    "en": "<strong>Which basic safety and essential performance must be maintained</strong>",
+    "zh": "<strong>必须维持哪些基本安全和基本性能</strong>"
+  },
+  "u0107": {
+    "en": "<strong>7 12 16 17</strong>",
+    "zh": "<strong>7 12 16 17</strong>"
+  },
+  "u0108": {
+    "en": "<strong>IEC 60601-2-54 [N21]</strong>",
+    "zh": "<strong>IEC 60601-2-54 [N21]</strong>"
+  },
+  "u0109": {
+    "en": "<strong>Which particular requirements concern radiography and radioscopy</strong>",
+    "zh": "<strong>哪些专用要求涉及摄影与透视</strong>"
+  },
+  "u0110": {
+    "en": "<strong>7 16 17</strong>",
+    "zh": "<strong>7 16 17</strong>"
+  },
+  "u0111": {
+    "en": "<strong>IEC 60601-1-2 [N28]</strong>",
+    "zh": "<strong>IEC 60601-1-2 [N28]</strong>"
+  },
+  "u0112": {
+    "en": "<strong>Which immunity and emissions are tested with respect to basic safety and essential performance</strong>",
+    "zh": "<strong>针对基本安全和基本性能测试哪些抗扰度与发射项目</strong>"
+  },
+  "u0113": {
+    "en": "<strong>12 16</strong>",
+    "zh": "<strong>12 16</strong>"
+  },
+  "u0114": {
+    "en": "<strong>IEC 62366-1 [N29]</strong>",
+    "zh": "<strong>IEC 62366-1 [N29]</strong>"
+  },
+  "u0115": {
+    "en": "<strong>How are safety-related operating actions and usability analyzed and tested</strong>",
+    "zh": "<strong>如何分析和测试与安全有关的操作行为及可用性</strong>"
+  },
+  "u0116": {
+    "en": "<strong>8 19</strong>",
+    "zh": "<strong>8 19</strong>"
+  },
+  "u0117": {
+    "en": "<strong>ISO 14971</strong>",
+    "zh": "<strong>ISO 14971</strong>"
+  },
+  "u0118": {
+    "en": "<strong>Which functional losses can lead to unacceptable risks</strong>",
+    "zh": "<strong>哪些功能丧失可能导致不可接受的风险</strong>"
+  },
+  "u0119": {
+    "en": "<strong>8 9 17</strong>",
+    "zh": "<strong>8 9 17</strong>"
+  },
+  "u0120": {
+    "en": "<strong>IEC 62304 and IEC 81001-5-1</strong>",
+    "zh": "<strong>IEC 62304与IEC 81001-5-1</strong>"
+  },
+  "u0121": {
+    "en": "<strong>How are software and security addressed throughout the life cycle</strong>",
+    "zh": "<strong>生命周期中如何处理软件与安保性</strong>"
+  },
+  "u0122": {
+    "en": "<strong>13 17</strong>",
+    "zh": "<strong>13 17</strong>"
+  },
+  "u0123": {
+    "en": "<strong>IEC 80001-1</strong>",
+    "zh": "<strong>IEC 80001-1</strong>"
+  },
+  "u0124": {
+    "en": "<strong>How are risks of connected health IT addressed among participants</strong>",
+    "zh": "<strong>参与方之间如何处理联网医疗IT的风险</strong>"
+  },
+  "u0125": {
+    "en": "<strong>3 5 16</strong>",
+    "zh": "<strong>3 5 16</strong>"
+  },
+  "u0126": {
+    "en": "<strong>ISO/IEC/IEEE 15288 and 21839</strong>",
+    "zh": "<strong>ISO/IEC/IEEE 15288与21839</strong>"
+  },
+  "u0127": {
+    "en": "<strong>Which life-cycle processes and overarching system relationships are relevant</strong>",
+    "zh": "<strong>哪些生命周期过程与跨系统关系相关</strong>"
+  },
+  "u0128": {
+    "en": "<strong>2 3 6</strong>",
+    "zh": "<strong>2 3 6</strong>"
+  },
+  "u0129": {
+    "en": "<strong>MDR post-market surveillance</strong>",
+    "zh": "<strong>MDR上市后监督</strong>"
+  },
+  "u0130": {
+    "en": "<strong>How is field information fed back into product assessment</strong>",
+    "zh": "<strong>如何将现场信息反馈至产品评估</strong>"
+  },
+  "u0131": {
+    "en": "<strong>18 19</strong>",
+    "zh": "<strong>18 19</strong>"
+  },
+  "u0132": {
+    "en": "Current editions, amendments and applicable adoptions are checked through the standards process. <a href=\"#sources/source_N22\">[N22]</a> <a href=\"#sources/source_N23\">[N23]</a> <a href=\"#sources/source_N24\">[N24]</a> <a href=\"#sources/source_N25\">[N25]</a> <a href=\"#sources/source_N26\">[N26]</a>",
+    "zh": "通过标准管理流程核查现行版本、修订及适用的采纳版本。 <a href=\"#sources/source_N22\">[N22]</a> <a href=\"#sources/source_N23\">[N23]</a> <a href=\"#sources/source_N24\">[N24]</a> <a href=\"#sources/source_N25\">[N25]</a> <a href=\"#sources/source_N26\">[N26]</a>"
+  },
+  "u0133": {
+    "en": "How we proceed",
+    "zh": "工作步骤"
+  },
+  "u0134": {
+    "en": "List life-cycle phases, including storage, transport and service.",
+    "zh": "列出生命周期阶段，包括储存、运输和服务。"
+  },
+  "u0135": {
+    "en": "Name a responsible role and an accepting recipient for each item of evidence.",
+    "zh": "为每项证据指定责任角色和接受方。"
+  },
+  "u0136": {
+    "en": "Define handovers by content, version and operating limits.",
+    "zh": "按内容、版本和使用限制定义交接。"
+  },
+  "u0137": {
+    "en": "Plan supplier evidence, integration evidence and field analysis separately, and link them.",
+    "zh": "分别规划供应商证据、集成证据和现场分析，并将它们关联。"
+  },
+  "u0138": {
+    "en": "Agree on escalation paths for gaps, changes and critical failure cases.",
+    "zh": "约定缺口、变更和关键故障案例的升级处理路径。"
+  },
+  "u0139": {
+    "en": "Record area A, B or C and applicable standards for every handover.",
+    "zh": "记录每项交接所属的A、B或C领域及适用标准。"
+  },
+  "u0140": {
+    "en": "The result is an agreed reliability plan. A certificate alone, without reference to the delivered variant, is not a sufficient technical handover. Contractual responsibility and the suitability of a particular piece of evidence are different questions.",
+    "zh": "成果是一份各方达成一致的可靠性计划。单有证书而未关联交付的具体变型，不足以构成充分的技术交接。合同责任与具体证据的适用性是不同问题。"
+  },
+  "u0141": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0142": {
+    "en": "A washing machine is installed in a tight cabinet and vibrates more strongly there than when freestanding. Which evidence belongs to the appliance manufacturer, and which to the installation assessment?",
+    "zh": "洗衣机装入狭窄柜内后，比独立放置时振动更强。哪些证据应由设备制造商提供，哪些属于安装评估？"
+  },
+  "u0143": {
+    "en": "3 Modeling system boundaries and interactions",
+    "zh": "3 建模系统边界与相互作用"
+  },
+  "u0144": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0145": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a>|  Foundations <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_B\">示意图 B  </a>|  基础 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0146": {
+    "en": "The boundary depends on the question",
+    "zh": "边界取决于所研究的问题"
+  },
+  "u0147": {
+    "en": "When we consider a washing machine, the entire appliance is our system. The water connection, power grid, user and floor belong to the environment. If we investigate only its pump, the drum, controller and hoses also become part of its environment. The component is unchanged; the boundary under consideration has changed.",
+    "zh": "考察洗衣机时，整个设备就是我们的系统。水源接口、电网、使用者和地面属于环境。如果仅研究其中的泵，滚筒、控制器和软管也成为其环境的一部分。零部件没有变化，变化的是考察边界。"
+  },
+  "u0148": {
+    "en": "We call this selected object of investigation the System of Interest. Its boundary separates what we initially model internally from what we describe as external influences or interfaces. A boundary must therefore not simply be copied from the bill of materials. It must fit the assessment question.",
+    "zh": "我们把这个选定的研究对象称为 System of Interest（关注系统）。其边界区分了最初进行内部建模的内容与作为外部影响或接口描述的内容。因此，边界不能直接照搬物料清单，而必须符合评估问题。"
+  },
+  "u0149": {
+    "en": "Two boundaries and a possible System of Systems perspective",
+    "zh": "两种边界及可能采用的系统之系统视角"
+  },
+  "u0150": {
+    "en": "Having several subsystems does not by itself make a device a System of Systems, or SoS. In particular, the participating systems must have independent operational purposes and independent management. Geographic distribution, evolution and behavior arising from interaction complement this assessment. A detector does not become operationally independent simply because it can be used in several rooms. <a href=\"#sources/source_Q22\">[Q22]</a>",
+    "zh": "设备拥有多个子系统，并不因此就成为 System of Systems，简称 SoS（系统之系统）。尤其关键的是，各参与系统具有独立的运行目的和独立的管理。空间分布、持续演进以及相互作用产生的行为可补充这一考察。探测器不会仅因能在多个房间使用，就具有运行独立性。 <a href=\"#sources/source_Q22\">[Q22]</a>"
+  },
+  "u0151": {
+    "en": "Within the product boundary, we recursively decompose the X-ray device into subsystems and components. In the product considered here, the detector and generator are subsystems; spatial mobility does not yet make them independent systems within an SoS. If, however, we consider the examination process with the device, order management, archive and operator IT, the SoS perspective may be appropriate. An archive serves other modalities and pursues its own operating and change objectives. We justify the classification based on the selected object of investigation. ISO/IEC/IEEE 21839 addresses SoS relationships throughout the life cycle of a participating system. <a href=\"#sources/source_N25\">[N25]</a>",
+    "zh": "在产品边界内，我们递归地把X射线设备分解为子系统和组件。在本例产品中，探测器和发生器是子系统；空间上的可移动性还不足以使其成为SoS中的独立系统。但若考察包含设备、医嘱管理、归档系统和运营方IT的检查流程，SoS视角可能适用。归档系统也服务其他成像模态，并追求自身的运行和变更目标。我们根据选定研究对象论证分类。ISO/IEC/IEEE 21839讨论参与系统生命周期中的SoS关系。 <a href=\"#sources/source_N25\">[N25]</a>"
+  },
+  "u0152": {
+    "en": "Diagram D Product boundary and examination process  Original illustration for the teaching case described.",
+    "zh": "示意图D 产品边界与检查流程  针对所述教学案例自行绘制。"
+  },
+  "u0153": {
+    "en": "Diagram D Product boundary and examination process  Original illustration for the teaching case described.",
+    "zh": "示意图D 产品边界与检查流程  针对所述教学案例自行绘制。"
+  },
+  "u0154": {
+    "en": "The simplified functional view separates the product boundary from the process boundary. The exposure path includes the X-ray source; other subsystems, such as image processing and positioning, are not drawn separately here. The manufacturer can design many internal handovers, but can only coordinate changes to the operator's archive. Tests at these handovers remain necessary. Adopting evidence, agreeing interfaces and integration testing each serve a distinct purpose.",
+    "zh": "简化功能图区分产品边界与流程边界。曝光路径包含X射线源；图像处理和定位等其他子系统在此未单独绘出。制造商可以设计许多内部交接，但对运营方归档系统的变更只能协调。这些交接处仍需要测试。证据采纳、接口约定和集成测试各有其任务。"
+  },
+  "u0155": {
+    "en": "For the SoS profile, we add the participating systems, their own purposes, responsible parties and change processes. We document specifically whether a central authority can enforce changes or needs cooperation. A blanket classification of every X-ray process as an acknowledged or collaborative SoS is less useful than a clear description of the actual authority.",
+    "zh": "在SoS概况中，我们补充参与系统、各自目的、责任方和变更流程。具体记录中央机构能否强制实施变更，还是需要合作。把每个X射线流程笼统归类为公认型或协作型SoS，不如清楚描述实际权限有用。"
+  },
+  "u0156": {
+    "en": "Interfaces and additional influences",
+    "zh": "接口与其他影响"
+  },
+  "u0157": {
+    "en": "Intended inputs include, for example, orders, electrical energy, data or material. Intended outputs are the required performance or information. Environmental conditions also act on the system: temperature, humidity, mechanical loads or electromagnetic interference. In turn, the system affects its environment, for example through waste heat, forces or emissions.",
+    "zh": "预期输入包括医嘱、电能、数据或材料等。预期输出是所需性能或信息。此外，温度、湿度、机械负载或电磁干扰等环境条件也作用于系统。系统反过来也通过废热、力或发射等影响环境。"
+  },
+  "u0158": {
+    "en": "The boundary in Diagram B helps make these relationships visible. A cable can simultaneously carry intended data and couple in unwanted interference. This classification is an analytical aid, not a claim that intended and unintended processes occur separately in physical terms.",
+    "zh": "示意图B中的边界有助于显示这些关系。一条线路可以同时传输所需数据并耦合进不希望有的干扰。这种分类只是分析工具，并不意味着预期和非预期过程在物理上分别发生。"
+  },
+  "u0159": {
+    "en": "For a kettle, water and electrical energy are intended inputs, and hot water is an intended output. Room temperature and limescale affect it. Waste heat and steam act on the surroundings. A simple block diagram with the arrow “electricity in and hot water out” would overlook important loads.",
+    "zh": "对于电水壶，水和电能是预期输入，热水是预期输出。室温与水垢会影响它。废热和蒸汽向外部环境作用。只有“电进入、热水流出”箭头的框图会忽视重要负载。"
+  },
+  "u0160": {
+    "en": "State and history supplement the interface",
+    "zh": "状态与历史补充接口描述"
+  },
+  "u0161": {
+    "en": "The same input signal can have different effects. Depending on the state, a washing machine's power button starts a program, resumes it or is blocked. Reliability analysis therefore requires operating modes, states and transitions. Relevant history includes, for example, temperature, accumulated load and commands already received.",
+    "zh": "同一输入信号可能产生不同影响。洗衣机的电源按钮根据状态可能启动程序、继续程序或被禁用。因此，可靠性分析需要运行模式、状态和转换。相关历史包括温度、累积负载和已接收命令等。"
+  },
+  "u0162": {
+    "en": "A detector can send a ready signal and switch to another state shortly afterward. A receiver that knows only the last value must also know whether it is still valid. Signal value, time and state jointly belong in the interface description. Feedback is also important: cooling control changes the temperature, which in turn affects the control.",
+    "zh": "探测器可以发送就绪信号，随后不久切换到另一状态。只知道最后一个值的接收方，还必须知道该值是否仍有效。信号值、时间和状态都应共同纳入接口描述。反馈也很重要：冷却控制改变温度，而温度又影响控制。"
+  },
+  "u0163": {
+    "en": "Recursive decomposition of the X-ray system",
+    "zh": "X射线系统的递归分解"
+  },
+  "u0164": {
+    "en": "First, we define the overall system boundary. Next, we select, for example, the detector as the new object of investigation. Its environment now includes the generator, controller, installation, power supply, communication and radiation field. Within the detector, the sensors, electronics and firmware can be considered in turn. At each level, we ask the same questions about function, I/O, loads, states and effects.",
+    "zh": "首先确定整体系统边界。然后，例如选择探测器作为新的研究对象。此时其环境包括发生器、控制器、安装结构、供电、通信和辐射场。在探测器内部，又可进一步考察传感器、电子电路和固件。在每一层面，都提出关于功能、I/O、负载、状态和影响的相同问题。"
+  },
+  "u0165": {
+    "en": "Decomposition creates order, but does not automatically create independence. Two subsystems may share a power supply, cooling system or communication channel. An environmental problem can affect several elements simultaneously. These couplings are retained during decomposition and assessed in Chapter 9.",
+    "zh": "分解带来条理，但不会自动带来独立性。两个子系统可能共用电源、冷却系统或通信通道。一个环境问题可以同时影响多个元素。分解时应保留这些耦合，并在第9章评估。"
+  },
+  "u0166": {
+    "en": "Creating a system profile",
+    "zh": "建立系统概况"
+  },
+  "u0167": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u0168": {
+    "en": "<strong>Question</strong>",
+    "zh": "<strong>问题</strong>"
+  },
+  "u0169": {
+    "en": "<strong>Detector example</strong>",
+    "zh": "<strong>探测器示例</strong>"
+  },
+  "u0170": {
+    "en": "<strong>Boundary</strong>",
+    "zh": "<strong>边界</strong>"
+  },
+  "u0171": {
+    "en": "<strong>What lies inside and outside</strong>",
+    "zh": "<strong>哪些在内部，哪些在外部</strong>"
+  },
+  "u0172": {
+    "en": "<strong>Detector module inside, system controller outside</strong>",
+    "zh": "<strong>探测器模块在内部，系统控制器在外部</strong>"
+  },
+  "u0173": {
+    "en": "<strong>Function</strong>",
+    "zh": "<strong>功能</strong>"
+  },
+  "u0174": {
+    "en": "<strong>What performance is expected</strong>",
+    "zh": "<strong>期望什么性能</strong>"
+  },
+  "u0175": {
+    "en": "<strong>Provide image data within defined limits</strong>",
+    "zh": "<strong>在规定界限内提供图像数据</strong>"
+  },
+  "u0176": {
+    "en": "<strong>Inputs</strong>",
+    "zh": "<strong>输入</strong>"
+  },
+  "u0177": {
+    "en": "<strong>Which flows are required</strong>",
+    "zh": "<strong>需要哪些流</strong>"
+  },
+  "u0178": {
+    "en": "<strong>Power supply, control, exposure</strong>",
+    "zh": "<strong>供电、控制、曝光</strong>"
+  },
+  "u0179": {
+    "en": "<strong>Outputs</strong>",
+    "zh": "<strong>输出</strong>"
+  },
+  "u0180": {
+    "en": "<strong>What is delivered</strong>",
+    "zh": "<strong>输出什么</strong>"
+  },
+  "u0181": {
+    "en": "<strong>Image data, status and waste heat</strong>",
+    "zh": "<strong>图像数据、状态和废热</strong>"
+  },
+  "u0182": {
+    "en": "<strong>Influences</strong>",
+    "zh": "<strong>影响因素</strong>"
+  },
+  "u0183": {
+    "en": "<strong>What changes the conditions</strong>",
+    "zh": "<strong>什么改变条件</strong>"
+  },
+  "u0184": {
+    "en": "<strong>Installation heat, radiation and mechanical loads</strong>",
+    "zh": "<strong>安装环境的热、辐射和机械负载</strong>"
+  },
+  "u0185": {
+    "en": "<strong>States</strong>",
+    "zh": "<strong>状态</strong>"
+  },
+  "u0186": {
+    "en": "<strong>Which contract applies when</strong>",
+    "zh": "<strong>何时适用何种契约</strong>"
+  },
+  "u0187": {
+    "en": "<strong>Startup, ready, acquisition, readout and error</strong>",
+    "zh": "<strong>启动、就绪、采集、读出和错误</strong>"
+  },
+  "u0188": {
+    "en": "<strong>Own purpose</strong>",
+    "zh": "<strong>自身目的</strong>"
+  },
+  "u0189": {
+    "en": "<strong>What performance does the element provide outside our process</strong>",
+    "zh": "<strong>该元素在我们的流程之外提供什么性能</strong>"
+  },
+  "u0190": {
+    "en": "<strong>Not independently demonstrated for the detector module; the archive also stores images for other modalities</strong>",
+    "zh": "<strong>探测器模块未独立证实此项；归档系统还为其他成像模态提供存储</strong>"
+  },
+  "u0191": {
+    "en": "<strong>Change authority</strong>",
+    "zh": "<strong>变更权限</strong>"
+  },
+  "u0192": {
+    "en": "<strong>Who can decide on and enforce a change</strong>",
+    "zh": "<strong>谁能决定并实施变更</strong>"
+  },
+  "u0193": {
+    "en": "<strong>The manufacturer for the device; the operator or third-party manufacturer for the archive</strong>",
+    "zh": "<strong>设备由制造商负责；归档系统由运营方或第三方制造商负责</strong>"
+  },
+  "u0194": {
+    "en": "<strong>Change process</strong>",
+    "zh": "<strong>变更流程</strong>"
+  },
+  "u0195": {
+    "en": "<strong>How do other participants learn about a change</strong>",
+    "zh": "<strong>其他参与方如何获知变更</strong>"
+  },
+  "u0196": {
+    "en": "<strong>Version notification, impact analysis and agreed compatibility evidence</strong>",
+    "zh": "<strong>版本通知、影响分析和各方约定的兼容性证据</strong>"
+  },
+  "u0197": {
+    "en": "How we proceed",
+    "zh": "工作步骤"
+  },
+  "u0198": {
+    "en": "Formulate a specific assessment question and draw the system boundary.",
+    "zh": "表述具体评估问题，并绘制系统边界。"
+  },
+  "u0199": {
+    "en": "Collect all energy, information and material flows at the boundary.",
+    "zh": "汇总边界处所有能量流、信息流和物质流。"
+  },
+  "u0200": {
+    "en": "Add environmental influences and effects on the environment, including shared resources.",
+    "zh": "补充环境影响及对环境的反作用，包括共用资源。"
+  },
+  "u0201": {
+    "en": "Describe direction, unit, timing, validity and limits for every relevant flow.",
+    "zh": "为每个相关流描述方向、单位、时序、有效性和限值。"
+  },
+  "u0202": {
+    "en": "Record states and history, and repeat the analysis within the subsystem if necessary.",
+    "zh": "记录状态与历史，必要时在子系统内部重复分析。"
+  },
+  "u0203": {
+    "en": "Draw product and process boundaries separately; document own purposes, change authority and change processes.",
+    "zh": "分别绘制产品边界与流程边界；记录各自目的、变更权限和变更流程。"
+  },
+  "u0204": {
+    "en": "The result is a verifiable system profile. If an interface has no responsible owner, modeling is not yet complete. A common problem is to treat heat or grounding as a mere footnote even though they have a major effect on function.",
+    "zh": "成果是一份可核查的系统概况。如果某个接口没有明确责任人，建模尚未完成。常见问题是把热或接地当作附带备注，尽管它们对功能具有重大影响。"
+  },
+  "u0205": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0206": {
+    "en": "Define the boundary of a refrigerator first as an overall system and then of its compressor alone. Which previously internal elements become part of the environment in the second view?",
+    "zh": "先把冰箱作为整体系统划定边界，再只为压缩机划定边界。第二种视角中，哪些原先内部元素成为环境？"
+  },
+  "u0207": {
+    "en": "Advanced exercise",
+    "zh": "深入练习"
+  },
+  "u0208": {
+    "en": "A mobile detector is moved between two rooms. Is that sufficient to classify it as an independent system within an SoS? What information is missing?",
+    "zh": "移动式探测器在两个房间之间轮换。仅凭这一点，是否足以把它归类为SoS中的独立系统？还缺少哪些信息？"
+  },
+  "u0209": {
+    "en": "4 Describing use cases and usage profiles",
+    "zh": "4 描述用例与使用剖面"
+  },
+  "u0210": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0211": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a>|  Foundations <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_B\">示意图 B  </a>|  基础 <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0212": {
+    "en": "Identical products experience different loads",
+    "zh": "相同产品经历不同负载"
+  },
+  "u0213": {
+    "en": "Two identical bicycles may look very different after a year. One was ridden twice a month, the other daily in rain and with luggage. The statement “one year of service life” describes their actual use only inadequately. We need distance, load, weather, maintenance and, where applicable, the number of particular movements.",
+    "zh": "两辆相同自行车一年后可能差别很大。一辆每月骑两次，另一辆每天在雨中载行李骑行。“寿命一年”的说法不足以描述实际使用。我们需要里程、负载、天气、维护，以及必要时特定运动的次数。"
+  },
+  "u0214": {
+    "en": "A use case describes a process from the perspective of a required performance. A Mission Profile describes the associated states and loads during typical or defined use. A Life Cycle Profile adds storage, transport, maintenance and other phases of the life history. These profiles connect requirements with real test conditions.",
+    "zh": "用例从所需性能的角度描述流程。Mission Profile（任务剖面）描述典型或规定使用期间的相关状态与负载。Life Cycle Profile（生命周期剖面）补充储存、运输、维护和其他生命周期阶段。这些剖面把要求与实际测试条件联系起来。"
+  },
+  "u0215": {
+    "en": "Maintain several measures of accumulated use",
+    "zh": "记录多种累积使用尺度"
+  },
+  "u0216": {
+    "en": "For an X-ray system, calendar age, powered-on hours, exposures, load changes, movement cycles and accumulated radiation exposure may all be relevant at the same time. Each quantity is defined at the appropriate location and in the appropriate unit. An accumulated dose value without a measurement location and irradiation conditions can be misleading. It must not be equated with patient dose.",
+    "zh": "对于X射线系统，日历年龄、通电小时数、曝光次数、负载变化次数、运动循环次数和累积辐射暴露可能同时相关。每个量都应在合适位置以适当单位定义。不注明测量位置和照射条件的累积剂量可能引起误解，不得将其等同于患者剂量。"
+  },
+  "u0217": {
+    "en": "The tube experiences different stresses from a detector cable. Firmware experiences particular state sequences, while a stored part undergoes chemical aging. We therefore select the usage measure based on the suspected failure mechanism. When mechanisms are unknown, we document several quantities rather than prematurely collecting only operating hours.",
+    "zh": "球管与探测器电缆经历的应力不同。固件经历特定状态顺序，而库存件发生化学老化。因此，我们根据推测的失效机制选择使用量。机制未知时应记录多个量，而不应过早只收集运行小时数。"
+  },
+  "u0218": {
+    "en": "Follow an examination from order to result",
+    "zh": "跟踪从医嘱到结果的检查流程"
+  },
+  "u0219": {
+    "en": "We draw an example process: accept the order, check identity and acquisition objective, prepare the device, acquire the image, process it and provide the result. If the chosen boundary includes the archive, confirmed handover is also part of the process. Alongside the normal sequence, we describe aborts, repeats and restarts.",
+    "zh": "我们绘制示例流程：接收医嘱、检查身份与采集目标、准备设备、采集图像、处理图像并提供结果。如果所选边界包含归档系统，还应包括确认交接。除正常顺序外，还需描述中止、重复和恢复运行。"
+  },
+  "u0220": {
+    "en": "An order receives a unique identifier. At each transition, we ask whether content, identifier, status and time still match. A late image may be technically complete yet belong to the wrong procedure. The process therefore provides inputs for interface FMEA and integration tests.",
+    "zh": "每个医嘱获得唯一标识。在每个转换处，我们检查内容、标识、状态和时间是否仍然匹配。迟到的图像可能在技术上完整，却属于错误的流程。因此，该流程为接口FMEA和集成测试提供输入。"
+  },
+  "u0221": {
+    "en": "For the completion rate, we count clearly defined started examinations and their final states. Repeat acquisitions within the same examination are counted additionally and must not be hidden as new successful examinations. Technically caused repeats, planned multiple acquisitions and clinically requested repeats are distinguished. Targets are derived from the application; the handbook does not prescribe clinical limits.",
+    "zh": "计算完成率时，我们统计定义明确的已开始检查及其最终状态。同一检查内的重复采集应额外统计，不得将其隐藏为新的成功检查。技术原因重拍、计划多次采集和临床要求重拍应分别记录。目标值源于具体应用；本手册不规定临床限值。"
+  },
+  "u0222": {
+    "en": "Calculating a simple load profile",
+    "zh": "计算简单负载剖面"
+  },
+  "u0223": {
+    "en": "The following teaching example is not a product requirement: a cable is moved four times during an acquisition process. There are 80 such processes per working day and 220 working days per year. This yields 70.400 movements per year and 704.000 movements in ten years. Initially, this is only a count. Bend radius, tension, temperature and the type of movement are still needed to define a life test.",
+    "zh": "以下教学示例不是产品要求：一个采集流程中，电缆移动四次。每个工作日有80个此类流程，每年有220个工作日。由此得到每年70.400次移动、十年704.000次移动。目前这只是计数。要确定寿命试验，还需弯曲半径、拉力、温度和运动形式。"
+  },
+  "u0224": {
+    "en": "Another teaching case shows the difference between an average and peak load: one coffee machine makes 30 cups spread over the day. A second makes the same number in half an hour. The total quantity is the same; thermal peaks, breaks and recovery differ. Likewise, for X-ray acquisitions, sequence and breaks can be just as important as the total count.",
+    "zh": "另一个教学案例展示平均值与峰值负载的区别：一台咖啡机把30杯咖啡分散在一天中制作，另一台则在半小时内制作同样数量。总量相同，但热峰值、间隔与恢复不同。同样，对于X射线采集，顺序和间隔可能与总次数一样重要。"
+  },
+  "u0225": {
+    "en": "Operating cases and limits",
+    "zh": "运行场景与界限"
+  },
+  "u0226": {
+    "en": "We describe frequent operation, less frequent permissible cases and unfavorable permissible combinations. Startup, shutdown, standby, restart, service and variant changes can also be relevant use cases. Misuse and failure cases are assessed separately; they must not inadvertently enter the same statistics as normal operation.",
+    "zh": "我们描述常见运行、较少发生但允许的场景，以及不利但允许的组合。启动、关机、待机、恢复运行、服务和变型切换也可能是相关用例。误用和故障场景单独评估，不得不知不觉地作为正常运行纳入同一统计。"
+  },
+  "u0227": {
+    "en": "An unfavorable permissible case must be physically possible and relevant to the intended application. Combining every conceivable maximum value may be impossible or may activate a protective function that limits the load. These dependencies belong in the profile. A defensible worst case is justified, not simply an arbitrarily large number.",
+    "zh": "不利但允许的场景必须在物理上可实现，并与预定使用相关。把所有可想象的最大值组合起来可能无法实现，也可能触发限制负载的保护功能。这些依赖关系应纳入剖面。有依据的最不利情况需要论证，而不是随意取一个很大的数值。"
+  },
+  "u0228": {
+    "en": "Applying profiles to the X-ray system",
+    "zh": "将剖面应用于X射线系统"
+  },
+  "u0229": {
+    "en": "Radiography may involve short exposures and frequent positioning changes. Fluoroscopic procedures may produce longer active phases and different thermal patterns. Mammography may have different requirements for positioning and mechanics. These distinctions do not yet yield universal test severities: variants, functions and actual usage data determine them.",
+    "zh": "X射线摄影可能包含短时曝光和频繁位置变化。透视流程可能产生较长的活动阶段和不同的热模式。乳腺摄影可能对定位和机械结构有不同要求。这些区别尚不能直接导出通用测试严酷度：具体变型、功能和实际使用数据才是决定因素。"
+  },
+  "u0230": {
+    "en": "If field data are unavailable, we distinguish known facts, engineering assumptions and conservative choices. We examine several plausible profiles and clearly state which profile the conclusion applies to. The profiles must also cover relevant customers whose usage differs.",
+    "zh": "缺少现场数据时，我们区分已知事实、工程假设和保守设定。检查多个合理剖面，并明确结论适用于哪个剖面。剖面还必须覆盖使用方式不同的相关客户。"
+  },
+  "u0231": {
+    "en": "How we proceed",
+    "zh": "工作步骤"
+  },
+  "u0232": {
+    "en": "Describe use cases with an initial state, sequence, success criterion and final state.",
+    "zh": "描述用例的初始状态、流程、成功准则和最终状态。"
+  },
+  "u0233": {
+    "en": "Identify relevant load quantities and accumulated-use measures for each component.",
+    "zh": "为每个组件识别相关负载量和累积使用尺度。"
+  },
+  "u0234": {
+    "en": "Record frequencies, distributions, peaks and sequences.",
+    "zh": "记录频次、分布、峰值和顺序。"
+  },
+  "u0235": {
+    "en": "Define permissible limit combinations and their dependencies.",
+    "zh": "确定允许的极限组合及其依赖关系。"
+  },
+  "u0236": {
+    "en": "Document sources, assumptions and variation, and update them with field data.",
+    "zh": "记录来源、假设和变异，并用现场数据更新。"
+  },
+  "u0237": {
+    "en": "Record started examinations, final states and repeats according to an agreed counting rule.",
+    "zh": "按照约定计数规则记录已开始检查、最终状态和重复。"
+  },
+  "u0238": {
+    "en": "The result is a set of referenced operating profiles. Only afterward is a test duration derived from the evidence objective and the mechanism. Avoid the reasoning error that “ten years always corresponds to a particular number of hours.”",
+    "zh": "成果是附有来源引用的使用剖面。随后才根据证明目标与机制推导试验时长。应避免“十年总是对应某个固定小时数”的思维错误。"
+  },
+  "u0239": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0240": {
+    "en": "A front-door lock is operated ten times a day, an office lock one hundred times. What further information do you need before planning a shared ten-year demonstration?",
+    "zh": "住宅入户门锁每天操作十次，办公室门锁每天操作一百次。在计划统一的十年寿命证明之前，还需要哪些信息？"
+  },
+  "u0241": {
+    "en": "5 Decomposing functional chains and signal chains",
+    "zh": "5 分解功能链与信号链"
+  },
+  "u0242": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0243": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a>|  Foundations <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_B\">示意图 B  </a>|  基础 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0244": {
+    "en": "From performance to components",
+    "zh": "从性能到零部件"
+  },
+  "u0245": {
+    "en": "When making coffee, water is supplied, heated, passed through the ground coffee and dispensed into the cup. These are functions. A water tank, heater, pump and valve are possible implementations. If we start with the component list, we can easily overlook a function that does not clearly belong to a single part.",
+    "zh": "制作咖啡时，需要供水、加热、使水流经咖啡粉并注入杯中。这些是功能。水箱、加热器、泵和阀门是可能的实现方式。如果从零部件清单出发，就容易忽视不明确归属于某个单独部件的功能。"
+  },
+  "u0246": {
+    "en": "Functional decomposition answers which subfunctions enable an overarching performance. A process chain shows the sequence of activities. A signal chain shows information and its transmission. Energy and force flows are considered additionally. These views are linked, but are not interchangeable.",
+    "zh": "功能分解回答哪些子功能使上层性能得以实现。流程链展示活动顺序。信号链展示信息及其传递。还需另外考虑能量流与力流。这些视图相互关联，但不能相互替代。"
+  },
+  "u0247": {
+    "en": "Decomposing the acquisition function",
+    "zh": "分解采集功能"
+  },
+  "u0248": {
+    "en": "A simplified acquisition function includes checking the order, establishing acquisition readiness, coordinating exposure, capturing the image signal, reading out data and providing a usable image. The actual product process may differ. For each subfunction, we describe success and permissible deviations. This later reveals where an acquisition abort occurs.",
+    "zh": "简化的采集功能包括检查医嘱、建立采集就绪状态、协调曝光、采集图像信号、读出数据和提供可用图像。实际产品流程可能不同。我们为每项子功能描述成功条件和允许偏差，使后续能够看出采集中止发生在哪个环节。"
+  },
+  "u0249": {
+    "en": "Several chains run alongside the process: the acquisition order and status message form information flows. Power supply and exposure are energy flows. Positioning and support create mechanical relationships. A timing diagram adds the question of when particular states must overlap. An architecture diagram alone does not answer this timing question.",
+    "zh": "与流程并行存在多种链：采集医嘱和状态消息构成信息流。供电与曝光构成能量流。定位和支撑产生机械关系。时序图补充说明哪些特定状态必须在何时重叠。单纯的架构图不能回答这个时序问题。"
+  },
+  "u0250": {
+    "en": "An interface contract needs more than a data format",
+    "zh": "接口契约不仅需要数据格式"
+  },
+  "u0251": {
+    "en": "A USB plug fits mechanically, but a cable may still fail to support the required data rate or power delivery. This everyday example shows why a matching shape alone does not prove a working interface. We describe content, units, value ranges, timing behavior and error handling.",
+    "zh": "USB插头在机械上可以匹配，但电缆仍可能无法支持所需数据速率或供电功率。这个日常例子说明，仅形状匹配不能证明接口能够正常工作。我们描述内容、单位、值域、时间行为和错误处理。"
+  },
+  "u0252": {
+    "en": "For a status message, we ask: Who generates it? When does it become valid? How long does it remain valid? Does it belong to the current order? What happens if it is lost, delayed, repeated or followed by a restart? For physical interfaces, we add, for example, voltage, current, impedance, reference potential and thermal boundary conditions.",
+    "zh": "对于状态消息，我们要问：谁生成它？何时开始有效？有效多久？是否属于当前医嘱？丢失、延迟、重复或重启时会发生什么？对于物理接口，还需补充电压、电流、阻抗、参考电位和热边界条件等。"
+  },
+  "u0253": {
+    "en": "Linking a chain to states",
+    "zh": "将链与状态关联"
+  },
+  "u0254": {
+    "en": "<strong>Subfunction</strong>",
+    "zh": "<strong>子功能</strong>"
+  },
+  "u0255": {
+    "en": "<strong>Required input</strong>",
+    "zh": "<strong>所需输入</strong>"
+  },
+  "u0256": {
+    "en": "<strong>Expected output</strong>",
+    "zh": "<strong>预期输出</strong>"
+  },
+  "u0257": {
+    "en": "<strong>Critical condition</strong>",
+    "zh": "<strong>关键条件</strong>"
+  },
+  "u0258": {
+    "en": "<strong>Accept order</strong>",
+    "zh": "<strong>接收医嘱</strong>"
+  },
+  "u0259": {
+    "en": "<strong>Valid acquisition order</strong>",
+    "zh": "<strong>有效的采集医嘱</strong>"
+  },
+  "u0260": {
+    "en": "<strong>Confirmed order</strong>",
+    "zh": "<strong>已确认的医嘱</strong>"
+  },
+  "u0261": {
+    "en": "<strong>Matching configuration and identifier</strong>",
+    "zh": "<strong>匹配的配置与标识</strong>"
+  },
+  "u0262": {
+    "en": "<strong>Establish readiness</strong>",
+    "zh": "<strong>建立就绪状态</strong>"
+  },
+  "u0263": {
+    "en": "<strong>Configuration and stable power supply</strong>",
+    "zh": "<strong>配置与稳定供电</strong>"
+  },
+  "u0264": {
+    "en": "<strong>Valid ready status</strong>",
+    "zh": "<strong>有效就绪状态</strong>"
+  },
+  "u0265": {
+    "en": "<strong>Correct state and up-to-date information</strong>",
+    "zh": "<strong>正确状态与最新信息</strong>"
+  },
+  "u0266": {
+    "en": "<strong>Coordinate exposure</strong>",
+    "zh": "<strong>协调曝光</strong>"
+  },
+  "u0267": {
+    "en": "<strong>Enable and readiness</strong>",
+    "zh": "<strong>允许与就绪</strong>"
+  },
+  "u0268": {
+    "en": "<strong>Controlled exposure</strong>",
+    "zh": "<strong>受控曝光</strong>"
+  },
+  "u0269": {
+    "en": "<strong>Required temporal overlap</strong>",
+    "zh": "<strong>所需时间重叠</strong>"
+  },
+  "u0270": {
+    "en": "<strong>Provide image</strong>",
+    "zh": "<strong>提供图像</strong>"
+  },
+  "u0271": {
+    "en": "<strong>Captured and read-out data</strong>",
+    "zh": "<strong>已采集并读出的数据</strong>"
+  },
+  "u0272": {
+    "en": "<strong>Image and associated status</strong>",
+    "zh": "<strong>图像及其对应状态</strong>"
+  },
+  "u0273": {
+    "en": "<strong>Completeness and correct association</strong>",
+    "zh": "<strong>完整性与正确关联</strong>"
+  },
+  "u0274": {
+    "en": "This table is a teaching model, not a finished product specification. It leads into FMEA: a delayed ready status may appear correct locally and be used incorrectly at system level. We therefore investigate not only whether an output is produced, but also whether it takes effect in the correct context.",
+    "zh": "此表是教学模型，并非完整产品规格。它引出FMEA：延迟的就绪状态在局部层面可能看起来正确，却在系统层面被错误使用。因此，我们不仅检查是否生成输出，还检查它是否在正确上下文中发挥作用。"
+  },
+  "u0275": {
+    "en": "Linking assumptions and guaranteed performance",
+    "zh": "关联假设与保证性能"
+  },
+  "u0276": {
+    "en": "An interface contract describes the conditions under which an element guarantees a particular performance. We call the conditions assumptions and the promised performance a guarantee. This technical guarantee is not a statement about a legal warranty. If an assumption is violated, the intended response must also be described.",
+    "zh": "接口契约描述一个元素在什么条件下保证何种性能。我们把条件称为假设，把承诺性能称为保证。此技术保证不代表法律保修。若假设被违反，也必须描述预定响应。"
+  },
+  "u0277": {
+    "en": "For a detector, one possible assumption is: the order is valid, the relevant state is known and the power supply is within the specified range. The guaranteed performance describes image data, order identifier, permissible delay and error status. If a ready message is outdated, the receiver must not derive acquisition enable solely from the earlier value. The contract defines which additional freshness check is required.",
+    "zh": "对于探测器，一种可能的假设是：医嘱有效、相关状态已知，且供电处于规定范围内。保证性能描述图像数据、医嘱标识、允许延迟和错误状态。就绪消息过期时，接收方不得仅依据先前值推导采集允许。契约规定需要额外进行何种时效性检查。"
+  },
+  "u0278": {
+    "en": "Shared resources receive their own entries: power supply, cooling, network, time base and memory. Two separate data paths are dependent if they require the same server. These dependencies are carried forward in Chapter 9 and the integration plan.",
+    "zh": "共用资源应有单独条目：供电、冷却、网络、时基和存储。两个独立数据路径若依赖同一服务器，就存在依赖关系。这些关系继续纳入第9章和集成计划。"
+  },
+  "u0279": {
+    "en": "Limits and cross-checks",
+    "zh": "局限与交叉检查"
+  },
+  "u0280": {
+    "en": "Functional chains are not always linear. Feedback, loops and parallel activities are common. A protective function may deliberately interrupt the process. We draw these relationships explicitly. The model must also show which supporting function enables a main function, such as cooling or synchronization.",
+    "zh": "功能链并非总是线性的。反馈、循环和平行活动很常见。保护功能可能有意中断流程。我们明确绘制这些关系。模型还必须显示哪些辅助功能支持主功能，例如冷却或同步。"
+  },
+  "u0281": {
+    "en": "A useful cross-check starts with the required system output: Are all necessary functions included? A second starts with each interface: Is there a sender, a receiver and a shared contract? A third considers failure states: Is it clear how the chain reacts if a subfunction is not fulfilled in time?",
+    "zh": "有用的交叉检查从所需系统输出开始：是否包含全部必要功能？第二项检查从每个接口开始：是否有发送方、接收方和共同契约？第三项检查考虑故障状态：如果某项子功能未及时完成，链如何响应是否清楚？"
+  },
+  "u0282": {
+    "en": "How we proceed",
+    "zh": "工作步骤"
+  },
+  "u0283": {
+    "en": "Decompose the overarching function into subfunctions without assigning components prematurely.",
+    "zh": "将上层功能分解为子功能，不要过早分配零部件。"
+  },
+  "u0284": {
+    "en": "Draw process, information, energy and mechanical relationships separately.",
+    "zh": "分别绘制流程、信息、能量和机械关系。"
+  },
+  "u0285": {
+    "en": "Link the views using shared IDs.",
+    "zh": "使用共同ID关联各视图。"
+  },
+  "u0286": {
+    "en": "Add states, timing, feedback and protective responses.",
+    "zh": "补充状态、时序、反馈和保护响应。"
+  },
+  "u0287": {
+    "en": "Walk through the model using one specific normal case and one failure case.",
+    "zh": "用一个具体正常场景和一个故障场景逐步检查模型。"
+  },
+  "u0288": {
+    "en": "Record the assumption, performance guarantee and response to a violated assumption for every interface.",
+    "zh": "为每个接口记录假设、性能承诺以及假设被违反时的响应。"
+  },
+  "u0289": {
+    "en": "The result is a functional structure with chains and interface contracts. It provides input for architecture, requirements and FMEA. Model maintenance is part of development: a changed timeout must have the same baseline in the test and in the interface model.",
+    "zh": "成果是包含链和接口契约的功能结构。它为架构、要求和FMEA提供输入。模型维护属于开发工作：修改后的超时值在测试和接口模型中必须保持同一版本状态。"
+  },
+  "u0290": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0291": {
+    "en": "Decompose smartphone charging into functions and flows. Why is the statement “charging cable connected” insufficient as evidence of the charging function?",
+    "zh": "将智能手机充电分解为功能与流。为什么“充电线已连接”不足以证明充电功能？"
+  },
+  "u0292": {
+    "en": "6 Linking architecture and MBSE",
+    "zh": "6 关联架构与MBSE"
+  },
+  "u0293": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0294": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a>|  Foundations <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q09\">[Q09]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">示意图 A  </a><a href=\"#figures/diagram_B\">示意图 B  </a>|  基础 <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q09\">[Q09]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0295": {
+    "en": "A function can be implemented in different ways",
+    "zh": "同一功能可以有不同实现方式"
+  },
+  "u0296": {
+    "en": "A room can be heated by a radiator, underfloor heating or a heat pump with air distribution. The function is similar, but the architecture differs. The choice changes the energy supply, control, maintenance and possible failures. Architecture therefore determines a significant part of subsequent reliability.",
+    "zh": "房间可以通过暖气片、地暖或带空气分配的热泵加热。功能相似，但架构不同。选择不同，能源供应、控制、维护和可能故障也随之改变。因此，架构决定了后续可靠性的很大一部分。"
+  },
+  "u0297": {
+    "en": "We distinguish functional, logical and physical views. The functional view describes the required performance. The logical view describes the interacting elements and their responsibilities. The physical view assigns these tasks to specific hardware, software, firmware and interfaces. A function may require several elements; one element may support several functions.",
+    "zh": "我们区分功能、逻辑和物理视图。功能视图描述所需性能。逻辑视图描述相互作用的元素及其职责。物理视图把这些任务分配给具体硬件、软件、固件和接口。一项功能可能需要多个元素；一个元素也可能承担多项功能。"
+  },
+  "u0298": {
+    "en": "Consider shared resources deliberately",
+    "zh": "有意识地考虑共用资源"
+  },
+  "u0299": {
+    "en": "In a household, a refrigerator and router may be connected to separate sockets but supplied by the same fused circuit. Their visible separation does not protect against failure of the shared circuit. Similarly, in an X-ray system, a power supply, cooling system, clock source, network or shared software library may affect several functional chains.",
+    "zh": "家中冰箱和路由器可能连接不同插座，却由同一个受熔断器保护的电路供电。表面上的分离并不能防止共用电路失效。同样，在X射线系统中，电源、冷却系统、时钟源、网络或共用软件库可能影响多条功能链。"
+  },
+  "u0300": {
+    "en": "We therefore ask during the architecture decision whether sharing a resource makes sense and what effect its failure would have. Redundancy helps only if the required function actually continues after a failure. Two communication paths offer little benefit if both use the same erroneous state or switching does not work.",
+    "zh": "因此，在架构决策时就要考察共用资源是否合理，以及其失效会产生什么影响。只有所需功能在故障后确实继续运行，冗余才有帮助。如果两条通信路径都使用同一错误状态，或切换无法工作，其价值就很有限。"
+  },
+  "u0301": {
+    "en": "What model-based systems engineering means",
+    "zh": "基于模型的系统工程的含义"
+  },
+  "u0302": {
+    "en": "Model Based Systems Engineering, or MBSE, connects requirements, functions, architecture, behavior, analyses and evidence in traceable models. Its benefit lies in consistent relationships, not in producing as many diagrams as possible. A tool can support this maintenance; it replaces neither engineering decisions nor suitable data.",
+    "zh": "Model Based Systems Engineering，简称MBSE（基于模型的系统工程），在可追溯模型中关联要求、功能、架构、行为、分析和证据。其价值在于关系一致，而不是尽可能多地绘制图表。工具可以支持这种维护，但不能替代专业决策或适当数据。"
+  },
+  "u0303": {
+    "en": "We can start small: a use case receives one ID, the required function a second, and the interface a third. A requirement refers to these relationships. A test verifies the requirement, and a field failure refers to affected functions and versions. When a change occurs, this lets us ask which evidence is affected. An architecture image stored in isolation, without linked IDs and evidence, leaves this traceability unresolved.",
+    "zh": "可以从小规模开始：用例获得一个ID，所需功能获得第二个ID，接口获得第三个ID。要求引用这些关系。测试验证要求，现场故障关联受影响功能和版本。发生变更时，便可识别哪些证据受影响。孤立存放、未关联ID与证据的架构图无法实现这种追溯。"
+  },
+  "u0304": {
+    "en": "Managing approved version combinations",
+    "zh": "管理已批准的版本组合"
+  },
+  "u0305": {
+    "en": "Architecture also has a temporal dimension: firmware, control software, operating systems and archives evolve. We record the permitted combinations and link them to the tested functions. The table is a fictional teaching example; “Open” means untested, and suitability is determined only by the assessment.",
+    "zh": "架构也有时间维度：固件、控制软件、操作系统和归档系统持续演进。我们记录允许的组合，并关联已测试功能。该表是虚构教学示例；“待评估”表示未经测试，适用性只有经过评估才能确定。"
+  },
+  "u0306": {
+    "en": "<strong>Controller and detector</strong>",
+    "zh": "<strong>控制器与探测器</strong>"
+  },
+  "u0307": {
+    "en": "<strong>Archive version A</strong>",
+    "zh": "<strong>归档系统版本A</strong>"
+  },
+  "u0308": {
+    "en": "<strong>Archive version B</strong>",
+    "zh": "<strong>归档系统版本B</strong>"
+  },
+  "u0309": {
+    "en": "<strong>Decision</strong>",
+    "zh": "<strong>决定</strong>"
+  },
+  "u0310": {
+    "en": "<strong>Controller 1 and firmware 1</strong>",
+    "zh": "<strong>控制器1与固件1</strong>"
+  },
+  "u0311": {
+    "en": "<strong>Tested</strong>",
+    "zh": "<strong>已测试</strong>"
+  },
+  "u0312": {
+    "en": "<strong>Open</strong>",
+    "zh": "<strong>待评估</strong>"
+  },
+  "u0313": {
+    "en": "<strong>Only A approved</strong>",
+    "zh": "<strong>仅批准A</strong>"
+  },
+  "u0314": {
+    "en": "<strong>Controller 2 and firmware 1</strong>",
+    "zh": "<strong>控制器2与固件1</strong>"
+  },
+  "u0315": {
+    "en": "<strong>Tested</strong>",
+    "zh": "<strong>已测试</strong>"
+  },
+  "u0316": {
+    "en": "<strong>Tested</strong>",
+    "zh": "<strong>已测试</strong>"
+  },
+  "u0317": {
+    "en": "<strong>Both combinations approved</strong>",
+    "zh": "<strong>两种组合均已批准</strong>"
+  },
+  "u0318": {
+    "en": "<strong>Controller 2 and firmware 2</strong>",
+    "zh": "<strong>控制器2与固件2</strong>"
+  },
+  "u0319": {
+    "en": "<strong>Open</strong>",
+    "zh": "<strong>待评估</strong>"
+  },
+  "u0320": {
+    "en": "<strong>Tested</strong>",
+    "zh": "<strong>已测试</strong>"
+  },
+  "u0321": {
+    "en": "<strong>Only B approved</strong>",
+    "zh": "<strong>仅批准B</strong>"
+  },
+  "u0322": {
+    "en": "Approval covers the functions, usage and limits of these combinations. A patch can change timing behavior or resource needs even without changing the data format. Change analysis therefore checks affected contracts and evidence.",
+    "zh": "批准范围涵盖这些组合的功能、使用方式和界限。即使不改变数据格式，补丁也可能改变时间行为或资源需求。因此，变更分析要检查受影响的契约与证据。"
+  },
+  "u0323": {
+    "en": "With many variants, combinatorial testing can limit the scope. Pairwise coverage examines all selected two-factor combinations, but does not capture every interaction of three or more factors. We therefore add combinations relevant to risk, known failure triggers and boundary cases. The selection is justified; a reduced number of tests is not complete coverage.",
+    "zh": "变型很多时，可以用组合测试控制规模。成对覆盖检查所有选定的两因素组合，但不能涵盖三个或更多因素的全部交互作用。因此，我们补充与风险相关的组合、已知故障触发条件和边界场景。选择应有依据；减少测试数量并不代表全面覆盖。"
+  },
+  "u0324": {
+    "en": "Fallback arrangements need their own functional descriptions. Local image buffering must, for example, ensure correct association, complete transfer, duplicate detection and orderly restart. A substitute function becomes a dependable reserve only when its transition and limits have been tested.",
+    "zh": "后备措施需要独立的功能描述。例如，本地图像缓冲必须确保正确关联、完整传输、重复检测和有序恢复运行。只有切换过程和使用界限经过测试，替代功能才能成为可信的备用能力。"
+  },
+  "u0325": {
+    "en": "An example involving a changed ready message",
+    "zh": "就绪消息变更的示例"
+  },
+  "u0326": {
+    "en": "A detector receives new firmware. The ready status retains the same data format but is withdrawn at a different phase. Mechanically, the detector is unchanged. Through the model, we identify the affected state relationship, the system requirement for exposure enable and the associated tests. We can check this evidence specifically rather than indiscriminately repeating every component qualification.",
+    "zh": "探测器安装新固件。就绪状态保持相同数据格式，但在不同阶段撤回。探测器的机械结构没有变化。通过模型，我们识别受影响的状态关系、曝光允许的系统要求及相关测试。这样可以有针对性地检查这些证据，而无需无差别地重复所有组件鉴定。"
+  },
+  "u0327": {
+    "en": "A Digital Twin can be part of this work. It is a model of relevant system behavior, not an automatically complete replacement for the real product. For each use, we document purpose, inputs, model limits and comparison with reality. A timing model, for example, does not prove solder-joint life. A model may also contain the same error as the specification; independent cross-checks remain necessary.",
+    "zh": "Digital Twin（数字孪生）可以成为此项工作的一部分。它是相关系统行为的模型，并不会自动完整替代真实产品。每次使用都应记录目的、输入、模型界限和与实际情况的核对。例如，时序模型不能证明焊点寿命。模型还可能包含与规格相同的错误，因此仍需独立交叉检查。"
+  },
+  "u0328": {
+    "en": "Comparing architecture decisions",
+    "zh": "比较架构决策"
+  },
+  "u0329": {
+    "en": "<strong>Decision</strong>",
+    "zh": "<strong>决策</strong>"
+  },
+  "u0330": {
+    "en": "<strong>Possible advantage</strong>",
+    "zh": "<strong>可能优势</strong>"
+  },
+  "u0331": {
+    "en": "<strong>Reliability question</strong>",
+    "zh": "<strong>可靠性问题</strong>"
+  },
+  "u0332": {
+    "en": "<strong>Shared power supply</strong>",
+    "zh": "<strong>共用电源</strong>"
+  },
+  "u0333": {
+    "en": "<strong>Fewer parts and a simpler design</strong>",
+    "zh": "<strong>零部件更少，结构更简单</strong>"
+  },
+  "u0334": {
+    "en": "<strong>Which functions lose their power supply simultaneously</strong>",
+    "zh": "<strong>哪些功能会同时失去供电</strong>"
+  }
+}

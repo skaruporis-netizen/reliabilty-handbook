@@ -1,0 +1,1190 @@
+{
+  "u0335": {
+    "en": "<strong>Two data paths</strong>",
+    "zh": "<strong>两条数据路径</strong>"
+  },
+  "u0336": {
+    "en": "<strong>Alternative transmission</strong>",
+    "zh": "<strong>备用传输方式</strong>"
+  },
+  "u0337": {
+    "en": "<strong>Are there common causes and reliable switchover?</strong>",
+    "zh": "<strong>是否存在共因，切换是否可靠</strong>"
+  },
+  "u0338": {
+    "en": "<strong>Central state management</strong>",
+    "zh": "<strong>集中状态管理</strong>"
+  },
+  "u0339": {
+    "en": "<strong>Consistent coordination</strong>",
+    "zh": "<strong>统一协调</strong>"
+  },
+  "u0340": {
+    "en": "<strong>What happens if it fails or state data becomes outdated?</strong>",
+    "zh": "<strong>发生故障或状态数据过时时会怎样</strong>"
+  },
+  "u0341": {
+    "en": "<strong>Local error handling</strong>",
+    "zh": "<strong>局部错误处理</strong>"
+  },
+  "u0342": {
+    "en": "<strong>Rapid response within the subsystem</strong>",
+    "zh": "<strong>子系统内的快速响应</strong>"
+  },
+  "u0343": {
+    "en": "<strong>Do the system state and other subsystems remain consistent?</strong>",
+    "zh": "<strong>系统状态与其他子系统是否保持一致</strong>"
+  },
+  "u0344": {
+    "en": "The table provides questions, not a universal ranking. Fewer parts can reduce opportunities for failure, but a central resource can affect several functions simultaneously. The assessment depends on the required behavior and the actual dependencies.",
+    "zh": "该表提出问题，并不提供通用的优劣排序。较少的零件可能减少故障机会，但集中资源也可能同时影响多项功能。评估取决于所要求的行为和实际依赖关系。"
+  },
+  "u0345": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0346": {
+    "en": "Document functions and their required states.",
+    "zh": "记录功能及其所需状态。"
+  },
+  "u0347": {
+    "en": "Describe logical responsibilities and shared resources.",
+    "zh": "描述逻辑职责和共享资源。"
+  },
+  "u0348": {
+    "en": "Assign tasks to specific hardware and software.",
+    "zh": "将任务分配给具体的硬件和软件。"
+  },
+  "u0349": {
+    "en": "Link requirements, failure analyses, and tests using stable IDs.",
+    "zh": "使用稳定的ID关联需求、故障分析和测试。"
+  },
+  "u0350": {
+    "en": "When changes occur, trace an affected model path through to the system output.",
+    "zh": "发生变更时，沿受影响的模型路径追踪至系统输出。"
+  },
+  "u0351": {
+    "en": "Maintain a version matrix and specify fallback levels, including transition, return, and limits.",
+    "zh": "维护版本矩阵，并规定降级备用层级及其切换、恢复和限制。"
+  },
+  "u0352": {
+    "en": "The result is a maintainable architecture with traceable decisions. A model should contain only as much detail as is useful for the decision and for maintaining the model. Unresolved relationships are marked visibly, rather than hidden behind apparently precise diagrams.",
+    "zh": "结果是可维护的架构以及可追溯的决策。模型的细节应以有助于决策和模型维护为限。未厘清的关系应明确标记，而不应隐藏在看似精确的图示背后。"
+  },
+  "u0353": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0354": {
+    "en": "Two WLAN repeaters use the same router and the same power strip. Which failures does the second repeater compensate for, and which does it not?",
+    "zh": "两个WLAN中继器使用同一个路由器和同一个插线板。第二个中继器能应对哪些故障，又不能应对哪些故障？"
+  },
+  "u0355": {
+    "en": "Advanced exercise",
+    "zh": "进阶练习"
+  },
+  "u0356": {
+    "en": "An operator reports an archive upgrade to version B. The combination of controller 1, firmware 1, and archive B is marked as open in the version matrix. What follows from this?",
+    "zh": "运营方报告归档系统已升级至版本B。版本矩阵中，控制器1、固件1和归档系统B的组合标记为未决。这意味着什么？"
+  },
+  "u0357": {
+    "en": "7 Deriving requirements and reliability targets",
+    "zh": "7 推导需求和可靠性目标"
+  },
+  "u0358": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0359": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a>|  Fundamentals <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_B\">图示B  </a>|  基础资料 <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0360": {
+    "en": "Good requirements enable a decision",
+    "zh": "良好的需求使决策成为可能"
+  },
+  "u0361": {
+    "en": "The requirement “an umbrella must be sturdy” leaves open what load it must withstand. Even “lasts ten years” is incomplete if it may be used once a year or every day. A technical requirement states a function, its conditions, the permissible performance range, and the means of verification.",
+    "zh": "“雨伞必须结实”这一要求没有说明它应承受何种负荷。即使“耐用十年”也不完整，因为使用频率可能是每年一次，也可能是每天一次。技术需求应说明功能、条件、允许的性能范围和验证方式。"
+  },
+  "u0362": {
+    "en": "Reliability targets additionally require usage, population, and uncertainty. A statement may, for example, describe the proportion of units that survive a defined usage without a specified functional failure. This must be distinguished from the requirement that every individual specimen pass a particular load test without damage. Both requirements can be useful, but they answer different questions.",
+    "zh": "可靠性目标还需规定使用方式、总体和不确定性。例如，一项陈述可以描述在规定使用条件下未发生特定功能失效的单元比例。这不同于要求每个试样均无损地通过某项负荷试验。两类要求都可能有意义，但回答的是不同问题。"
+  },
+  "u0363": {
+    "en": "A complete reliability requirement",
+    "zh": "完整的可靠性要求"
+  },
+  "u0364": {
+    "en": "A purely educational example is: At least 90 percent of the cable population under consideration shall survive 500,000 specified movement cycles without loss of the defined transmission function; demonstration uses a one-sided confidence level of 95 percent. Bend radius, movement trajectory, temperature, installation, and failure definition are among the details that must be added. These numbers are not a recommendation for an X-ray product.",
+    "zh": "一个仅用于教学的例子是：所考虑的电缆总体中，至少90%的电缆应在500,000个规定运动循环后仍不丧失定义的传输功能；验证采用95%的单侧置信水平。还必须补充弯曲半径、运动轨迹、温度、安装条件和失效定义等信息。这些数字并非针对X射线产品的推荐值。"
+  },
+  "u0365": {
+    "en": "The statistical requirement is planned in Chapter 15. First, we clarify whether 500,000 cycles fit the application at all. A mathematically sound sample cannot rescue incorrectly specified usage. It must also be clear which production configuration and manufacturing variation the demonstration represents.",
+    "zh": "统计要求的规划见第15章。在此之前，我们先明确500,000个循环是否适合实际应用。数学上严谨的样本无法弥补错误规定的使用方式。此外，必须明确该验证代表哪种量产配置和制造变异。"
+  },
+  "u0366": {
+    "en": "A metric needs a clear endpoint",
+    "zh": "指标需要明确的终点"
+  },
+  "u0367": {
+    "en": "We use different targets for component lifetime, an individual exposure, and operational readiness. A good image per exposure, few interruptions per examination, and low downtime per operating month are different statements. Each receives a separate event definition and an appropriate denominator.",
+    "zh": "部件寿命、单次摄片和运行就绪状态使用不同的目标。每次摄片获得良好图像、每次检查中断次数少，以及每个运行月停机时间短，是不同的陈述。它们需要各自的事件定义和适当的分母。"
+  },
+  "u0368": {
+    "en": "Expected service life is a period specified by the manufacturer for the intended use within the product context. It is neither a guaranteed survival time for every unit nor equivalent to MTBF or B10. For medical device requirements, we check the meaning in the standards that actually apply. Essential performance and safety requirements are linked to risk management. The official description of IEC 60601-1 confirms the framework for basic safety and essential performance. <a href=\"#sources/source_N22\">[N22]</a>",
+    "zh": "预期使用寿命是制造商针对产品预期用途规定的时间段。它既不保证每个单元都存活这么长时间，也不等同于MTBF或B10。针对医疗器械需求，我们检查实际适用标准中的含义。基本性能和安全要求与风险管理相联系。IEC 60601-1的官方说明确认了基本安全和基本性能的框架。<a href=\"#sources/source_N22\">[N22]</a>"
+  },
+  "u0369": {
+    "en": "Allocate requirements across levels",
+    "zh": "将需求分配到各个层级"
+  },
+  "u0370": {
+    "en": "We begin with the system function and derive conditions for subsystems, components, and interfaces. A system target is not simply assigned identically to all components. Components affect the function differently, share resources, or perform redundant tasks. An initial reliability allocation can guide development; it must be based on a suitable system model.",
+    "zh": "我们从系统功能出发，推导子系统、部件和接口的条件。不能简单地将同一个系统目标分配给所有部件。部件对功能的影响各不相同，也可能共享资源或承担冗余任务。初步可靠性分配可以指导开发，但必须基于适当的系统模型。"
+  },
+  "u0371": {
+    "en": "A time budget illustrates decomposition: In the teaching example, a response may take 100 milliseconds in total. Request generation, transport, processing, and feedback each consume part of this budget. If each subfunction is allowed 100 milliseconds, the system requirement is not ensured. In addition to the sum, we need variation, competing load, and state transitions. Independent maximum values may be combined only if they can occur together.",
+    "zh": "时间预算说明了需求分解：在教学示例中，响应总时间不得超过100毫秒。请求生成、传输、处理和反馈分别占用部分预算。如果每项子功能都允许100毫秒，就无法保证系统需求。除了总和，还需考虑变异、竞争负荷和状态转换。只有在能够同时发生时，才可组合彼此独立的最大值。"
+  },
+  "u0372": {
+    "en": "Distinguish requirements by what they state",
+    "zh": "按陈述内容区分需求"
+  },
+  "u0373": {
+    "en": "<strong>Requirement type</strong>",
+    "zh": "<strong>需求类型</strong>"
+  },
+  "u0374": {
+    "en": "<strong>Example question</strong>",
+    "zh": "<strong>示例问题</strong>"
+  },
+  "u0375": {
+    "en": "<strong>Required additional detail</strong>",
+    "zh": "<strong>所需补充信息</strong>"
+  },
+  "u0376": {
+    "en": "<strong>Function and performance</strong>",
+    "zh": "<strong>功能与性能</strong>"
+  },
+  "u0377": {
+    "en": "<strong>What output must be available?</strong>",
+    "zh": "<strong>必须提供何种输出</strong>"
+  },
+  "u0378": {
+    "en": "<strong>Tolerance, state, and success criterion</strong>",
+    "zh": "<strong>容差、状态和成功判据</strong>"
+  },
+  "u0379": {
+    "en": "<strong>Stress</strong>",
+    "zh": "<strong>应力</strong>"
+  },
+  "u0380": {
+    "en": "<strong>What temperature or movement occurs?</strong>",
+    "zh": "<strong>会出现何种温度或运动</strong>"
+  },
+  "u0381": {
+    "en": "<strong>Measurement location, trajectory, duration, and combination</strong>",
+    "zh": "<strong>测量位置、变化过程、持续时间和组合</strong>"
+  },
+  "u0382": {
+    "en": "<strong>Lifetime</strong>",
+    "zh": "<strong>寿命</strong>"
+  },
+  "u0383": {
+    "en": "<strong>Over what usage must the function be maintained?</strong>",
+    "zh": "<strong>功能必须在多大使用量内保持</strong>"
+  },
+  "u0384": {
+    "en": "<strong>Hours, cycles, or calendar time</strong>",
+    "zh": "<strong>小时数、循环数或日历时间</strong>"
+  },
+  "u0385": {
+    "en": "<strong>Statistical target</strong>",
+    "zh": "<strong>统计目标</strong>"
+  },
+  "u0386": {
+    "en": "<strong>What population proportion is required?</strong>",
+    "zh": "<strong>要求达到何种总体比例</strong>"
+  },
+  "u0387": {
+    "en": "<strong>Confidence level, model, and representativeness</strong>",
+    "zh": "<strong>置信水平、模型和代表性</strong>"
+  },
+  "u0388": {
+    "en": "<strong>Interface</strong>",
+    "zh": "<strong>接口</strong>"
+  },
+  "u0389": {
+    "en": "<strong>How do sender and receiver interact?</strong>",
+    "zh": "<strong>发送方与接收方如何交互</strong>"
+  },
+  "u0390": {
+    "en": "<strong>Timing, validity, and error response</strong>",
+    "zh": "<strong>时序、有效性和错误响应</strong>"
+  },
+  "u0391": {
+    "en": "Check verifiability early",
+    "zh": "及早检查可验证性"
+  },
+  "u0392": {
+    "en": "For every requirement, we agree on analysis, testing, inspection, or a justified combination. Existing supplier evidence can form part of this. A requirement without a realistic verification path often leads to discussions only late in the project. A test without a clear link to a requirement is equally problematic: it remains unclear what statement a positive result supports.",
+    "zh": "我们为每项需求约定分析、试验、检查或有依据的组合方式。现有供应商证据可以构成其中一部分。没有现实可行验证路径的要求往往直到项目后期才引发讨论。没有明确需求关联的试验同样存在问题：通过试验究竟能支持什么结论仍不清楚。"
+  },
+  "u0393": {
+    "en": "In the X-ray system, for example, we derive requirements for exposure coordination and status validity from the imaging function. The usage profile produces thermal and cyclic stresses. The architecture produces shared resources and failure responses. Requirements are justified through these relationships, rather than merely copied from an earlier project.",
+    "zh": "例如，在X射线系统中，我们从摄片功能推导曝光协调和状态有效性需求。使用剖面产生热应力和循环应力。架构决定共享资源和故障响应。需求应基于这些关系加以论证，而不只是从以前的项目复制。"
+  },
+  "u0394": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0395": {
+    "en": "Translate the system function and user needs into verifiable performance.",
+    "zh": "将系统功能和用户需要转化为可验证的性能。"
+  },
+  "u0396": {
+    "en": "Reference the operating profile, scope, and failure definition.",
+    "zh": "引用运行剖面、适用范围和失效定义。"
+  },
+  "u0397": {
+    "en": "Formulate function, stress, usage extent, and statistical target separately.",
+    "zh": "分别表述功能、应力、使用量和统计目标。"
+  },
+  "u0398": {
+    "en": "Use the architecture to allocate requirements to appropriate levels.",
+    "zh": "通过架构将需求分配到适当的层级。"
+  },
+  "u0399": {
+    "en": "Define the acceptance criterion, verification, and responsible person before approval.",
+    "zh": "在批准前确定验收判据、验证方式和负责人。"
+  },
+  "u0400": {
+    "en": "Define the endpoint and denominator for each metric; treat expected service life separately from MTBF and B10.",
+    "zh": "为各项指标规定终点和分母；将预期使用寿命与MTBF和B10分别处理。"
+  },
+  "u0401": {
+    "en": "The result is a verifiable set of requirements. Typical misconceptions include “reliable” without a measurement, long lifetime without a profile, and a confidence level without a named reference quantity. The supplier must use the same terms and units as the system team.",
+    "zh": "结果是一套可验证的需求。典型误区包括：没有测量指标的“可靠”、没有剖面的长寿命，以及没有指明参照量的置信水平。供应商必须使用与系统团队相同的术语和单位。"
+  },
+  "u0402": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0403": {
+    "en": "Improve the requirement “the laptop battery should last a long time.” Distinguish runtime per charge, charging cycles, calendar age, and statistical population proportion.",
+    "zh": "改进“笔记本电脑电池应能使用很久”这一要求。区分每次充电后的续航时间、充电循环数、日历年龄和统计总体比例。"
+  },
+  "u0404": {
+    "en": "8 Deriving FMEA from functions and interfaces",
+    "zh": "8 从功能和接口推导FMEA"
+  },
+  "u0405": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0406": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Fundamentals <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N05\">[N05]</a> <a href=\"#sources/source_N18\">[N18]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_B\">图示B  </a><a href=\"#figures/diagram_C\">图示C  </a>|  基础资料 <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N05\">[N05]</a> <a href=\"#sources/source_N18\">[N18]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0407": {
+    "en": "From a potential deviation to its effect",
+    "zh": "从潜在偏差到其影响"
+  },
+  "u0408": {
+    "en": "An FMEA is a structured examination of potential failure modes and their effects. We start from a function or an element and ask in what ways it could fail to perform its task. We then examine causes, the local effect, the effect on the next level, and the effect on the system function. FMECA adds a criticality assessment.",
+    "zh": "FMEA是对潜在失效模式及其影响的结构化分析。我们从功能或要素出发，询问它可能以何种方式无法完成任务。随后分析原因、局部影响、对上一层级的影响，以及对系统功能的影响。FMECA则进一步增加危害度评估。"
+  },
+  "u0409": {
+    "en": "An everyday scenario is a coffee machine: the valve must release water at the right time. It may remain closed, leak, or open too late. The local effects differ. At system level, coffee may be missing, the fill volume may be wrong, or water may escape from the intended path. In each case, the cause may lie in mechanics, control, contamination, or the specification.",
+    "zh": "一个日常场景是咖啡机：阀门应在正确时间放水。它可能保持关闭、泄漏或开启过晚。这些情况的局部影响各不相同。在系统层面，可能无法出咖啡、灌注量错误，或水从预定路径之外流出。各自的原因可能涉及机械结构、控制、污染或规格要求。"
+  },
+  "u0410": {
+    "en": "Prepare the FMEA from the system boundary and interfaces",
+    "zh": "依据系统边界和接口准备FMEA"
+  },
+  "u0411": {
+    "en": "Before filling in rows, we need the system boundary, functional structure, interfaces, and states from Chapters 3 to 6. Without this preparation, the result is often a parts list with general statements such as “electronics defective.” It shows neither the required function nor failure propagation.",
+    "zh": "填写分析表之前，需要第3至6章中的系统边界、功能结构、接口和状态。缺少这些准备，结果往往只是部件清单，配上“电子设备故障”等笼统描述。它既未说明所需功能，也未说明故障传播。"
+  },
+  "u0412": {
+    "en": "For each relevant output, we check deviations: absent, wrong, too much, too little, too early, too late, intermittent, outdated, or in the wrong state. Unwanted outputs are also considered. An element may deliver its intended output while simultaneously producing a disruptive side effect. For inputs, we additionally ask how the element should respond to invalid values or values outside the assumptions.",
+    "zh": "对于每项相关输出，我们检查以下偏差：缺失、错误、过多、过少、过早、过晚、间歇性、过时或状态错误。还需考虑不期望的输出。某个要素可能提供了规定输出，同时产生干扰性的副作用。对于输入，还要询问该要素应如何响应无效值或超出假设范围的值。"
+  },
+  "u0413": {
+    "en": "Explicitly check the handoff between systems",
+    "zh": "明确检查系统之间的交接"
+  },
+  "u0414": {
+    "en": "For each handoff, we consider missing, wrong, late, outdated, and duplicate outputs. We also ask about incorrect sequence and invalid state. These terms describe deviations; their effect on the required function determines their relevance.",
+    "zh": "对于每次交接，我们考虑输出缺失、错误、延迟、过时和重复交付。还应询问顺序错误和无效状态。这些词描述的是偏差；只有它们对所需功能的影响，才决定其相关性。"
+  },
+  "u0415": {
+    "en": "An archive may receive the same message twice. The FMEA examines whether the repetition is correctly detected or creates an incorrect association. An unreachable archive may lead to a controlled waiting state; a falsely acknowledged receipt, in contrast, may cause undetected loss. These two cases require different measures and test oracles.",
+    "zh": "归档系统可能两次收到同一条消息。FMEA分析重复消息是否被正确识别，还是会造成错误关联。无法访问的归档系统可能导致受控的等待状态；错误确认已接收则可能导致未被发现的丢失。这两种情况需要不同的措施和测试判定依据。"
+  },
+  "u0416": {
+    "en": "Choose the appropriate FMEA perspective",
+    "zh": "选择适当的FMEA视角"
+  },
+  "u0417": {
+    "en": "A functional FMEA examines performance and its deviations, even before the specific physical design is determined. A design FMEA examines the selected implementation. An interface FMEA considers exchanges and mutual effects between elements. A process FMEA examines manufacturing or assembly operations. These perspectives are coordinated; they should not maintain the same information repeatedly without links.",
+    "zh": "功能FMEA分析性能及其偏差，即使具体结构形式尚未确定也可开展。设计FMEA分析选定的实现方案。接口FMEA考虑要素之间的交换过程和相互影响。过程FMEA分析制造或装配过程。这些视角应相互协调，不应在缺少关联的情况下重复维护相同信息。"
+  },
+  "u0418": {
+    "en": "In the X-ray system, an interface FMEA may identify that a readiness status is still stored even though the detector is no longer ready for imaging. No component has to be damaged for this to happen. Sender, transmission, receiver, and time reference must be examined together.",
+    "zh": "在X射线系统中，接口FMEA可能发现：尽管探测器已不再具备摄片就绪条件，存储的状态仍显示就绪。这种情况并不需要任何部件损坏。必须一起分析发送方、传输、接收方和时间参照。"
+  },
+  "u0419": {
+    "en": "An excerpt from the FMEA",
+    "zh": "FMEA节选"
+  },
+  "u0420": {
+    "en": "The following excerpt is a teaching example. It deliberately contains no approved risk or rating scales.",
+    "zh": "以下节选是教学示例，特意未包含任何已批准的风险或评分尺度。"
+  },
+  "u0421": {
+    "en": "<strong>ID and function</strong>",
+    "zh": "<strong>ID与功能</strong>"
+  },
+  "u0422": {
+    "en": "<strong>Failure mode</strong>",
+    "zh": "<strong>失效模式</strong>"
+  },
+  "u0423": {
+    "en": "<strong>Possible cause</strong>",
+    "zh": "<strong>可能原因</strong>"
+  },
+  "u0424": {
+    "en": "<strong>Effect on the system function</strong>",
+    "zh": "<strong>对系统功能的影响</strong>"
+  },
+  "u0425": {
+    "en": "<strong>F01 Report readiness</strong>",
+    "zh": "<strong>F01 报告就绪状态</strong>"
+  },
+  "u0426": {
+    "en": "<strong>Outdated status</strong>",
+    "zh": "<strong>状态过时</strong>"
+  },
+  "u0427": {
+    "en": "<strong>State transition is not detected in time</strong>",
+    "zh": "<strong>未及时发现状态转换</strong>"
+  },
+  "u0428": {
+    "en": "<strong>Authorization decision does not match the current state</strong>",
+    "zh": "<strong>放行决策与当前状态不符</strong>"
+  },
+  "u0429": {
+    "en": "<strong>F02 Transfer image</strong>",
+    "zh": "<strong>F02 传输图像</strong>"
+  },
+  "u0430": {
+    "en": "<strong>Some data is missing</strong>",
+    "zh": "<strong>部分数据缺失</strong>"
+  },
+  "u0431": {
+    "en": "<strong>Interruption or resource bottleneck</strong>",
+    "zh": "<strong>中断或资源瓶颈</strong>"
+  },
+  "u0432": {
+    "en": "<strong>No fully usable image</strong>",
+    "zh": "<strong>没有完整可用的图像</strong>"
+  },
+  "u0433": {
+    "en": "<strong>F03 Remove heat</strong>",
+    "zh": "<strong>F03 散热</strong>"
+  },
+  "u0434": {
+    "en": "<strong>Insufficient cooling capacity</strong>",
+    "zh": "<strong>冷却能力不足</strong>"
+  },
+  "u0435": {
+    "en": "<strong>Installation obstructs airflow</strong>",
+    "zh": "<strong>安装方式阻碍气流</strong>"
+  },
+  "u0436": {
+    "en": "<strong>Degradation or protective interruption</strong>",
+    "zh": "<strong>性能退化或保护性中断</strong>"
+  },
+  "u0437": {
+    "en": "<strong>ID</strong>",
+    "zh": "<strong>ID</strong>"
+  },
+  "u0438": {
+    "en": "<strong>Possible measure</strong>",
+    "zh": "<strong>可能措施</strong>"
+  },
+  "u0439": {
+    "en": "<strong>Verification of the measure</strong>",
+    "zh": "<strong>措施验证</strong>"
+  },
+  "u0440": {
+    "en": "<strong>F01</strong>",
+    "zh": "<strong>F01</strong>"
+  },
+  "u0441": {
+    "en": "<strong>Introduce request identification and validity checking</strong>",
+    "zh": "<strong>引入请求标识和有效性检查</strong>"
+  },
+  "u0442": {
+    "en": "<strong>Specifically test delayed and outdated messages</strong>",
+    "zh": "<strong>有针对性地测试延迟和过时的消息</strong>"
+  },
+  "u0443": {
+    "en": "<strong>F02</strong>",
+    "zh": "<strong>F02</strong>"
+  },
+  "u0444": {
+    "en": "<strong>Detect completeness and provide a defined error response</strong>",
+    "zh": "<strong>检测完整性并提供规定的错误响应</strong>"
+  },
+  "u0445": {
+    "en": "<strong>Inject interruptions at different transmission points</strong>",
+    "zh": "<strong>在不同传输位置注入中断</strong>"
+  },
+  "u0446": {
+    "en": "<strong>F03</strong>",
+    "zh": "<strong>F03</strong>"
+  },
+  "u0447": {
+    "en": "<strong>Ensure installation conditions and monitor temperature</strong>",
+    "zh": "<strong>确保安装条件并监测温度</strong>"
+  },
+  "u0448": {
+    "en": "<strong>Thermal system test using the relevant load profile</strong>",
+    "zh": "<strong>按相关负荷剖面开展系统热测试</strong>"
+  },
+  "u0449": {
+    "en": "A completed analysis sheet adds existing prevention and detection controls, responsible persons, deadlines, assessment, and residual state. A measure remains open until its effectiveness is demonstrated. A completed development ticket alone does not prove this effectiveness.",
+    "zh": "完整的分析表还需补充现有预防和检测控制措施、负责人、期限、评估及措施实施后的状态。在有效性得到证明之前，措施仍处于未关闭状态。仅仅完成一项开发工单并不能证明该措施有效。"
+  },
+  "u0450": {
+    "en": "Include operator actions in the analysis",
+    "zh": "将操作人员的行为纳入分析"
+  },
+  "u0451": {
+    "en": "An unclear display can encourage an incorrect action even when the electronics and software function technically. As with two similar-looking stove knobs, assignment, feedback, and expected operation must fit together. Safety-related operator actions are linked to the usability process under IEC 62366-1. The FMEA does not replace this process. <a href=\"#sources/source_N29\">[N29]</a>",
+    "zh": "不清晰的显示可能促成错误操作，即使电子设备和软件在技术上运行正常。就像两个外观相似的炉灶旋钮，其对应关系、反馈和预期操作必须相互匹配。与安全有关的操作行为应与IEC 62366-1规定的可用性过程相联系。FMEA不能替代这一过程。<a href=\"#sources/source_N29\">[N29]</a>"
+  },
+  "u0452": {
+    "en": "Assessment and limitations",
+    "zh": "评估与局限"
+  },
+  "u0453": {
+    "en": "Severity, occurrence, and detection are assessed using justified company-specific scales. A risk priority number may be used as an aid, but must not hide relevant high severity behind a small number. The link to medical risk management must be ensured separately. Not every reliability failure causes harm, and not every risk arises from a single component failure.",
+    "zh": "严重度、发生度和探测度应依据有充分理由的企业专用尺度进行评估。风险优先数可作为辅助指标，但不能用较小的数值掩盖相关的高严重度。与医疗风险管理的关联必须另行确保。并非每次可靠性失效都会造成伤害，也并非每项风险都源自单个部件故障。"
+  },
+  "u0454": {
+    "en": "FMEA is particularly useful for traceable individual deviations and their propagation. Combinations, common causes, and complex temporal interactions often require additional methods, such as FTA or state models. It is maintained when architectures change, new use cases arise, and field findings become available.",
+    "zh": "FMEA特别适用于可追溯的单项偏差及其传播。组合、共因和复杂的时间交互往往需要FTA或状态模型等补充方法。架构变更、新增使用场景和获得现场发现时，应更新FMEA。"
+  },
+  "u0455": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0456": {
+    "en": "Define the boundary, function, state, and interface under consideration.",
+    "zh": "规定所考虑的边界、功能、状态和接口。"
+  },
+  "u0457": {
+    "en": "Generate deviations using a systematic list of questions.",
+    "zh": "使用系统性问题清单识别偏差。"
+  },
+  "u0458": {
+    "en": "Trace causes and effects across levels.",
+    "zh": "跨层级追踪原因和影响。"
+  },
+  "u0459": {
+    "en": "Document existing controls and relevant assessment criteria.",
+    "zh": "记录现有控制措施和相关评估标准。"
+  },
+  "u0460": {
+    "en": "Agree measures, responsible persons, and evidence of effectiveness.",
+    "zh": "约定措施、负责人和有效性证据。"
+  },
+  "u0461": {
+    "en": "Feed new findings back into functions, requirements, and tests.",
+    "zh": "将新发现反馈到功能、需求和测试中。"
+  },
+  "u0462": {
+    "en": "Check handoffs for missing, wrong, late, outdated, and duplicate outputs, as well as incorrect sequence.",
+    "zh": "检查交接中的输出缺失、错误、延迟、过时、重复及顺序错误。"
+  },
+  "u0463": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0464": {
+    "en": "A front-door bell rings ten seconds late. Formulate the function, failure mode, two possible causes, and the effect. Why is “bell defective” too imprecise as a description?",
+    "zh": "门铃晚了十秒才响。请表述其功能、失效模式、两个可能原因和影响。为什么“门铃坏了”这一描述不够精确？"
+  },
+  "u0465": {
+    "en": "9 Analyzing failure combinations and system reliability",
+    "zh": "9 分析故障组合和系统可靠性"
+  },
+  "u0466": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0467": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Fundamentals <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_C\">图示C  </a>|  基础资料 <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0468": {
+    "en": "Different questions require different models",
+    "zh": "不同问题需要不同模型"
+  },
+  "u0469": {
+    "en": "In an FMEA, we start with a failure mode and ask about its effects. In fault tree analysis, or FTA, we begin with an unwanted event and seek its causes and combinations. A reliability block diagram, or RBD, instead describes which elements must succeed for the function under consideration.",
+    "zh": "在FMEA中，我们从失效模式出发，询问其影响。在故障树分析（简称FTA）中，我们从不期望事件出发，寻找其原因和组合。可靠性框图（简称RBD）则描述：为了实现所考虑的功能，哪些要素必须成功运行。"
+  },
+  "u0470": {
+    "en": "The stairwell light may fail because the lamp, power supply, or controller is unavailable. For the event “no light,” any one of these failures may be sufficient on its own. With a second lamp, loss of both lamps may be necessary, while a shared fuse remains a single-point failure. Even this simple example shows the distinction between redundancy and a common cause.",
+    "zh": "楼梯间照明可能因灯具、电源或控制装置不可用而失效。对于“无照明”事件，其中任一故障可能单独就足以导致该事件。增加第二盏灯后，可能需要两盏灯均失效才会无照明，但共用保险丝仍是单点故障。即使这个简单例子也说明了冗余与共因之间的区别。"
+  },
+  "u0471": {
+    "en": "Interpret OR and AND correctly",
+    "zh": "正确理解“或”和“与”"
+  },
+  "u0472": {
+    "en": "An OR gate means that at least one of its input events is sufficient for the failure path under consideration. An AND gate means that the described combination is required. The precise event definition and the duration under consideration determine the meaning. Two events must not be treated as independent merely because they appear in different boxes.",
+    "zh": "或门表示：至少一个输入事件就足以构成所考虑的故障路径。与门表示：必须发生所描述的组合。具体含义取决于精确的事件定义和所考虑的持续时间。不能仅因两个事件位于不同方框中，就将其视为独立事件。"
+  },
+  "u0473": {
+    "en": "Quantitative models require suitable input data and assumptions about time, repair, dependencies, and the failure definition. The rate of service replacements is not, without examination, the probability of a confirmed functional failure. A numerical result can look very precise and still be based on unsuitable data.",
+    "zh": "定量模型需要适当的输入数据，以及有关时间、维修、依赖关系和失效定义的假设。维修更换率未经检查不能直接视为已确认功能失效的概率。数值计算结果可能看起来非常精确，却仍基于不适当的数据。"
+  },
+  "u0474": {
+    "en": "Treat common causes cautiously in quantitative analysis",
+    "zh": "定量分析时谨慎处理共因"
+  },
+  "u0475": {
+    "en": "Redundancy helps against independent failures. A shared power supply, shared cooling, or the same software defect can affect both channels. We model the common cause explicitly before using the parallel formula.",
+    "zh": "冗余有助于应对独立故障。共用电源、共用冷却或同一个软件缺陷可能影响两个通道。在使用并联公式之前，我们应明确建立共因模型。"
+  },
+  "u0476": {
+    "en": "As a simplified partition, a fraction b of an element's failure rate can be attributed to common causes. The remaining fraction is treated as independent. In the teaching example with 100 FIT and b equal to 0.05, 5 FIT belongs to the common-cause portion and 95 FIT to the independent portion. FIT means one failure per one billion unit-hours. This partition does not replace a complete calculation of the redundant architecture.",
+    "zh": "在简化划分中，可以将要素失效率的一部分b归因于共因，其余部分视为独立。在100 FIT、b等于0.05的教学示例中，共因部分为5 FIT，独立部分为95 FIT。FIT表示每十亿单元小时发生一次失效。这一划分不能替代对冗余架构的完整计算。"
+  },
+  "u0478": {
+    "en": "The factor is derived from suitable evidence or a justified, applicable procedure. It must not be chosen arbitrarily optimistically. This simple constant-rate partition is often unsuitable for systematic software and integration faults. A common cause can also affect more than two elements and several functions.",
+    "zh": "该因子应根据适当证据或有依据且适用的方法推导，不得随意采用乐观值。对于系统性软件和集成故障，这种简单的恒定失效率划分往往不适用。一个共因还可能影响两个以上要素和多项功能。"
+  },
+  "u0479": {
+    "en": "Fault tree and block diagram for the same example",
+    "zh": "同一示例的故障树和框图"
+  },
+  "u0480": {
+    "en": "Diagram I Fault tree and block diagram of the stairwell light  Original illustration for the teaching case described.",
+    "zh": "图示I 楼梯间照明的故障树和框图  针对所述教学案例自行绘制。"
+  },
+  "u0481": {
+    "en": "Diagram I Fault tree and block diagram of the stairwell light  Original illustration for the teaching case described.",
+    "zh": "图示I 楼梯间照明的故障树和框图  针对所述教学案例自行绘制。"
+  },
+  "u0482": {
+    "en": "The stairwell has two lamps and a shared power supply. Light is available if the supply works and at least one lamp is lit. No light occurs if the supply fails or both lamps fail. The fault tree and block diagram show the same simplified logic from opposite directions. Shared control, repair, and dynamic switchover are deliberately not yet included here. Only after this qualitative clarification do we choose suitable probabilities. <a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>",
+    "zh": "楼梯间有两盏灯和一个共用电源。电源正常且至少一盏灯亮时，就有照明。电源失效或两盏灯均失效时，就没有照明。故障树和框图从相反方向展示同一种简化逻辑。此处特意尚未纳入共用控制装置、维修或动态切换。只有完成这种定性厘清之后，才选择适当的概率。<a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>"
+  },
+  "u0483": {
+    "en": "Two simple calculations",
+    "zh": "两个简单计算"
+  },
+  "u0484": {
+    "en": "In the teaching example, two elements are required for the same mission. Each has a reliability of 0.99. If their failures are independent and failure of either element alone causes loss of function, series reliability is the product.",
+    "zh": "在教学示例中，同一任务需要两个要素，每个要素的可靠性为0.99。如果它们的失效相互独立，且任一要素失效就会导致功能丧失，则串联可靠性等于两者的乘积。"
+  },
+  "u0486": {
+    "en": "For two such elements, the result is 0.9801, or 98.01 percent. High individual values therefore do not guarantee the same system value. The equation applies to the defined success of both elements over the same mission and only to mission probabilities defined in that way; MTBF figures are not such probabilities.",
+    "zh": "两个这样的要素得到0.9801，即98.01%。因此，单体的高可靠性并不保证系统达到相同数值。该方程适用于两个要素在同一任务期间按定义成功运行的情况，且仅适用于如此定义的任务概率；MTBF数值并不是这样的概率。"
+  },
+  "u0487": {
+    "en": "With ideal active redundancy, one functioning element is sufficient. If failures are independent and there is no other shared source of loss, the result is:",
+    "zh": "在理想的主动冗余中，一个正常工作的要素就足够。如果失效相互独立，且不存在其他共用失效来源，则得到："
+  },
+  "u0489": {
+    "en": "For two elements each with 0.99, the ideal model yields 0.9999, or 99.99 percent. A shared supply, faulty switchover, or a common software cause can substantially restrict this advantage. The idealized calculation is therefore a starting point, not complete architectural evidence.",
+    "zh": "对于两个可靠性均为0.99的要素，理想模型得到0.9999，即99.99%。共用电源、切换故障或软件共因可能大幅限制这一优势。因此，理想化计算是起点，而不是完整的架构证据。"
+  },
+  "u0490": {
+    "en": "Examine control and feedback using STPA",
+    "zh": "使用STPA分析控制和反馈"
+  },
+  "u0491": {
+    "en": "System-Theoretic Process Analysis, or STPA, supplements failure analyses with control relationships. It is a hazard analysis method, not a formula for failure probability. We use it particularly when a problematic sequence can occur even though no individual part is damaged. <a href=\"#sources/source_Q23\">[Q23]</a>",
+    "zh": "系统理论过程分析（System-Theoretic Process Analysis，简称STPA）通过控制关系补充故障分析。它是一种危险分析方法，而不是失效概率公式。特别是在单个零件都未损坏却可能出现问题流程时，我们使用这种方法。<a href=\"#sources/source_Q23\">[Q23]</a>"
+  },
+  "u0492": {
+    "en": "For the readiness case, we examine the controller, authorization command, controlled process, and feedback. We ask: Is a required command not issued? Is an impermissible command issued? Does it arrive too early, too late, or in the wrong order? Does it last too long or end too early? These questions produce specific scenarios, conditions, and measures.",
+    "zh": "对于就绪案例，我们分析控制器、放行指令、受控过程和反馈。我们询问：必要指令是否未发出？是否发出了不允许的指令？指令是否过早、过晚或以错误顺序到达？是否持续过久或过早结束？这些问题形成具体场景、条件和措施。"
+  },
+  "u0493": {
+    "en": "The result supplements the FMEA and tests. A complete STPA requires defined losses, hazards, control structure, and causal analysis. The brief guiding questions here are an introduction, not complete safety evidence.",
+    "zh": "分析结果补充FMEA和测试。完整的STPA需要定义损失、危险、控制结构，并进行原因分析。这里的简短引导问题只是入门，不是完整的安全证据。"
+  },
+  "u0494": {
+    "en": "Add time and repair",
+    "zh": "补充时间和维修因素"
+  },
+  "u0495": {
+    "en": "A coffee machine that can be repaired immediately has different availability from one with a long wait for spare parts. A state model describes, for example, operational, degraded, failed, and under repair states. Markov models use specific assumptions about state transitions; their transition assumptions must fit the process under consideration. Simulations or other time-dependent models may be more suitable for complex sequences.",
+    "zh": "可立即修复的咖啡机与需要长时间等待备件的咖啡机具有不同的可用性。例如，状态模型描述正常运行、性能受限、失效和维修中等状态。马尔可夫模型采用特定的状态转换假设，这些假设必须适合所考虑的过程。对于更复杂的流程，仿真或其他时变模型可能更适合。"
+  },
+  "u0496": {
+    "en": "In the simple model with mean operating time MTBF and mean repair time MTTR, long-term inherent availability can be approximated or calculated under suitable renewal assumptions:",
+    "zh": "在平均运行时间为MTBF、平均维修时间为MTTR的简单模型中，可以近似计算长期固有可用性，或在适当的更新过程假设下计算："
+  },
+  "u0498": {
+    "en": "Logistics, planned maintenance, and actual operating organization may require additional times. The formula makes a decision visible: availability can be improved through fewer failures or faster restoration. Faster restoration reduces downtime, but does not prevent mission failure.",
+    "zh": "物流、计划维护和实际运行组织可能需要计入其他时间。该公式揭示了一项决策：减少故障或加快恢复都能提高可用性。更快的恢复缩短停机时间，但不能防止任务失效。"
+  },
+  "u0499": {
+    "en": "Application to the X-ray system",
+    "zh": "在X射线系统中的应用"
+  },
+  "u0500": {
+    "en": "For the top event “no usable image,” we consider, for example, the detector, exposure coordination, power supply, and data provision. We define the output before collecting failure paths. Shared resources are first examined qualitatively. Subsequent quantification should show which uncertainty is particularly relevant and where additional data will bring the greatest benefit.",
+    "zh": "针对顶事件“没有可用的摄片图像”，我们考虑探测器、曝光协调、电源和数据提供等因素。在收集故障路径之前，先定义输出。首先对共享资源进行定性检查。后续定量分析应表明哪些不确定性尤其相关，以及在哪些方面补充数据最有价值。"
+  },
+  "u0501": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0502": {
+    "en": "Define the system function or top event, including its time reference.",
+    "zh": "定义系统功能或顶事件，包括时间参照。"
+  },
+  "u0503": {
+    "en": "Choose the appropriate model form and document its boundary.",
+    "zh": "选择适当的模型形式，并记录其边界。"
+  },
+  "u0504": {
+    "en": "Add common causes, failure propagation, and restoration.",
+    "zh": "补充共因、故障传播和恢复。"
+  },
+  "u0505": {
+    "en": "Check input data for identical usage and failure definitions.",
+    "zh": "检查输入数据是否采用相同的使用方式和失效定义。"
+  },
+  "u0506": {
+    "en": "Assess sensitivity and uncertainty of the result.",
+    "zh": "评估结果的敏感性和不确定性。"
+  },
+  "u0507": {
+    "en": "Model common causes before the parallel calculation; consider STPA for relevant control sequences.",
+    "zh": "在并联计算前建立共因模型；对于相关控制流程，考虑采用STPA。"
+  },
+  "u0508": {
+    "en": "The result is a justified failure path or a system model with clear assumptions. Redundancy without checking common causes and multiplication of arbitrary metrics are typical misconceptions.",
+    "zh": "结果是有依据的故障路径，或假设明确的系统模型。未经共因检查就采用冗余，以及将任意指标相乘，都是典型误区。"
+  },
+  "u0509": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0510": {
+    "en": "Two flashlights have separate batteries, but both were stored in the same damp basement. Which independence assumption should you check before calculating redundancy?",
+    "zh": "两个手电筒使用各自独立的电池，但都存放在同一个潮湿地下室。在进行冗余计算前，应检查哪项独立性假设？"
+  },
+  "u0511": {
+    "en": "Advanced exercise",
+    "zh": "进阶练习"
+  },
+  "u0512": {
+    "en": "A redundant channel has 200 FIT. In the simplified rate model, the common-cause fraction is 0.10. How do we partition the rate, and what does this not yet tell us?",
+    "zh": "一个冗余通道的失效率为200 FIT。在简化失效率模型中，共因比例为0.10。应如何划分失效率，这一划分尚不能说明什么？"
+  },
+  "u0513": {
+    "en": "10 Understanding failure mechanisms and robustness margins",
+    "zh": "10 理解失效机理和稳健性裕量"
+  },
+  "u0514": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0515": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Fundamentals <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_Q11\">[Q11]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_C\">图示C  </a>|  基础资料 <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_Q11\">[Q11]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0516": {
+    "en": "Consider stress and strength together",
+    "zh": "同时考虑应力和承受能力"
+  },
+  "u0517": {
+    "en": "A shopping bag carries five kilograms without difficulty. When it becomes wet, the same load can become more critical. Stress, material condition, and strength are decisive. In a technical product, temperature, voltage, movement, radiation, and other influences act on specific physical mechanisms. Physics of Failure means understanding this relationship and accounting for it in the design.",
+    "zh": "购物袋可以轻松承载五千克。但当它变湿时，同样的负荷可能变得更加严苛。决定性因素是应力、材料状态和承受能力。在技术产品中，温度、电压、运动、辐射和其他因素作用于具体物理机理。失效物理（Physics of Failure）意味着理解这种关系，并在设计中考虑它。"
+  },
+  "u0518": {
+    "en": "A mechanism may, for example, be thermally driven damage or fatigue at a connection. The visible failure manifestation may be intermittent contact or image loss. Cause, mechanism, and symptom are distinguished. A high number of failures initially says little about which mechanism must be changed.",
+    "zh": "机理可能是热驱动损伤或连接处的疲劳。可见故障表现则可能是间歇接触或图像丢失。原因、机理和症状应加以区分。故障数量多本身并不能充分说明需要改变哪种机理。"
+  },
+  "u0519": {
+    "en": "Distinguish three regions",
+    "zh": "区分三个区域"
+  },
+  "u0520": {
+    "en": "The nominal point describes representative operation. The worst permissible case remains within the specified application. Exploratory limit tests additionally examine how the product behaves when approaching a limit step by step or going beyond it. Failure outside the specification constitutes nonfulfillment of a requirement only if the tested condition falls within that requirement's scope; however, it can reveal a small margin or an unwanted failure response.",
+    "zh": "标称点描述有代表性的运行情况。最不利的允许情况仍处于规定应用范围之内。探索性极限测试还研究产品逐步接近或超越极限时的行为。只有当测试条件属于该需求的适用范围时，规格范围外的失效才构成不满足需求；但它可能揭示裕量不足或不期望的故障响应。"
+  },
+  "u0521": {
+    "en": "A smartphone may work in everyday use at room temperature and shut down in a hot car. The first demonstration concerns normal use; the second concerns permissible or impermissible environmental conditions, depending on the specification. A controlled investigation of the limit helps us understand sensitivity. It must not be confused with lifetime evidence.",
+    "zh": "智能手机可能在室温下的日常使用中正常工作，却在炎热的汽车内关机。第一种验证涉及正常使用，第二种则根据规格涉及允许或不允许的环境条件。对极限进行受控研究有助于理解敏感性，但不能将其与寿命证据混淆。"
+  },
+  "u0522": {
+    "en": "Margins are multidimensional",
+    "zh": "裕量是多维的"
+  },
+  "u0523": {
+    "en": "In the educational temperature example, a component temperature is 70 degrees Celsius under the worst permissible operating conditions. A defined performance limit is reached experimentally only at 85 degrees Celsius. The margin for this exact configuration is 15 kelvin. Measurement uncertainty, variation, and other stresses still need to be considered. This is not a universal safety margin for a product.",
+    "zh": "在教学温度示例中，部件在最不利的允许运行条件下温度为70摄氏度。实验中直到85摄氏度才达到规定的性能极限。对于这一具体配置，裕量为15开尔文。还必须考虑测量不确定性、变异和其他应力。这不是适用于所有产品的通用安全裕量。"
+  },
+  "u0524": {
+    "en": "At higher supply load, the limit may be lower. A timing margin can shrink with network traffic. An older component may have different margins from a new one. We therefore document which limit was measured, calculated, or merely assumed, and under which combinations it applies.",
+    "zh": "供电负荷更高时，极限可能降低。网络流量可能缩小时序裕量。老化部件与新部件的裕量可能不同。因此，我们记录哪些极限经过测量、计算，或仅为假定，以及这些极限在何种组合条件下适用。"
+  },
+  "u0525": {
+    "en": "Examine design margins and variation",
+    "zh": "研究设计裕量和变异"
+  },
+  "u0526": {
+    "en": "Derating means not operating an element continuously at a relevant rated or limiting stress. The appropriate extent depends on the mechanism and the data; a blanket percentage is insufficient. In electronics, for example, actual component temperature matters, rather than only room temperature.",
+    "zh": "降额意味着不让某个要素长期在相关额定应力或极限应力下运行。适当程度取决于机理和数据，不能仅依靠统一百分比。例如，对于电子设备，重要的是实际部件温度，而不只是室温。"
+  },
+  "u0527": {
+    "en": "Tolerance analyses examine how manufacturing and operating variation change the function. Sensitivity analyses show which influence strongly changes the result. Design of Experiments, or DoE, plans controlled combinations of factors. Compared with arbitrary changes to individual quantities, it can reveal interactions. A small two-factor design can, for example, combine low and high temperature with low and high load; its conclusions remain limited to the investigated range.",
+    "zh": "容差分析研究制造和运行变异如何改变功能。敏感性分析显示哪些影响因素会显著改变结果。试验设计（Design of Experiments，简称DoE）规划受控的因素组合。与任意改变单个量相比，它能够揭示交互作用。例如，一个小型双因素设计可以组合低温、高温与低负荷、高负荷；其结论仍限于所研究范围。"
+  },
+  "u0528": {
+    "en": "Use early reliability predictions correctly",
+    "zh": "正确使用早期可靠性预测"
+  },
+  "u0529": {
+    "en": "At the beginning of a project, lifetime data for the final assembly are often unavailable. A prediction can compare alternatives or support an initial allocation. Procedures based on part counts or stress data require reference rates, operating conditions, and a suitable architecture. A number without this information is hardly verifiable.",
+    "zh": "项目初期往往缺少最终组件的寿命数据。预测可用于比较方案或支持初始分配。基于部件数量或应力数据的方法需要参考失效率、运行条件和适当架构。缺少这些信息的数值几乎无法核查。"
+  },
+  "u0530": {
+    "en": "IEC 61709 describes the conversion of existing failure-rate data between reference and operating conditions within the intended functional limits. The standard itself provides no base failure rates. <a href=\"#sources/source_N27\">[N27]</a>",
+    "zh": "IEC 61709描述如何在预定功能极限内，将已有失效率数据在参考条件与使用条件之间换算。该标准本身不提供基础失效率。<a href=\"#sources/source_N27\">[N27]</a>"
+  },
+  "u0531": {
+    "en": "As guidance, a project may encounter SN 29500, FIDES, or MIL-HDBK-217F. This handbook does not specify an internally reviewed edition of these procedures or substantiate any failure rate from them. Before using them, the actually approved parts, editions, data, and application limits are obtained and checked. The earlier public reference to SN 29500 is not used as evidence.",
+    "zh": "项目中可能接触到SN 29500、FIDES或MIL-HDBK-217F等指导资料。本手册未指定这些方法经内部审核的版本，也未据此证实任何失效率。使用之前，应获取并检查实际批准的部分、版本、数据和应用限制。此前关于SN 29500的公开提示不作为证据。"
+  },
+  "u0532": {
+    "en": "In the simplified series model, ten independent elements each with 100 FIT yield a rate of 1,000 FIT, or 0.000001 per hour. Its reciprocal is one million hours. This model value is not a guaranteed lifetime and does not include automatically assessed software, interface, or “operator errors.” Early prediction, experimental demonstration, and field estimation are identified separately in the report.",
+    "zh": "在简化串联模型中，十个相互独立、各为100 FIT的要素得到1,000 FIT的失效率，即每小时0.000001。其倒数为一百万小时。这一模型数值不是保证寿命，也未自动纳入对软件、接口或“操作错误”的评估。报告应分别标明早期预测、实验验证和现场估计。"
+  },
+  "u0533": {
+    "en": "Select additional models for accelerated stress",
+    "zh": "选择其他加速应力模型"
+  },
+  "u0534": {
+    "en": "We choose the model according to the mechanism and calibrate its parameters with suitable data. The acceleration model forms part of the evidence, not merely a calculation aid.",
+    "zh": "我们根据机理选择模型，并用适当数据校准参数。加速模型是证据的一部分，而不只是计算辅助工具。"
+  },
+  "u0535": {
+    "en": "<strong>Mechanism</strong>",
+    "zh": "<strong>机理</strong>"
+  },
+  "u0536": {
+    "en": "<strong>Possible approach</strong>",
+    "zh": "<strong>可能方法</strong>"
+  },
+  "u0537": {
+    "en": "<strong>Decisive limitation</strong>",
+    "zh": "<strong>关键限制</strong>"
+  },
+  "u0538": {
+    "en": "<strong>Thermally activated process</strong>",
+    "zh": "<strong>热激活过程</strong>"
+  },
+  "u0539": {
+    "en": "<strong>Arrhenius</strong>",
+    "zh": "<strong>Arrhenius</strong>"
+  },
+  "u0540": {
+    "en": "<strong>Suitable activation energy and an unchanged mechanism</strong>",
+    "zh": "<strong>适当的活化能和保持不变的机理</strong>"
+  },
+  "u0541": {
+    "en": "<strong>Temperature and humidity</strong>",
+    "zh": "<strong>温度和湿度</strong>"
+  },
+  "u0542": {
+    "en": "<strong>Peck or an appropriate Eyring approach</strong>",
+    "zh": "<strong>Peck或适当的Eyring方法</strong>"
+  },
+  "u0543": {
+    "en": "<strong>Account for calibration and condensation</strong>",
+    "zh": "<strong>注意校准和凝露</strong>"
+  },
+  "u0544": {
+    "en": "<strong>Thermal cycling fatigue</strong>",
+    "zh": "<strong>温度循环疲劳</strong>"
+  },
+  "u0545": {
+    "en": "<strong>Coffin Manson or Norris Landzberg</strong>",
+    "zh": "<strong>Coffin Manson或Norris Landzberg</strong>"
+  },
+  "u0546": {
+    "en": "<strong>Account for temperature swing, dwell time, and frequency</strong>",
+    "zh": "<strong>注意温度幅度、保持时间和频率</strong>"
+  },
+  "u0547": {
+    "en": "<strong>Mechanical fatigue</strong>",
+    "zh": "<strong>机械疲劳</strong>"
+  },
+  "u0548": {
+    "en": "<strong>Wöhler or Basquin approach</strong>",
+    "zh": "<strong>Wöhler或Basquin方法</strong>"
+  },
+  "u0549": {
+    "en": "<strong>Cover the load spectrum and relevant failure mode</strong>",
+    "zh": "<strong>涵盖载荷谱和相关失效形式</strong>"
+  },
+  "u0550": {
+    "en": "<strong>Load-dependent lifetime</strong>",
+    "zh": "<strong>依赖负荷的寿命</strong>"
+  },
+  "u0551": {
+    "en": "<strong>Inverse power law</strong>",
+    "zh": "<strong>逆幂律</strong>"
+  },
+  "u0552": {
+    "en": "<strong>Determine the exponent and permissible stress range</strong>",
+    "zh": "<strong>确定指数和允许应力范围</strong>"
+  },
+  "u0553": {
+    "en": "A power law can derive a lifetime ratio from the ratio of two loads. Its exponent must match the mechanism under consideration. For humidity, a ratio of relative humidities is insufficient if condensation or other processes are added. Multiple stressors are modeled jointly; their factors are not multiplied solely for convenience. The model families here support selection, rather than serving as a universal conversion table. <a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q19\">[Q19]</a>",
+    "zh": "幂律可根据两个负荷的比值推导寿命比值。其指数必须适合所考虑的机理。对于湿度，如果还涉及凝露或其他过程，仅有相对湿度比值并不足够。多个应力因素应共同建模，不能仅为方便就将其因子相乘。这里的模型类别用于辅助选择，而不是通用换算表。<a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q19\">[Q19]</a>"
+  },
+  "u0554": {
+    "en": "Application to the X-ray system",
+    "zh": "在X射线系统中的应用"
+  },
+  "u0555": {
+    "en": "For example, we examine whether a detector still fulfills all required functions at a high exposure repetition rate, with unfavorable installation and increased communication traffic. We measure not only “test passed” as the result, but also temperature, data latency, failure response, and distance from defined limits. A protective shutdown is identified as such and distinguished from uncontrolled behavior.",
+    "zh": "例如，我们研究探测器在高曝光频率、不利安装条件和通信流量增加时，是否仍能完成全部所需功能。结果不只是“测试通过”，还应测量温度、数据延迟、故障响应和距规定极限的裕量。保护性停机应被明确识别，并与失控行为区分。"
+  },
+  "u0556": {
+    "en": "Such tests must be performed in a suitable technical test environment with approved protective measures. Protective functions are not bypassed in an uncontrolled manner for a limit test. Examples in this handbook do not authorize exceeding safety-relevant limits on devices used clinically.",
+    "zh": "此类测试必须在适当的技术测试环境中进行，并采用已批准的保护措施。不能为了极限测试而不受控制地绕过保护功能。本手册的示例并不授权在临床使用设备上超出与安全有关的极限。"
+  },
+  "u0557": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0558": {
+    "en": "Identify relevant mechanisms and sensitive performance quantities.",
+    "zh": "明确相关机理和敏感的性能量。"
+  },
+  "u0559": {
+    "en": "Define nominal operation and unfavorable permissible combinations.",
+    "zh": "规定标称运行和不利的允许组合。"
+  },
+  "u0560": {
+    "en": "Describe measurable limits and existing design margins.",
+    "zh": "描述可测量极限和现有设计裕量。"
+  },
+  "u0561": {
+    "en": "Vary influencing factors in a controlled manner and check interactions.",
+    "zh": "受控地改变影响因素，并检查交互作用。"
+  },
+  "u0562": {
+    "en": "Include variation, aging, and measurement uncertainty in the statement.",
+    "zh": "将变异、老化和测量不确定性纳入结论。"
+  },
+  "u0563": {
+    "en": "For predictions, state the data basis, output, and operating conditions; choose acceleration models according to the mechanism.",
+    "zh": "进行预测时，说明数据基础、输出和使用条件；根据机理选择加速模型。"
+  },
+  "u0564": {
+    "en": "The result is a justified robustness assessment. A single margin value for the entire system usually conceals different limits. Passing a short overload test does not prove long-term fatigue resistance.",
+    "zh": "结果是有依据的稳健性评估。用单一裕量数值表示整个系统，通常会掩盖不同的极限。通过短期过载试验不能证明长期抗疲劳能力。"
+  },
+  "u0565": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0566": {
+    "en": "An umbrella withstands strong wind when new. What questions remain open if it has previously been stored damp for several years and its joints have developed play?",
+    "zh": "一把新雨伞能够承受强风。如果它此前已在潮湿条件下存放数年，且关节出现间隙，仍有哪些问题尚未解决？"
+  },
+  "u0567": {
+    "en": "11 Specifying supplied components and accepting their evidence",
+    "zh": "11 规定供应商部件要求并采纳其证据"
+  },
+  "u0568": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0569": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Fundamentals <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_C\">图示C  </a>|  基础资料 <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0570": {
+    "en": "Ask the supplier the right question",
+    "zh": "向供应商提出正确的问题"
+  },
+  "u0571": {
+    "en": "Anyone ordering a bicycle tire must know the tire size, rim, load, and intended use. A high-quality tire in the wrong size does not fulfill the task. Technical procurement is more demanding, but the principle is the same: a supplier can provide suitable evidence only for the scope that has been described and agreed.",
+    "zh": "订购自行车轮胎时，必须知道轮胎尺寸、轮圈、负荷和预期用途。尺寸错误的优质轮胎也无法完成任务。技术采购更加复杂，但原则相同：供应商只能针对已描述并约定的范围提供适当证据。"
+  },
+  "u0572": {
+    "en": "We specify functions and interfaces, as well as environment, installation, usage, lifetime, and the desired level of evidence. The requirement must not cover normal operation alone. Depending on the function, startup, restart, storage, transport, and relevant failure responses also belong in it. The supplier specification references the same definitions and profiles as the system requirement.",
+    "zh": "我们规定功能和接口，以及环境、安装、使用方式、寿命和期望的证据水平。需求不能仅覆盖正常运行。根据功能，还应纳入开机、重新启动、储存、运输和相关故障响应。供应商规格应引用与系统需求相同的定义和剖面。"
+  },
+  "u0573": {
+    "en": "An evidence package consists of verifiable evidence",
+    "zh": "证据包由可核查的证据组成"
+  },
+  "u0574": {
+    "en": "A test report should contain at least specimen identity, hardware and software revision, relevant manufacturing characteristics, test setup, measuring equipment, stress profile, and results. Failures, deviations, and aborted tests are not replaced by a summary statement of “passed.” Statistical statements require the population, sample, test duration, censored observations, model assumptions, and uncertainty.",
+    "zh": "试验报告至少应包含试样身份、硬件和软件版本、相关制造特征、试验配置、测量设备、应力剖面和结果。不能用概括性的“通过”替代失效、偏差和中止的试验。统计结论需要说明总体、样本、试验时长、删失观测、模型假设和不确定性。"
+  },
+  "u0575": {
+    "en": "We can agree additional analyses, known failure mechanisms, application limits, and change notifications. The scope depends on function and risk; not every component needs the same volume of documentation. A cable supplier provides different technical evidence from a software supplier.",
+    "zh": "我们可以约定补充分析、已知失效机理、应用限制和变更通知。范围取决于功能和风险，并非每个部件都需要同样数量的文件。电缆供应商提供的技术证据与软件供应商不同。"
+  },
+  "u0576": {
+    "en": "Three decisions instead of a blanket yes",
+    "zh": "三种决策，而非笼统接受"
+  },
+  "u0577": {
+    "en": "An evidence assessment ends with accepted, accepted with documented restrictions, or additional evidence required. A restriction may concern a particular temperature range or an approved version. It must take effect in integration. An approval note whose conditions nobody knows does not prevent incorrect use.",
+    "zh": "证据评估的结果为：接受、附有书面限制条件的接受，或需要补充证据。限制可能涉及特定温度范围或已批准版本。这些限制必须在集成中发挥作用。如果无人知道批准记录中的条件，就无法防止错误使用。"
+  },
+  "u0578": {
+    "en": "A teaching example: the supplier tested a detector at a defined external temperature. In the system, installation increases its component temperature. We first check the measurement location and thermal boundary conditions of the evidence. A suitable system test can verify the actual temperature and function. It replaces missing lifetime data only if its profile and statistical statement actually cover the lifetime demonstration, but it can show whether we remain within the evidenced operating range.",
+    "zh": "一个教学示例：供应商在规定的外部温度下测试了探测器。集成到系统后，安装方式使其部件温度上升。我们首先检查证据中的测量位置和热边界条件。适当的系统测试可验证实际温度和功能。只有当其剖面和统计结论确实覆盖寿命验证时，它才能替代缺失的寿命数据；但它可以表明我们是否仍处于有证据支持的使用范围内。"
+  },
+  "u0579": {
+    "en": "Record a usage agreement for the component",
+    "zh": "记录部件使用约定"
+  },
+  "u0580": {
+    "en": "We summarize acceptance in a short usage agreement: function and performance limits, actual usage profile, relevant output deviations, available evidence, and change process. This includes part number, manufacturing revision, and software version. The agreement connects the supplier's evidence with our system requirement.",
+    "zh": "我们在简短的使用约定中汇总采纳条件：功能和性能极限、实际使用剖面、相关输出偏差、可用证据和变更流程。其中包括零件号、制造版本和软件版本。该约定将供应商证据与我们的系统需求联系起来。"
+  },
+  "u0581": {
+    "en": "Qualification is a documented starting point. During operation, we continue monitoring the same component with reference to serial identity and version. New load profiles, manufacturing changes, or field findings can trigger reassessment. Chapter 12 remains a working aid for the technical assessment of test methods; suitable supplier tests are accepted, and remaining gaps are closed selectively.",
+    "zh": "鉴定是有记录的起点。运行期间，我们继续按序列身份和版本追踪同一部件。新的负荷剖面、制造变更或现场发现可能触发重新评估。第12章仍作为测试方法技术评估的工作参考；应采纳适当的供应商试验，并有针对性地填补剩余缺口。"
+  },
+  "u0582": {
+    "en": "Conduct a structured review",
+    "zh": "开展结构化评审"
+  },
+  "u0583": {
+    "en": "<strong>Review question</strong>",
+    "zh": "<strong>评审问题</strong>"
+  },
+  "u0584": {
+    "en": "<strong>What do we compare?</strong>",
+    "zh": "<strong>我们比较什么</strong>"
+  },
+  "u0585": {
+    "en": "<strong>Possible consequence</strong>",
+    "zh": "<strong>可能后续措施</strong>"
+  },
+  "u0586": {
+    "en": "<strong>Does the configuration match?</strong>",
+    "zh": "<strong>配置是否匹配</strong>"
+  },
+  "u0587": {
+    "en": "<strong>Reported specimen versus delivered revision</strong>",
+    "zh": "<strong>报告试样与交付版本比较</strong>"
+  },
+  "u0588": {
+    "en": "<strong>Version-specific supplement</strong>",
+    "zh": "<strong>针对版本的补充</strong>"
+  },
+  "u0589": {
+    "en": "<strong>Does the usage match?</strong>",
+    "zh": "<strong>使用方式是否匹配</strong>"
+  },
+  "u0590": {
+    "en": "<strong>Test profile versus system profile</strong>",
+    "zh": "<strong>试验剖面与系统剖面比较</strong>"
+  },
+  "u0591": {
+    "en": "<strong>Additional cyclic or thermal evidence</strong>",
+    "zh": "<strong>补充循环或热方面的证据</strong>"
+  },
+  "u0592": {
+    "en": "<strong>Does the function match?</strong>",
+    "zh": "<strong>功能是否匹配</strong>"
+  },
+  "u0593": {
+    "en": "<strong>Acceptance criterion versus system requirement</strong>",
+    "zh": "<strong>验收判据与系统需求比较</strong>"
+  },
+  "u0594": {
+    "en": "<strong>Specifically check function during stress</strong>",
+    "zh": "<strong>有针对性地检查应力施加期间的功能</strong>"
+  },
+  "u0595": {
+    "en": "<strong>Does the population match?</strong>",
+    "zh": "<strong>总体是否匹配</strong>"
+  },
+  "u0596": {
+    "en": "<strong>Specimen origin versus production process</strong>",
+    "zh": "<strong>试样来源与量产工艺比较</strong>"
+  },
+  "u0597": {
+    "en": "<strong>Justify or demonstrate representativeness</strong>",
+    "zh": "<strong>论证或证明代表性</strong>"
+  },
+  "u0598": {
+    "en": "<strong>Are changes controlled?</strong>",
+    "zh": "<strong>变更是否受控</strong>"
+  },
+  "u0599": {
+    "en": "<strong>Material, process, firmware, and sub-supplier</strong>",
+    "zh": "<strong>材料、工艺、固件和次级供应商</strong>"
+  },
+  "u0600": {
+    "en": "<strong>Agree an information and reassessment process</strong>",
+    "zh": "<strong>约定信息传递和重新评估流程</strong>"
+  },
+  "u0601": {
+    "en": "These questions prevent both unnecessary repetition and blind acceptance. A different laboratory or a new form alone is not a technical reason for repetition. New stresses, unsuitable specimens, or a changed mechanism, in contrast, may provide a good reason.",
+    "zh": "这些问题既能避免不必要的重复，也能防止盲目采纳。仅仅换了实验室或表格，并不构成重复试验的技术理由。新的应力、不适当的试样或机理变化则可能构成充分理由。"
+  },
+  "u0602": {
+    "en": "What happens after component approval",
+    "zh": "部件批准后的工作"
+  },
+  "u0603": {
+    "en": "The accepted component is used for a defined application. Incoming inspections and manufacturing tests monitor agreed characteristics, but are not equivalent to full development qualification. In the field, confirmed failures, usage, and configuration are tracked. The supplier and system team receive relevant findings, and measures are closed with evidence of effectiveness.",
+    "zh": "被接受的部件用于规定的应用。进货检验和制造测试监控约定特征，但不等同于完整的开发鉴定。在现场，应追踪已确认故障、使用方式和配置。供应商和系统团队获得相关发现，措施在提供有效性证据后关闭。"
+  },
+  "u0604": {
+    "en": "An existing qualification must not be transferred silently when changes occur. Conversely, it is not discarded without justification. A new connector housing can affect mechanics; modified firmware can affect timing. The change analysis determines which evidence is affected.",
+    "zh": "发生变更时，不得默默沿用现有鉴定。反过来，也不能无理由地弃用它。新的连接器外壳可能影响机械性能，修改后的固件可能影响时序。变更分析决定哪些证据受到影响。"
+  },
+  "u0605": {
+    "en": "Our procedure",
+    "zh": "实施步骤"
+  },
+  "u0606": {
+    "en": "Jointly clarify the operating profile and evidence target before procurement.",
+    "zh": "在采购前共同明确运行剖面和证据目标。"
+  },
+  "u0607": {
+    "en": "Agree the evidence package with clear acceptance criteria.",
+    "zh": "约定证据包及明确的验收判据。"
+  },
+  "u0608": {
+    "en": "Assess identity, applicability, data quality, and gaps.",
+    "zh": "评估身份、适用性、数据质量和缺口。"
+  },
+  "u0609": {
+    "en": "Add targeted evidence and document acceptance conditions.",
+    "zh": "有针对性地补充证据，并记录采纳条件。"
+  },
+  "u0610": {
+    "en": "Establish field feedback and change information as an ongoing handoff.",
+    "zh": "建立持续传递现场反馈和变更信息的机制。"
+  },
+  "u0611": {
+    "en": "For every accepted component, record operating conditions, performance commitment, and change process in a usage agreement.",
+    "zh": "为每个被采纳的部件，在使用约定中记录使用条件、性能承诺和变更流程。"
+  },
+  "u0612": {
+    "en": "The result is an approved component with a traceable evidence package. The statement “the supplier is responsible” does not yet answer whether our application is actually covered.",
+    "zh": "结果是已批准的部件和可追溯的证据包。“供应商负责”这句话还不能回答我们的实际应用是否确实得到覆盖。"
+  },
+  "u0613": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0614": {
+    "en": "The manufacturer tested an outdoor lamp against rain. You want to operate it in a closed, hot enclosure. Which two questions do you ask before commissioning new tests?",
+    "zh": "制造商已对一款户外灯具开展防雨测试。你想让它在封闭的高温外壳内运行。委托新测试之前，你会提出哪两个问题？"
+  },
+  "u0615": {
+    "en": "12 Qualifying hardware components",
+    "zh": "12 硬件部件鉴定"
+  },
+  "u0616": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0617": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Fundamentals <a href=\"#sources/source_N11\">[N11]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N13\">[N13]</a> <a href=\"#sources/source_N14\">[N14]</a> <a href=\"#sources/source_N15\">[N15]</a> <a href=\"#sources/source_N16\">[N16]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示A  </a><a href=\"#figures/diagram_C\">图示C  </a>|  基础资料 <a href=\"#sources/source_N11\">[N11]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N13\">[N13]</a> <a href=\"#sources/source_N14\">[N14]</a> <a href=\"#sources/source_N15\">[N15]</a> <a href=\"#sources/source_N16\">[N16]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0618": {
+    "en": "From mechanism to test",
+    "zh": "从机理到试验"
+  },
+  "u0619": {
+    "en": "A test is selected because it examines a relevant stress and a possible loss of function. The question “which climatic test do we perform?” is therefore first translated into the question of which operating profile and mechanism must be addressed. The IEC-60068 series provides methods for environmental tests; selection and adaptation still require a technical justification.",
+    "zh": "选择某项试验，是因为它研究相关应力和可能的功能丧失。因此，“开展哪种气候试验”应首先转化为“需要验证哪种运行剖面和机理”。IEC-60068系列提供环境试验方法，但选择和调整仍需要技术依据。"
+  },
+  "u0620": {
+    "en": "A sneaker can look good in a dry store and become slippery in the rain. A visual inspection does not answer the question of behavior when wet. Similarly, an electronics module that appears normal at room temperature does not yet show whether its interconnections withstand temperature cycling or its mechanics withstand movement.",
+    "zh": "运动鞋在干燥的商店里可能看起来不错，遇雨却会打滑。目视检查无法回答潮湿条件下表现如何。同样，电子模块在室温下无异常，并不能说明其连接结构能否承受温度循环，或其机械结构能否承受运动。"
+  },
+  "u0621": {
+    "en": "Define the test objective and claim",
+    "zh": "规定试验目标和结论"
+  },
+  "u0622": {
+    "en": "We distinguish functional testing, qualification against defined stresses, exploratory robustness testing, and quantitative lifetime assessment. Passing a stress test can demonstrate suitability under those conditions. A population statement about a target usage additionally requires the statistics in Chapters 14 and 15.",
+    "zh": "我们区分功能测试、针对规定应力的鉴定、探索性稳健性测试和定量寿命评估。通过应力试验可以说明在这些条件下的适用性。要针对目标使用量作出总体结论，还需要第14和15章中的统计方法。"
+  },
+  "u0623": {
+    "en": "Before every test, specimens, profile, measured quantities, failure criterion, and stopping rules are defined. Functions are checked before, during, and after the stress, as needed. An intermittent contact may work again after cooling. Measuring only afterward can miss this fault.",
+    "zh": "每次试验前，都应规定试样、剖面、测量量、失效判据和终止规则。根据需要，在应力施加前、期间和之后检查功能。间歇性接触在冷却后可能恢复正常。仅在试验后测量可能漏检这种故障。"
+  },
+  "u0624": {
+    "en": "Electrical stresses and thermal design",
+    "zh": "电应力和热设计"
+  },
+  "u0625": {
+    "en": "We examine supply tolerance, transients, inrush current, load changes, and repeated power cycling insofar as they are relevant to the profile. The component is operated in its intended state and observed with suitable measuring equipment. Supply dips can trigger a restart without visible hardware damage.",
+    "zh": "在剖面相关的范围内，我们研究供电容差、瞬态、浪涌电流、负荷变化以及反复通断电。部件应在预定状态下运行，并使用适当测量设备进行观察。电源跌落可能触发重新启动，而没有可见硬件损坏。"
+  },
+  "u0626": {
+    "en": "Everyday example: a charger works without load but collapses when charging an empty battery. The no-load test did not include the critical state. In the X-ray system, we therefore compare required load, supply path, local temperature, and failure response. EMV (EMC) tests additionally examine specified interference effects and emissions; they do not replace general lifetime evidence.",
+    "zh": "日常示例：充电器在空载时正常工作，但给耗尽的电池充电时供电崩溃。空载测试没有涵盖关键状态。因此，在X射线系统中，我们比较所需负荷、供电路径、局部温度和故障响应。EMV（电磁兼容）试验还研究特定干扰作用和发射，但不能替代一般寿命证据。"
+  },
+  "u0627": {
+    "en": "Electromagnetic immunity and emissions are considered separately. IEC 60601-1-2 places the requirements and tests in the context of basic safety and essential performance. An interference-resistant individual assembly is sufficient as system evidence only if installation, cables, interfaces, and operating states are appropriately covered. <a href=\"#sources/source_N28\">[N28]</a>",
+    "zh": "电磁抗扰度和发射应单独考虑。IEC 60601-1-2将相关要求和试验置于基本安全和基本性能的框架中。单个组件具备抗扰性，只有在安装、线缆、接口和运行状态均得到适当覆盖时，才足以作为系统证据。<a href=\"#sources/source_N28\">[N28]</a>"
+  },
+  "u0628": {
+    "en": "Assembly and interconnection technology",
+    "zh": "结构与连接技术"
+  },
+  "u0629": {
+    "en": "Circuit boards, solder joints, bonds, connectors, cables, adhesive joints, and potting have different mechanisms. Temperature cycling, for example, produces differential expansion. Vibration and cable tension stress different locations. We combine the appropriate stress with measurements such as contact resistance or continuous interruption monitoring. Microscopy, X-ray inspection, or cross-sectioning can supplement findings; destructive examinations are accounted for in the test plan.",
+    "zh": "电路板、焊点、键合、连接器、电缆、胶接和灌封具有不同机理。例如，温度循环会产生差异膨胀。振动和电缆拉力作用于不同位置。我们将适当应力与接触电阻测量或连续断路监测等手段结合。显微检查、X射线检查或截面分析可以补充发现；破坏性检查应纳入试验计划。"
+  },
+  "u0630": {
+    "en": "Everyday example: a headphone cable plays music while it lies still, but cuts out when bent at the connector. The fault depends on position. A stationary final test can miss it. Accordingly, a detector cable is assessed with realistic bend radius, strain relief, and movement, rather than merely an arbitrary number of bends.",
+    "zh": "日常示例：耳机线静止时可以播放音乐，但在接头处弯曲时声音中断。故障取决于位置。静止的最终测试可能漏检。因此，应按真实的弯曲半径、应力释放措施和运动评估探测器电缆，而不是仅采用任意的弯曲次数。"
+  },
+  "u0631": {
+    "en": "Temperature and temperature cycling",
+    "zh": "温度和温度循环"
+  },
+  "u0632": {
+    "en": "A constant-temperature test examines different aspects from a temperature cycling test. We define upper and lower temperatures, measurement location, ramps, dwell time, number of cycles, and operating state. Self-heating can make component temperature differ from chamber air temperature. Adequate stabilization is assessed at the relevant location.",
+    "zh": "恒温试验与温度循环试验研究的方面不同。我们规定上限和下限温度、测量位置、升降温过程、保持时间、循环次数和运行状态。由于自身发热，部件温度可能不同于试验箱空气温度。应在相关位置判断是否充分稳定。"
+  },
+  "u0633": {
+    "en": "Everyday example: a jam jar responds differently to slowly rising temperature than to a rapid transition from cold to hot. This illustrates why temperature range and rate of change are separate specifications. For a module, we examine whether the test applies the relevant material stress and does not generate a completely different form of damage that does not occur in service.",
+    "zh": "日常示例：果酱罐对缓慢升温的反应不同于从冷到热的快速转换。这说明温度范围和变化速率为什么需要分别规定。对于模块，我们研究试验是否施加了相关材料应力，以及是否产生了实际使用中不会出现的完全不同损伤。"
+  },
+  "u0634": {
+    "en": "Humidity and condensation",
+    "zh": "湿度和凝露"
+  },
+  "u0635": {
+    "en": "Relative humidity, temperature, and condensation must be distinguished. Condensation depends on surface temperature and dew point. A constant damp-heat test without condensation covers fogging of a cold surface after transport into a warm room only if an appropriate condensation profile is included. IEC 60068-2-78 describes such a constant-humidity case; other scenarios require suitable methods.",
+    "zh": "必须区分相对湿度、温度和凝露。凝露取决于表面温度和露点。不产生凝露的恒定湿热试验，只有包含相应凝露剖面时，才能覆盖冷表面运入温暖房间后结雾的情况。IEC 60068-2-78描述这种恒定湿度情形；其他场景需要适当的方法。"
+  }
+}

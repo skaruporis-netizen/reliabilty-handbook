@@ -1,0 +1,1026 @@
+{
+  "u0636": {
+    "en": "Everyday example: Glasses fog up when you enter a warm room. This is not the same as prolonged storage in humid air. For an X-ray module, we ask about electrical leakage paths, corrosion, optical effects, and restarting operation. The functional state and applied exposure are justified, rather than always storing the module without load.",
+    "zh": "日常示例：进入温暖房间时，眼镜会起雾。这与长时间放置在潮湿空气中并不相同。对于X射线模块，我们关注电气泄漏路径、腐蚀、光学效应以及重新投入运行。应说明功能状态和所施加暴露的依据，而不是始终只进行无负载存放。"
+  },
+  "u0637": {
+    "en": "Mechanical strength and fatigue",
+    "zh": "机械强度与疲劳"
+  },
+  "u0638": {
+    "en": "A static strength verification examines a defined load and its effect. A finite element analysis, or FEM, calculates stresses and deformations using a model. Material data, supports, contacts, load paths, mesh quality, and model correlation determine what it can tell us. A colored stress plot is not verification unless the boundary conditions are correct.",
+    "zh": "静态强度验证研究规定载荷及其影响。有限元分析，简称FEM，利用模型计算应力和变形。材料数据、支承、接触、载荷路径、网格质量以及模型校核决定其结论的有效性。如果边界条件不正确，彩色应力图就不能作为验证证据。"
+  },
+  "u0639": {
+    "en": "Fatigue results from repeated loading. S–N data describe the relationship between cyclic loading and lifetime under specific conditions. Load spectra, mean stress, surfaces, and manufacturing variation may be relevant. A cumulative damage approach such as Miner is a model assumption with limitations, not an automatically accurate lifetime prediction.",
+    "zh": "疲劳由反复受载产生。S–N数据描述特定条件下循环载荷与寿命之间的关系。载荷谱、平均应力、表面状态以及制造波动都可能相关。Miner等累积损伤方法是有适用边界的模型假设，并不自动给出准确的寿命预测。"
+  },
+  "u0640": {
+    "en": "Everyday example: A paper clip carries a small static load but breaks after being bent back and forth several times. In an X-ray system, mounts and cables must therefore withstand both maximum load and repeated movement. A single high-load test does not replace a cyclic assessment.",
+    "zh": "日常示例：回形针可以承受较小的静态载荷，但来回弯折多次后会断裂。因此，X射线系统中的支架和电缆必须同时承受最大载荷和反复运动。单次高载荷试验不能代替循环评估。"
+  },
+  "u0641": {
+    "en": "Testing dynamic mechanical loads",
+    "zh": "检验动态机械载荷"
+  },
+  "u0642": {
+    "en": "Vibration is repeated dynamic excitation; shock is a brief impact load. A drop additionally introduces contact conditions, orientation, and local energy input. We specify the mounting, axes, frequency content, amplitude, duration or shock waveform, and, for drop tests, height, surface, and orientation. Sinusoidal and random vibration answer different questions.",
+    "zh": "振动是反复的动态激励；冲击是短暂的冲击载荷。跌落还涉及接触条件、方向以及局部能量输入。我们规定安装方式、轴向、频率成分、幅值、持续时间或冲击波形；对于跌落试验，还规定高度、地面和方向。正弦振动与随机振动回答不同的问题。"
+  },
+  "u0643": {
+    "en": "Everyday example: A shipment in a delivery van is shaken for a long time and may also experience a brief drop. A single drop test does not cover the entire transport history. For a module, we distinguish testing with packaging, in its installed state, and as a loose component. A vibration test with unrealistic mounting can create false weaknesses or conceal real resonances.",
+    "zh": "日常示例：货物在配送车中会长时间受到颠簸，也可能经历一次短暂跌落。单次跌落试验不能覆盖整个运输历史。对于模块，我们区分带包装试验、安装状态试验以及作为独立部件的试验。不符合实际的固定方式可能在振动试验中制造虚假薄弱点，或掩盖真实共振。"
+  },
+  "u0644": {
+    "en": "Radiation resistance",
+    "zh": "耐辐射性"
+  },
+  "u0645": {
+    "en": "A radiation test describes the radiation type or spectrum, geometry, shielding, dose rate, cumulative dose at the relevant location, and operating state. Temporary functional errors may occur during irradiation; permanent changes may become apparent afterward. The two effects are recorded separately. The sensitive location may lie inside the assembly, while an external measurement location yields different values.",
+    "zh": "辐射试验描述辐射类型或能谱、几何布置、屏蔽、剂量率、相关位置的累积剂量以及运行状态。照射期间可能出现暂时性功能错误；照射之后可能显现永久变化。两种影响应分别记录。敏感位置可能位于组件内部，而外部测量位置给出的数值可能不同。"
+  },
+  "u0646": {
+    "en": "Everyday example: A photograph exposed to sunlight may change over time. This only illustrates the idea of cumulative exposure. However, sunlight and X-rays have different physical effects; the analogy does not establish a test model. A separate, justified irradiation verification is prepared for the X-ray system. Spaceflight models for other radiation fields are not adopted without examination.",
+    "zh": "日常示例：阳光下的照片可能随时间发生变化。这仅说明累积作用的概念。但是，阳光和X射线具有不同的物理效应；该类比不能导出试验模型。X射线系统应建立自身有依据的辐照验证。不得未经审查就采用针对其他辐射场的航天模型。"
+  },
+  "u0647": {
+    "en": "Considering loads outside operation",
+    "zh": "考虑非运行期间的应力"
+  },
+  "u0648": {
+    "en": "Even without active operation, humidity, temperature, chemicals, packaging, and time have effects. Spare-part aging and subsequent return to service are part of the lifecycle. Cleaning agents can affect seals, plastics, labels, and adhesive bonds. We consider the intended agents and applications, including repetition, contact time, and drying.",
+    "zh": "即使没有主动运行，湿度、温度、化学品、包装和时间仍会产生影响。备件老化及之后重新投入使用属于生命周期的一部分。清洁剂可能影响密封件、塑料、标识和胶接。我们考虑规定的清洁剂及使用方式，包括重复次数、接触时间和干燥过程。"
+  },
+  "u0649": {
+    "en": "Everyday example: A rubber band can lie unused in a drawer for years and then be brittle. No operating hours does not mean no aging. A stored detector or spare cable therefore needs a justified assessment of storage and return to service.",
+    "zh": "日常示例：橡皮筋可以在抽屉中闲置多年，取出时却已变脆。没有运行小时数并不意味着没有老化。因此，存放的探测器或备用电缆需要有依据的储存和重新投入使用评估。"
+  },
+  "u0650": {
+    "en": "Combined loads and test sequence",
+    "zh": "组合应力与试验顺序"
+  },
+  "u0651": {
+    "en": "Heat, humidity, and electrical voltage can act differently together than in isolation. Prior mechanical damage can increase subsequent sensitivity to humidity. We therefore plan combined loads or a justified sequence when the profile and mechanism require it. Results from different individual tests cannot simply be added to produce comprehensive system reliability.",
+    "zh": "热、湿度和电压共同作用时，影响可能不同于各自单独作用。先前的机械损伤可能增加后续对湿度的敏感性。因此，当剖面和机理要求时，我们规划组合应力或有依据的试验顺序。不能简单地将不同单项试验的结果相加，得到全面的系统可靠性。"
+  },
+  "u0652": {
+    "en": "Everyday example: A cardboard box carries a load well when dry. Only after becoming wet does it deform under the same load. The sequence matters. For an assembly, we record whether each specimen undergoes only one test or whether prior damage is part of the planned verification.",
+    "zh": "日常示例：纸箱干燥时能够很好地承载。只有受潮后，它才在同样的载荷下变形。顺序具有重要意义。对于组件，我们记录每个样品是否只经历一项试验，或者预先损伤是否属于计划验证的一部分。"
+  },
+  "u0653": {
+    "en": "Building a test matrix",
+    "zh": "建立试验矩阵"
+  },
+  "u0654": {
+    "en": "<strong>Mechanism or question</strong>",
+    "zh": "<strong>机理或问题</strong>"
+  },
+  "u0655": {
+    "en": "<strong>Profile description</strong>",
+    "zh": "<strong>剖面描述</strong>"
+  },
+  "u0656": {
+    "en": "<strong>Observation</strong>",
+    "zh": "<strong>观测</strong>"
+  },
+  "u0657": {
+    "en": "<strong>Contact interruption</strong>",
+    "zh": "<strong>接触中断</strong>"
+  },
+  "u0658": {
+    "en": "<strong>Realistic movement and loading</strong>",
+    "zh": "<strong>符合实际的运动与载荷</strong>"
+  },
+  "u0659": {
+    "en": "<strong>Continuous contact and function monitoring</strong>",
+    "zh": "<strong>连续接触和功能监测</strong>"
+  },
+  "u0660": {
+    "en": "<strong>Temperature-dependent degradation</strong>",
+    "zh": "<strong>与温度相关的退化</strong>"
+  },
+  "u0661": {
+    "en": "<strong>Relevant temperature under actual component loading</strong>",
+    "zh": "<strong>实际部件负载下的相关温度</strong>"
+  },
+  "u0662": {
+    "en": "<strong>Power and component temperature</strong>",
+    "zh": "<strong>功率与部件温度</strong>"
+  },
+  "u0663": {
+    "en": "<strong>Mount fatigue</strong>",
+    "zh": "<strong>支架疲劳</strong>"
+  },
+  "u0664": {
+    "en": "<strong>Representative cyclic load spectrum</strong>",
+    "zh": "<strong>具有代表性的循环载荷谱</strong>"
+  },
+  "u0665": {
+    "en": "<strong>Deformation, cracking, and loss of function</strong>",
+    "zh": "<strong>变形、裂纹和功能丧失</strong>"
+  },
+  "u0666": {
+    "en": "<strong>Radiation-induced change</strong>",
+    "zh": "<strong>辐射引起的变化</strong>"
+  },
+  "u0667": {
+    "en": "<strong>Justified irradiation profile</strong>",
+    "zh": "<strong>有依据的辐照剖面</strong>"
+  },
+  "u0668": {
+    "en": "<strong>Function during and after exposure</strong>",
+    "zh": "<strong>暴露期间及之后的功能</strong>"
+  },
+  "u0669": {
+    "en": "<strong>Storage-induced change</strong>",
+    "zh": "<strong>储存引起的变化</strong>"
+  },
+  "u0670": {
+    "en": "<strong>Time and environment with restart</strong>",
+    "zh": "<strong>时间、环境以及重新启动</strong>"
+  },
+  "u0671": {
+    "en": "<strong>Condition and function after storage</strong>",
+    "zh": "<strong>储存后的状态和功能</strong>"
+  },
+  "u0672": {
+    "en": "The complete matrix adds the requirement, specimen count, production representativeness, measurement uncertainty, acceptance, stopping rule, responsible person, and verification document. A test without a specified observation can place severe stress on a specimen and still fail to detect the decisive failure mode.",
+    "zh": "完整矩阵还包括要求、样品数量、量产代表性、测量不确定度、验收条件、终止规则、负责人以及验证文件。没有规定观测内容的试验可能对样品施加很大应力，却仍然无法发现关键失效模式。"
+  },
+  "u0673": {
+    "en": "Translating passed tests into a defensible statement",
+    "zh": "将通过的试验转化为可信结论"
+  },
+  "u0674": {
+    "en": "A test matrix becomes readable when every row answers the same question: Which mechanism could cause the loss of which function, what load makes it visible, and which finding decides the result? A temperature cycling test, a vibration test, and a drop test do not replace one another. Radiation resistance also requires its own profile, with measurement location, radiation type, and relevant cumulative exposure.",
+    "zh": "当每行都回答同一个问题时，试验矩阵就清晰易读：哪种机理可能使哪项功能丧失，什么应力使它显现，以及哪项发现决定结果？温度循环试验、振动试验和跌落试验不能相互替代。耐辐射性也需要独立的剖面，包括测量位置、辐射类型和相关累积暴露。"
+  },
+  "u0675": {
+    "en": "For a connector, the supplier may initially assess temperature cycling and contact resistance. Our integration testing additionally checks the actual cable routing, strain relief, and power supply during movement. This does not repeat component qualification wholesale; it safeguards its validity in the installed product.",
+    "zh": "对于连接器，供应商可能首先评估温度循环和接触电阻。我们的集成试验还检查实际布线、应力消除以及运动期间的供电。这并不是整体重复部件鉴定，而是在安装后的产品中确认其有效性。"
+  },
+  "u0676": {
+    "en": "A final value alone can overlook temporary interruptions. We therefore specify which functions are measured during loading, between partial tests, and after the test. Specimen condition, loading history, measurement resolution, failure time, and examination of the failed specimen belong in the report. Passing a standard test and statistically demonstrating lifetime remain different statements.",
+    "zh": "仅有最终数值可能遗漏暂时性中断。因此，我们规定在施加载荷期间、分项试验之间以及试验后测量哪些功能。样品状态、载荷历史、测量分辨率、失效时间以及失效样品的调查均应纳入报告。通过标准试验与统计寿命验证仍然是不同的结论。"
+  },
+  "u0677": {
+    "en": "Our procedure",
+    "zh": "我们的步骤"
+  },
+  "u0678": {
+    "en": "Collect relevant failure mechanisms from the profile, FMEA, and field experience.",
+    "zh": "根据剖面、FMEA和现场经验收集相关失效机理。"
+  },
+  "u0679": {
+    "en": "Examine existing supplier evidence and plan only the remaining gaps.",
+    "zh": "审查现有供应商证据，只规划剩余缺口。"
+  },
+  "u0680": {
+    "en": "Define profiles and acceptance criteria before testing begins.",
+    "zh": "在试验开始前确定剖面和验收准则。"
+  },
+  "u0681": {
+    "en": "Monitor functions and stresses appropriately during the test.",
+    "zh": "在试验期间恰当地监测功能和应力。"
+  },
+  "u0682": {
+    "en": "Investigate failures, preserve data including successful specimens, and document the limits of the conclusions.",
+    "zh": "调查失效，保存包括成功样品在内的数据，并记录结论的适用边界。"
+  },
+  "u0683": {
+    "en": "Specify what is measured during, between, and after loading.",
+    "zh": "规定在施加载荷期间、各阶段之间以及之后测量什么。"
+  },
+  "u0684": {
+    "en": "The result is a qualification report for a specific configuration and application. Statistics and acceleration factors are not selected afterward to make the results look good.",
+    "zh": "结果是针对特定配置和应用的鉴定报告。不得事后选择统计方法和加速因子，使结果看起来更好。"
+  },
+  "u0685": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0686": {
+    "en": "A connector works after a vibration test. No data were transmitted during the test. What statement can be made, and what important question remains open?",
+    "zh": "连接器在振动试验后能够正常工作。试验期间没有传输数据。可以得出什么结论，还有哪个重要问题尚未回答？"
+  },
+  "u0687": {
+    "en": "13 Designing reliable software and firmware",
+    "zh": "13 设计可靠的软件和固件"
+  },
+  "u0688": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0689": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示 A  </a><a href=\"#figures/diagram_B\">图示 B  </a><a href=\"#figures/diagram_C\">图示 C  </a>|  基础 <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0690": {
+    "en": "A defect can remain hidden for a long time",
+    "zh": "缺陷可能长期潜伏"
+  },
+  "u0691": {
+    "en": "A navigation app works in everyday use but crashes when a time-zone change coincides with a connection loss. The programming defect may have existed since the first version. The rare combination activated it. This type of defect is not explained by a material wear curve.",
+    "zh": "导航应用在日常使用中正常工作，但时区切换与连接中断同时发生时会崩溃。程序缺陷可能从第一个版本起就已存在。这种罕见组合触发了它。材料磨损曲线无法解释这类缺陷。"
+  },
+  "u0692": {
+    "en": "Software reliability considers fulfillment of functions over a defined operational usage profile. Software defects are often systematic; their occurrence depends on inputs, states, sequences, and resources. Firmware also closely connects this logic with hardware and real-time behavior. A statistical success proportion is meaningful only when the processes considered and the generation of data are clearly defined.",
+    "zh": "软件可靠性关注在规定的运行使用剖面下功能的实现。软件缺陷通常具有系统性；其发生取决于输入、状态、顺序和资源。固件还将这些逻辑与硬件和实时行为紧密连接。只有在明确规定所考虑的流程及数据生成方式时，统计成功比例才有意义。"
+  },
+  "u0693": {
+    "en": "Checking requirements and behavior",
+    "zh": "检查要求与行为"
+  },
+  "u0694": {
+    "en": "We examine expected outputs, unwanted outputs, state transitions, timing, and resources. Unit tests check local logic. Integration tests check contracts and shared states. System tests check the usage chain. Code coverage shows which parts of the program were executed; it proves neither that requirements are complete nor that function is correct in all relevant states.",
+    "zh": "我们研究预期输出、非期望输出、状态转换、时序和资源。单元测试检查局部逻辑。集成测试检查契约和共享状态。系统测试检查使用链路。代码覆盖率表明哪些程序部分得到执行；它既不能证明要求完整，也不能证明所有相关状态下功能均正确。"
+  },
+  "u0695": {
+    "en": "A million repetitions of the same successful sequence therefore do not provide broad state coverage. A washing-machine controller may always execute a standard program correctly but have a defect when opening, interrupting, and restarting. We test many repetitions as well as deliberately different relevant sequences.",
+    "zh": "因此，同一成功流程重复一百万次并不意味着广泛的状态覆盖。洗衣机控制器可能始终正确执行标准程序，但在开门、中断和重新启动时存在缺陷。我们不仅测试大量重复，还刻意测试其他相关顺序。"
+  },
+  "u0696": {
+    "en": "Distinguishing test methods by their purpose",
+    "zh": "按用途区分测试方法"
+  },
+  "u0697": {
+    "en": "Fuzzing generates systematically or randomly varied inputs to expose unexpected behavior. Examples include corrupted messages, boundary values, or unusual sequences. Stress tests increase relevant loads such as data traffic, concurrency, or memory utilization. Fault injection creates controlled disturbances, such as connection loss or delayed responses.",
+    "zh": "模糊测试通过系统性或随机变化的输入揭示意外行为。例如损坏的消息、边界值或异常顺序。压力测试增加相关负载，如数据流量、并发量或内存使用率。故障注入产生受控干扰，例如连接丢失或响应延迟。"
+  },
+  "u0698": {
+    "en": "Long-duration tests seek accumulating effects such as memory leaks. Recovery tests examine restart and state consistency. Each method needs a test oracle: a rule for recognizing success, failure, and expected protective responses. A program that does not crash can still deliver incorrect data.",
+    "zh": "长时间测试寻找内存泄漏等累积效应。恢复测试研究重新启动和状态一致性。每种方法都需要测试判定依据，即识别成功、错误和预期保护响应的规则。程序即使不崩溃，也可能输出错误数据。"
+  },
+  "u0699": {
+    "en": "An X-ray example",
+    "zh": "X射线示例"
+  },
+  "u0700": {
+    "en": "A message is delayed during image readout. The controller initiates a restart, but a late response from the old request arrives. We check whether the request identifier, state model, and data assignment handle this response safely. The defect may lie in the interaction between two locally correct functions.",
+    "zh": "图像读出期间，一条消息发生延迟。控制器启动重新运行，但旧任务的延迟响应随后到达。我们检查任务标识、状态模型和数据关联是否安全处理该响应。缺陷可能存在于两个局部正确功能的相互作用中。"
+  },
+  "u0701": {
+    "en": "Tests record the version, initial state, inputs, sequence, timing, random seed, and result. This allows a discovered defect to be reproduced. Logs must help distinguish cause from effect: the last timeout in the log may be a consequence rather than the start of the failure chain.",
+    "zh": "测试记录版本、初始状态、输入、顺序、时序、随机种子和结果。这样可以复现发现的缺陷。日志必须有助于区分原因与结果：日志中的最后一次超时可能是后果，而不是故障链的起点。"
+  },
+  "u0702": {
+    "en": "Models and real hardware",
+    "zh": "模型与真实硬件"
+  },
+  "u0703": {
+    "en": "A virtual model can check many inputs and sequences early. Its conclusions apply to the effects represented in the model. Physical self-heating, electromagnetic disturbances, or an actual electrical startup sequence require appropriate additional evidence. Real hardware is used specifically for relevant integration questions; an approved component does not need to be fully qualified again for this purpose.",
+    "zh": "虚拟模型可以在早期检查许多输入和顺序。其结论适用于模型所表示的效应。物理自发热、电磁干扰或真实电气启动顺序需要适当的额外证据。真实硬件有针对性地用于相关集成问题；已批准的部件无需为此再次进行完整鉴定。"
+  },
+  "u0704": {
+    "en": "IEC 62304 provides a software lifecycle framework in a medical-device context. This alone replaces neither final device validation nor the release decision. The specific activities and safety requirements are defined in the approved product process.",
+    "zh": "IEC 62304为医疗器械领域提供软件生命周期框架。仅凭该框架不能代替最终设备确认或放行决定。具体活动和安全要求应在批准的产品流程中规定。"
+  },
+  "u0705": {
+    "en": "Assessing updates as technical changes",
+    "zh": "将更新作为技术变更进行评估"
+  },
+  "u0706": {
+    "en": "An update can change timing, protocol behavior, memory requirements, and power consumption. We examine the affected version combinations, interfaces, and fallback levels. A security patch also requires an appropriate assessment of its effect on required functions. IEC 81001-5-1 describes activities for the secure lifecycle of health software; the official description also points to the corrected edition. <a href=\"#sources/source_N24\">[N24]</a>",
+    "zh": "更新可能改变时序、协议行为、内存需求和功耗。我们检查受影响的版本组合、接口和回退层级。安全补丁同样需要适当评估其对所需功能的影响。IEC 81001-5-1描述健康软件安全生命周期的活动；官方说明还指出了修正版。<a href=\"#sources/source_N24\">[N24]</a>"
+  },
+  "u0707": {
+    "en": "For defect data from a stable test phase, software reliability growth models can provide deeper analysis. They rely on assumptions about usage, defect discovery, and defect removal. Changes in testing intensity or new functions can create an apparent trend. A declining number of reported bugs therefore does not replace checking system function.",
+    "zh": "对于稳定测试阶段的缺陷数据，软件可靠性增长模型可以用于深入分析。这些模型依赖关于使用、缺陷发现和缺陷消除的假设。测试强度变化或新增功能可能产生表面趋势。因此，报告的缺陷数量减少不能代替系统功能检查。"
+  },
+  "u0708": {
+    "en": "For data-driven or functions based on artificial intelligence (KI), we define the required performance for the intended population. Changes in input data can affect performance. We distinguish technical functional failures from limits of domain performance. Whether additional regulatory requirements apply is assessed for each product; an artificial intelligence (KI) function cannot be described solely by a blanket reliability number.",
+    "zh": "对于数据驱动或基于人工智能（KI）的功能，我们为预期群体定义所要求的性能。输入数据变化可能影响性能。我们区分技术功能失效与专业性能边界。是否适用额外监管要求应针对具体产品进行评估；不能仅用一个笼统的可靠性数值描述人工智能（KI）功能。"
+  },
+  "u0709": {
+    "en": "Our procedure",
+    "zh": "我们的步骤"
+  },
+  "u0710": {
+    "en": "Link the operational profile and state model to the system function.",
+    "zh": "将运行剖面和状态模型与系统功能关联。"
+  },
+  "u0711": {
+    "en": "Describe interface contracts, timing conditions, and resource limits in a testable way.",
+    "zh": "以可测试的方式描述接口契约、时序条件和资源限制。"
+  },
+  "u0712": {
+    "en": "Select normal, near-boundary, and erroneous sequences.",
+    "zh": "选择正常、接近边界以及错误的顺序。"
+  },
+  "u0713": {
+    "en": "Combine fuzzing, load, and fault injection with an appropriate test oracle.",
+    "zh": "将模糊测试、负载和故障注入与适当的测试判定依据结合。"
+  },
+  "u0714": {
+    "en": "Save results reproducibly and perform targeted regression testing after changes.",
+    "zh": "保存可复现的结果，并在变更后进行有针对性的回归测试。"
+  },
+  "u0715": {
+    "en": "Assess updates as changes; for artificial intelligence (KI) functions, define required performance and the population considered.",
+    "zh": "将更新作为变更进行评估；对于人工智能（KI）功能，定义要求的性能和所考虑的群体。"
+  },
+  "u0716": {
+    "en": "The result is version-specific evidence of function and robustness. An all-green test list without known coverage and limits of conclusions is not yet a complete reliability assessment.",
+    "zh": "结果是针对特定版本的功能和稳健性证据。全部显示通过的测试清单，如果没有明确覆盖范围和结论边界，还不能构成完整的可靠性评估。"
+  },
+  "u0717": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0718": {
+    "en": "An app has been opened a thousand times with the same file. What additional inputs and state sequences would you test before assessing it as reliable?",
+    "zh": "某应用已使用同一文件打开一千次。在判断其可靠之前，你会测试哪些额外输入和状态顺序？"
+  },
+  "u0719": {
+    "en": "14 Interpreting lifetime statistics and confidence level correctly",
+    "zh": "14 正确理解寿命统计与置信水平"
+  },
+  "u0720": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0721": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q12\">[Q12]</a> <a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q14\">[Q14]</a> <a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N10\">[N10]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示 A  </a><a href=\"#figures/diagram_C\">图示 C  </a>|  基础 <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q12\">[Q12]</a> <a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q14\">[Q14]</a> <a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N10\">[N10]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0722": {
+    "en": "From individual experiences to the population",
+    "zh": "从个体经历到总体"
+  },
+  "u0723": {
+    "en": "One family reports that its washing machine lasted twelve years. Another experiences a failure after two years. Both observations can belong to the same population. Statistics describes the variation and uncertainty of a statement about many units. One particularly good appliance does not prove that all appliances last equally long.",
+    "zh": "一个家庭报告其洗衣机使用了十二年。另一个家庭则在两年后遇到失效。两种观测可能属于同一总体。统计描述关于多个单元的结论的变异和不确定性。某台特别优秀的设备不能证明所有设备都能使用同样长的时间。"
+  },
+  "u0724": {
+    "en": "We begin with the population, function, and usage measure being considered. Lifetime can be measured in hours, cycles, acquisitions, or calendar time. If different usage profiles are combined, their effect on the result must be examined. A random sample from an unsuitable population still answers the wrong question.",
+    "zh": "我们从所考虑的总体、功能和使用量度开始。寿命可以用小时、循环、采集次数或日历时间衡量。如果合并不同使用剖面，必须检查其对结果的影响。从不适合的总体中随机抽样，仍然是在回答错误的问题。"
+  },
+  "u0725": {
+    "en": "Reliability and failure distribution",
+    "zh": "可靠性与失效分布"
+  },
+  "u0726": {
+    "en": "We call the lifetime up to the defined failure T. Reliability R(t) is the probability that a unit survives usage t without this failure. The failure distribution F(t) describes the proportion that has failed by then in the model.",
+    "zh": "我们将发生所定义失效之前的寿命称为T。可靠性R(t)是单元在使用量t内不发生该失效的概率。失效分布F(t)描述模型中截至该时刻已失效的比例。"
+  },
+  "u0729": {
+    "en": "With a modeled reliability of 0.90 after 1,000 hours, 90 percent of the population has not experienced this functional failure by then. This means neither that every device fails after 1,000 hours nor that its failure time is known exactly. Loss of other functions may be defined separately.",
+    "zh": "若模型给出的1,000小时后的可靠性为0.90，则总体中90%的单元截至该时刻尚未发生这种功能失效。这既不意味着每台设备在1,000小时后失效，也不意味着其失效时刻已被精确确定。其他功能的丧失可以单独定义。"
+  },
+  "u0730": {
+    "en": "The hazard rate h(t) is the instantaneous conditional failure rate of the units that have not yet failed by t. It has a unit such as per hour and is not a probability. A high rate late in life applies to the surviving units; units that have already failed no longer belong to this risk set. Event intensities in repairable systems are modeled separately.",
+    "zh": "危险率h(t)是截至t尚未失效单元的瞬时条件失效率。它具有每小时等单位，并不是概率。寿命后期的高危险率针对仍存活的单元；已失效单元不再属于该风险集。可维修系统中的事件强度应单独建模。"
+  },
+  "u0731": {
+    "en": "Do not confuse metrics",
+    "zh": "不要混淆指标"
+  },
+  "u0732": {
+    "en": "MTTF is the mean time to failure of a nonrepairable unit, or a unit assessed up to its first considered failure. MTBF describes the mean intervals between considered failures in an appropriate repairable model. Both require clear definitions of events and time. Neither MTTF nor MTBF is a guaranteed minimum lifetime.",
+    "zh": "MTTF是不可维修单元，或评估至首次所考虑失效的单元的平均失效前时间。MTBF描述适当可维修模型中所考虑失效之间的平均间隔。两者都需要明确事件和时间定义。MTTF和MTBF都不是保证的最短寿命。"
+  },
+  "u0733": {
+    "en": "B10 is the usage by which ten percent of the population has failed in the defined model. Correspondingly, B1 describes an earlier quantile and B50 the median. A mean can rise because of very long-lived units even though a relevant proportion fails early. An early quantile is therefore more useful for some decisions.",
+    "zh": "B10是在规定模型中总体已有百分之十失效时对应的使用量。相应地，B1描述更早的分位数，B50描述中位数。即使相当一部分单元早期失效，非常长寿的单元也可能使均值升高。因此，对于某些决策，较早的分位数更有用。"
+  },
+  "u0734": {
+    "en": "Everyday example: The average wait for a bus can be short even though some passengers wait a very long time. The average, the proportion within a deadline, and uncertainty are different quantities. The same applies to lifetime metrics.",
+    "zh": "日常示例：公交车的平均等候时间可能很短，但部分乘客等待时间却很长。平均值、规定时限内的比例以及不确定性是不同的量。寿命指标也是如此。"
+  },
+  "u0735": {
+    "en": "Choosing models using data and mechanisms",
+    "zh": "根据数据和机理选择模型"
+  },
+  "u0736": {
+    "en": "The binomial distribution describes successes and failures in independent, comparable trials. The Poisson distribution can describe event counts at an appropriate constant intensity. The exponential distribution describes lifetimes with a constant hazard rate. Weibull and lognormal models allow other lifetime shapes. Model selection is based on mechanism, profile, data analysis, and plausibility, not on the most attractive curve.",
+    "zh": "二项分布描述独立、可比较试验的成功和失败。泊松分布可以描述适当恒定强度下的事件数。指数分布描述具有恒定危险率的寿命。Weibull和对数正态模型允许其他寿命分布形态。模型选择基于机理、剖面、数据分析和合理性，而不是哪条曲线最好看。"
+  },
+  "u0737": {
+    "en": "The frequently drawn bathtub curve is a conceptual model for early failures, an approximately constant region, and later wear-out failures. Whether a component follows this pattern must be checked using suitable data. Software sequence defects are not explained simply by overlaying such a curve.",
+    "zh": "常见的浴盆曲线是描述早期失效、近似恒定阶段以及后期磨损失效的概念模型。部件是否呈现这种走势，必须用适当数据检验。仅将这种曲线套用到软件顺序缺陷上并不能解释它们。"
+  },
+  "u0738": {
+    "en": "Diagram G Bathtub curve as a conceptual model  Original illustration for the teaching case described.",
+    "zh": "图示G 作为概念模型的浴盆曲线  为所述教学案例自行绘制。"
+  },
+  "u0739": {
+    "en": "Diagram G Bathtub curve as a conceptual model  Original illustration for the teaching case described.",
+    "zh": "图示G 作为概念模型的浴盆曲线  为所述教学案例自行绘制。"
+  },
+  "u0740": {
+    "en": "The diagram shows the sum of three assumed contributions: a decreasing early contribution, a constant contribution, and an increasing wear-out contribution. The y-axis shows a relative hazard rate, not a failure proportion. The curve is a conceptual model; it was not estimated from the teaching data in the following section. <a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q15\">[Q15]</a>",
+    "zh": "图示显示三个假定贡献的总和：下降的早期贡献、恒定贡献以及上升的磨损贡献。y轴表示相对危险率，而不是失效比例。该曲线是概念模型，并非根据下一节的教学数据估计得到。<a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q15\">[Q15]</a>"
+  },
+  "u0741": {
+    "en": "Calculating the exponential model",
+    "zh": "计算指数模型"
+  },
+  "u0742": {
+    "en": "For a constant hazard rate λ:",
+    "zh": "对于恒定危险率λ，有："
+  },
+  "u0744": {
+    "en": "In the teaching example, λ is 0.0001 per hour. The MTTF is then 10,000 hours. After 1,000 hours, R is approximately 0.9048. After 10,000 hours, only about 36.8 percent remain without failure in the model. This shows why an MTTF of 10,000 hours is no promise that almost all units will last that long.",
+    "zh": "在教学示例中，λ为每小时0.0001。此时MTTF为10,000小时。1,000小时后，R约为0.9048。10,000小时后，模型中仅约36.8%的单元仍未失效。这说明为何MTTF为10,000小时并不承诺几乎所有单元都能使用这么久。"
+  },
+  "u0745": {
+    "en": "The constant rate is justified and checked using suitable data. When wear is pronounced, this calculation is often inappropriate. Adding test hours from different units for quantitative statements is also subject to the model assumptions; Chapter 15 distinguishes this planning from binomial demonstration.",
+    "zh": "恒定失效率必须有依据，并用适当数据检验。磨损明显时，这种计算通常不适用。为了得出定量结论而累加不同单元的试验小时数，也受模型假设约束；第15章区分这种规划与二项分布验证。"
+  },
+  "u0746": {
+    "en": "The Weibull model and B10",
+    "zh": "Weibull模型与B10"
+  },
+  "u0747": {
+    "en": "For the two-parameter Weibull distribution, we use η as the scale parameter and β as the shape parameter:",
+    "zh": "对于两参数Weibull分布，我们使用η作为尺度参数，β作为形状参数："
+  },
+  "u0749": {
+    "en": "β less than one describes a decreasing hazard rate, β equal to one a constant rate, and β greater than one an increasing rate. An estimated β greater than one may be consistent with wear, but does not yet prove a specific mechanism. Mixtures and unsuitable profiles can change the picture. η is the characteristic lifetime; by this point, approximately 63.2 percent have failed in the model.",
+    "zh": "β小于一表示危险率下降，β等于一表示危险率恒定，β大于一表示危险率上升。估计的β大于一可能符合磨损特征，但尚不能证明某种特定机理。混合总体和不适合的剖面可能改变这种表现。η是特征寿命；在该时刻，模型中约63.2%的单元已失效。"
+  },
+  "u0750": {
+    "en": "For the quantile with failure proportion p:",
+    "zh": "对于失效比例为p的分位数，有："
+  },
+  "u0752": {
+    "en": "In the teaching example, η is 1,000 hours and β is 2. B10 is then approximately 324.6 hours. This is a model calculation with assumed parameters. If the parameters are estimated from limited data, B10 also requires an uncertainty assessment. An estimated B10 must not be equated with a lower confidence bound for B10.",
+    "zh": "在教学示例中，η为1,000小时，β为2。此时B10约为324.6小时。这是采用假定参数进行的模型计算。如果参数由少量数据估计得到，还需要评估B10的不确定性。不能将估计的B10与B10的置信下限等同。"
+  },
+  "u0753": {
+    "en": "Units that have not failed belong in the analysis",
+    "zh": "尚未失效的单元也应纳入分析"
+  },
+  "u0754": {
+    "en": "If a test ends at 300 hours and a unit still works, we do not know its exact lifetime. But we know that it survived at least until that point. This observation is right-censored. It is not recorded as a failure at 300 hours and is not removed from the dataset.",
+    "zh": "如果试验在300小时结束，而某单元仍正常工作，我们并不知道其确切寿命。但我们知道它至少存活到该时刻。这种观测属于右删失。不应将其记录为300小时的失效，也不应从数据集中删除。"
+  },
+  "u0755": {
+    "en": "An everyday scenario is people who are still at a party when we go home. We know that their stay lasts at least until our departure. Looking only at guests who have already left underestimates the length of stay. The analogy explains the information, not the physical cause of a device failure.",
+    "zh": "一个日常情景是：我们回家时，有些人仍留在聚会上。我们知道，他们的停留时间至少持续到我们离开时。只考虑已经离开的客人，会低估停留时间。这个类比解释的是信息，而不是设备失效的物理原因。"
+  },
+  "u0756": {
+    "en": "Interval censoring occurs when a failure can only be located between two inspection times. Late entry into observation may additionally involve truncation. The reason for an early test end matters: a device removed because of unusual behavior must not be treated as independently censored without examination.",
+    "zh": "当失效只能确定在两个检查时刻之间时，就产生区间删失。如果较晚才纳入观测，还可能存在截断。提前结束试验的原因很重要：因异常行为而移除的设备，未经审查不能作为独立删失的设备处理。"
+  },
+  "u0757": {
+    "en": "A small dataset",
+    "zh": "一个小型数据集"
+  },
+  "u0758": {
+    "en": "<strong>Unit</strong>",
+    "zh": "<strong>单元</strong>"
+  },
+  "u0759": {
+    "en": "<strong>Observed usage in hours</strong>",
+    "zh": "<strong>观测使用量，单位：小时</strong>"
+  },
+  "u0760": {
+    "en": "<strong>Information</strong>",
+    "zh": "<strong>信息</strong>"
+  },
+  "u0761": {
+    "en": "<strong>A</strong>",
+    "zh": "<strong>A</strong>"
+  },
+  "u0762": {
+    "en": "<strong>100</strong>",
+    "zh": "<strong>100</strong>"
+  },
+  "u0763": {
+    "en": "<strong>Defined failure</strong>",
+    "zh": "<strong>所定义的失效</strong>"
+  },
+  "u0764": {
+    "en": "<strong>B</strong>",
+    "zh": "<strong>B</strong>"
+  },
+  "u0765": {
+    "en": "<strong>200</strong>",
+    "zh": "<strong>200</strong>"
+  },
+  "u0766": {
+    "en": "<strong>Defined failure</strong>",
+    "zh": "<strong>所定义的失效</strong>"
+  },
+  "u0767": {
+    "en": "<strong>C</strong>",
+    "zh": "<strong>C</strong>"
+  },
+  "u0768": {
+    "en": "<strong>250</strong>",
+    "zh": "<strong>250</strong>"
+  },
+  "u0769": {
+    "en": "<strong>Removed from observation without failure</strong>",
+    "zh": "<strong>未失效即退出观测</strong>"
+  },
+  "u0770": {
+    "en": "<strong>D</strong>",
+    "zh": "<strong>D</strong>"
+  },
+  "u0771": {
+    "en": "<strong>300</strong>",
+    "zh": "<strong>300</strong>"
+  },
+  "u0772": {
+    "en": "<strong>No failure at test end</strong>",
+    "zh": "<strong>试验结束时未失效</strong>"
+  },
+  "u0773": {
+    "en": "<strong>E</strong>",
+    "zh": "<strong>E</strong>"
+  },
+  "u0774": {
+    "en": "<strong>300</strong>",
+    "zh": "<strong>300</strong>"
+  },
+  "u0775": {
+    "en": "<strong>No failure at test end</strong>",
+    "zh": "<strong>试验结束时未失效</strong>"
+  },
+  "u0776": {
+    "en": "Under suitable independent censoring, a Kaplan–Meier estimate after the first failure gives 4 out of 5, or 0.80. At the second failure, four units are in the risk set; the value is multiplied by 3 out of 4 and becomes 0.60. Censoring does not change the value by adding a failure, but it reduces the later risk set. These five observations are far too few for a defensible general lifetime release.",
+    "zh": "在适当的独立删失条件下，首次失效后的Kaplan–Meier估计为5个中有4个，即0.80。第二次失效时，风险集中有四个单元；该值乘以4个中的3个，得到0.60。删失不会通过增加失效来改变估计值，但会缩小后续风险集。这五个观测远不足以支持可信的一般寿命放行。"
+  },
+  "u0777": {
+    "en": "Kaplan–Meier estimates a survival function without a specified parametric distribution shape. It provides no justified demonstration beyond the observed usage. Maximum likelihood estimates model parameters using the respective failure and censoring information. A probability plot helps with diagnosis; an ordinary regression confidence region from this plot can be used as a lifetime confidence region only with a method valid for these data and censoring.",
+    "zh": "Kaplan–Meier无需规定参数化分布形态，即可估计生存函数。它不能对超出观测使用范围的情况提供有依据的验证。极大似然法利用相应的失效和删失信息估计模型参数。概率图有助于诊断；只有采用适用于这些数据和删失的有效方法，才能将该图中普通回归的置信区间用作寿命置信区间。"
+  },
+  "u0778": {
+    "en": "Reading a Weibull plot with censored data",
+    "zh": "解读含删失数据的Weibull图"
+  },
+  "u0779": {
+    "en": "Diagram H Weibull plot with right-censored observations  Original illustration for the teaching case described.",
+    "zh": "图示H 含右删失观测的Weibull图  为所述教学案例自行绘制。"
+  },
+  "u0780": {
+    "en": "Diagram H Weibull plot with right-censored observations  Original illustration for the teaching case described.",
+    "zh": "图示H 含右删失观测的Weibull图  为所述教学案例自行绘制。"
+  },
+  "u0781": {
+    "en": "The plot uses the small dataset with failures at 100 and 200 hours and right-censored observations at 250, 300, and 300 hours. The two points show the Kaplan–Meier failure proportions of 0.20 and 0.40. The marks at the top indicate censoring at the respective times, not additional failures. The Weibull line is estimated by maximum likelihood from all five observations, including the censored ones.",
+    "zh": "该图使用小型数据集，其中失效发生在100和200小时，右删失观测位于250、300和300小时。两个点表示Kaplan–Meier失效比例0.20和0.40。上边缘的标记表示相应时刻的删失，而不是额外失效。Weibull直线由包括删失观测在内的全部五个观测，通过极大似然法估计得到。"
+  },
+  "u0782": {
+    "en": "On the horizontal logarithmic time axis and the vertical scale ln[−ln(1−F)], a two-parameter Weibull distribution becomes a straight line. Here there are only two failures: a visually well-fitting line therefore represents the assumption, not a defensible model confirmation or lifetime release. The chart contains no confidence region. Plotting censored units as failures or removing them from the estimate would create a different, incorrect database. <a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a>",
+    "zh": "在水平对数时间轴和垂直尺度ln[−ln(1−F)]上，两参数Weibull分布呈现为直线。这里仅有两次失效：因此，视觉上拟合良好的直线只是对假设的表达，并非可信的模型确认或寿命放行依据。图中不包含置信区间。将删失单元绘制成失效，或从估计中删除，会形成不同且错误的数据基础。<a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a>"
+  },
+  "u0783": {
+    "en": "What confidence level means",
+    "zh": "置信水平的含义"
+  },
+  "u0784": {
+    "en": "Under its assumptions, a frequentist procedure with a 95 percent confidence level has the corresponding coverage property over repeated samples. A fixed true parameter does not have a frequentist probability of 95 percent of lying in a single interval that has already been calculated. In practice, we report an estimate and the uncertainty range determined by this procedure.",
+    "zh": "在其假设条件下，置信水平为95%的频率学派方法在重复抽样中具有相应的覆盖性质。对于已经计算出的某个区间，固定的真实参数并不以95%的频率学派概率位于其中。实际报告中，我们给出估计值以及按该方法确定的不确定性区间。"
+  },
+  "u0785": {
+    "en": "A one-sided lower bound is useful when at least a specified reliability is required. A two-sided bound answers a different question and uses a different allocation of error. The desired direction is specified in advance. A 95 percent confidence level is neither a reliability target of 95 percent nor a proportion of successfully tested specimens.",
+    "zh": "要求至少达到某一可靠性时，单侧下限是合适的。双侧界限回答不同的问题，并采用不同的误差分配。所需方向应预先确定。95%的置信水平既不是95%的可靠性目标，也不是试验成功样品的比例。"
+  },
+  "u0786": {
+    "en": "Everyday example: The mean weight of three slices of cake is more uncertain than that of many representative slices. At the same time, the scale may have a systematic error. More slices reduce sampling uncertainty but do not eliminate a constant measurement error. Similarly, a larger specimen count does not resolve an incorrect failure definition or an unsuitable model assumption.",
+    "zh": "日常示例：三个蛋糕切片重量的均值，比许多具有代表性的切片重量均值更不确定。同时，秤可能存在系统误差。增加切片数量可以减小抽样不确定性，但不能消除恒定测量误差。同样，增加样品数量也不能解决错误的失效定义或不适合的模型假设。"
+  },
+  "u0787": {
+    "en": "Keeping confidence level and prior knowledge separate",
+    "zh": "区分置信水平与先验知识"
+  },
+  "u0788": {
+    "en": "In the running text, we use the German term Konfidenzniveau for the English term Confidence Level. The term Aussagewahrscheinlichkeit also appears in German technical literature. It must not be misunderstood as a probability that an already fixed parameter becomes random afterward. We explicitly report whether a bound was calculated using frequentist or Bayesian methods.",
+    "zh": "正文中，我们使用德语术语Konfidenzniveau对应英语术语Confidence Level，即置信水平。德语专业文献中也使用Aussagewahrscheinlichkeit这一名称。不能将它误解为一个已经固定的参数事后成为随机量的概率。我们明确报告界限是按频率学派还是贝叶斯方法计算的。"
+  },
+  "u0789": {
+    "en": "Prior knowledge can come from predecessor products. Before adopting it, we compare the mechanism, material, manufacturing, software, usage, failure definition, and data collection. Data from the same devices must not be counted both in the prior and in the new sample. A sensitivity analysis shows how the result changes with weaker prior knowledge.",
+    "zh": "先验知识可以来自前代产品。采用之前，我们比较机理、材料、制造、软件、使用、失效定义和数据采集。同一设备的数据不能同时计入先验和新样本。敏感性分析显示先验知识减弱时结果如何变化。"
+  },
+  "u0790": {
+    "en": "The three-parameter Weibull distribution adds a location threshold. This additional flexibility requires more information and can become unstable with few failures. An apparently failure-free initial period is no proof of a true minimum lifetime. For beginners, the two-parameter form remains the starting point; more complex models are used only with a substantive justification.",
+    "zh": "三参数Weibull分布增加了位置阈值。这种额外灵活性需要更多信息，在失效较少时可能不稳定。表面上无失效的初始阶段不能证明真正的最短寿命。对于初学者，两参数形式仍是起点；只有具备实质性依据时才使用更复杂的模型。"
+  },
+  "u0791": {
+    "en": "Other methods and their limits",
+    "zh": "其他方法及其边界"
+  },
+  "u0792": {
+    "en": "Bootstrap repeatedly draws new samples from the observed units and uses them to estimate uncertainty. The resampled unit must match the dependency structure; many cycles from the same device must not be treated arbitrarily as independent devices. With very few failures or unfavorable censoring, the method may be unstable.",
+    "zh": "Bootstrap从观测单元中反复抽取新样本，并据此估计不确定性。重抽样单元必须与依赖结构相适应；同一设备的大量循环不能任意当作独立设备处理。当失效极少或删失情况不利时，该方法可能不稳定。"
+  },
+  "u0793": {
+    "en": "Bayesian methods combine a prior with the data. A credible interval has a different interpretation from a frequentist confidence interval. Prior knowledge, its origin, and its sensitivity are disclosed. Bayes is not a way to invisibly replace missing data with optimistic assumptions.",
+    "zh": "贝叶斯方法将先验与数据结合。可信区间的解释不同于频率学派置信区间。应公开先验知识、其来源以及敏感性。贝叶斯方法不能用来以乐观假设隐蔽地替代缺失数据。"
+  },
+  "u0794": {
+    "en": "With competing failure causes, we distinguish total loss of function from a specific mechanism. For a cause analysis, other failures cannot always be treated as independently censored without difficulty. Shared loads or dependent mechanisms require appropriate modeling.",
+    "zh": "对于竞争性失效原因，我们区分总体功能丧失与某种特定机理。在原因分析中，其他失效并不总能无问题地当作独立删失处理。共同应力或相互依赖的机理需要适当建模。"
+  },
+  "u0795": {
+    "en": "Our procedure",
+    "zh": "我们的步骤"
+  },
+  "u0796": {
+    "en": "Define the population, function, usage measure, and failure definition.",
+    "zh": "确定总体、功能、使用量度和失效定义。"
+  },
+  "u0797": {
+    "en": "Document all units, including censoring and exclusions.",
+    "zh": "记录所有单元，包括删失和排除情况。"
+  },
+  "u0798": {
+    "en": "Examine the data and mechanisms for a suitable model.",
+    "zh": "检查数据和机理，以选择适当模型。"
+  },
+  "u0799": {
+    "en": "Report the estimate, uncertainty range, and model assumptions together.",
+    "zh": "同时报告估计值、不确定性区间和模型假设。"
+  },
+  "u0800": {
+    "en": "Do not extend conclusions to usage, populations, or causes that are not covered.",
+    "zh": "不要将结论扩展到未覆盖的使用情况、总体或原因。"
+  },
+  "u0801": {
+    "en": "State whether a bound was calculated using frequentist or Bayesian methods; do not count prior knowledge twice.",
+    "zh": "注明界限按频率学派还是贝叶斯方法计算；不要重复计算先验知识。"
+  },
+  "u0802": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0803": {
+    "en": "Ten devices are tested. Two fail, and eight still work at the end of the test. Why is the mean of the two failure times not a good lifetime estimator for the entire population?",
+    "zh": "试验十台设备。两台失效，八台在试验结束时仍正常工作。为什么两个失效时间的均值不是整个总体的良好寿命估计量？"
+  },
+  "u0804": {
+    "en": "15 Planning demonstration trials and accelerated tests",
+    "zh": "15 规划验证试验与加速试验"
+  },
+  "u0805": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0806": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q04\">[Q04]</a> <a href=\"#sources/source_Q10\">[Q10]</a> <a href=\"#sources/source_Q16\">[Q16]</a> <a href=\"#sources/source_Q19\">[Q19]</a> <a href=\"#sources/source_Q20\">[Q20]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示 A  </a><a href=\"#figures/diagram_C\">图示 C  </a>|  基础 <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q04\">[Q04]</a> <a href=\"#sources/source_Q10\">[Q10]</a> <a href=\"#sources/source_Q16\">[Q16]</a> <a href=\"#sources/source_Q19\">[Q19]</a> <a href=\"#sources/source_Q20\">[Q20]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0807": {
+    "en": "From demonstration objective to trial",
+    "zh": "从验证目标到试验"
+  },
+  "u0808": {
+    "en": "A test drive shows whether a car works under the conditions driven. It does not automatically prove its reliability over ten years. A demonstration trial is planned in the opposite direction: we define the desired statement and then determine specimens, usage, decision, and uncertainty.",
+    "zh": "试驾表明汽车在所经历的驾驶条件下是否正常工作。它并不能直接证明十年期间的可靠性。验证试验则反向规划：先定义所需结论，再确定样品、使用、决策和不确定性。"
+  },
+  "u0809": {
+    "en": "The minimum information is the function, population, target usage, required reliability, and confidence level, or another statistical decision agreed in advance. This is supplemented by the profile, representativeness, permitted failures, and stopping rules. The analysis is not selected only after the results have been reviewed.",
+    "zh": "最低限度的信息包括功能、总体、目标使用量、要求的可靠性和置信水平，或者预先约定的其他统计决策。此外，还包括剖面、代表性、允许失效以及终止规则。不能在查看结果之后才选择分析方法。"
+  },
+  "u0810": {
+    "en": "Binomial zero-failure demonstration",
+    "zh": "二项分布零失效验证"
+  },
+  "u0811": {
+    "en": "Each independent, representative unit completes the same fully defined target usage and is evaluated as a success or failure. With n successful units and no failures, an exact one-sided lower confidence bound for the probability of success is:",
+    "zh": "每个独立且具有代表性的单元完成相同、完整定义的目标使用，并判定为成功或失效。当n个单元成功且没有失效时，成功概率的精确单侧置信下限为："
+  },
+  "u0813": {
+    "en": "Here α is one minus the confidence level. For a 95 percent confidence level, α is 0.05. The required number is determined by the following bound and rounded up to the next integer:",
+    "zh": "其中，α等于一减去置信水平。置信水平为95%时，α为0.05。所需数量由以下界限确定，并向上取整到下一个整数："
+  },
+  "u0815": {
+    "en": "<strong>Required reliability R0</strong>",
+    "zh": "<strong>要求的可靠性R0</strong>"
+  },
+  "u0816": {
+    "en": "<strong>One-sided confidence level</strong>",
+    "zh": "<strong>单侧置信水平</strong>"
+  },
+  "u0817": {
+    "en": "<strong>Required units without failure</strong>",
+    "zh": "<strong>所需无失效单元数量</strong>"
+  },
+  "u0818": {
+    "en": "<strong>90 percent</strong>",
+    "zh": "<strong>90%</strong>"
+  },
+  "u0819": {
+    "en": "<strong>95 percent</strong>",
+    "zh": "<strong>95%</strong>"
+  },
+  "u0820": {
+    "en": "<strong>29</strong>",
+    "zh": "<strong>29</strong>"
+  },
+  "u0821": {
+    "en": "<strong>95 percent</strong>",
+    "zh": "<strong>95%</strong>"
+  },
+  "u0822": {
+    "en": "<strong>95 percent</strong>",
+    "zh": "<strong>95%</strong>"
+  },
+  "u0823": {
+    "en": "<strong>59</strong>",
+    "zh": "<strong>59</strong>"
+  },
+  "u0824": {
+    "en": "<strong>99 percent</strong>",
+    "zh": "<strong>99%</strong>"
+  },
+  "u0825": {
+    "en": "<strong>95 percent</strong>",
+    "zh": "<strong>95%</strong>"
+  },
+  "u0826": {
+    "en": "<strong>299</strong>",
+    "zh": "<strong>299</strong>"
+  },
+  "u0827": {
+    "en": "With 29 successes, the lower bound is approximately 0.9019. Every unit must have completed the target usage. A single cable undergoing 29 brief movements is not the same as 29 cables each completing the specified lifetime profile.",
+    "zh": "29次成功对应的下限约为0.9019。每个单元都必须完成目标使用。单根电缆经历29次短暂运动，不等同于29根电缆各自完成规定的寿命剖面。"
+  },
+  "u0828": {
+    "en": "Everyday example: If a cake recipe succeeds in 29 different representative baking runs, that is a different database from 29 looks at the same cake. Multiple observations of the same specimen remain dependent on its condition and history. Different devices can also be dependent because of a shared batch or test rig.",
+    "zh": "日常示例：某蛋糕配方在29次不同且具有代表性的烘焙过程中成功，与对同一个蛋糕观察29次具有不同的数据基础。同一样品的多次观测仍取决于其状态和历史。不同设备也可能因同一批次或同一试验台而存在依赖。"
+  },
+  "u0829": {
+    "en": "Tests with failures and probability of demonstration success",
+    "zh": "含失效的试验与验证成功概率"
+  },
+  "u0830": {
+    "en": "A zero-failure plan is simple, but may frequently fail to demonstrate that a population is actually good. If the true reliability is 0.95, the chance of 29 consecutive successes is approximately 22.6 percent. With a true reliability of 0.98, it is approximately 55.7 percent. Confidence level and Probability of Test Success answer different questions.",
+    "zh": "零失效方案很简单，但对于实际良好的总体，经常可能无法成功验证。如果真实可靠性为0.95，连续29次成功的概率约为22.6%。真实可靠性为0.98时，该概率约为55.7%。置信水平和验证成功概率（Probability of Test Success）回答不同的问题。"
+  },
+  "u0832": {
+    "en": "Plans that allow failures can be more useful, but require a larger or differently planned sample and a correct decision rule. Power or an operating characteristic curve describes how this rule behaves at different actual quality levels. We also consider the risk of rejecting a good population or accepting an inadequate one. The details are statistically planned for the specific requirement.",
+    "zh": "允许失效的方案可能更实用，但需要更大或采用不同规划的样本，以及正确的决策规则。统计功效或操作特性曲线描述该规则在不同实际质量水平下的表现。我们还考虑拒绝良好总体或接受不充分总体的风险。具体细节应针对特定要求进行统计规划。"
+  },
+  "u0833": {
+    "en": "Demonstrating reliability despite observed failures",
+    "zh": "存在观测失效时进行可靠性验证"
+  },
+  "u0834": {
+    "en": "For n independent units and r observed failures, we use the one-sided exact Clopper–Pearson bound for the probability of success. The following formula applies when there is at least one success; with no successes, the lower bound is zero. BetaInv denotes the quantile of the beta distribution. <a href=\"#sources/source_Q24\">[Q24]</a>",
+    "zh": "对于n个独立单元和r次观测失效，我们使用成功概率的精确单侧Clopper–Pearson界限。至少有一次成功时适用以下公式；没有成功时，下限为零。BetaInv表示Beta分布的分位数。<a href=\"#sources/source_Q24\">[Q24]</a>"
+  },
+  "u0836": {
+    "en": "Before testing, we specify a maximum accepted failure count c. Afterward, we insert the actual observed count r. This prevents the decision rule from being changed after a poor result.",
+    "zh": "试验之前，我们规定最大可接受失效数c。之后代入实际观测的数量r。这样可以防止在结果不佳后修改决策规则。"
+  },
+  "u0837": {
+    "en": "<strong>Maximum accepted failures c</strong>",
+    "zh": "<strong>最大可接受失效数c</strong>"
+  },
+  "u0838": {
+    "en": "<strong>Required units n</strong>",
+    "zh": "<strong>所需单元数n</strong>"
+  },
+  "u0839": {
+    "en": "<strong>Lower bound when r equals c</strong>",
+    "zh": "<strong>r等于c时的下限</strong>"
+  },
+  "u0840": {
+    "en": "<strong>0</strong>",
+    "zh": "<strong>0</strong>"
+  },
+  "u0841": {
+    "en": "<strong>29</strong>",
+    "zh": "<strong>29</strong>"
+  },
+  "u0842": {
+    "en": "<strong>0.9019</strong>",
+    "zh": "<strong>0.9019</strong>"
+  },
+  "u0843": {
+    "en": "<strong>1</strong>",
+    "zh": "<strong>1</strong>"
+  },
+  "u0844": {
+    "en": "<strong>46</strong>",
+    "zh": "<strong>46</strong>"
+  },
+  "u0845": {
+    "en": "<strong>0.9010</strong>",
+    "zh": "<strong>0.9010</strong>"
+  },
+  "u0846": {
+    "en": "<strong>2</strong>",
+    "zh": "<strong>2</strong>"
+  },
+  "u0847": {
+    "en": "<strong>61</strong>",
+    "zh": "<strong>61</strong>"
+  },
+  "u0848": {
+    "en": "<strong>0.9004</strong>",
+    "zh": "<strong>0.9004</strong>"
+  },
+  "u0849": {
+    "en": "All three plans test the target R of at least 0.90 at a 95 percent one-sided confidence level. The sample sizes are the smallest integers that reach the respective bound. Every trial fulfills the same target profile. With more than c failures, the planned acceptance rule is not met.",
+    "zh": "三种方案都在95%的单侧置信水平下验证R至少为0.90的目标。样本量是达到相应界限的最小整数。每次试验均完成相同的目标剖面。如果失效超过c次，就不满足计划的接收规则。"
+  },
+  "u0850": {
+    "en": "The Probability of Test Success is P(X at most c), where X is the binomially distributed failure count at a specified true reliability. At R equal to 0.95, the three plans give approximately 22.6, 32.3, and 40.6 percent. This shows the practical difference despite an identical confidence level.",
+    "zh": "验证成功概率为P(X不超过c)，其中X是在某个规定真实可靠性下服从二项分布的失效数。R等于0.95时，三种方案分别约为22.6%、32.3%和40.6%。这表明即使置信水平相同，实践中仍有差异。"
+  },
+  "u0851": {
+    "en": "Diagram E Probability of Test Success for the three test plans  Original illustration for the teaching case described.",
+    "zh": "图示E 三种试验方案的验证成功概率  为所述教学案例自行绘制。"
+  },
+  "u0852": {
+    "en": "Diagram E Probability of Test Success for the three test plans  Original illustration for the teaching case described.",
+    "zh": "图示E 三种试验方案的验证成功概率  为所述教学案例自行绘制。"
+  },
+  "u0853": {
+    "en": "The curves help plan a useful sample size. We consider both the risk of an inadequate demonstration for a good population and the acceptance of an inadequate product. Passing a statistical plan does not remove the obligation to technically investigate relevant failures.",
+    "zh": "这些曲线有助于规划实用的样本量。我们同时考虑良好总体未能充分验证的风险，以及不合格产品被接受的风险。通过统计方案不能免除对相关失效进行技术调查的责任。"
+  },
+  "u0854": {
+    "en": "Hour-based demonstration with a constant rate",
+    "zh": "恒定失效率下基于小时数的验证"
+  },
+  "u0855": {
+    "en": "Under a suitable exponential or Poisson model, independent, representative observation times can be added. With zero failures, the total time gives a one-sided upper bound for the constant rate:",
+    "zh": "在适当的指数或泊松模型下，可以累加独立且具有代表性的观测时间。零失效时，由总时间得到恒定失效率的单侧上限："
+  },
+  "u0857": {
+    "en": "In the teaching example, ten units with 1,000 hours each give a total of 10,000 unit-hours. At a 95 percent confidence level, the upper rate is approximately 0.0002996 per hour. This yields a lower MTTF bound of approximately 3,338 hours. For reliability after 1,000 hours, this model gives a lower bound of approximately 0.7411.",
+    "zh": "在教学示例中，十个单元各运行1,000小时，合计10,000单元小时。在95%的置信水平下，失效率上限约为每小时0.0002996。由此得到MTTF下限约为3,338小时。对于1,000小时后的可靠性，该模型给出下限约为0.7411。"
+  },
+  "u0858": {
+    "en": "This result does not contradict the binomial approach: the methods use different information and assumptions. Adding hours at a constant rate is not a universal substitute for demonstrating a wear-related target lifetime. If the model cannot be justified, the apparently shorter test duration must not be chosen as a shortcut.",
+    "zh": "这一结果与二项分布方法并不矛盾：两种方法使用不同的信息和假设。恒定失效率下的小时数累加，不能普遍替代与磨损有关的目标寿命验证。如果无法证明模型合理，就不能将看似较短的试验时间作为捷径。"
+  },
+  "u0859": {
+    "en": "Observed events in a time-limited rate test",
+    "zh": "限时失效率试验中的观测事件"
+  },
+  "u0860": {
+    "en": "For an HPP with constant event intensity, a predetermined total observation time, and r events, a one-sided upper bound is obtained from the chi-squared quantile. The formula follows from the Poisson model for the event count. It must not be applied without examination to a trial ended after a fixed number of failures. <a href=\"#sources/source_Q25\">[Q25]</a>",
+    "zh": "对于具有恒定事件强度的HPP，在预先规定总观测时间且发生r个事件时，可由卡方分位数得到单侧上限。该公式源自事件数的泊松模型。不得未经审查就将其用于达到固定失效数后终止的试验。<a href=\"#sources/source_Q25\">[Q25]</a>"
+  },
+  "u0862": {
+    "en": "At 10,000 unit-hours and a 95 percent confidence level, r equal to zero gives about 0.0002996 per hour, and r equal to one about 0.0004744 per hour. These numbers describe an uncertainty bound, not the point estimate. The test scheme, exposure, and model are reported together.",
+    "zh": "在10,000单元小时和95%的置信水平下，r等于零时约为每小时0.0002996，r等于一时约为每小时0.0004744。这些数值描述不确定性界限，而不是点估计。报告中应同时说明试验方案、暴露量和模型。"
+  },
+  "u0863": {
+    "en": "Longer runtime with a justified Weibull model",
+    "zh": "有依据的Weibull模型下延长运行时间"
+  },
+  "u0864": {
+    "en": "Under a Weibull model with known shape parameter β, longer failure-free tests can provide information about a shorter target usage. Let L be the ratio of test usage to target usage. For n independent specimens tested for the same duration, the zero-failure condition is:",
+    "zh": "在形状参数β已知的Weibull模型下，较长的无失效试验可以提供关于较短目标使用量的信息。设L为试验使用量与目标使用量之比。对于试验时长相同的n个独立样品，零失效条件为："
+  },
+  "u0866": {
+    "en": "This relationship is often used in connection with a life ratio or Lipson approach. Here it is derived directly from the two-parameter Weibull survival function: the survival probability at the test usage is the survival probability at the target usage raised to the power L^β. For n failure-free specimens, it is additionally raised to n. This model assumption is stronger than a binomial assessment at the target time alone.",
+    "zh": "这种关系常用于寿命比或Lipson方法。这里直接从两参数Weibull生存函数推导：试验使用量下的生存概率，等于目标使用量下的生存概率以L^β为指数进行乘方所得的值。对于n个无失效样品，还需再取n次幂。这种模型假设比仅在目标时刻进行的二项分布评估更强。"
+  },
+  "u0867": {
+    "en": "With five specimens, R0 equal to 0.99, and a 95 percent confidence level, each specimen needs approximately 7.72 times the target usage when β equals 2. When β equals 1.5, it needs about 15.26 times, and when β equals 3, about 3.91 times. The calculation assumes β is known. If β is estimated from limited data, its uncertainty must be considered; an assumed favorable value is not a defensible demonstration.",
+    "zh": "对于五个样品、R0等于0.99以及95%的置信水平，β等于2时，每个样品需要约7.72倍的目标使用量。β等于1.5时约为15.26倍，β等于3时约为3.91倍。该计算假定β已知。如果β由少量数据估计得到，必须考虑其不确定性；假定一个有利数值不能构成可信验证。"
+  },
+  "u0868": {
+    "en": "Longer runtime with an unchanged profile is not yet stress acceleration. An increased temperature additionally requires a suitable acceleration model. The two extrapolations are justified separately so that a second assumption does not enter the calculation unnoticed.",
+    "zh": "在剖面不变的情况下延长运行时间，还不属于应力加速。提高温度还需要适当的加速模型。两种外推应分别论证，避免第二个假设在未被察觉的情况下进入计算。"
+  },
+  "u0869": {
+    "en": "Using acceleration in line with the mechanism",
+    "zh": "根据机理使用加速"
+  },
+  "u0870": {
+    "en": "An accelerated test increases a stress so that a relevant mechanism proceeds faster. Quantitative extrapolation requires a verified acceleration model and suitable data. A higher temperature can activate a different mechanism; in that case, a simple extrapolation is not justified.",
+    "zh": "加速试验提高某种应力，使相关机理更快发展。定量外推需要经过验证的加速模型和适当数据。更高温度可能激活不同机理；此时，简单外推没有依据。"
+  },
+  "u0871": {
+    "en": "The Arrhenius model describes certain temperature-dependent processes. For a mechanism modeled this way:",
+    "zh": "Arrhenius模型描述某些与温度相关的过程。对于按此建模的机理，有："
+  },
+  "u0873": {
+    "en": "Ea is an appropriate activation energy, k the Boltzmann constant, and T an absolute temperature in kelvin at the relevant location. In the purely teaching case with Ea of 0.7 electronvolts and 45 versus 75 degrees Celsius, the factor is approximately 9.03. This assumed activation energy is not component evidence. The choice of value, model uncertainty, and an unchanged mechanism are decisive.",
+    "zh": "Ea是适当的活化能，k是玻尔兹曼常数，T是相关位置以开尔文表示的绝对温度。在纯教学案例中，Ea为0.7电子伏特，比较45与75摄氏度，加速因子约为9.03。这种假定活化能不是部件证据。数值选择、模型不确定性以及机理保持不变是关键。"
+  },
+  "u0874": {
+    "en": "Everyday example: Dough rises faster in warmth. However, excessive heat changes the process. The analogy illustrates why faster does not always mean the same mechanism proceeding at greater speed. It provides no quantitative rule for electronics.",
+    "zh": "日常示例：面团在温暖环境中发酵更快。然而，过热会改变过程。这个类比说明，更快并不总意味着同一机理以更高速度发展。它不能提供电子产品的定量规律。"
+  },
+  "u0875": {
+    "en": "Load-dependent models may be appropriate for cyclic fatigue. However, higher frequency can change self-heating, recovery, or the load waveform. Humidity and voltage can affect further mechanisms. A combined acceleration factor is not produced by uncritically multiplying individual numbers.",
+    "zh": "对于循环疲劳，与载荷有关的模型可能适用。但更高频率可能改变自发热、恢复或载荷波形。湿度和电压可能影响其他机理。不能不加审查地将单个数值相乘，得出组合加速因子。"
+  },
+  "u0876": {
+    "en": "Putting limit exploration and degradation testing in context",
+    "zh": "正确定位极限探索与退化试验"
+  },
+  "u0877": {
+    "en": "Highly Accelerated Life Testing, or HALT, serves here as an exploratory search for weaknesses and limits. On its own, it does not provide a general quantitative lifetime demonstration. A corresponding screening process such as HASS seeks manufacturing defects and must justify that suitable products are not subjected to unacceptable prior damage. Screening and qualification are separate tasks.",
+    "zh": "高加速寿命试验，简称HALT，在这里用于探索性寻找薄弱点和极限。仅凭它不能提供一般性的定量寿命验证。与之配套的HASS等筛选用于寻找制造缺陷，并且必须证明合格产品不会受到不可接受的预先损伤。筛选与鉴定是不同的任务。"
+  },
+  "u0878": {
+    "en": "Degradation tests measure the development of a performance quantity before failure occurs. Extrapolation requires a justified relationship with the failure threshold, variation, and measurement uncertainty. A slowly drifting parameter is a lifetime indicator only for failure causes whose relationship with the drift has been demonstrated.",
+    "zh": "退化试验在失效发生之前测量某项性能量的变化。外推需要有依据地关联失效阈值、变异和测量不确定度。缓慢漂移的参数，只能作为已证明与这种漂移相关的失效原因的寿命指标。"
+  },
+  "u0879": {
+    "en": "Our procedure",
+    "zh": "我们的步骤"
+  },
+  "u0880": {
+    "en": "Define the demonstration objective and failure definition, including confidence level.",
+    "zh": "确定验证目标和失效定义，包括置信水平。"
+  },
+  "u0881": {
+    "en": "Check model assumptions, population, and independence.",
+    "zh": "检查模型假设、总体和独立性。"
+  },
+  "u0882": {
+    "en": "Assess sample size, duration, permitted failures, and Probability of Test Success in advance.",
+    "zh": "预先评估样本量、持续时间、允许失效以及验证成功概率。"
+  },
+  "u0883": {
+    "en": "Use acceleration only with an appropriate mechanism and validated extrapolation.",
+    "zh": "仅在机理适当且外推经过确认时使用加速。"
+  },
+  "u0884": {
+    "en": "Plan stopping rules, censoring, raw data, and cause analysis as binding requirements.",
+    "zh": "将终止规则、删失、原始数据和原因分析作为强制要求进行规划。"
+  },
+  "u0885": {
+    "en": "Specify acceptance count c in advance, calculate Probability of Test Success for plausible true values, and justify the Weibull shape parameters used.",
+    "zh": "预先规定接收数c，针对合理的真实值计算验证成功概率，并论证所用Weibull形状参数。"
+  },
+  "u0886": {
+    "en": "The result is an approved test plan. Zero failures are a valuable finding, but never automatically mean infinite lifetime or a failure rate of exactly zero.",
+    "zh": "结果是经批准的试验计划。零失效是有价值的发现，但绝不自动意味着无限寿命或失效率恰好为零。"
+  },
+  "u0887": {
+    "en": "Exercise",
+    "zh": "练习"
+  },
+  "u0888": {
+    "en": "You have funding for five specimens and need to demonstrate 99 percent reliability at a 95 percent confidence level. Why is passing a short test insufficient, and what justified alternatives could you examine when revising the plan?",
+    "zh": "你有经费购买五个样品，需要在95%的置信水平下验证99%的可靠性。为什么通过短时试验还不够？在修改计划时，你可以考察哪些有依据的替代方案？"
+  },
+  "u0889": {
+    "en": "Advanced exercise",
+    "zh": "深入练习"
+  },
+  "u0890": {
+    "en": "A plan tests 46 independent specimens and accepts at most one failure. How likely is a successful demonstration at a true reliability of 0.95 and 0.98, respectively?",
+    "zh": "某方案试验46个独立样品，最多接受一次失效。真实可靠性分别为0.95和0.98时，验证成功的概率是多少？"
+  },
+  "u0891": {
+    "en": "16 Testing integration and system function",
+    "zh": "16 检验集成与系统功能"
+  },
+  "u0892": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u0893": {
+    "en": "Navigation <a href=\"#figures/diagram_A\">Diagram A  </a><a href=\"#figures/diagram_B\">Diagram B  </a><a href=\"#figures/diagram_C\">Diagram C  </a>|  Foundations <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Contents</a>",
+    "zh": "导航 <a href=\"#figures/diagram_A\">图示 A  </a><a href=\"#figures/diagram_B\">图示 B  </a><a href=\"#figures/diagram_C\">图示 C  </a>|  基础 <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">目录</a>"
+  },
+  "u0894": {
+    "en": "Good parts do not automatically make a good system",
+    "zh": "优质部件不会自动构成优质系统"
+  },
+  "u0895": {
+    "en": "A bicycle consists of good brakes, good rims, and a good frame. If the brake pad and rim are combined unsuitably or the brake is incorrectly adjusted, the overall function still is not fulfilled. Component quality may be present while integration is incorrect.",
+    "zh": "自行车由优质刹车、优质轮圈和优质车架组成。如果刹车片与轮圈搭配不当，或刹车调整错误，整体功能仍无法实现。部件可能具有质量，但集成却存在错误。"
+  },
+  "u0896": {
+    "en": "In the X-ray system, we adopt accepted component evidence and check whether specification, installation, interfaces, and actual use cases fit. We examine the interaction without automatically repeating the entire component qualification. However, system integration can reveal a previously overlooked component stress. This creates a new evidence gap to be closed in a targeted way.",
+    "zh": "在X射线系统中，我们采用已接受的部件证据，并检查规格、安装、接口以及实际使用场景是否匹配。我们研究相互作用，而不自动重复整个部件鉴定。但是，系统集成可能揭示此前忽略的部件应力。这会产生一个需要有针对性填补的新证据缺口。"
+  },
+  "u0897": {
+    "en": "Choosing test levels according to what they demonstrate",
+    "zh": "根据验证内容选择测试层级"
+  },
+  "u0898": {
+    "en": "Local software tests check individual functions. Software integration checks interaction and shared states. Virtual system tests enable early testing of variants, timing, and fault cases within the model. A physical partial-chain test rig examines selected electrical and physical relationships. A complete system test checks end-to-end function in the intended context.",
+    "zh": "局部软件测试检查各个功能。软件集成检查相互作用和共享状态。虚拟系统测试可以在早期于模型范围内测试变型、时序和故障情景。真实的部分链路试验台研究选定的电气与物理关系。完整系统测试检查预期情境下的端到端功能。"
+  },
+  "u0899": {
+    "en": "The internal names and release processes for these levels are agreed within the project. A test matrix assigns each requirement to the appropriate level and records remaining gaps. More levels broaden coverage only if they test additional relevant conditions or relationships.",
+    "zh": "这些层级的内部名称和放行流程应在项目中约定。测试矩阵将每项要求分配到适当层级，并记录剩余缺口。只有检查额外的相关条件或关系，增加层级才会扩大覆盖范围。"
+  },
+  "u0900": {
+    "en": "Distinguishing operating cases from limit exploration",
+    "zh": "区分运行情景与极限探索"
+  },
+  "u0901": {
+    "en": "For the normal case, we check the expected function under representative usage. The unfavorable permitted case combines relevant stresses within the defined operating range. Beyond that, limit tests explore in a controlled way where performance or fault responses change. Cases below a nominal value can also be unfavorable, such as too little supply or too-short pauses.",
+    "zh": "在正常情景中，我们检查代表性使用下的预期功能。允许范围内的不利情景，在规定使用范围内组合相关应力。在此之外，极限测试以受控方式探索性能或故障响应发生变化的位置。低于标称值的情况也可能不利，例如供电过低或暂停时间过短。"
+  },
+  "u0902": {
+    "en": "Everyday example: A home network loads a webpage quickly with one device. With several videos running in parallel, latency rises. What matters for the application is whether the agreed performance is still met under permitted load. A test at maximum load that was never intended can additionally reveal limits, but is a different demonstration.",
+    "zh": "日常示例：家庭网络在单台设备使用时可以快速加载网页。多个视频并行播放时，延迟会上升。对于应用，关键在于允许负载下是否仍满足约定性能。在根本不属于预期的最大负载下进行测试，还可以揭示极限，但属于另一种验证。"
+  },
+  "u0903": {
+    "en": "Deliberately disturbing integration",
+    "zh": "有针对性地干扰集成"
+  },
+  "u0904": {
+    "en": "We derive tests from the interface FMEA, state model, and fault tree. Disturbances may include late, duplicate, lost, or outdated messages, unstable supply, incomplete data, and restart. The expected output and permitted fault response are specified in advance. We also check whether a local protective response leaves other elements in a contradictory state.",
+    "zh": "我们根据接口FMEA、状态模型和故障树推导测试。干扰可能包括延迟、重复、丢失或过期消息，不稳定供电、不完整数据以及重新启动。预先规定预期输出和允许的故障响应。我们还检查局部保护响应是否使其他要素处于矛盾状态。"
+  }
+}

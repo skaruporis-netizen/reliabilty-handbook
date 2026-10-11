@@ -1,0 +1,1026 @@
+[
+  {
+    "key": "u0636",
+    "de": "Alltagsbeispiel: Eine Brille beschlägt beim Betreten eines warmen Raums. Das ist nicht dasselbe wie längeres Liegen in feuchter Luft. Bei einem Röntgenmodul fragen wir nach elektrischen Leckpfaden, Korrosion, optischen Effekten und Wiederinbetriebnahme. Funktionszustand und Beaufschlagung werden begründet, statt immer nur unbelastet zu lagern."
+  },
+  {
+    "key": "u0637",
+    "de": "Mechanische Festigkeit und Ermüdung"
+  },
+  {
+    "key": "u0638",
+    "de": "Ein statischer Festigkeitsnachweis untersucht eine definierte Last und ihre Wirkung. Eine Finite-Elemente-Analyse, kurz FEM, berechnet Spannungen und Verformungen anhand eines Modells. Materialdaten, Lagerung, Kontakte, Lastpfade, Netzqualität und Modellabgleich entscheiden über ihre Aussage. Eine farbige Spannungsdarstellung ist kein Nachweis, solange die Randbedingungen nicht stimmen."
+  },
+  {
+    "key": "u0639",
+    "de": "Ermüdung entsteht durch wiederholte Beanspruchung. Wöhlerdaten beschreiben den Zusammenhang zwischen zyklischer Belastung und Lebensdauer unter bestimmten Bedingungen. Lastkollektive, Mittelspannung, Oberflächen und Fertigungsstreuung können relevant sein. Ein Lastsummenansatz wie Miner ist eine Modellannahme mit Grenzen und keine automatisch genaue Lebensdauerprognose."
+  },
+  {
+    "key": "u0640",
+    "de": "Alltagsbeispiel: Eine Büroklammer trägt eine kleine statische Last, bricht aber nach mehrmaligem Hin- und Herbiegen. Am Röntgensystem müssen Halterung und Kabel deshalb sowohl maximale Last als auch wiederholte Bewegung ertragen. Ein einzelner hoher Lasttest ersetzt keine zyklische Bewertung."
+  },
+  {
+    "key": "u0641",
+    "de": "Dynamische mechanische Belastungen prüfen"
+  },
+  {
+    "key": "u0642",
+    "de": "Vibration ist eine wiederholte dynamische Anregung; Schock eine kurze Stoßbelastung. Ein Fall erzeugt zusätzlich Kontaktbedingungen, Orientierung und lokale Energieeinleitung. Wir legen Befestigung, Achsen, Frequenzinhalt, Amplitude, Dauer beziehungsweise Stoßverlauf sowie bei Fallprüfungen Höhe, Untergrund und Orientierung fest. Sinus- und Zufallsvibration beantworten unterschiedliche Fragen."
+  },
+  {
+    "key": "u0643",
+    "de": "Alltagsbeispiel: Eine Lieferung im Paketauto wird lange gerüttelt und kann zusätzlich kurz herunterfallen. Ein einzelner Falltest deckt die gesamte Transportgeschichte nicht ab. Für ein Modul unterscheiden wir Prüfung mit Verpackung, im Einbau und als lose Komponente. Ein Rütteltest an unrealistischer Befestigung kann falsche Schwachstellen erzeugen oder reale Resonanzen verbergen."
+  },
+  {
+    "key": "u0644",
+    "de": "Strahlenfestigkeit"
+  },
+  {
+    "key": "u0645",
+    "de": "Eine Strahlenprüfung beschreibt Strahlungsart beziehungsweise Spektrum, Geometrie, Abschirmung, Dosisleistung, kumulierte Dosis am relevanten Ort und Betriebszustand. Während der Bestrahlung können zeitweilige Funktionsfehler auftreten; nachher können bleibende Änderungen sichtbar sein. Beide Wirkungen werden getrennt erfasst. Die empfindliche Stelle kann innerhalb der Baugruppe liegen, während eine äußere Messposition andere Werte liefert."
+  },
+  {
+    "key": "u0646",
+    "de": "Alltagsbeispiel: Ein Foto an der Sonne kann sich mit der Zeit verändern. Das illustriert nur den Gedanken einer kumulierten Einwirkung. Sonnenlicht und Röntgenstrahlung haben jedoch unterschiedliche physikalische Wirkungen; aus der Analogie folgt kein Prüfmodell. Für das Röntgensystem wird ein eigener, begründeter Bestrahlungsnachweis erstellt. Raumfahrtmodelle für andere Strahlungsfelder werden nicht ungeprüft übernommen."
+  },
+  {
+    "key": "u0647",
+    "de": "Belastungen außerhalb des Betriebs berücksichtigen"
+  },
+  {
+    "key": "u0648",
+    "de": "Auch ohne aktive Funktion wirken Feuchte, Temperatur, Chemikalien, Verpackung und Zeit. Ersatzteilalterung und anschließende Wiederinbetriebnahme gehören zum Lebenszyklus. Reinigungsmittel können Dichtungen, Kunststoffe, Beschriftungen und Klebungen beeinflussen. Wir betrachten vorgesehene Mittel und Anwendungen einschließlich Wiederholung, Kontaktzeit und Trocknung."
+  },
+  {
+    "key": "u0649",
+    "de": "Alltagsbeispiel: Ein Gummiband kann jahrelang unbenutzt in einer Schublade liegen und anschließend spröde sein. Keine Betriebsstunden bedeutet nicht keine Alterung. Ein gelagerter Detektor oder ein Ersatzkabel benötigt deshalb eine begründete Lager- und Wiederinbetriebnahmebewertung."
+  },
+  {
+    "key": "u0650",
+    "de": "Kombinierte Belastungen und Testfolge"
+  },
+  {
+    "key": "u0651",
+    "de": "Wärme, Feuchte und elektrische Spannung können gemeinsam anders wirken als isoliert. Eine vorherige mechanische Schädigung kann spätere Feuchteempfindlichkeit erhöhen. Deshalb planen wir kombinierte Belastungen oder eine begründete Reihenfolge, wenn das Profil und der Mechanismus es verlangen. Die Ergebnisse verschiedener Einzeltests lassen sich nicht einfach zu einer umfassenden Systemzuverlässigkeit addieren."
+  },
+  {
+    "key": "u0652",
+    "de": "Alltagsbeispiel: Ein Pappkarton trägt eine Last trocken gut. Erst nachdem er nass geworden ist, verformt er sich unter derselben Last. Die Reihenfolge ist relevant. Für eine Baugruppe halten wir fest, ob jedes Muster nur einen Test durchläuft oder ob Vorschädigung Teil des geplanten Nachweises ist."
+  },
+  {
+    "key": "u0653",
+    "de": "Eine Prüfmatrix aufbauen"
+  },
+  {
+    "key": "u0654",
+    "de": "<strong>Mechanismus oder Fragestellung</strong>"
+  },
+  {
+    "key": "u0655",
+    "de": "<strong>Profilbeschreibung</strong>"
+  },
+  {
+    "key": "u0656",
+    "de": "<strong>Beobachtung</strong>"
+  },
+  {
+    "key": "u0657",
+    "de": "<strong>Kontaktunterbrechung</strong>"
+  },
+  {
+    "key": "u0658",
+    "de": "<strong>Realistische Bewegung und Belastung</strong>"
+  },
+  {
+    "key": "u0659",
+    "de": "<strong>Kontinuierliche Kontakt- und Funktionsüberwachung</strong>"
+  },
+  {
+    "key": "u0660",
+    "de": "<strong>Temperaturabhängige Degradation</strong>"
+  },
+  {
+    "key": "u0661",
+    "de": "<strong>Relevante Temperatur mit realer Eigenlast</strong>"
+  },
+  {
+    "key": "u0662",
+    "de": "<strong>Leistung und Bauteiltemperatur</strong>"
+  },
+  {
+    "key": "u0663",
+    "de": "<strong>Ermüdung einer Halterung</strong>"
+  },
+  {
+    "key": "u0664",
+    "de": "<strong>Repräsentatives zyklisches Lastkollektiv</strong>"
+  },
+  {
+    "key": "u0665",
+    "de": "<strong>Verformung, Riss und Funktionsverlust</strong>"
+  },
+  {
+    "key": "u0666",
+    "de": "<strong>Strahlungsbedingte Änderung</strong>"
+  },
+  {
+    "key": "u0667",
+    "de": "<strong>Begründetes Bestrahlungsprofil</strong>"
+  },
+  {
+    "key": "u0668",
+    "de": "<strong>Funktion während und nach der Einwirkung</strong>"
+  },
+  {
+    "key": "u0669",
+    "de": "<strong>Lagerungsbedingte Veränderung</strong>"
+  },
+  {
+    "key": "u0670",
+    "de": "<strong>Zeit und Umwelt mit Wiederanlauf</strong>"
+  },
+  {
+    "key": "u0671",
+    "de": "<strong>Zustand und Funktion nach Lagerung</strong>"
+  },
+  {
+    "key": "u0672",
+    "de": "Die vollständige Matrix ergänzt Anforderung, Musterzahl, Serienrepräsentativität, Messunsicherheit, Akzeptanz, Abbruchregel, Verantwortlichen und Nachweisdokument. Ein Test ohne spezifizierte Beobachtung kann ein Muster stark beanspruchen und dennoch die entscheidende Fehlermöglichkeit nicht erkennen."
+  },
+  {
+    "key": "u0673",
+    "de": "Bestandene Prüfungen in eine belastbare Aussage übersetzen"
+  },
+  {
+    "key": "u0674",
+    "de": "Eine Prüfmatrix wird lesbar, wenn jede Zeile dieselbe Frage beantwortet: Welcher Mechanismus könnte welche Funktion verlieren, welche Belastung macht ihn sichtbar und welcher Befund entscheidet? Ein Temperaturwechseltest, ein Vibrationsversuch und ein Falltest ersetzen einander nicht. Auch Strahlenfestigkeit benötigt ein eigenes Profil mit Messort, Strahlungsart und relevanter kumulierter Belastung."
+  },
+  {
+    "key": "u0675",
+    "de": "Für eine Steckverbindung kann der Zulieferer zunächst Temperaturwechsel und Kontaktwiderstand bewerten. Unsere Integration prüft zusätzlich die reale Kabelführung, Zugentlastung und Versorgung während Bewegung. Die Bauteilqualifikation wird damit nicht pauschal wiederholt; ihre Gültigkeit wird am eingebauten Produkt abgesichert."
+  },
+  {
+    "key": "u0676",
+    "de": "Ein Abschlusswert allein kann zeitweilige Unterbrechungen übersehen. Wir legen daher fest, welche Funktionen während der Belastung, zwischen Teilprüfungen und nach der Prüfung gemessen werden. Musterzustand, Belastungshistorie, Messauflösung, Fehlerzeitpunkt und Untersuchung des ausgefallenen Musters gehören zum Bericht. Eine bestandene Normprüfung und ein statistischer Lebensdauernachweis bleiben unterschiedliche Aussagen."
+  },
+  {
+    "key": "u0677",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0678",
+    "de": "Relevante Ausfallmechanismen aus Profil, FMEA und Felderfahrung sammeln."
+  },
+  {
+    "key": "u0679",
+    "de": "Vorhandene Supplier-Evidenz prüfen und nur verbleibende Lücken planen."
+  },
+  {
+    "key": "u0680",
+    "de": "Profile und Akzeptanzkriterien vor Testbeginn festlegen."
+  },
+  {
+    "key": "u0681",
+    "de": "Funktionen und Beanspruchungen während der Prüfung passend beobachten."
+  },
+  {
+    "key": "u0682",
+    "de": "Ausfälle untersuchen, Daten einschließlich erfolgreicher Muster sichern und Aussagegrenzen dokumentieren."
+  },
+  {
+    "key": "u0683",
+    "de": "Festlegen, was während, zwischen und nach der Belastung gemessen wird."
+  },
+  {
+    "key": "u0684",
+    "de": "Das Ergebnis ist ein Qualifikationsbericht für eine konkrete Ausführung und Anwendung. Statistik und Beschleunigungsfaktoren werden nicht nachträglich passend gewählt, damit das Ergebnis gut aussieht."
+  },
+  {
+    "key": "u0685",
+    "de": "Übung"
+  },
+  {
+    "key": "u0686",
+    "de": "Ein Stecker funktioniert nach einer Vibrationsprüfung. Während der Prüfung wurden keine Daten übertragen. Welche Aussage ist möglich und welche wichtige Frage ist noch offen?"
+  },
+  {
+    "key": "u0687",
+    "de": "13 Software und Firmware zuverlässig gestalten"
+  },
+  {
+    "key": "u0688",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0689",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0690",
+    "de": "Ein Fehler kann lange verborgen bleiben"
+  },
+  {
+    "key": "u0691",
+    "de": "Eine Navigations-App funktioniert im Alltag, stürzt aber bei einem Wechsel der Zeitzone zusammen mit einem Verbindungsabbruch ab. Der Programmfehler kann seit der ersten Version vorhanden sein. Die seltene Kombination hat ihn aktiviert. Diese Art von Fehler wird nicht durch eine Materialverschleißkurve erklärt."
+  },
+  {
+    "key": "u0692",
+    "de": "Softwarezuverlässigkeit betrachtet die Funktionserfüllung über ein definiertes operationales Nutzungsprofil. Softwarefehler sind oft systematisch; ihr Auftreten hängt von Eingaben, Zuständen, Reihenfolgen und Ressourcen ab. Firmware verbindet diese Logik zusätzlich eng mit Hardware und Echtzeitverhalten. Ein statistischer Erfolgsanteil ist nur sinnvoll, wenn die betrachteten Abläufe und die Datenerzeugung klar definiert sind."
+  },
+  {
+    "key": "u0693",
+    "de": "Anforderungen und Verhalten prüfen"
+  },
+  {
+    "key": "u0694",
+    "de": "Wir untersuchen erwartete Outputs, unerwünschte Outputs, Zustandsübergänge, Timing und Ressourcen. Unit-Tests prüfen lokale Logik. Integrationstests prüfen Verträge und gemeinsame Zustände. Systemtests prüfen die Nutzungskette. Codeabdeckung zeigt, welche Programmteile ausgeführt wurden; sie beweist weder die Vollständigkeit der Anforderungen noch die richtige Funktion in allen relevanten Zuständen."
+  },
+  {
+    "key": "u0695",
+    "de": "Eine Million Wiederholungen desselben erfolgreichen Ablaufs ist deshalb keine breite Zustandsabdeckung. Eine Waschmaschinensteuerung kann ein Standardprogramm immer korrekt ausführen und beim Öffnen, Unterbrechen und Wiederanlaufen einen Fehler haben. Wir testen nicht nur viele Wiederholungen, sondern auch bewusst andere relevante Sequenzen."
+  },
+  {
+    "key": "u0696",
+    "de": "Testmethoden nach ihrer Aufgabe unterscheiden"
+  },
+  {
+    "key": "u0697",
+    "de": "Fuzzing erzeugt systematisch oder zufällig variierte Eingaben, um unerwartetes Verhalten aufzudecken. Dazu gehören etwa beschädigte Nachrichten, Grenzwerte oder ungewöhnliche Reihenfolgen. Stressprüfungen erhöhen relevante Last wie Datenverkehr, Parallelität oder Speicherauslastung. Fehlerinjektion erzeugt kontrollierte Störungen, beispielsweise Verbindungsverlust oder verzögerte Antworten."
+  },
+  {
+    "key": "u0698",
+    "de": "Langlauftests suchen kumulierende Effekte wie Speicherlecks. Recovery-Tests untersuchen Wiederanlauf und Zustandskonsistenz. Jede Methode braucht ein Testorakel: eine Regel, anhand derer Erfolg, Fehler und erwartete Schutzreaktion erkannt werden. Ein Programm, das nicht abstürzt, kann trotzdem falsche Daten liefern."
+  },
+  {
+    "key": "u0699",
+    "de": "Ein Röntgenbeispiel"
+  },
+  {
+    "key": "u0700",
+    "de": "Während des Bildauslesens verzögert sich eine Nachricht. Die Steuerung startet einen Wiederanlauf, aber eine verspätete Antwort aus dem alten Auftrag trifft ein. Wir prüfen, ob Auftragskennung, Zustandsmodell und Datenzuordnung diese Antwort sicher behandeln. Der Fehler liegt möglicherweise im Zusammenspiel zweier korrekter lokaler Funktionen."
+  },
+  {
+    "key": "u0701",
+    "de": "Die Tests erfassen Version, Startzustand, Eingaben, Reihenfolge, Timing, Zufallsseed und Ergebnis. So lässt sich ein gefundener Fehler wiederholen. Logs müssen Ursache und Wirkung auseinanderhalten helfen: Der letzte Timeout im Log kann eine Folge und nicht der Beginn der Fehlerkette sein."
+  },
+  {
+    "key": "u0702",
+    "de": "Modell und reale Hardware"
+  },
+  {
+    "key": "u0703",
+    "de": "Ein virtuelles Modell kann viele Eingaben und Abläufe früh prüfen. Seine Aussage gilt für die modellierten Effekte. Physikalische Eigenwärme, elektromagnetische Störungen oder eine reale elektrische Startsequenz brauchen geeignete zusätzliche Evidenz. Reale Hardware wird gezielt für relevante Integrationsfragen verwendet; ein freigegebenes Bauteil muss dafür nicht erneut vollständig qualifiziert werden."
+  },
+  {
+    "key": "u0704",
+    "de": "IEC 62304 liefert einen Softwarelebenszyklusrahmen im medizintechnischen Kontext. Das allein ersetzt weder die abschließende Gerätevalidierung noch die Freigabeentscheidung. Die konkreten Aktivitäten und Sicherheitsanforderungen werden im freigegebenen Produktprozess festgelegt."
+  },
+  {
+    "key": "u0705",
+    "de": "Updates als technische Änderungen bewerten"
+  },
+  {
+    "key": "u0706",
+    "de": "Ein Update kann Timing, Protokollverhalten, Speicherbedarf und Leistungsaufnahme verändern. Wir prüfen die betroffenen Versionskombinationen, Schnittstellen und Rückfallebenen. Auch ein Security-Patch benötigt eine angemessene Bewertung seiner Wirkung auf die benötigten Funktionen. IEC 81001-5-1 beschreibt Aktivitäten für den sicheren Lebenszyklus von Gesundheitssoftware; die offizielle Beschreibung weist auch auf die korrigierte Fassung hin. <a href=\"#sources/source_N24\">[N24]</a>"
+  },
+  {
+    "key": "u0707",
+    "de": "Für Fehlerdaten aus einer stabilen Testphase können Software-Zuverlässigkeitswachstumsmodelle eine Vertiefung sein. Sie beruhen auf Annahmen über Nutzung, Fehlerentdeckung und Fehlerbeseitigung. Veränderte Testintensität oder neue Funktionen können einen scheinbaren Trend erzeugen. Eine sinkende Zahl gemeldeter Bugs ersetzt deshalb keine Prüfung der Systemfunktion."
+  },
+  {
+    "key": "u0708",
+    "de": "Bei datengetriebenen oder KI-basierten Funktionen definieren wir die geforderte Leistung für die vorgesehene Population. Veränderungen der Eingangsdaten können die Leistung beeinflussen. Wir unterscheiden dabei technische Funktionsausfälle und fachliche Leistungsgrenzen. Ob zusätzliche regulatorische Anforderungen gelten, wird produktspezifisch geprüft; eine KI-Funktion wird nicht allein durch eine pauschale Zuverlässigkeitszahl beschrieben."
+  },
+  {
+    "key": "u0709",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0710",
+    "de": "Operationales Profil und Zustandsmodell mit der Systemfunktion verknüpfen."
+  },
+  {
+    "key": "u0711",
+    "de": "Schnittstellenverträge, Zeitbedingungen und Ressourcenlimits prüfbar beschreiben."
+  },
+  {
+    "key": "u0712",
+    "de": "Normale, grenznahe und fehlerhafte Sequenzen auswählen."
+  },
+  {
+    "key": "u0713",
+    "de": "Fuzzing, Last und Fehlerinjektion mit geeignetem Testorakel kombinieren."
+  },
+  {
+    "key": "u0714",
+    "de": "Ergebnisse reproduzierbar speichern und nach Änderungen gezielt regressieren."
+  },
+  {
+    "key": "u0715",
+    "de": "Updates als Änderung bewerten; bei KI-Funktionen geforderte Leistung und betrachtete Population definieren."
+  },
+  {
+    "key": "u0716",
+    "de": "Das Ergebnis ist ein versionsbezogener Funktions- und Robustheitsnachweis. Eine grüne Testliste ohne bekannte Abdeckung und Aussagegrenzen ist noch keine vollständige Zuverlässigkeitsbewertung."
+  },
+  {
+    "key": "u0717",
+    "de": "Übung"
+  },
+  {
+    "key": "u0718",
+    "de": "Eine App wurde tausendmal mit derselben Datei geöffnet. Welche zusätzlichen Eingaben und Zustandsfolgen würdest du prüfen, bevor du sie als zuverlässig bewertest?"
+  },
+  {
+    "key": "u0719",
+    "de": "14 Lebensdauerstatistik und Konfidenzniveau richtig interpretieren"
+  },
+  {
+    "key": "u0720",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0721",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q12\">[Q12]</a> <a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q14\">[Q14]</a> <a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N10\">[N10]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0722",
+    "de": "Von einzelnen Erfahrungen zur Population"
+  },
+  {
+    "key": "u0723",
+    "de": "Eine Familie berichtet, dass ihre Waschmaschine zwölf Jahre gehalten hat. Eine andere erlebt einen Ausfall nach zwei Jahren. Beide Beobachtungen können zu derselben Population gehören. Statistik beschreibt die Streuung und die Unsicherheit einer Aussage über viele Einheiten. Ein besonders gutes Einzelgerät beweist nicht, dass alle Geräte entsprechend lange halten."
+  },
+  {
+    "key": "u0724",
+    "de": "Wir beginnen mit der betrachteten Population, Funktion und Nutzungsgröße. Lebensdauer kann in Stunden, Zyklen, Aufnahmen oder Kalenderzeit gemessen werden. Werden unterschiedliche Nutzungsprofile zusammengefasst, muss ihre Wirkung auf das Ergebnis geprüft werden. Eine zufällige Stichprobe aus einer ungeeigneten Population beantwortet weiterhin die falsche Frage."
+  },
+  {
+    "key": "u0725",
+    "de": "Zuverlässigkeit und Ausfallverteilung"
+  },
+  {
+    "key": "u0726",
+    "de": "Die Lebensdauer bis zum definierten Ausfall nennen wir T. Die Zuverlässigkeit R(t) ist die Wahrscheinlichkeit, dass eine Einheit die Nutzung t ohne diesen Ausfall übersteht. Die Ausfallverteilung F(t) beschreibt den bis dahin ausgefallenen Anteil im Modell."
+  },
+  {
+    "key": "u0729",
+    "de": "Bei einer modellierten Zuverlässigkeit von 0,90 nach 1.000 Stunden haben 90 Prozent der Population diesen Funktionsausfall bis dahin nicht erlebt. Das bedeutet weder, dass jedes Gerät nach 1.000 Stunden ausfällt, noch dass sein Ausfallzeitpunkt exakt bekannt ist. Ein Verlust anderer Funktionen kann separat definiert sein."
+  },
+  {
+    "key": "u0730",
+    "de": "Die Hazard Rate h(t) ist die momentane bedingte Ausfallrate der bis t noch nicht ausgefallenen Einheiten. Sie hat eine Einheit wie pro Stunde und ist keine Wahrscheinlichkeit. Eine hohe Rate spät im Leben betrifft die noch überlebenden Einheiten; bereits ausgefallene Einheiten gehören nicht mehr zu diesem Risikosatz. In reparierbaren Systemen werden Ereignisintensitäten gesondert modelliert."
+  },
+  {
+    "key": "u0731",
+    "de": "Kennzahlen nicht verwechseln"
+  },
+  {
+    "key": "u0732",
+    "de": "MTTF ist die mittlere Zeit bis zum Ausfall einer nicht reparierbaren beziehungsweise bis zum ersten betrachteten Ausfall bewerteten Einheit. MTBF beschreibt mittlere Abstände zwischen betrachteten Ausfällen in einem geeigneten reparierbaren Modell. Beide benötigen eine klare Ereignis- und Zeitdefinition. Weder MTTF noch MTBF ist eine garantierte Mindestlebensdauer."
+  },
+  {
+    "key": "u0733",
+    "de": "B10 ist die Nutzung, bis zu der zehn Prozent der Population im definierten Modell ausgefallen sind. Entsprechend beschreibt B1 ein früheres Quantil und B50 den Median. Ein Mittelwert kann durch sehr langlebige Einheiten steigen, obwohl ein relevanter Anteil früh ausfällt. Deshalb ist ein frühes Quantil für manche Entscheidungen hilfreicher."
+  },
+  {
+    "key": "u0734",
+    "de": "Alltagsbeispiel: Die durchschnittliche Wartezeit auf einen Bus kann kurz sein, obwohl einzelne Fahrgäste sehr lange warten. Durchschnitt, Anteil innerhalb einer Frist und Unsicherheit sind verschiedene Größen. Dasselbe gilt bei Lebensdauerkennzahlen."
+  },
+  {
+    "key": "u0735",
+    "de": "Modelle anhand von Daten und Mechanismen wählen"
+  },
+  {
+    "key": "u0736",
+    "de": "Die Binomialverteilung beschreibt Erfolge und Misserfolge unabhängiger, vergleichbarer Versuche. Die Poissonverteilung kann Ereigniszahlen bei einer geeigneten konstanten Intensität beschreiben. Die Exponentialverteilung beschreibt Lebensdauern mit konstanter Hazard Rate. Weibull- und Lognormalmodelle ermöglichen andere Lebensdauerformen. Die Modellwahl beruht auf Mechanismus, Profil, Datenauswertung und Plausibilität, nicht auf der schönsten Kurve."
+  },
+  {
+    "key": "u0737",
+    "de": "Die oft gezeichnete Badewannenkurve ist ein Denkmodell für frühe Ausfälle, einen ungefähr konstanten Bereich und spätere Verschleißausfälle. Ob eine Komponente diesen Verlauf zeigt, muss an geeigneten Daten geprüft werden. Softwaresequenzfehler werden nicht allein dadurch erklärt, dass man eine solche Kurve darüberlegt."
+  },
+  {
+    "key": "u0738",
+    "de": "Schaubild G Badewannenkurve als Denkmodell  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0739",
+    "de": "Schaubild G Badewannenkurve als Denkmodell  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0740",
+    "de": "Im Schaubild ist die Summe dreier angenommener Beiträge dargestellt: ein abnehmender früher Beitrag, ein konstanter Beitrag und ein zunehmender Verschleißbeitrag. Die y-Achse zeigt eine relative Hazard Rate, keine Ausfallquote. Die Kurve ist ein Denkmodell; sie wurde nicht aus den Lehrdaten des folgenden Abschnitts geschätzt. <a href=\"#sources/source_Q13\">[Q13]</a> <a href=\"#sources/source_Q15\">[Q15]</a>"
+  },
+  {
+    "key": "u0741",
+    "de": "Das Exponentialmodell rechnen"
+  },
+  {
+    "key": "u0742",
+    "de": "Bei konstanter Hazard Rate λ gilt:"
+  },
+  {
+    "key": "u0744",
+    "de": "Im didaktischen Beispiel beträgt λ 0,0001 pro Stunde. Die MTTF beträgt dann 10.000 Stunden. Nach 1.000 Stunden ist R ungefähr 0,9048. Nach 10.000 Stunden bleiben im Modell nur ungefähr 36,8 Prozent ohne Ausfall. Das zeigt, warum eine MTTF von 10.000 Stunden keine Zusage ist, dass fast alle Einheiten so lange halten."
+  },
+  {
+    "key": "u0745",
+    "de": "Die konstante Rate wird begründet und anhand geeigneter Daten geprüft. Bei deutlichem Verschleiß ist die Rechnung häufig ungeeignet. Auch die Addition von Prüfstunden verschiedener Einheiten ist für quantitative Aussagen an die Modellannahmen gebunden; Kapitel 15 unterscheidet diese Planung vom binomialen Nachweis."
+  },
+  {
+    "key": "u0746",
+    "de": "Das Weibullmodell und B10"
+  },
+  {
+    "key": "u0747",
+    "de": "Für die zweiparametrige Weibullverteilung verwenden wir η als Skalenparameter und β als Formparameter:"
+  },
+  {
+    "key": "u0749",
+    "de": "β kleiner als eins beschreibt eine fallende Hazard Rate, β gleich eins eine konstante und β größer als eins eine steigende. Ein geschätztes β größer als eins kann zu Verschleiß passen, beweist aber noch keinen bestimmten Mechanismus. Mischungen und unpassende Profile können das Bild verändern. η ist die charakteristische Lebensdauer; bei ihr sind im Modell ungefähr 63,2 Prozent ausgefallen."
+  },
+  {
+    "key": "u0750",
+    "de": "Für das Quantil mit Ausfallanteil p gilt:"
+  },
+  {
+    "key": "u0752",
+    "de": "Im Lehrbeispiel sind η 1.000 Stunden und β 2. B10 liegt dann bei ungefähr 324,6 Stunden. Die Rechnung ist eine Modellrechnung mit angenommenen Parametern. Werden die Parameter aus wenigen Daten geschätzt, braucht B10 zusätzlich eine Unsicherheitsbewertung. Geschätzte B10 und eine untere Konfidenzgrenze der B10 dürfen nicht gleichgesetzt werden."
+  },
+  {
+    "key": "u0753",
+    "de": "Nicht ausgefallene Einheiten gehören in die Auswertung"
+  },
+  {
+    "key": "u0754",
+    "de": "Wenn ein Test bei 300 Stunden endet und eine Einheit noch funktioniert, kennen wir ihre Lebensdauer nicht genau. Wir wissen aber, dass sie mindestens bis zu diesem Zeitpunkt überlebt hat. Diese Beobachtung ist rechtszensiert. Sie wird nicht als Ausfall bei 300 Stunden eingetragen und nicht aus dem Datensatz entfernt."
+  },
+  {
+    "key": "u0755",
+    "de": "Ein Alltagsszenario sind Menschen, die auf einer Feier noch anwesend sind, wenn wir nach Hause gehen. Wir wissen, dass ihre Aufenthaltsdauer mindestens bis zu unserer Abreise reicht. Wer nur die bereits gegangenen Gäste betrachtet, unterschätzt die Verweildauer. Die Analogie erklärt die Information, nicht die physikalische Ursache eines Geräteausfalls."
+  },
+  {
+    "key": "u0756",
+    "de": "Intervallzensierung entsteht, wenn ein Fehler nur zwischen zwei Prüfzeitpunkten eingegrenzt wird. Bei später Aufnahme in die Beobachtung kann zusätzlich eine Trunkierung vorliegen. Der Grund eines vorzeitigen Testendes ist wichtig: Ein wegen auffälligen Verhaltens entferntes Gerät darf nicht ohne Prüfung wie ein unabhängig zensiertes Gerät behandelt werden."
+  },
+  {
+    "key": "u0757",
+    "de": "Ein kleiner Datensatz"
+  },
+  {
+    "key": "u0758",
+    "de": "<strong>Einheit</strong>"
+  },
+  {
+    "key": "u0759",
+    "de": "<strong>Beobachtete Nutzung in Stunden</strong>"
+  },
+  {
+    "key": "u0760",
+    "de": "<strong>Information</strong>"
+  },
+  {
+    "key": "u0761",
+    "de": "<strong>A</strong>"
+  },
+  {
+    "key": "u0762",
+    "de": "<strong>100</strong>"
+  },
+  {
+    "key": "u0763",
+    "de": "<strong>Definierter Ausfall</strong>"
+  },
+  {
+    "key": "u0764",
+    "de": "<strong>B</strong>"
+  },
+  {
+    "key": "u0765",
+    "de": "<strong>200</strong>"
+  },
+  {
+    "key": "u0766",
+    "de": "<strong>Definierter Ausfall</strong>"
+  },
+  {
+    "key": "u0767",
+    "de": "<strong>C</strong>"
+  },
+  {
+    "key": "u0768",
+    "de": "<strong>250</strong>"
+  },
+  {
+    "key": "u0769",
+    "de": "<strong>Ohne Ausfall aus der Beobachtung genommen</strong>"
+  },
+  {
+    "key": "u0770",
+    "de": "<strong>D</strong>"
+  },
+  {
+    "key": "u0771",
+    "de": "<strong>300</strong>"
+  },
+  {
+    "key": "u0772",
+    "de": "<strong>Ohne Ausfall am Testende</strong>"
+  },
+  {
+    "key": "u0773",
+    "de": "<strong>E</strong>"
+  },
+  {
+    "key": "u0774",
+    "de": "<strong>300</strong>"
+  },
+  {
+    "key": "u0775",
+    "de": "<strong>Ohne Ausfall am Testende</strong>"
+  },
+  {
+    "key": "u0776",
+    "de": "Unter geeigneter unabhängiger Zensierung ergibt eine Kaplan-Meier-Schätzung nach dem ersten Ausfall 4 von 5 beziehungsweise 0,80. Beim zweiten Ausfall sind vier Einheiten im Risikosatz; der Wert wird mit 3 von 4 multipliziert und beträgt 0,60. Die Zensierungen verändern den Wert nicht durch einen zusätzlichen Ausfall, verkleinern aber den späteren Risikosatz. Die fünf Beobachtungen sind viel zu wenig für eine belastbare allgemeine Lebensdauerfreigabe."
+  },
+  {
+    "key": "u0777",
+    "de": "Kaplan-Meier schätzt eine Überlebensfunktion ohne festgelegte parametrische Verteilungsform. Jenseits der beobachteten Nutzung entsteht daraus kein begründeter Nachweis. Maximum Likelihood schätzt Modellparameter unter Einbezug der jeweiligen Ausfall- und Zensierungsinformation. Ein Wahrscheinlichkeitsplot hilft bei der Diagnose; ein normaler Regressions-Konfidenzbereich aus diesem Plot ist nur mit einer für diese Daten und Zensierungen gültigen Methode als Lebensdauer-Konfidenzbereich zu verwenden."
+  },
+  {
+    "key": "u0778",
+    "de": "Einen Weibullplot mit zensierten Daten lesen"
+  },
+  {
+    "key": "u0779",
+    "de": "Schaubild H Weibullplot mit rechtszensierten Beobachtungen  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0780",
+    "de": "Schaubild H Weibullplot mit rechtszensierten Beobachtungen  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0781",
+    "de": "Der Plot verwendet den kleinen Datensatz mit Ausfällen bei 100 und 200 Stunden und rechtszensierten Beobachtungen bei 250, 300 und 300 Stunden. Die beiden Punkte zeigen die Kaplan-Meier-Ausfallanteile 0,20 und 0,40. Die Markierungen am oberen Rand zeigen an den jeweiligen Zeitpositionen Zensierungen, keine zusätzlichen Ausfälle. Die Weibullgerade wird mit Maximum Likelihood aus allen fünf Beobachtungen einschließlich der Zensierungen geschätzt."
+  },
+  {
+    "key": "u0782",
+    "de": "Auf der horizontalen logarithmischen Zeitachse und der vertikalen Skala ln[−ln(1−F)] wird eine zweiparametrige Weibullverteilung zur Geraden. Hier gibt es nur zwei Ausfälle: Eine optisch passende Gerade ist daher eine Darstellung der Annahme, keine belastbare Modellbestätigung oder Lebensdauerfreigabe. Die Grafik enthält keinen Konfidenzbereich. Zensierte Einheiten als Ausfälle einzuzeichnen oder aus der Schätzung zu entfernen würde eine andere, falsche Datenbasis schaffen. <a href=\"#sources/source_Q17\">[Q17]</a> <a href=\"#sources/source_Q18\">[Q18]</a> <a href=\"#sources/source_Q21\">[Q21]</a>"
+  },
+  {
+    "key": "u0783",
+    "de": "Was das Konfidenzniveau aussagt"
+  },
+  {
+    "key": "u0784",
+    "de": "Ein frequentistisches Verfahren mit 95 Prozent Konfidenzniveau hat unter seinen Annahmen eine entsprechende Überdeckungseigenschaft über wiederholte Stichproben. Der feste wahre Parameter liegt nicht mit einer frequentistischen Wahrscheinlichkeit von 95 Prozent in einem bereits berechneten einzelnen Intervall. Praktisch berichten wir eine Schätzung und den nach diesem Verfahren bestimmten Unsicherheitsbereich."
+  },
+  {
+    "key": "u0785",
+    "de": "Eine einseitige untere Grenze ist sinnvoll, wenn mindestens eine bestimmte Zuverlässigkeit gefordert wird. Eine zweiseitige Grenze beantwortet eine andere Frage und verwendet eine andere Fehleraufteilung. Die gewünschte Richtung wird vorab festgelegt. 95 Prozent Konfidenzniveau sind kein Zuverlässigkeitsziel von 95 Prozent und kein Anteil erfolgreich geprüfter Muster."
+  },
+  {
+    "key": "u0786",
+    "de": "Alltagsbeispiel: Ein Mittelwert aus drei Kuchenstückgewichten ist unsicherer als einer aus vielen repräsentativen Stücken. Die Waage kann zugleich einen systematischen Fehler haben. Mehr Stücke reduzieren die Stichprobenunsicherheit, beseitigen aber keinen konstanten Messfehler. Ebenso löst eine größere Musterzahl keine falsche Ausfalldefinition oder unpassende Modellannahme."
+  },
+  {
+    "key": "u0787",
+    "de": "Konfidenzniveau und Vorwissen auseinanderhalten"
+  },
+  {
+    "key": "u0788",
+    "de": "Im Fließtext verwenden wir Konfidenzniveau für den englischen Begriff Confidence Level. Die Bezeichnung Aussagewahrscheinlichkeit findet sich ebenfalls in der deutschen Fachliteratur. Sie darf nicht als Wahrscheinlichkeit missverstanden werden, dass ein bereits feststehender Parameter nachträglich zufällig ist. Wir berichten ausdrücklich, ob eine Grenze frequentistisch oder bayessch berechnet wurde."
+  },
+  {
+    "key": "u0789",
+    "de": "Vorwissen kann aus Vorgängerprodukten kommen. Vor der Übernahme vergleichen wir Mechanismus, Material, Fertigung, Software, Nutzung, Ausfalldefinition und Datenerfassung. Daten derselben Geräte dürfen nicht zugleich im Prior und in der neuen Stichprobe gezählt werden. Eine Sensitivitätsanalyse zeigt, wie sich das Ergebnis bei schwächerem Vorwissen verändert."
+  },
+  {
+    "key": "u0790",
+    "de": "Die dreiparametrige Weibullverteilung ergänzt eine Lagegrenze. Diese zusätzliche Flexibilität verlangt mehr Information und kann bei wenigen Ausfällen instabil werden. Eine scheinbar ausfallfreie Anfangszeit ist kein Beweis für eine echte Mindestlebensdauer. Für Einsteiger bleibt die zweiparametrige Form der Ausgangspunkt; komplexere Modelle werden nur bei sachlicher Begründung verwendet."
+  },
+  {
+    "key": "u0791",
+    "de": "Weitere Verfahren und ihre Grenzen"
+  },
+  {
+    "key": "u0792",
+    "de": "Bootstrap zieht wiederholt neue Stichproben aus den beobachteten Einheiten und schätzt daraus Unsicherheit. Die resampelte Einheit muss zur Abhängigkeit passen; viele Zyklen desselben Geräts dürfen nicht beliebig wie unabhängige Geräte behandelt werden. Mit sehr wenigen Ausfällen oder ungünstiger Zensierung kann die Methode instabil sein."
+  },
+  {
+    "key": "u0793",
+    "de": "Bayessche Verfahren verbinden einen Prior mit den Daten. Ein Credible Interval hat eine andere Interpretation als ein frequentistischer Konfidenzbereich. Vorwissen, dessen Herkunft und Empfindlichkeit werden offengelegt. Bayes ist kein Weg, fehlende Daten unsichtbar durch optimistische Annahmen zu ersetzen."
+  },
+  {
+    "key": "u0794",
+    "de": "Bei konkurrierenden Fehlerursachen unterscheiden wir den gesamten Funktionsverlust von einem bestimmten Mechanismus. Andere Ausfälle können für eine Ursachenanalyse nicht immer problemlos als unabhängig zensiert behandelt werden. Gemeinsame Belastungen oder abhängige Mechanismen erfordern eine passende Modellierung."
+  },
+  {
+    "key": "u0795",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0796",
+    "de": "Population, Funktion, Nutzungsgröße und Ausfalldefinition festlegen."
+  },
+  {
+    "key": "u0797",
+    "de": "Alle Einheiten einschließlich Zensierungen und Ausschlüssen dokumentieren."
+  },
+  {
+    "key": "u0798",
+    "de": "Daten und Mechanismen auf ein passendes Modell prüfen."
+  },
+  {
+    "key": "u0799",
+    "de": "Schätzung, Unsicherheitsbereich und Modellannahmen gemeinsam berichten."
+  },
+  {
+    "key": "u0800",
+    "de": "Keine Aussage über Nutzung, Population oder Ursachen hinaus ausdehnen, die nicht abgedeckt sind."
+  },
+  {
+    "key": "u0801",
+    "de": "Angeben, ob eine Grenze frequentistisch oder bayessch berechnet wurde; Vorwissen nicht doppelt zählen."
+  },
+  {
+    "key": "u0802",
+    "de": "Übung"
+  },
+  {
+    "key": "u0803",
+    "de": "Zehn Geräte werden geprüft. Zwei fallen aus, acht funktionieren bei Testende. Warum ist der Mittelwert der beiden Ausfallzeiten kein guter Lebensdauerschätzer für die gesamte Population?"
+  },
+  {
+    "key": "u0804",
+    "de": "15 Nachweisversuche und beschleunigte Tests planen"
+  },
+  {
+    "key": "u0805",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0806",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_Q04\">[Q04]</a> <a href=\"#sources/source_Q10\">[Q10]</a> <a href=\"#sources/source_Q16\">[Q16]</a> <a href=\"#sources/source_Q19\">[Q19]</a> <a href=\"#sources/source_Q20\">[Q20]</a> <a href=\"#sources/source_N08\">[N08]</a> <a href=\"#sources/source_N09\">[N09]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0807",
+    "de": "Vom Nachweisziel zum Versuch"
+  },
+  {
+    "key": "u0808",
+    "de": "Eine Probefahrt zeigt, ob ein Auto unter den gefahrenen Bedingungen funktioniert. Sie beweist nicht ohne Weiteres seine Zuverlässigkeit über zehn Jahre. Ein Nachweisversuch wird umgekehrt geplant: Wir definieren die gewünschte Aussage und bestimmen dann Muster, Nutzung, Entscheidung und Unsicherheit."
+  },
+  {
+    "key": "u0809",
+    "de": "Die Mindestangaben sind Funktion, Population, Zielnutzung, geforderte Zuverlässigkeit und Konfidenzniveau beziehungsweise eine andere vorab vereinbarte statistische Entscheidung. Dazu kommen Profil, Repräsentativität, zulässige Ausfälle und Abbruchregeln. Die Auswertung wird nicht erst nach Sichtung der Ergebnisse gewählt."
+  },
+  {
+    "key": "u0810",
+    "de": "Binomialer Nullausfallnachweis"
+  },
+  {
+    "key": "u0811",
+    "de": "Jede unabhängige, repräsentative Einheit absolviert dieselbe vollständig definierte Zielnutzung und wird als Erfolg oder Ausfall bewertet. Bei n erfolgreichen Einheiten und keinem Ausfall beträgt eine exakte einseitige untere Konfidenzgrenze der Erfolgswahrscheinlichkeit:"
+  },
+  {
+    "key": "u0813",
+    "de": "Dabei ist α eins minus Konfidenzniveau. Für 95 Prozent Konfidenzniveau ist α 0,05. Die notwendige Zahl wird durch die folgende Grenze bestimmt und auf die nächste ganze Zahl aufgerundet:"
+  },
+  {
+    "key": "u0815",
+    "de": "<strong>Geforderte Zuverlässigkeit R0</strong>"
+  },
+  {
+    "key": "u0816",
+    "de": "<strong>Einseitiges Konfidenzniveau</strong>"
+  },
+  {
+    "key": "u0817",
+    "de": "<strong>Erforderliche Einheiten ohne Ausfall</strong>"
+  },
+  {
+    "key": "u0818",
+    "de": "<strong>90 Prozent</strong>"
+  },
+  {
+    "key": "u0819",
+    "de": "<strong>95 Prozent</strong>"
+  },
+  {
+    "key": "u0820",
+    "de": "<strong>29</strong>"
+  },
+  {
+    "key": "u0821",
+    "de": "<strong>95 Prozent</strong>"
+  },
+  {
+    "key": "u0822",
+    "de": "<strong>95 Prozent</strong>"
+  },
+  {
+    "key": "u0823",
+    "de": "<strong>59</strong>"
+  },
+  {
+    "key": "u0824",
+    "de": "<strong>99 Prozent</strong>"
+  },
+  {
+    "key": "u0825",
+    "de": "<strong>95 Prozent</strong>"
+  },
+  {
+    "key": "u0826",
+    "de": "<strong>299</strong>"
+  },
+  {
+    "key": "u0827",
+    "de": "Bei 29 Erfolgen ergibt sich eine untere Grenze von ungefähr 0,9019. Jede Einheit muss die Zielnutzung absolviert haben. Ein einzelnes Kabel mit 29 kurzen Bewegungen ist nicht dasselbe wie 29 Kabel, die jeweils das festgelegte Lebensdauerprofil durchlaufen."
+  },
+  {
+    "key": "u0828",
+    "de": "Alltagsbeispiel: Wenn ein Kuchenrezept 29-mal von unterschiedlichen repräsentativen Backvorgängen gelingt, ist das eine andere Datenbasis als 29 Blicke auf denselben Kuchen. Mehrere Beobachtungen desselben Musters bleiben von dessen Zustand und Vorgeschichte abhängig. Auch verschiedene Geräte können durch gemeinsame Charge oder gemeinsamen Prüfstand abhängig sein."
+  },
+  {
+    "key": "u0829",
+    "de": "Tests mit Ausfällen und Nachweiserfolg"
+  },
+  {
+    "key": "u0830",
+    "de": "Ein Nullausfallplan ist einfach, kann aber eine tatsächlich gute Population häufig nicht erfolgreich nachweisen. Wenn die wahre Zuverlässigkeit 0,95 ist, beträgt die Chance auf 29 Erfolge hintereinander ungefähr 22,6 Prozent. Bei einer wahren Zuverlässigkeit von 0,98 beträgt sie ungefähr 55,7 Prozent. Konfidenzniveau und Nachweiserfolgswahrscheinlichkeit (Probability of Test Success) beantworten unterschiedliche Fragen."
+  },
+  {
+    "key": "u0832",
+    "de": "Pläne mit zulässigen Ausfällen können sinnvoller sein, benötigen aber eine größere oder anders geplante Stichprobe und eine korrekte Entscheidungsregel. Power beziehungsweise eine Betriebskurve beschreibt, wie sich diese Regel bei verschiedenen tatsächlichen Qualitätsniveaus verhält. Wir betrachten auch das Risiko, eine gute Population zurückzuweisen oder eine unzureichende zu akzeptieren. Die Details werden für die konkrete Anforderung statistisch geplant."
+  },
+  {
+    "key": "u0833",
+    "de": "Einen Nachweis trotz beobachteter Ausfälle führen"
+  },
+  {
+    "key": "u0834",
+    "de": "Bei n unabhängigen Einheiten und r beobachteten Ausfällen verwenden wir für die Erfolgswahrscheinlichkeit die einseitige exakte Clopper-Pearson-Grenze. Für mindestens einen Erfolg gilt die folgende Formel; bei keinem Erfolg ist die untere Grenze null. BetaInv bezeichnet das Quantil der Beta-Verteilung. <a href=\"#sources/source_Q24\">[Q24]</a>"
+  },
+  {
+    "key": "u0836",
+    "de": "Vor der Prüfung legen wir eine maximal akzeptierte Ausfallzahl c fest. Danach setzen wir die tatsächlich beobachtete Zahl r ein. Das verhindert, dass die Entscheidungsregel nach einem schlechten Ergebnis verändert wird."
+  },
+  {
+    "key": "u0837",
+    "de": "<strong>Maximal akzeptierte Ausfälle c</strong>"
+  },
+  {
+    "key": "u0838",
+    "de": "<strong>Erforderliche Einheiten n</strong>"
+  },
+  {
+    "key": "u0839",
+    "de": "<strong>Untere Grenze bei r gleich c</strong>"
+  },
+  {
+    "key": "u0840",
+    "de": "<strong>0</strong>"
+  },
+  {
+    "key": "u0841",
+    "de": "<strong>29</strong>"
+  },
+  {
+    "key": "u0842",
+    "de": "<strong>0,9019</strong>"
+  },
+  {
+    "key": "u0843",
+    "de": "<strong>1</strong>"
+  },
+  {
+    "key": "u0844",
+    "de": "<strong>46</strong>"
+  },
+  {
+    "key": "u0845",
+    "de": "<strong>0,9010</strong>"
+  },
+  {
+    "key": "u0846",
+    "de": "<strong>2</strong>"
+  },
+  {
+    "key": "u0847",
+    "de": "<strong>61</strong>"
+  },
+  {
+    "key": "u0848",
+    "de": "<strong>0,9004</strong>"
+  },
+  {
+    "key": "u0849",
+    "de": "Alle drei Pläne prüfen das Ziel R mindestens 0,90 bei 95 Prozent einseitigem Konfidenzniveau. Die Stichproben sind die kleinsten ganzen Zahlen, die die jeweilige Grenze erreichen. Jeder Versuch erfüllt dasselbe Zielprofil. Bei mehr als c Ausfällen ist die geplante Annahmeregel nicht erfüllt."
+  },
+  {
+    "key": "u0850",
+    "de": "Die Nachweiserfolgswahrscheinlichkeit ist P(X höchstens c), wobei X die binomial verteilte Ausfallzahl bei einer bestimmten wahren Zuverlässigkeit ist. Bei R gleich 0,95 ergeben sich für die drei Pläne ungefähr 22,6, 32,3 und 40,6 Prozent. Das zeigt den praktischen Unterschied trotz gleichen Konfidenzniveaus."
+  },
+  {
+    "key": "u0851",
+    "de": "Schaubild E Nachweiserfolgswahrscheinlichkeit der drei Prüfpläne  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0852",
+    "de": "Schaubild E Nachweiserfolgswahrscheinlichkeit der drei Prüfpläne  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0853",
+    "de": "Die Kurven helfen, eine brauchbare Stichprobe zu planen. Wir betrachten sowohl das Risiko eines unzureichenden Nachweises für eine gute Population als auch die Annahme eines unzureichenden Produkts. Ein bestandener statistischer Plan entbindet nicht von der technischen Untersuchung relevanter Ausfälle."
+  },
+  {
+    "key": "u0854",
+    "de": "Stundenbasierter Nachweis mit konstanter Rate"
+  },
+  {
+    "key": "u0855",
+    "de": "Unter einem geeigneten Exponential- beziehungsweise Poissonmodell lassen sich unabhängige repräsentative Beobachtungszeiten addieren. Bei null Ausfällen ergibt sich aus der Gesamtzeit eine einseitige obere Grenze der konstanten Rate:"
+  },
+  {
+    "key": "u0857",
+    "de": "Im Lehrbeispiel ergeben zehn Einheiten mit jeweils 1.000 Stunden insgesamt 10.000 Einheitenstunden. Bei 95 Prozent Konfidenzniveau liegt die obere Rate bei ungefähr 0,0002996 pro Stunde. Daraus folgt eine untere MTTF-Grenze von ungefähr 3.338 Stunden. Für die Zuverlässigkeit nach 1.000 Stunden ergibt dieses Modell eine untere Grenze von ungefähr 0,7411."
+  },
+  {
+    "key": "u0858",
+    "de": "Dieses Ergebnis widerspricht nicht dem Binomialansatz: Die Methoden verwenden unterschiedliche Informationen und Annahmen. Stundenadditionen bei konstanter Rate sind kein universeller Ersatz für einen Nachweis einer verschleißbedingten Ziellebensdauer. Wer das Modell nicht begründen kann, darf die scheinbar kleinere Prüfdauer nicht als Abkürzung wählen."
+  },
+  {
+    "key": "u0859",
+    "de": "Beobachtete Ereignisse im zeitbegrenzten Ratentest"
+  },
+  {
+    "key": "u0860",
+    "de": "Bei einem HPP mit konstanter Ereignisintensität, vorab festgelegter Gesamtbeobachtungszeit und r Ereignissen ergibt sich eine einseitige obere Grenze aus dem Chi-Quadrat-Quantil. Die Formel folgt aus dem Poissonmodell für die Ereigniszahl. Sie ist nicht ungeprüft auf einen nach einer festen Ausfallzahl beendeten Versuch zu übertragen. <a href=\"#sources/source_Q25\">[Q25]</a>"
+  },
+  {
+    "key": "u0862",
+    "de": "Bei 10.000 Einheitenstunden und 95 Prozent Konfidenzniveau ergibt r gleich null rund 0,0002996 pro Stunde und r gleich eins rund 0,0004744 pro Stunde. Diese Zahlen beschreiben eine Unsicherheitsgrenze, nicht den Punktschätzer. Prüfschema, Exposition und Modell werden im Bericht gemeinsam genannt."
+  },
+  {
+    "key": "u0863",
+    "de": "Längere Laufzeit bei begründetem Weibullmodell"
+  },
+  {
+    "key": "u0864",
+    "de": "Unter einem Weibullmodell mit bekanntem Formparameter β können längere ausfallfreie Prüfungen Information über eine kürzere Zielnutzung liefern. Sei L das Verhältnis Prüfnutzung zu Zielnutzung. Für n gleich lang geprüfte unabhängige Muster ist die Nullausfallbedingung:"
+  },
+  {
+    "key": "u0866",
+    "de": "Diese Beziehung wird häufig im Zusammenhang mit einem Lebensdauerverhältnis oder Lipson-Ansatz verwendet. Hier wird sie direkt aus der zweiparametrigen Weibull-Überlebensfunktion hergeleitet: Die Überlebenswahrscheinlichkeit bei der Prüfnutzung ist diejenige bei der Zielnutzung hoch L hoch β. Für n ausfallfreie Muster wird sie zusätzlich hoch n genommen. Diese Modellannahme ist stärker als die binomiale Bewertung allein am Zielzeitpunkt."
+  },
+  {
+    "key": "u0867",
+    "de": "Bei fünf Mustern, R0 gleich 0,99 und 95 Prozent Konfidenzniveau braucht jedes Muster bei β gleich 2 rund 7,72-mal die Zielnutzung. Bei β gleich 1,5 sind es rund 15,26-mal und bei β gleich 3 rund 3,91-mal. Die Rechnung setzt β als bekannt voraus. Wird β aus wenigen Daten geschätzt, muss seine Unsicherheit berücksichtigt werden; ein angenommener günstiger Wert ist kein belastbarer Nachweis."
+  },
+  {
+    "key": "u0868",
+    "de": "Längere Laufzeit bei unverändertem Profil ist noch keine Belastungsbeschleunigung. Eine erhöhte Temperatur verlangt zusätzlich ein geeignetes Beschleunigungsmodell. Beide Übertragungen werden getrennt begründet, damit keine zweite Annahme unbemerkt in die Rechnung gerät."
+  },
+  {
+    "key": "u0869",
+    "de": "Beschleunigung mechanismengerecht verwenden"
+  },
+  {
+    "key": "u0870",
+    "de": "Ein beschleunigter Test erhöht eine Belastung so, dass ein relevanter Mechanismus schneller abläuft. Für eine quantitative Übertragung brauchen wir ein geprüftes Beschleunigungsmodell und passende Daten. Eine höhere Temperatur kann einen anderen Mechanismus aktivieren; dann ist eine einfache Hochrechnung nicht begründet."
+  },
+  {
+    "key": "u0871",
+    "de": "Das Arrheniusmodell beschreibt bestimmte temperaturabhängige Prozesse. Für einen so modellierten Mechanismus gilt:"
+  },
+  {
+    "key": "u0873",
+    "de": "Ea ist eine passende Aktivierungsenergie, k die Boltzmann-Konstante und T eine absolute Temperatur in Kelvin am relevanten Ort. Im rein didaktischen Fall mit Ea 0,7 Elektronenvolt und 45 gegenüber 75 Grad Celsius beträgt der Faktor ungefähr 9,03. Diese angenommene Aktivierungsenergie ist kein Bauteilnachweis. Die Wahl des Werts, Modellunsicherheit und gleichbleibender Mechanismus sind entscheidend."
+  },
+  {
+    "key": "u0874",
+    "de": "Alltagsbeispiel: Teig geht in Wärme schneller auf. Bei zu großer Hitze verändert sich jedoch der Prozess. Die Analogie verdeutlicht, warum schneller nicht immer nur derselbe Mechanismus in größerem Tempo bedeutet. Sie liefert keine quantitative Regel für Elektronik."
+  },
+  {
+    "key": "u0875",
+    "de": "Für zyklische Ermüdung können lastabhängige Modelle passen. Höhere Frequenz kann allerdings Eigenwärme, Erholung oder Belastungsform verändern. Feuchte und Spannung können weitere Mechanismen beeinflussen. Ein kombinierter Beschleunigungsfaktor wird nicht durch unkritisches Multiplizieren einzelner Zahlen erzeugt."
+  },
+  {
+    "key": "u0876",
+    "de": "Grenzsuche und Degradationsprüfung einordnen"
+  },
+  {
+    "key": "u0877",
+    "de": "Highly Accelerated Life Testing, kurz HALT, dient in diesem Zusammenhang der explorativen Schwachstellen- und Grenzsuche. Es liefert allein keinen allgemeinen quantitativen Lebensdauernachweis. Ein darauf abgestimmtes Screening wie HASS sucht Fertigungsfehler und muss begründen, dass geeignete Produkte nicht unzulässig vorgeschädigt werden. Screening und Qualifikation sind getrennte Aufgaben."
+  },
+  {
+    "key": "u0878",
+    "de": "Degradationsprüfungen messen die Entwicklung einer Leistungsgröße, bevor der Ausfall eintritt. Eine Hochrechnung braucht einen begründeten Zusammenhang mit der Ausfallgrenze, Streuung und Messunsicherheit. Ein langsam driftender Parameter ist nur für die Fehlerursachen ein Lebensdauerindikator, deren Zusammenhang mit der Drift belegt ist."
+  },
+  {
+    "key": "u0879",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0880",
+    "de": "Nachweisziel und Ausfalldefinition einschließlich Konfidenzniveau festlegen."
+  },
+  {
+    "key": "u0881",
+    "de": "Modellannahmen, Population und Unabhängigkeit prüfen."
+  },
+  {
+    "key": "u0882",
+    "de": "Stichprobe, Dauer, zulässige Ausfälle und Nachweiserfolg vorab bewerten."
+  },
+  {
+    "key": "u0883",
+    "de": "Beschleunigung nur mit einem passenden Mechanismus und validierter Übertragung verwenden."
+  },
+  {
+    "key": "u0884",
+    "de": "Abbruchregeln, Zensierung, Rohdaten und Ursachenanalyse verbindlich planen."
+  },
+  {
+    "key": "u0885",
+    "de": "Annahmezahl c vorab festlegen, Nachweiserfolgswahrscheinlichkeit für plausible wahre Werte berechnen und verwendete Weibull-Formparameter begründen."
+  },
+  {
+    "key": "u0886",
+    "de": "Das Ergebnis ist ein freigegebener Prüfplan. Null Ausfälle sind ein wertvoller Befund, aber niemals automatisch unendliche Lebensdauer oder eine Ausfallrate von exakt null."
+  },
+  {
+    "key": "u0887",
+    "de": "Übung"
+  },
+  {
+    "key": "u0888",
+    "de": "Du hast Geld für fünf Muster und brauchst einen Nachweis von 99 Prozent Zuverlässigkeit mit 95 Prozent Konfidenzniveau. Warum genügt ein bestandener kurzer Test nicht, und welche begründeten Alternativen zur Planüberarbeitung könntest du prüfen?"
+  },
+  {
+    "key": "u0889",
+    "de": "Vertiefungsübung"
+  },
+  {
+    "key": "u0890",
+    "de": "Ein Plan prüft 46 unabhängige Muster und akzeptiert höchstens einen Ausfall. Wie wahrscheinlich ist ein bestandener Nachweis bei einer wahren Zuverlässigkeit von 0,95 beziehungsweise 0,98?"
+  },
+  {
+    "key": "u0891",
+    "de": "16 Integration und Systemfunktion prüfen"
+  },
+  {
+    "key": "u0892",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0893",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0894",
+    "de": "Gute Teile ergeben nicht automatisch ein gutes System"
+  },
+  {
+    "key": "u0895",
+    "de": "Ein Fahrrad besteht aus guten Bremsen, guten Felgen und einem guten Rahmen. Sind Bremsbelag und Felge ungeeignet kombiniert oder die Bremse falsch eingestellt, ist die Gesamtfunktion trotzdem nicht erfüllt. Die Komponentenqualität kann vorhanden sein, während die Integration falsch ist."
+  },
+  {
+    "key": "u0896",
+    "de": "Im Röntgensystem übernehmen wir akzeptierte Komponentennachweise und prüfen, ob Spezifikation, Einbau, Schnittstellen und reale Use Cases passen. Wir untersuchen das Zusammenspiel, ohne automatisch die komplette Bauteilqualifikation zu wiederholen. Systemintegration kann aber eine bisher übersehene Komponentenbelastung aufdecken. Dann entsteht eine neue, gezielt zu schließende Nachweislücke."
+  },
+  {
+    "key": "u0897",
+    "de": "Testebenen nach ihrer Aussage wählen"
+  },
+  {
+    "key": "u0898",
+    "de": "Lokale Softwaretests prüfen einzelne Funktionen. Softwareintegration prüft Zusammenspiel und gemeinsame Zustände. Virtuelle Systemtests ermöglichen frühe Varianten, Timing- und Fehlerfälle innerhalb des Modells. Ein realer Teilkettenprüfstand untersucht ausgewählte elektrische und physikalische Beziehungen. Ein Gesamtsystemtest prüft die durchgängige Funktion im vorgesehenen Kontext."
+  },
+  {
+    "key": "u0899",
+    "de": "Die internen Namen und Freigabeprozesse dieser Ebenen werden im Projekt vereinbart. Eine Testmatrix ordnet jeder Anforderung die geeignete Ebene zu und hält verbleibende Lücken fest. Mehr Ebenen erweitern die Abdeckung nur, wenn sie zusätzliche relevante Bedingungen oder Beziehungen prüfen."
+  },
+  {
+    "key": "u0900",
+    "de": "Betriebsfälle und Grenzsuche unterscheiden"
+  },
+  {
+    "key": "u0901",
+    "de": "Im Normalfall prüfen wir die erwartete Funktion bei repräsentativer Nutzung. Der ungünstige zulässige Fall kombiniert relevante Belastungen innerhalb des definierten Einsatzbereichs. Grenztests untersuchen darüber hinaus kontrolliert, wo Leistung oder Fehlerreaktion sich verändern. Auch Fälle unterhalb eines Nominalwerts können ungünstig sein, etwa zu kleine Versorgung oder zu kurze Pausen."
+  },
+  {
+    "key": "u0902",
+    "de": "Alltagsbeispiel: Ein Heimnetzwerk lädt eine Webseite mit einem Gerät schnell. Bei mehreren parallelen Videos steigt die Latenz. Für die Anwendung ist entscheidend, ob die vereinbarte Leistung bei zulässiger Last noch erfüllt ist. Ein Test mit maximaler, gar nicht vorgesehener Last kann zusätzlich Grenzen zeigen, ist aber ein anderer Nachweis."
+  },
+  {
+    "key": "u0903",
+    "de": "Integration gezielt stören"
+  },
+  {
+    "key": "u0904",
+    "de": "Wir leiten Prüfungen aus Interface-FMEA, Zustandsmodell und Fehlerbaum ab. Zu den Störungen können verspätete, doppelte, verlorene oder veraltete Nachrichten, instabile Versorgung, unvollständige Daten und Wiederanlauf gehören. Der erwartete Output und die erlaubte Fehlerreaktion werden vorab festgelegt. Wir prüfen auch, ob eine lokale Schutzreaktion andere Elemente in einem widersprüchlichen Zustand zurücklässt."
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "migrated_at": "2026-10-11T15:48:47.223251+00:00",
+  "repository": "skaruporis-netizen/reliabilty-handbook",
+  "documents_and_early_figures": [
+    {
+      "name": "ChatGPT_XYZ3_Final.docx",
+      "path": "documents/current/ChatGPT_XYZ3_Final.docx",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_c4f8cac2295c8191bf2e76e2ef7df007",
+      "created_at": "2026-10-09T19:15:46.497765Z",
+      "modified_at": "2026-10-09T19:15:46.497765Z",
+      "size_bytes": 1642847
+    },
+    {
+      "name": "ChatGPT_XYZ2.docx",
+      "path": "documents/history/ChatGPT_XYZ2.docx",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_7510beae3630819186941282ad92c7d2",
+      "created_at": "2026-10-09T18:22:40.718651Z",
+      "modified_at": "2026-10-09T18:22:40.718651Z",
+      "size_bytes": 1316622
+    },
+    {
+      "name": "Lehrhandbuch_Zuverlaessigkeit_Roentgensysteme_V01.docx",
+      "path": "documents/history/Lehrhandbuch_Zuverlaessigkeit_Roentgensysteme_V01.docx",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_dd174a3649d88191a9c4e59bfd456f00",
+      "created_at": "2026-10-08T18:24:13.073275Z",
+      "modified_at": "2026-10-08T18:24:13.073275Z",
+      "size_bytes": 1023738
+    },
+    {
+      "name": "Zuverlaessigkeit_Roentgensysteme_Strukturkonzept_V01.docx",
+      "path": "documents/history/Zuverlaessigkeit_Roentgensysteme_Strukturkonzept_V01.docx",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_2e325f04910c81918b2436bd5ed4ea37",
+      "created_at": "2026-10-08T17:48:22.650196Z",
+      "modified_at": "2026-10-08T17:48:22.650196Z",
+      "size_bytes": 971097
+    },
+    {
+      "name": "01_Zuverlaessigkeitsprozess.png",
+      "path": "documents/history/figures/01_Zuverlaessigkeitsprozess.png",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_4c215a80eed881919e8903e644a9c4c5",
+      "created_at": "2026-10-08T17:48:22.599164Z",
+      "modified_at": "2026-10-08T17:48:22.599164Z",
+      "size_bytes": 366312
+    },
+    {
+      "name": "02_Systemgrenze_und_Zerlegung.png",
+      "path": "documents/history/figures/02_Systemgrenze_und_Zerlegung.png",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_6dada29532c08191b39b67f1582a2e80",
+      "created_at": "2026-10-08T17:48:22.598363Z",
+      "modified_at": "2026-10-08T17:48:22.598363Z",
+      "size_bytes": 131216
+    },
+    {
+      "name": "03_Methodennavigator.png",
+      "path": "documents/history/figures/03_Methodennavigator.png",
+      "origin": "ChatGPT file",
+      "library_file_id": "libfile_bfdf797775348191aa368c4da7de931c",
+      "created_at": "2026-10-08T17:48:22.609855Z",
+      "modified_at": "2026-10-08T17:48:22.609855Z",
+      "size_bytes": 346408
+    },
+    {
+      "name": "Claudexyz",
+      "path": "documents/reviews/Claudexyz.docx",
+      "origin": "Google Docs DOCX export",
+      "google_drive_id": "1-FA6tc8ojp1BPZM7d9qGAmxol_mRIR_TKf9RNKil_q0",
+      "url": "https://docs.google.com/document/d/1-FA6tc8ojp1BPZM7d9qGAmxol_mRIR_TKf9RNKil_q0/edit",
+      "created_at": "2026-10-09T17:55:18.657Z",
+      "modified_at": "2026-10-09T17:55:20.172Z",
+      "size_bytes": 32517
+    },
+    {
+      "name": "Claudexyz V02",
+      "path": "documents/reviews/Claudexyz_V02.docx",
+      "origin": "Google Docs DOCX export",
+      "google_drive_id": "1NwiOw6R1XMqfD0RvS0-7-In7xl9HIrRz6dCnDS5Elws",
+      "url": "https://docs.google.com/document/d/1NwiOw6R1XMqfD0RvS0-7-In7xl9HIrRz6dCnDS5Elws/edit",
+      "created_at": "2026-10-09T18:32:37.515Z",
+      "modified_at": "2026-10-09T18:32:38.646Z",
+      "size_bytes": 19921
+    }
+  ],
+  "drive_folder_url": "https://drive.google.com/drive/folders/1xTvQgqYrmP9HYL9q1GeOwqzrtWoDOkWj",
+  "conversation_archive": "Available user messages only; no complete conversation export was available.",
+  "working_application": "All 39 tracked source files, including unchanged translations and original tests."
+}

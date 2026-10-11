@@ -1,0 +1,2230 @@
+{
+  "u1190": {
+    "en": "For the advanced exercise in Chapter 15: P(X ≤ 1), with binomially distributed X and failure probability 1 − R, is approximately 32,3 percent at R = 0,95 and 76,5 percent at R = 0,98. The plan tests R of at least 0,90 at a 95 percent one-sided confidence level. Nevertheless, at R = 0,95 it fails in approximately two out of three attempts. Confidence level and the chance of passing a demonstration answer different questions.",
+    "zh": "第15章进阶练习：当 X 服从二项分布、失效概率为 1 − R 时，P(X ≤ 1) 在 R 等于 0,95 时约为 32,3%，在 R 等于 0,98 时约为 76,5%。该方案以 95% 单侧置信水平检验 R 至少为 0,90。然而，当 R 等于 0,95 时，约三次尝试中有两次无法通过。置信水平与通过验证的概率回答的是不同的问题。"
+  },
+  "u1191": {
+    "en": "Chapters 16 to 20",
+    "zh": "第16至20章"
+  },
+  "u1192": {
+    "en": "For Chapter 16: Protocol, data rate, timing, network, version, resources, and joint fault response must be checked. Individual device tests do not show whether their interfaces work together under the actual transmission profile.",
+    "zh": "第16章：应检查协议、数据速率、时序、网络、版本、资源及共同故障响应。设备的单独试验无法说明其接口在实际传输工况下是否兼容。"
+  },
+  "u1193": {
+    "en": "For Chapter 17: Software can produce different switching frequencies, temperatures, or load sequences. This changes the potential stresses on the hardware. The actual effect determines which evidence is affected, rather than the fact that only software was changed.",
+    "zh": "第17章：软件可能改变开关频率、温度或载荷序列，从而改变硬件可能承受的应力。哪些验证证据受到影响取决于实际作用，而非仅仅取决于是否只修改了软件。"
+  },
+  "u1194": {
+    "en": "For Chapter 18: Possible explanations include an increased detection rate, different event definitions, longer observation, higher usage, or a real increase. First make denominators, cohorts, and measurement methods comparable.",
+    "zh": "第18章：可能的解释包括检出率提高、事件定义改变、观察时间延长、使用量增加或真正的增长。首先应使分母、队列与测量方法具有可比性。"
+  },
+  "u1195": {
+    "en": "For the advanced exercise in Chapter 18: At 50 hours, the MCF increases by 1/2 to 0,5. At 150 hours, it increases by 2/2 to 1,5. It remains there until 200 hours. This is the mean cumulative number of events per system, not the proportion of defective systems; repeated events on the same unit remain included.",
+    "zh": "第18章进阶练习：在 50 小时时，MCF 增加 1/2，达到 0,5；在 150 小时时，增加 2/2，达到 1,5；至 200 小时保持不变。这是每个系统的平均累计事件数，并非故障系统的比例；同一单元的重复事件仍包含在内。"
+  },
+  "u1196": {
+    "en": "For Chapter 19: Preserve the state, load, configuration, and relevant logs before and after the restart. Test competing hypotheses, reproduce the triggering sequence, and demonstrate an action that addresses the cause. A restart alone is usually only a restoration.",
+    "zh": "第19章：在重启前后保存状态、载荷、配置及相关日志。检验相互竞争的假设，复现触发序列，并验证针对原因的措施。单独重启通常仅是恢复。"
+  },
+  "u1197": {
+    "en": "For Chapter 20: A good investigation includes a clear loss of function, a suitable boundary, several distinguishable hypotheses, and a test with a decision criterion. Test the action under the triggering conditions and check for side effects. The working templates in Appendix B help with documentation.",
+    "zh": "第20章：良好的处理应包括明确的功能丧失、适当的边界、多个可区分的假设以及具有决策准则的试验。在触发条件下检验措施，并检查副作用。附录 B 的工作模板有助于记录。"
+  },
+  "u1198": {
+    "en": "Appendix B Working templates",
+    "zh": "附录 B 工作模板"
+  },
+  "u1199": {
+    "en": "System fact sheet with interface analysis",
+    "zh": "含接口分析的系统概况表"
+  },
+  "u1200": {
+    "en": "Use this template for each newly selected system boundary. It is not filled out only for the complete device. A short completed example follows each field description; replace it for the project.",
+    "zh": "每次重新选定系统边界时都应使用此模板，不应仅为整机填写。每项字段说明后均附有简短的填写示例；项目中应替换为实际内容。"
+  },
+  "u1201": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u1202": {
+    "en": "<strong>Project entry</strong>",
+    "zh": "<strong>项目填写内容</strong>"
+  },
+  "u1203": {
+    "en": "<strong>Assessment question</strong>",
+    "zh": "<strong>评估问题</strong>"
+  },
+  "u1204": {
+    "en": "<strong>For example, investigate intermittent loss of image delivery</strong>",
+    "zh": "<strong>例如，调查图像交付的间歇性丧失</strong>"
+  },
+  "u1205": {
+    "en": "<strong>System boundary and version</strong>",
+    "zh": "<strong>系统边界与版本</strong>"
+  },
+  "u1206": {
+    "en": "<strong>Specify the product boundary or workflow boundary; record hardware, software, and installation</strong>",
+    "zh": "<strong>注明产品边界或流程边界；记录硬件、软件与安装情况</strong>"
+  },
+  "u1207": {
+    "en": "<strong>Independent purpose</strong>",
+    "zh": "<strong>独立目的</strong>"
+  },
+  "u1208": {
+    "en": "<strong>State the purpose outside the workflow under consideration; for a subsystem, this may not be independently established</strong>",
+    "zh": "<strong>说明在所研究流程之外的目的；对于子系统，该目的可能未被独立证实</strong>"
+  },
+  "u1209": {
+    "en": "<strong>Authority to make changes</strong>",
+    "zh": "<strong>变更权限</strong>"
+  },
+  "u1210": {
+    "en": "<strong>Who decides about the element and can enforce changes</strong>",
+    "zh": "<strong>谁对该要素作出决定并能够落实变更</strong>"
+  },
+  "u1211": {
+    "en": "<strong>Change pathway</strong>",
+    "zh": "<strong>变更途径</strong>"
+  },
+  "u1212": {
+    "en": "<strong>Who informs whom and how affected evidence is reassessed</strong>",
+    "zh": "<strong>谁向谁通报，以及如何重新评估受影响的证据</strong>"
+  },
+  "u1213": {
+    "en": "<strong>Function and success</strong>",
+    "zh": "<strong>功能与成功</strong>"
+  },
+  "u1214": {
+    "en": "<strong>Define expected output and permissible degradation</strong>",
+    "zh": "<strong>定义预期输出与允许的性能退化</strong>"
+  },
+  "u1215": {
+    "en": "<strong>Inputs and outputs</strong>",
+    "zh": "<strong>输入与输出</strong>"
+  },
+  "u1216": {
+    "en": "<strong>Record direction, unit, tolerance, timing, and association with the order</strong>",
+    "zh": "<strong>记录方向、单位、公差、时序与任务关联</strong>"
+  },
+  "u1217": {
+    "en": "<strong>Other influences</strong>",
+    "zh": "<strong>其他影响因素</strong>"
+  },
+  "u1218": {
+    "en": "<strong>Temperature, power supply, radiation, mechanics, and other relevant quantities</strong>",
+    "zh": "<strong>温度、电源、辐射、机械作用及其他相关量</strong>"
+  },
+  "u1219": {
+    "en": "<strong>Feedback effects</strong>",
+    "zh": "<strong>反作用</strong>"
+  },
+  "u1220": {
+    "en": "<strong>Heat, forces, emissions, and fault propagation</strong>",
+    "zh": "<strong>热、力、发射与故障传播</strong>"
+  },
+  "u1221": {
+    "en": "<strong>States and transitions</strong>",
+    "zh": "<strong>状态与转换</strong>"
+  },
+  "u1222": {
+    "en": "<strong>Start, ready, active, restart, and fault</strong>",
+    "zh": "<strong>启动、就绪、运行、重新启动与故障</strong>"
+  },
+  "u1223": {
+    "en": "<strong>Usage and assumptions</strong>",
+    "zh": "<strong>使用与假设</strong>"
+  },
+  "u1224": {
+    "en": "<strong>Profiles, sources, and assumptions still unresolved</strong>",
+    "zh": "<strong>工况谱、来源及尚未解决的假设</strong>"
+  },
+  "u1225": {
+    "en": "<strong>Result and handover</strong>",
+    "zh": "<strong>结果与移交</strong>"
+  },
+  "u1226": {
+    "en": "<strong>Link to architecture, requirements, and FMEA</strong>",
+    "zh": "<strong>关联至架构、要求与 FMEA</strong>"
+  },
+  "u1227": {
+    "en": "To fill in: Topic and ID ____________________  Responsible role ____________________  Revision ____________________.",
+    "zh": "填写：主题与 ID ____________________  负责角色 ____________________  版本状态 ____________________。"
+  },
+  "u1228": {
+    "en": "Create a row or a separate sheet for each relevant interface: sender, receiver, signal or physical flow, validity state, fault deviations, expected response, and evidence. A review specifically checks for missing feedback effects and unresolved state assumptions.",
+    "zh": "为每个相关接口建立一行或单独的表页：发送方、接收方、信号或物理流、有效状态、故障偏差、预期响应与证据。评审尤其应检查是否遗漏反作用，以及是否存在未明确的状态假设。"
+  },
+  "u1229": {
+    "en": "Assess supplier evidence",
+    "zh": "评估供应商证据"
+  },
+  "u1230": {
+    "en": "This template documents the technical decision to accept evidence. Reference an existing test report rather than merely copying it into a new form.",
+    "zh": "此模板记录技术上的证据采纳决策。应引用已有试验报告，而非仅将其抄入新表格。"
+  },
+  "u1232": {
+    "en": "<strong>Assessment to complete</strong>",
+    "zh": "<strong>待填写的评估</strong>"
+  },
+  "u1233": {
+    "en": "<strong>Component and supplied revision</strong>",
+    "zh": "<strong>部件与交付版本</strong>"
+  },
+  "u1234": {
+    "en": "<strong>Part number, revision, firmware, and relevant process characteristics</strong>",
+    "zh": "<strong>零件号、修订版本、固件与相关工艺特征</strong>"
+  },
+  "u1235": {
+    "en": "<strong>Required application</strong>",
+    "zh": "<strong>所需应用</strong>"
+  },
+  "u1236": {
+    "en": "<strong>Function, installation, profile, and target usage</strong>",
+    "zh": "<strong>功能、安装、工况谱与目标使用量</strong>"
+  },
+  "u1237": {
+    "en": "<strong>Available evidence</strong>",
+    "zh": "<strong>现有证据</strong>"
+  },
+  "u1238": {
+    "en": "<strong>Report, specimens, date, profile, failures, and raw data</strong>",
+    "zh": "<strong>报告、样件、日期、工况谱、失效与原始数据</strong>"
+  },
+  "u1239": {
+    "en": "<strong>Comparison</strong>",
+    "zh": "<strong>比较</strong>"
+  },
+  "u1240": {
+    "en": "<strong>Which conditions match and which differ</strong>",
+    "zh": "<strong>哪些条件相符，哪些条件存在差异</strong>"
+  },
+  "u1241": {
+    "en": "<strong>Representativeness</strong>",
+    "zh": "<strong>代表性</strong>"
+  },
+  "u1242": {
+    "en": "<strong>Why do the specimens cover the supplied configuration</strong>",
+    "zh": "<strong>为何样件能够涵盖交付配置</strong>"
+  },
+  "u1243": {
+    "en": "<strong>Statistics</strong>",
+    "zh": "<strong>统计</strong>"
+  },
+  "u1244": {
+    "en": "<strong>Model, independence, censoring, confidence level, and limits</strong>",
+    "zh": "<strong>模型、独立性、删失、置信水平与局限</strong>"
+  },
+  "u1245": {
+    "en": "<strong>Remaining gaps</strong>",
+    "zh": "<strong>剩余缺口</strong>"
+  },
+  "u1246": {
+    "en": "<strong>Required additional evidence with technical justification</strong>",
+    "zh": "<strong>所需补充证据及其技术理由</strong>"
+  },
+  "u1247": {
+    "en": "<strong>Decision</strong>",
+    "zh": "<strong>决策</strong>"
+  },
+  "u1248": {
+    "en": "<strong>Accepted, accepted with restrictions, or additional evidence required</strong>",
+    "zh": "<strong>接受、有限制地接受或需要补充证据</strong>"
+  },
+  "u1249": {
+    "en": "<strong>Feedback and changes</strong>",
+    "zh": "<strong>反馈与变更</strong>"
+  },
+  "u1250": {
+    "en": "<strong>Supplier contact, information, and reassessment pathway</strong>",
+    "zh": "<strong>供应商联系人、信息与重新评估途径</strong>"
+  },
+  "u1251": {
+    "en": "To fill in: Evidence ID ____________________  Decision maker ____________________  Conditions for acceptance ____________________.",
+    "zh": "填写：证据 ID ____________________  决策者 ____________________  采纳条件 ____________________。"
+  },
+  "u1252": {
+    "en": "Review questions: Are deviations and failures visible? Are the measurement locations and functions used appropriate? Can the integration comply with the documented application limits? Is there an established process for reporting changes and confirmed field failures back?",
+    "zh": "评审问题：偏差与失效是否可见？所用测量位置与功能是否适当？集成能否满足记录的应用限值？是否规定了变更及已确认现场失效的反馈方式？"
+  },
+  "u1253": {
+    "en": "FMEA worksheet",
+    "zh": "FMEA 工作表"
+  },
+  "u1254": {
+    "en": "Prepare the FMEA sheet with structure, function, and interface. The following sequence of fields can be transferred as a template into the approved corporate tool.",
+    "zh": "准备 FMEA 表时应包含结构、功能与接口。以下字段顺序可作为模板导入企业批准的工具。"
+  },
+  "u1255": {
+    "en": "<strong>Field group</strong>",
+    "zh": "<strong>字段组</strong>"
+  },
+  "u1256": {
+    "en": "<strong>Required content</strong>",
+    "zh": "<strong>所需内容</strong>"
+  },
+  "u1257": {
+    "en": "<strong>Reference</strong>",
+    "zh": "<strong>关联</strong>"
+  },
+  "u1258": {
+    "en": "<strong>ID, boundary, level, function, state, and version</strong>",
+    "zh": "<strong>ID、边界、层级、功能、状态与版本</strong>"
+  },
+  "u1259": {
+    "en": "<strong>Failure mode</strong>",
+    "zh": "<strong>失效模式</strong>"
+  },
+  "u1260": {
+    "en": "<strong>Specific deviation, including time and context</strong>",
+    "zh": "<strong>具体偏差，包括时间与情境</strong>"
+  },
+  "u1261": {
+    "en": "<strong>Cause</strong>",
+    "zh": "<strong>原因</strong>"
+  },
+  "u1262": {
+    "en": "<strong>Possible cause and physical or logical mechanism</strong>",
+    "zh": "<strong>可能原因及物理或逻辑机制</strong>"
+  },
+  "u1263": {
+    "en": "<strong>Effects</strong>",
+    "zh": "<strong>影响</strong>"
+  },
+  "u1264": {
+    "en": "<strong>Local, next higher level, and system function considered separately</strong>",
+    "zh": "<strong>分别考虑局部、上一级与系统功能</strong>"
+  },
+  "u1265": {
+    "en": "<strong>Existing controls</strong>",
+    "zh": "<strong>现有控制</strong>"
+  },
+  "u1266": {
+    "en": "<strong>Prevention and detection supported by evidence</strong>",
+    "zh": "<strong>以证据支持的预防与检测</strong>"
+  },
+  "u1267": {
+    "en": "<strong>Assessment</strong>",
+    "zh": "<strong>评估</strong>"
+  },
+  "u1268": {
+    "en": "<strong>Applicable scales, assumptions, and relevant risk links</strong>",
+    "zh": "<strong>适用的评分尺度、假设与相关风险关联</strong>"
+  },
+  "u1269": {
+    "en": "<strong>Action</strong>",
+    "zh": "<strong>措施</strong>"
+  },
+  "u1270": {
+    "en": "<strong>Mechanism of action, responsible role, and deadline</strong>",
+    "zh": "<strong>作用机制、负责角色与期限</strong>"
+  },
+  "u1271": {
+    "en": "<strong>Effectiveness</strong>",
+    "zh": "<strong>有效性</strong>"
+  },
+  "u1272": {
+    "en": "<strong>Test or other suitable evidence and result</strong>",
+    "zh": "<strong>试验或其他适当证据及其结果</strong>"
+  },
+  "u1273": {
+    "en": "<strong>Residual state</strong>",
+    "zh": "<strong>剩余状态</strong>"
+  },
+  "u1274": {
+    "en": "<strong>Updated assessment and remaining open issues</strong>",
+    "zh": "<strong>更新后的评估与尚未解决的问题</strong>"
+  },
+  "u1275": {
+    "en": "To fill in: FMEA ID ____________________  Interface reference ____________________  Linked evidence ____________________.",
+    "zh": "填写：FMEA ID ____________________  接口关联 ____________________  关联证据 ____________________。"
+  },
+  "u1276": {
+    "en": "Review questions: Has the failure effect really been traced through all levels? Is an outdated correct value distinguished from an incorrect value? Have shared resources and fault combinations been passed to supplementary analyses? Is an action closed only after its effectiveness has been verified?",
+    "zh": "评审问题：失效影响是否确实追踪了所有层级？是否区分了过时的正确值与错误值？是否将共享资源与故障组合交给补充分析处理？是否仅在检验有效性后才关闭措施？"
+  },
+  "u1277": {
+    "en": "Statistical test plan",
+    "zh": "统计试验方案"
+  },
+  "u1278": {
+    "en": "Agree on the decision before testing begins. Replace all example figures from the chapters with justified project values.",
+    "zh": "在开始试验前约定决策规则。各章的所有示例数值均应替换为有依据的项目数值。"
+  },
+  "u1280": {
+    "en": "<strong>Entry</strong>",
+    "zh": "<strong>填写内容</strong>"
+  },
+  "u1281": {
+    "en": "<strong>Objective</strong>",
+    "zh": "<strong>目标</strong>"
+  },
+  "u1282": {
+    "en": "<strong>Function, failure, population, and target usage</strong>",
+    "zh": "<strong>功能、失效、总体与目标使用量</strong>"
+  },
+  "u1283": {
+    "en": "<strong>Requirement</strong>",
+    "zh": "<strong>要求</strong>"
+  },
+  "u1284": {
+    "en": "<strong>Reliability or rate, confidence level, and direction of the bound</strong>",
+    "zh": "<strong>可靠性或率、置信水平与界限方向</strong>"
+  },
+  "u1285": {
+    "en": "<strong>Model</strong>",
+    "zh": "<strong>模型</strong>"
+  },
+  "u1286": {
+    "en": "<strong>Binomial, constant rate, lifetime, or another justified model</strong>",
+    "zh": "<strong>二项分布、恒定率、寿命或其他有依据的模型</strong>"
+  },
+  "u1287": {
+    "en": "<strong>Assumptions</strong>",
+    "zh": "<strong>假设</strong>"
+  },
+  "u1288": {
+    "en": "<strong>Independence, representativeness, and censoring</strong>",
+    "zh": "<strong>独立性、代表性与删失</strong>"
+  },
+  "u1289": {
+    "en": "<strong>Specimens</strong>",
+    "zh": "<strong>样件</strong>"
+  },
+  "u1290": {
+    "en": "<strong>Number, relation to series production, variants, and allocation</strong>",
+    "zh": "<strong>数量、与量产的关联、变型与分配</strong>"
+  },
+  "u1291": {
+    "en": "<strong>Stress</strong>",
+    "zh": "<strong>应力</strong>"
+  },
+  "u1292": {
+    "en": "<strong>Profile, measurement location, operating state, and test sequence</strong>",
+    "zh": "<strong>工况谱、测量位置、运行状态与试验顺序</strong>"
+  },
+  "u1294": {
+    "en": "<strong>Permissible failures, analysis, and acceptance rule</strong>",
+    "zh": "<strong>允许失效数、分析与接受规则</strong>"
+  },
+  "u1295": {
+    "en": "<strong>Acceleration</strong>",
+    "zh": "<strong>加速</strong>"
+  },
+  "u1296": {
+    "en": "<strong>Mechanism, model parameters, validation, and uncertainty</strong>",
+    "zh": "<strong>机制、模型参数、确认与不确定性</strong>"
+  },
+  "u1297": {
+    "en": "<strong>Termination</strong>",
+    "zh": "<strong>终止</strong>"
+  },
+  "u1298": {
+    "en": "<strong>Safety, functional, and organizational termination rules</strong>",
+    "zh": "<strong>安全、功能与组织方面的终止规则</strong>"
+  },
+  "u1299": {
+    "en": "<strong>Data</strong>",
+    "zh": "<strong>数据</strong>"
+  },
+  "u1300": {
+    "en": "<strong>Raw data, event times, censoring, and exclusions</strong>",
+    "zh": "<strong>原始数据、事件时间、删失与排除项</strong>"
+  },
+  "u1301": {
+    "en": "To fill in: Test plan ID ____________________  Approval before testing begins ____________________  Person responsible for analysis ____________________.",
+    "zh": "填写：试验方案 ID ____________________  试验开始前批准 ____________________  分析负责人 ____________________。"
+  },
+  "u1302": {
+    "en": "Review questions: What result can this plan actually provide? How likely is it to succeed for an assumed genuinely good population? Are short repetitions on the same device incorrectly counted as independent units? Is a mechanistic extrapolation sufficiently justified?",
+    "zh": "评审问题：该方案究竟能提供什么结果？对于假定确实良好的总体，该方案成功的概率有多大？是否错误地将同一设备的短时重复试验计为独立单元？基于机制的外推是否具有充分依据？"
+  },
+  "u1303": {
+    "en": "Integration matrix and release evidence",
+    "zh": "集成矩阵与放行证据"
+  },
+  "u1304": {
+    "en": "The integration matrix links requirements, fault paths, test levels, and specific results. Reference existing evidence or define an open activity for each row.",
+    "zh": "集成矩阵关联要求、故障路径、试验层级与具体结果。每一行均应引用现有证据，或定义待完成的活动。"
+  },
+  "u1306": {
+    "en": "<strong>Content</strong>",
+    "zh": "<strong>内容</strong>"
+  },
+  "u1308": {
+    "en": "<strong>Requirement, function, interface, and FMEA or fault tree ID</strong>",
+    "zh": "<strong>要求、功能、接口及 FMEA 或故障树 ID</strong>"
+  },
+  "u1309": {
+    "en": "<strong>Scenario</strong>",
+    "zh": "<strong>场景</strong>"
+  },
+  "u1310": {
+    "en": "<strong>Initial state, normal or unfavorable usage, and fault variation</strong>",
+    "zh": "<strong>初始状态、正常或不利使用及故障变化</strong>"
+  },
+  "u1311": {
+    "en": "<strong>Test level</strong>",
+    "zh": "<strong>试验层级</strong>"
+  },
+  "u1312": {
+    "en": "<strong>Software, virtual, real partial chain, or complete system</strong>",
+    "zh": "<strong>软件、虚拟、真实的部分链路或完整系统</strong>"
+  },
+  "u1313": {
+    "en": "<strong>Oracle</strong>",
+    "zh": "<strong>判定依据</strong>"
+  },
+  "u1314": {
+    "en": "<strong>Expected function, permissible protective response, and unacceptable behavior</strong>",
+    "zh": "<strong>预期功能、允许的保护响应与不可接受的行为</strong>"
+  },
+  "u1315": {
+    "en": "<strong>Measurement</strong>",
+    "zh": "<strong>测量</strong>"
+  },
+  "u1316": {
+    "en": "<strong>Stimuli, time base, measurement uncertainty, and observation</strong>",
+    "zh": "<strong>激励、时基、测量不确定性与观察</strong>"
+  },
+  "u1317": {
+    "en": "<strong>Result</strong>",
+    "zh": "<strong>结果</strong>"
+  },
+  "u1318": {
+    "en": "<strong>Configuration, passed, failed, or limited conclusion</strong>",
+    "zh": "<strong>配置、通过、未通过或结论受限</strong>"
+  },
+  "u1319": {
+    "en": "<strong>Release</strong>",
+    "zh": "<strong>放行</strong>"
+  },
+  "u1320": {
+    "en": "<strong>Accepted evidence, gap, condition, and decision</strong>",
+    "zh": "<strong>采纳的证据、缺口、条件与决策</strong>"
+  },
+  "u1321": {
+    "en": "To fill in: Matrix ID ____________________  Configuration ____________________  Release decision ____________________.",
+    "zh": "填写：矩阵 ID ____________________  配置 ____________________  放行决策 ____________________。"
+  },
+  "u1322": {
+    "en": "Review questions: Is the component operating envelope actually respected? Which effect has only been modeled and which has been tested physically? Are recovery and variants included? What margin was measured, and under which combinations is it valid?",
+    "zh": "评审问题：是否确实遵守了部件工作范围？哪些作用仅经过建模，哪些经过真实试验？是否包含恢复与变型？测得何种裕量，其在何种组合下有效？"
+  },
+  "u1323": {
+    "en": "FRACAS case sheet",
+    "zh": "FRACAS 案例表"
+  },
+  "u1324": {
+    "en": "Track the failure case from the first report to the effectiveness decision. New findings may change an earlier hypothesis; the status remains traceable.",
+    "zh": "从首次报告直至有效性决策，持续跟踪故障案例。新发现可能改变先前的假设；状态始终保持可追溯。"
+  },
+  "u1327": {
+    "en": "<strong>Event</strong>",
+    "zh": "<strong>事件</strong>"
+  },
+  "u1328": {
+    "en": "<strong>What, when, which device, which function, and which usage</strong>",
+    "zh": "<strong>发生何事、何时、何种设备、何种功能与何种使用</strong>"
+  },
+  "u1329": {
+    "en": "<strong>Configuration</strong>",
+    "zh": "<strong>配置</strong>"
+  },
+  "u1330": {
+    "en": "<strong>Hardware, software, installation, and relevant changes</strong>",
+    "zh": "<strong>硬件、软件、安装与相关变更</strong>"
+  },
+  "u1331": {
+    "en": "<strong>Data and findings</strong>",
+    "zh": "<strong>数据与调查结果</strong>"
+  },
+  "u1332": {
+    "en": "<strong>Logs, measurements, parts analysis, and certainty of the findings</strong>",
+    "zh": "<strong>日志、测量、零件分析与调查结果的确定程度</strong>"
+  },
+  "u1333": {
+    "en": "<strong>Hypotheses</strong>",
+    "zh": "<strong>假设</strong>"
+  },
+  "u1334": {
+    "en": "<strong>Competing explanations and discriminating tests</strong>",
+    "zh": "<strong>相互竞争的解释及能够区分它们的试验</strong>"
+  },
+  "u1335": {
+    "en": "<strong>Confirmed cause</strong>",
+    "zh": "<strong>已确认原因</strong>"
+  },
+  "u1336": {
+    "en": "<strong>Mechanism, fault path, and remaining open questions</strong>",
+    "zh": "<strong>机制、故障路径与尚未解决的问题</strong>"
+  },
+  "u1337": {
+    "en": "<strong>Immediate correction</strong>",
+    "zh": "<strong>即时纠正</strong>"
+  },
+  "u1338": {
+    "en": "<strong>Restoration with limits and responsible person</strong>",
+    "zh": "<strong>恢复及其限制与负责人</strong>"
+  },
+  "u1339": {
+    "en": "<strong>Sustainable action</strong>",
+    "zh": "<strong>持久有效的措施</strong>"
+  },
+  "u1340": {
+    "en": "<strong>Mechanism of action, implementation, and regression</strong>",
+    "zh": "<strong>作用机制、实施与回归检验</strong>"
+  },
+  "u1342": {
+    "en": "<strong>Reproduction, suitable field data, and uncertainty</strong>",
+    "zh": "<strong>复现、适当的现场数据与不确定性</strong>"
+  },
+  "u1343": {
+    "en": "<strong>Feedback into engineering</strong>",
+    "zh": "<strong>反馈至工程工作</strong>"
+  },
+  "u1344": {
+    "en": "<strong>Models, FMEA, supplier, requirements, and test profiles</strong>",
+    "zh": "<strong>模型、FMEA、供应商、要求与试验工况谱</strong>"
+  },
+  "u1345": {
+    "en": "<strong>Closure</strong>",
+    "zh": "<strong>结案</strong>"
+  },
+  "u1346": {
+    "en": "<strong>Decision, prerequisites, and reopening criterion</strong>",
+    "zh": "<strong>决策、前提条件与重新开启准则</strong>"
+  },
+  "u1347": {
+    "en": "To fill in: Case ID ____________________  Responsible person ____________________  Closure decision ____________________.",
+    "zh": "填写：案例 ID ____________________  负责人 ____________________  结案决策 ____________________。"
+  },
+  "u1348": {
+    "en": "Review questions: Has a service replacement been confused with a confirmed failure? Does the action address the cause? Are before and after comparable? Can a rare event actually be assessed with sufficient confidence from the observation available so far?",
+    "zh": "评审问题：是否将维修更换误认为已确认故障？措施是否针对原因？前后是否具有可比性？迄今的观察是否确实能够为评估罕见事件提供充分结论？"
+  },
+  "u1516": {
+    "en": "<strong>1</strong>",
+    "zh": "<strong>1</strong>"
+  },
+  "u1519": {
+    "en": "<strong>2</strong>",
+    "zh": "<strong>2</strong>"
+  },
+  "u1522": {
+    "en": "<strong>3</strong>",
+    "zh": "<strong>3</strong>"
+  },
+  "u1525": {
+    "en": "<strong>4</strong>",
+    "zh": "<strong>4</strong>"
+  },
+  "u1528": {
+    "en": "<strong>5</strong>",
+    "zh": "<strong>5</strong>"
+  },
+  "u1531": {
+    "en": "<strong>6</strong>",
+    "zh": "<strong>6</strong>"
+  },
+  "u1534": {
+    "en": "<strong>7</strong>",
+    "zh": "<strong>7</strong>"
+  },
+  "u1537": {
+    "en": "<strong>8</strong>",
+    "zh": "<strong>8</strong>"
+  },
+  "u1540": {
+    "en": "<strong>9</strong>",
+    "zh": "<strong>9</strong>"
+  },
+  "u1543": {
+    "en": "<strong>10</strong>",
+    "zh": "<strong>10</strong>"
+  },
+  "u1546": {
+    "en": "<strong>11</strong>",
+    "zh": "<strong>11</strong>"
+  },
+  "u1549": {
+    "en": "<strong>12</strong>",
+    "zh": "<strong>12</strong>"
+  },
+  "u1552": {
+    "en": "<strong>13</strong>",
+    "zh": "<strong>13</strong>"
+  },
+  "u1555": {
+    "en": "<strong>14</strong>",
+    "zh": "<strong>14</strong>"
+  },
+  "u1558": {
+    "en": "<strong>15</strong>",
+    "zh": "<strong>15</strong>"
+  },
+  "u1561": {
+    "en": "<strong>16</strong>",
+    "zh": "<strong>16</strong>"
+  },
+  "u1564": {
+    "en": "<strong>17</strong>",
+    "zh": "<strong>17</strong>"
+  },
+  "u1567": {
+    "en": "<strong>18</strong>",
+    "zh": "<strong>18</strong>"
+  },
+  "u1570": {
+    "en": "<strong>19</strong>",
+    "zh": "<strong>19</strong>"
+  },
+  "u1573": {
+    "en": "<strong>20</strong>",
+    "zh": "<strong>20</strong>"
+  },
+  "u1619": {
+    "en": "<a href=\"https://www.wiley-vch.de/en/areas-interest/mathematics-statistics/system-reliability-theory-978-1-119-37352-0\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.wiley-vch.de/en/areas-interest/mathematics-statistics/system-reliability-theory-978-1-119-37352-0\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1622": {
+    "en": "<a href=\"https://www.wiley-vch.de/de/fachgebiete/mathematik-und-statistik/statistical-methods-for-reliability-data-978-1-118-11545-9\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.wiley-vch.de/de/fachgebiete/mathematik-und-statistik/statistical-methods-for-reliability-data-978-1-118-11545-9\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1625": {
+    "en": "<a href=\"https://link.springer.com/book/10.1007/978-3-662-72967-0\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://link.springer.com/book/10.1007/978-3-662-72967-0\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1628": {
+    "en": "<a href=\"https://www.ima.uni-stuttgart.de/lehre/lehrveranstaltungen-master/drv/\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.ima.uni-stuttgart.de/lehre/lehrveranstaltungen-master/drv/\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1631": {
+    "en": "<a href=\"https://www.nasa.gov/reference/systems-engineering-handbook/\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.nasa.gov/reference/systems-engineering-handbook/\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1634": {
+    "en": "<a href=\"https://standards.nasa.gov/sites/default/files/standards/GSFC/Baseline/0/GSFC-HDBK-8004_Approved_1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://standards.nasa.gov/sites/default/files/standards/GSFC/Baseline/0/GSFC-HDBK-8004_Approved_1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1637": {
+    "en": "<a href=\"https://mediatum.ub.tum.de/1463135\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://mediatum.ub.tum.de/1463135\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1640": {
+    "en": "<a href=\"https://d-nb.info/1278960716/34\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://d-nb.info/1278960716/34\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1643": {
+    "en": "<a href=\"https://arxiv.org/abs/2212.04550\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://arxiv.org/abs/2212.04550\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1646": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr3.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr3.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1650": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr123.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr123.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1653": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1656": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section2/apr211.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section2/apr211.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1659": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr311.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr311.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1662": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr162.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr162.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1665": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1668": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr314.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr314.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1671": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr151.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr151.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1674": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr411.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr411.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1677": {
+    "en": "<a href=\"https://sebokwiki.org/wiki/Systems_of_Systems_(SoS)\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://sebokwiki.org/wiki/Systems_of_Systems_(SoS)\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1680": {
+    "en": "<a href=\"https://psas.scripts.mit.edu/home/get_file.php?name=STPA_Handbook.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://psas.scripts.mit.edu/home/get_file.php?name=STPA_Handbook.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1683": {
+    "en": "<a href=\"https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1686": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr451.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr451.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1689": {
+    "en": "<a href=\"https://epubs.siam.org/doi/book/10.1137/1.9780898718454\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://epubs.siam.org/doi/book/10.1137/1.9780898718454\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1692": {
+    "en": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr452.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr452.htm\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1696": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/21886\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/21886\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1699": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/66489\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/66489\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1702": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/59797\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/59797\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1705": {
+    "en": "<a href=\"https://www.iso.org/standard/81702.html\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.iso.org/standard/81702.html\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1708": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/26359\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/26359\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1711": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/4311\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/4311\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1714": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/25647\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/25647\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1717": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/61933\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/61933\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1720": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/65838\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/65838\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1723": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/5698\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/5698\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1726": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/66842\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/66842\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1729": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/501\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/501\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1732": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/71503\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/71503\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1735": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/82357\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/82357\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1738": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/544\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/544\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1741": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/514\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/514\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1744": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/30876\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/30876\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1747": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/60565\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/60565\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1750": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/22794\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/22794\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1753": {
+    "en": "<a href=\"https://www.iso.org/standard/59752.html\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.iso.org/standard/59752.html\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1756": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/69988\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/69988\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1759": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/67497\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/67497\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1762": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/34263\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/34263\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1765": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/63293\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/63293\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1768": {
+    "en": "<a href=\"https://www.iso.org/standard/71955.html\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://www.iso.org/standard/71955.html\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1771": {
+    "en": "<a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20260719\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20260719\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1774": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/59985\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/59985\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1777": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/67554\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/67554\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1780": {
+    "en": "<a href=\"https://webstore.iec.ch/en/publication/67220\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a>",
+    "zh": "<a href=\"https://webstore.iec.ch/en/publication/67220\" target=\"_blank\" rel=\"noopener noreferrer\">打开来源</a>"
+  },
+  "u1231": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u1279": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u1293": {
+    "en": "<strong>Decision</strong>",
+    "zh": "<strong>决策</strong>"
+  },
+  "u1305": {
+    "en": "<strong>Field group</strong>",
+    "zh": "<strong>字段组</strong>"
+  },
+  "u1307": {
+    "en": "<strong>Reference</strong>",
+    "zh": "<strong>关联</strong>"
+  },
+  "u1325": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u1326": {
+    "en": "<strong>Content</strong>",
+    "zh": "<strong>内容</strong>"
+  },
+  "u1341": {
+    "en": "<strong>Effectiveness</strong>",
+    "zh": "<strong>有效性</strong>"
+  },
+  "u1351": {
+    "en": "<strong>Field</strong>",
+    "zh": "<strong>字段</strong>"
+  },
+  "u1352": {
+    "en": "<strong>Entry</strong>",
+    "zh": "<strong>填写内容</strong>"
+  },
+  "u1357": {
+    "en": "<strong>Assumptions</strong>",
+    "zh": "<strong>假设</strong>"
+  },
+  "u1349": {
+    "en": "Application contract and version matrix",
+    "zh": "应用契约与版本矩阵"
+  },
+  "u1350": {
+    "en": "The application contract supplements the supplier review or the contract with an external counterpart. It describes the technical validity of the accepted evidence.",
+    "zh": "应用契约补充供应商评审或与外部对接系统的契约，说明所采纳证据的技术有效性。"
+  },
+  "u1353": {
+    "en": "<strong>Item and version</strong>",
+    "zh": "<strong>对象与版本</strong>"
+  },
+  "u1354": {
+    "en": "<strong>Component or independent system with an unambiguous revision</strong>",
+    "zh": "<strong>具有明确版本的部件或独立系统</strong>"
+  },
+  "u1355": {
+    "en": "<strong>Guaranteed performance</strong>",
+    "zh": "<strong>承诺的性能</strong>"
+  },
+  "u1356": {
+    "en": "<strong>Output, quality, timing, and valid states</strong>",
+    "zh": "<strong>输出、质量、时序与有效状态</strong>"
+  },
+  "u1358": {
+    "en": "<strong>Inputs, environment, usage profile, and shared resources</strong>",
+    "zh": "<strong>输入、环境、使用工况谱与共享资源</strong>"
+  },
+  "u1359": {
+    "en": "<strong>Violated assumption</strong>",
+    "zh": "<strong>假设被违反</strong>"
+  },
+  "u1360": {
+    "en": "<strong>Detection, permissible response, and restart</strong>",
+    "zh": "<strong>检测、允许的响应与重新启动</strong>"
+  },
+  "u1361": {
+    "en": "<strong>Evidence</strong>",
+    "zh": "<strong>证据</strong>"
+  },
+  "u1362": {
+    "en": "<strong>Report, tested specimens, conclusion, and remaining gaps</strong>",
+    "zh": "<strong>报告、经过试验的样件、结论与剩余缺口</strong>"
+  },
+  "u1363": {
+    "en": "<strong>Changes and monitoring</strong>",
+    "zh": "<strong>变更与监测</strong>"
+  },
+  "u1364": {
+    "en": "<strong>Responsible reporting pathway, configuration, and field observation</strong>",
+    "zh": "<strong>明确责任的报告途径、配置与现场观察</strong>"
+  },
+  "u1365": {
+    "en": "The version matrix lists hardware, firmware, controller, and relevant counterpart for each permitted combination. Record the functional scope, profile, evidence ID, and release status as well. A version name alone does not replace evidence. Untested and blocked combinations are marked differently.",
+    "zh": "版本矩阵为每个允许的组合列出硬件、固件、控制器与相关对接系统，同时记录功能范围、工况谱、证据 ID 与放行状态。单独的版本名称不能替代证据。未经验证的组合与禁止使用的组合应以不同方式标记。"
+  },
+  "u1366": {
+    "en": "Appendix C Glossary",
+    "zh": "附录 C 术语表"
+  },
+  "u1367": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u1368": {
+    "en": "<strong>Term</strong>",
+    "zh": "<strong>术语</strong>"
+  },
+  "u1369": {
+    "en": "<strong>Meaning in this handbook</strong>",
+    "zh": "<strong>本手册中的含义</strong>"
+  },
+  "u1370": {
+    "en": "<strong>Acceptance criterion</strong>",
+    "zh": "<strong>接受准则</strong>"
+  },
+  "u1371": {
+    "en": "<strong>Rule established in advance for deciding on a result</strong>",
+    "zh": "<strong>预先规定的结果决策规则</strong>"
+  },
+  "u1372": {
+    "en": "<strong>B10</strong>",
+    "zh": "<strong>B10</strong>"
+  },
+  "u1373": {
+    "en": "<strong>Usage up to the modeled failure of ten percent of the population</strong>",
+    "zh": "<strong>模型预测总体中百分之十失效时的使用量</strong>"
+  },
+  "u1374": {
+    "en": "<strong>Acceleration factor</strong>",
+    "zh": "<strong>加速因子</strong>"
+  },
+  "u1375": {
+    "en": "<strong>Modeled relationship between lifetimes at two loads for one mechanism</strong>",
+    "zh": "<strong>针对某一机制建立的两种载荷下寿命关系模型</strong>"
+  },
+  "u1376": {
+    "en": "<strong>Confidence level</strong>",
+    "zh": "<strong>置信水平</strong>"
+  },
+  "u1377": {
+    "en": "<strong>Coverage property of a frequentist procedure under its assumptions</strong>",
+    "zh": "<strong>频率学派方法在其假设下的覆盖性质</strong>"
+  },
+  "u1378": {
+    "en": "<strong>Credible Interval</strong>",
+    "zh": "<strong>可信区间（Credible Interval）</strong>"
+  },
+  "u1379": {
+    "en": "<strong>Bayesian parameter range based on prior and data</strong>",
+    "zh": "<strong>基于先验与数据的贝叶斯参数范围</strong>"
+  },
+  "u1380": {
+    "en": "<strong>Derating</strong>",
+    "zh": "<strong>降额（Derating）</strong>"
+  },
+  "u1381": {
+    "en": "<strong>Limiting a relevant load while accounting for stress capacity</strong>",
+    "zh": "<strong>考虑承载能力，对相关载荷进行限制</strong>"
+  },
+  "u1382": {
+    "en": "<strong>DoE</strong>",
+    "zh": "<strong>DoE</strong>"
+  },
+  "u1383": {
+    "en": "<strong>Design of Experiments, planned investigation of factors and interactions</strong>",
+    "zh": "<strong>Design of Experiments，试验设计，有计划地研究因素与交互作用</strong>"
+  },
+  "u1384": {
+    "en": "<strong>Evidence matrix</strong>",
+    "zh": "<strong>证据矩阵</strong>"
+  },
+  "u1385": {
+    "en": "<strong>Mapping requirements to suitable evidence and its limits</strong>",
+    "zh": "<strong>将要求映射至适当证据及其适用限制</strong>"
+  },
+  "u1386": {
+    "en": "<strong>FEM</strong>",
+    "zh": "<strong>FEM</strong>"
+  },
+  "u1387": {
+    "en": "<strong>Finite element method for model-based calculation of physical quantities</strong>",
+    "zh": "<strong>用于基于模型计算物理量的有限元方法</strong>"
+  },
+  "u1388": {
+    "en": "<strong>FMEA</strong>",
+    "zh": "<strong>FMEA</strong>"
+  },
+  "u1389": {
+    "en": "<strong>Failure Modes and Effects Analysis, analysis of failure modes and effects</strong>",
+    "zh": "<strong>Failure Modes and Effects Analysis，失效模式与影响分析</strong>"
+  },
+  "u1390": {
+    "en": "<strong>FMECA</strong>",
+    "zh": "<strong>FMECA</strong>"
+  },
+  "u1391": {
+    "en": "<strong>FMEA with an additional criticality assessment</strong>",
+    "zh": "<strong>附加危害度评估的 FMEA</strong>"
+  },
+  "u1392": {
+    "en": "<strong>FRACAS</strong>",
+    "zh": "<strong>FRACAS</strong>"
+  },
+  "u1393": {
+    "en": "<strong>Failure Reporting, Analysis and Corrective Action System</strong>",
+    "zh": "<strong>Failure Reporting, Analysis and Corrective Action System，故障报告、分析与纠正措施系统</strong>"
+  },
+  "u1394": {
+    "en": "<strong>FTA</strong>",
+    "zh": "<strong>FTA</strong>"
+  },
+  "u1395": {
+    "en": "<strong>Fault Tree Analysis, analysis from a top event to causes and combinations</strong>",
+    "zh": "<strong>Fault Tree Analysis，故障树分析，从顶事件分析原因及其组合</strong>"
+  },
+  "u1396": {
+    "en": "<strong>HALT</strong>",
+    "zh": "<strong>HALT</strong>"
+  },
+  "u1397": {
+    "en": "<strong>Exploratory accelerated search for weaknesses and limits</strong>",
+    "zh": "<strong>以探索性加速试验寻找薄弱点与极限</strong>"
+  },
+  "u1398": {
+    "en": "<strong>HASS</strong>",
+    "zh": "<strong>HASS</strong>"
+  },
+  "u1399": {
+    "en": "<strong>Accelerated screening for manufacturing defects with appropriate safeguards</strong>",
+    "zh": "<strong>经适当验证和保障的制造缺陷加速筛选</strong>"
+  },
+  "u1400": {
+    "en": "<strong>Hazard Rate</strong>",
+    "zh": "<strong>风险率（Hazard Rate）</strong>"
+  },
+  "u1401": {
+    "en": "<strong>Instantaneous conditional failure rate of units still surviving</strong>",
+    "zh": "<strong>仍存活单元的瞬时条件失效率</strong>"
+  },
+  "u1402": {
+    "en": "<strong>I/O</strong>",
+    "zh": "<strong>I/O</strong>"
+  },
+  "u1403": {
+    "en": "<strong>Inputs and outputs across a defined system boundary</strong>",
+    "zh": "<strong>跨越已定义系统边界的输入与输出</strong>"
+  },
+  "u1404": {
+    "en": "<strong>Life Cycle Profile</strong>",
+    "zh": "<strong>全寿命周期工况谱（Life Cycle Profile）</strong>"
+  },
+  "u1405": {
+    "en": "<strong>Loads and states throughout the entire life history</strong>",
+    "zh": "<strong>整个寿命历程中的载荷与状态</strong>"
+  },
+  "u1406": {
+    "en": "<strong>MBSE</strong>",
+    "zh": "<strong>MBSE</strong>"
+  },
+  "u1407": {
+    "en": "<strong>Model-based systems engineering with linked views and evidence</strong>",
+    "zh": "<strong>具有相互关联视图与证据的基于模型的系统工程</strong>"
+  },
+  "u1408": {
+    "en": "<strong>Mission Profile</strong>",
+    "zh": "<strong>任务工况谱（Mission Profile）</strong>"
+  },
+  "u1409": {
+    "en": "<strong>States and loads of a defined use</strong>",
+    "zh": "<strong>规定使用过程中的状态与载荷</strong>"
+  },
+  "u1410": {
+    "en": "<strong>MTBF</strong>",
+    "zh": "<strong>MTBF</strong>"
+  },
+  "u1411": {
+    "en": "<strong>Mean interval between the failures considered in a suitable repairable-system model</strong>",
+    "zh": "<strong>适当的可修复系统模型中所考虑失效之间的平均间隔</strong>"
+  },
+  "u1412": {
+    "en": "<strong>MTTF</strong>",
+    "zh": "<strong>MTTF</strong>"
+  },
+  "u1413": {
+    "en": "<strong>Mean usage until the failure considered</strong>",
+    "zh": "<strong>到所考虑失效为止的平均使用量</strong>"
+  },
+  "u1414": {
+    "en": "<strong>MTTR</strong>",
+    "zh": "<strong>MTTR</strong>"
+  },
+  "u1415": {
+    "en": "<strong>Mean repair time according to the established time definition</strong>",
+    "zh": "<strong>按规定的时间定义计算的平均修复时间</strong>"
+  },
+  "u1416": {
+    "en": "<strong>No Fault Found</strong>",
+    "zh": "<strong>未发现故障（No Fault Found）</strong>"
+  },
+  "u1417": {
+    "en": "<strong>Failure cause not confirmed in the examined part; the findings still leave a system fault unresolved</strong>",
+    "zh": "<strong>未在被检查零件中确认故障原因；该结果仍不能排除系统故障</strong>"
+  },
+  "u1418": {
+    "en": "<strong>Operational profile</strong>",
+    "zh": "<strong>运行剖面</strong>"
+  },
+  "u1419": {
+    "en": "<strong>Relevant frequencies and sequences of software inputs and states</strong>",
+    "zh": "<strong>软件输入与状态的相关频率及序列</strong>"
+  },
+  "u1420": {
+    "en": "<strong>Power</strong>",
+    "zh": "<strong>检验功效（Power）</strong>"
+  },
+  "u1421": {
+    "en": "<strong>Probability of a statistical decision under a specified alternative</strong>",
+    "zh": "<strong>在指定备择假设下作出统计决策的概率</strong>"
+  },
+  "u1422": {
+    "en": "<strong>RBD</strong>",
+    "zh": "<strong>RBD</strong>"
+  },
+  "u1423": {
+    "en": "<strong>Reliability Block Diagram, success structure of a defined function</strong>",
+    "zh": "<strong>Reliability Block Diagram，可靠性框图，规定功能的成功结构</strong>"
+  },
+  "u1424": {
+    "en": "<strong>RCA</strong>",
+    "zh": "<strong>RCA</strong>"
+  },
+  "u1425": {
+    "en": "<strong>Root Cause Analysis, investigation of causes using evidence</strong>",
+    "zh": "<strong>Root Cause Analysis，根本原因分析，以证据调查原因</strong>"
+  },
+  "u1426": {
+    "en": "<strong>Reliability</strong>",
+    "zh": "<strong>可靠性（Reliability）</strong>"
+  },
+  "u1427": {
+    "en": "<strong>Reliability of the defined function under specified conditions over usage</strong>",
+    "zh": "<strong>在规定条件下、随使用过程保持规定功能的可靠性</strong>"
+  },
+  "u1428": {
+    "en": "<strong>RPZ</strong>",
+    "zh": "<strong>RPZ</strong>"
+  },
+  "u1429": {
+    "en": "<strong>Risk priority number as an auxiliary measure in a defined assessment method</strong>",
+    "zh": "<strong>规定评估方法中作为辅助量的风险优先数</strong>"
+  },
+  "u1430": {
+    "en": "<strong>Screening</strong>",
+    "zh": "<strong>筛选（Screening）</strong>"
+  },
+  "u1431": {
+    "en": "<strong>Test to detect certain defects in manufactured units</strong>",
+    "zh": "<strong>用于发现已制造单元中特定缺陷的检验</strong>"
+  },
+  "u1432": {
+    "en": "<strong>System of Interest</strong>",
+    "zh": "<strong>关注系统（System of Interest）</strong>"
+  },
+  "u1433": {
+    "en": "<strong>The system under consideration, bounded for the particular question</strong>",
+    "zh": "<strong>针对特定问题划定边界的被研究系统</strong>"
+  },
+  "u1434": {
+    "en": "<strong>Test oracle</strong>",
+    "zh": "<strong>测试判定依据</strong>"
+  },
+  "u1435": {
+    "en": "<strong>Rule or reference for assessing observed test output</strong>",
+    "zh": "<strong>评估观测到的测试输出的规则或参考</strong>"
+  },
+  "u1436": {
+    "en": "<strong>Censoring</strong>",
+    "zh": "<strong>删失</strong>"
+  },
+  "u1437": {
+    "en": "<strong>Lifetime only partially known, such as survival until the end of the test</strong>",
+    "zh": "<strong>寿命仅部分已知，例如存活至试验结束</strong>"
+  },
+  "u1438": {
+    "en": "<strong>Capability</strong>",
+    "zh": "<strong>能力（Capability）</strong>"
+  },
+  "u1439": {
+    "en": "<strong>Overarching performance arising from interaction</strong>",
+    "zh": "<strong>通过协同作用形成的整体性能</strong>"
+  },
+  "u1440": {
+    "en": "<strong>System of Systems (SoS)</strong>",
+    "zh": "<strong>系统之系统（SoS）</strong>"
+  },
+  "u1441": {
+    "en": "<strong>Federation of independent systems with an overarching capability</strong>",
+    "zh": "<strong>具有整体能力的独立系统联合体</strong>"
+  },
+  "u1442": {
+    "en": "<strong>Application contract</strong>",
+    "zh": "<strong>应用契约</strong>"
+  },
+  "u1443": {
+    "en": "<strong>Technical commitment with assumptions, evidence, and change pathway</strong>",
+    "zh": "<strong>包含假设、证据与变更途径的技术承诺</strong>"
+  },
+  "u1444": {
+    "en": "<strong>Confidence probability</strong>",
+    "zh": "<strong>置信概率</strong>"
+  },
+  "u1445": {
+    "en": "<strong>Another term for confidence level; explicitly establish its interpretation</strong>",
+    "zh": "<strong>置信水平的另一种称谓；应明确规定其解释</strong>"
+  },
+  "u1446": {
+    "en": "<strong>Probability of passing the demonstration</strong>",
+    "zh": "<strong>通过验证的概率</strong>"
+  },
+  "u1447": {
+    "en": "<strong>Chance of meeting the acceptance rule established in advance at a true level</strong>",
+    "zh": "<strong>在某一真实水平下满足预定接受规则的概率</strong>"
+  },
+  "u1448": {
+    "en": "<strong>Mean cumulative number of events (MCF)</strong>",
+    "zh": "<strong>平均累计事件数（MCF）</strong>"
+  },
+  "u1449": {
+    "en": "<strong>Mean cumulative number of recurrent events per unit</strong>",
+    "zh": "<strong>每个单元的平均累计重复事件数</strong>"
+  },
+  "u1450": {
+    "en": "<strong>NHPP</strong>",
+    "zh": "<strong>NHPP</strong>"
+  },
+  "u1451": {
+    "en": "<strong>Poisson process with time-dependent event intensity</strong>",
+    "zh": "<strong>事件强度随时间变化的泊松过程</strong>"
+  },
+  "u1452": {
+    "en": "<strong>Resilience</strong>",
+    "zh": "<strong>韧性</strong>"
+  },
+  "u1453": {
+    "en": "<strong>Ability to cope with disturbances and maintain or restore performance</strong>",
+    "zh": "<strong>应对扰动并保持或恢复性能的能力</strong>"
+  },
+  "u1454": {
+    "en": "<strong>STPA</strong>",
+    "zh": "<strong>STPA</strong>"
+  },
+  "u1455": {
+    "en": "<strong>Systems-theoretic hazard analysis of control and feedback</strong>",
+    "zh": "<strong>基于系统理论的控制与反馈危险分析</strong>"
+  },
+  "u1456": {
+    "en": "<strong>Availability</strong>",
+    "zh": "<strong>可用性（Availability）</strong>"
+  },
+  "u1457": {
+    "en": "<strong>Proportion of the defined time during which the required function is usable</strong>",
+    "zh": "<strong>规定时间内所需功能可用的时间比例</strong>"
+  },
+  "u1458": {
+    "en": "<strong>Robustness</strong>",
+    "zh": "<strong>稳健性（Robustness）</strong>"
+  },
+  "u1459": {
+    "en": "<strong>Low sensitivity of the function to relevant deviations</strong>",
+    "zh": "<strong>功能对相关偏差的低敏感性</strong>"
+  },
+  "u1460": {
+    "en": "<strong>Common cause</strong>",
+    "zh": "<strong>共因（Common Cause）</strong>"
+  },
+  "u1461": {
+    "en": "<strong>Cause that affects multiple elements or functions simultaneously</strong>",
+    "zh": "<strong>同时影响多个要素或功能的原因</strong>"
+  },
+  "u1462": {
+    "en": "<strong>Verification</strong>",
+    "zh": "<strong>验证（Verification）</strong>"
+  },
+  "u1463": {
+    "en": "<strong>Checking fulfillment of specified requirements</strong>",
+    "zh": "<strong>检查是否满足规定要求</strong>"
+  },
+  "u1464": {
+    "en": "<strong>Validation</strong>",
+    "zh": "<strong>确认（Validation）</strong>"
+  },
+  "u1465": {
+    "en": "<strong>Checking suitability for the intended application</strong>",
+    "zh": "<strong>检查是否适合预期应用</strong>"
+  },
+  "u1466": {
+    "en": "<strong>Qualification</strong>",
+    "zh": "<strong>鉴定（Qualification）</strong>"
+  },
+  "u1467": {
+    "en": "<strong>Demonstrating suitability for a defined range of requirements and applications</strong>",
+    "zh": "<strong>证明适用于规定的要求与应用范围</strong>"
+  },
+  "u1468": {
+    "en": "<strong>Kaplan–Meier estimator</strong>",
+    "zh": "<strong>Kaplan-Meier 估计量</strong>"
+  },
+  "u1469": {
+    "en": "<strong>Nonparametric estimation of a survival function with appropriate censoring</strong>",
+    "zh": "<strong>在适当删失条件下对生存函数进行非参数估计</strong>"
+  },
+  "u1470": {
+    "en": "<strong>Maximum Likelihood</strong>",
+    "zh": "<strong>最大似然（Maximum Likelihood）</strong>"
+  },
+  "u1471": {
+    "en": "<strong>Parameter estimation based on the probability of the observed data</strong>",
+    "zh": "<strong>根据观测数据的概率估计参数</strong>"
+  },
+  "u1472": {
+    "en": "<strong>Digital twin</strong>",
+    "zh": "<strong>数字孪生（Digital Twin）</strong>"
+  },
+  "u1473": {
+    "en": "<strong>Model of a specific unit with a defined relationship to data and state</strong>",
+    "zh": "<strong>与数据及状态具有明确关联的具体单元模型</strong>"
+  },
+  "u1474": {
+    "en": "Appendix D Formulas and decision rules",
+    "zh": "附录 D 公式与决策规则"
+  },
+  "u1475": {
+    "en": "Which formula fits which question",
+    "zh": "哪种公式适合哪类问题"
+  },
+  "u1476": {
+    "en": "<strong>Question</strong>",
+    "zh": "<strong>问题</strong>"
+  },
+  "u1477": {
+    "en": "<strong>Approach</strong>",
+    "zh": "<strong>方法</strong>"
+  },
+  "u1478": {
+    "en": "<strong>Important prerequisite</strong>",
+    "zh": "<strong>重要前提</strong>"
+  },
+  "u1479": {
+    "en": "<strong>Which units survive usage t</strong>",
+    "zh": "<strong>哪些单元能存活至使用量 t</strong>"
+  },
+  "u1480": {
+    "en": "<strong>R and F of a lifetime distribution</strong>",
+    "zh": "<strong>寿命分布的 R 与 F</strong>"
+  },
+  "u1481": {
+    "en": "<strong>Consistent failure definition and suitable population</strong>",
+    "zh": "<strong>统一的失效定义与适当的总体</strong>"
+  },
+  "u1482": {
+    "en": "<strong>How are independent success paths combined</strong>",
+    "zh": "<strong>如何组合独立成功路径</strong>"
+  },
+  "u1483": {
+    "en": "<strong>Series or idealized parallel model</strong>",
+    "zh": "<strong>串联或理想化并联模型</strong>"
+  },
+  "u1484": {
+    "en": "<strong>Suitable structure and justified independence</strong>",
+    "zh": "<strong>适当的结构与有依据的独立性</strong>"
+  },
+  "u1485": {
+    "en": "<strong>How large must a zero-failure sample be</strong>",
+    "zh": "<strong>零失效样本需要多大</strong>"
+  },
+  "u1486": {
+    "en": "<strong>Binomial success run</strong>",
+    "zh": "<strong>二项分布成功运行试验</strong>"
+  },
+  "u1487": {
+    "en": "<strong>Each independent unit completes the defined target usage</strong>",
+    "zh": "<strong>每个独立单元完成规定的目标使用量</strong>"
+  },
+  "u1488": {
+    "en": "<strong>What do accumulated test hours mean</strong>",
+    "zh": "<strong>累计试验小时数意味着什么</strong>"
+  },
+  "u1489": {
+    "en": "<strong>Constant rate with an exponential or Poisson model</strong>",
+    "zh": "<strong>指数或泊松模型中的恒定率</strong>"
+  },
+  "u1490": {
+    "en": "<strong>The model assumption actually fits the data and mechanisms</strong>",
+    "zh": "<strong>模型假设确实符合数据与机制</strong>"
+  },
+  "u1491": {
+    "en": "<strong>How is a load accelerated</strong>",
+    "zh": "<strong>如何加速载荷作用</strong>"
+  },
+  "u1492": {
+    "en": "<strong>Mechanistic acceleration model</strong>",
+    "zh": "<strong>基于机制的加速模型</strong>"
+  },
+  "u1493": {
+    "en": "<strong>Same relevant mechanism and justified model parameters</strong>",
+    "zh": "<strong>相同的相关机制与有依据的模型参数</strong>"
+  },
+  "u1494": {
+    "en": "<strong>How are permissible failures handled in the demonstration</strong>",
+    "zh": "<strong>验证中如何处理允许的失效</strong>"
+  },
+  "u1495": {
+    "en": "<strong>One-sided Clopper–Pearson bound and acceptance number established in advance</strong>",
+    "zh": "<strong>单侧 Clopper-Pearson 界限与预先规定的接受数</strong>"
+  },
+  "u1496": {
+    "en": "<strong>Independent representative units with the same target profile</strong>",
+    "zh": "<strong>具有相同目标工况谱的独立且有代表性的单元</strong>"
+  },
+  "u1497": {
+    "en": "<strong>How are recurrent events described</strong>",
+    "zh": "<strong>如何描述重复事件</strong>"
+  },
+  "u1498": {
+    "en": "<strong>Mean cumulative number of events MCF</strong>",
+    "zh": "<strong>平均累计事件数 MCF</strong>"
+  },
+  "u1499": {
+    "en": "<strong>Same usage axis and event definition; record repetitions and observation endpoints</strong>",
+    "zh": "<strong>采用相同的使用量轴与事件定义；记录重复事件与观察结束点</strong>"
+  },
+  "u1500": {
+    "en": "<strong>How is an event trend modeled</strong>",
+    "zh": "<strong>如何对事件趋势建模</strong>"
+  },
+  "u1501": {
+    "en": "<strong>Power-law NHPP with unambiguous parameterization</strong>",
+    "zh": "<strong>具有明确参数化方式的幂律 NHPP</strong>"
+  },
+  "u1502": {
+    "en": "<strong>Account for model fit, comparable usage, and changes in product revision</strong>",
+    "zh": "<strong>考虑模型拟合、使用情况的可比性与产品版本变更</strong>"
+  },
+  "u1503": {
+    "en": "<strong>What does a measured improvement mean</strong>",
+    "zh": "<strong>测得的改进意味着什么</strong>"
+  },
+  "u1504": {
+    "en": "<strong>Comparison of suitable cohorts and uncertainty</strong>",
+    "zh": "<strong>比较适当队列及其不确定性</strong>"
+  },
+  "u1505": {
+    "en": "<strong>Same definition, suitable usage, and comparable observation</strong>",
+    "zh": "<strong>相同定义、适当使用与具有可比性的观察</strong>"
+  },
+  "u1506": {
+    "en": "The sequence before every calculation",
+    "zh": "每次计算前的顺序"
+  },
+  "u1507": {
+    "en": "First clarify the decision, population, function, profile, and mechanism. Then choose the model and check the data. Report estimates and uncertainty together with their conditions. Missing prerequisites remain open tasks.",
+    "zh": "首先明确决策、总体、功能、工况谱与机制，再选择模型并检查数据。报告估计值与不确定性时应同时说明其条件。缺失的前提仍属于待完成任务。"
+  },
+  "u1508": {
+    "en": "Using example figures correctly",
+    "zh": "正确使用示例数值"
+  },
+  "u1509": {
+    "en": "The verified numerical examples explain the methods. Project objectives, load profiles, protective limits, and release criteria derive from the actual application and approved requirements. Example figures are not product recommendations.",
+    "zh": "经过核验的计算示例用于说明方法。项目目标、载荷工况谱、保护限值与放行准则应源于实际应用及已批准的要求。示例数值不是产品建议。"
+  },
+  "u1613": {
+    "en": "Introduction",
+    "zh": "引言"
+  },
+  "u1510": {
+    "en": "Appendix E Changes and review decisions",
+    "zh": "附录 E 变更与评审决策"
+  },
+  "u1511": {
+    "en": "Changes from ChatGPT XYZ2",
+    "zh": "相对于 ChatGPT XYZ2 的变更"
+  },
+  "u1512": {
+    "en": "This final version V03 is based on ChatGPT XYZ2 and the Claudexyz V02 review of 9 October 2026. Chapter numbers 1 to 20 are retained. The following list identifies the sections changed in each chapter; the subsequent table adds the changes outside the chapters.",
+    "zh": "最终版本 V03 基于 ChatGPT XYZ2 及 2026 年 10 月 9 日的 Claudexyz V02 评审。保留第 1 至 20 章的编号。以下清单指出每章修改的部分；随后表格补充各章以外的变更。"
+  },
+  "u1513": {
+    "en": "<strong>Chapter</strong>",
+    "zh": "<strong>章节</strong>"
+  },
+  "u1514": {
+    "en": "<strong>Status</strong>",
+    "zh": "<strong>状态</strong>"
+  },
+  "u1515": {
+    "en": "<strong>Changed sections and content</strong>",
+    "zh": "<strong>修改位置与内容</strong>"
+  },
+  "u1517": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1518": {
+    "en": "<strong>Reference to two boundaries; assessment endpoint in the workflow</strong>",
+    "zh": "<strong>引用两种边界；在工作流程中加入评估终点</strong>"
+  },
+  "u1521": {
+    "en": "<strong>EMC (EMV) and usability added; N21 cited</strong>",
+    "zh": "<strong>补充电磁兼容性（EMV）与可用性；引用 N21</strong>"
+  },
+  "u1524": {
+    "en": "<strong>SoS explained earlier; fact sheet fields and advanced exercise added; new Figure D</strong>",
+    "zh": "<strong>提前解释 SoS；补充概况表字段与进阶练习；新增图 D</strong>"
+  },
+  "u1527": {
+    "en": "<strong>Examination workflow placed before the load example; counting rule integrated into the workflow</strong>",
+    "zh": "<strong>将检查流程置于载荷示例之前；将计数规则纳入工作流程</strong>"
+  },
+  "u1530": {
+    "en": "<strong>Interface contract placed before cross-checks; work step added</strong>",
+    "zh": "<strong>将接口契约置于交叉检查之前；补充工作步骤</strong>"
+  },
+  "u1533": {
+    "en": "<strong>Version matrix linked to architecture example; new exercise</strong>",
+    "zh": "<strong>将版本矩阵关联至架构示例；新增练习</strong>"
+  },
+  "u1536": {
+    "en": "<strong>Metric endpoint explained earlier; confidence-level grammar corrected</strong>",
+    "zh": "<strong>提前解释指标终点；纠正置信水平相关语法</strong>"
+  },
+  "u1539": {
+    "en": "<strong>Handovers addressed before selecting the FMEA; operating actions linked to usability</strong>",
+    "zh": "<strong>在选择 FMEA 之前说明移交；将操作行为关联至可用性</strong>"
+  },
+  "u1542": {
+    "en": "<strong>Common causes before parallel calculation; FTA and RBD visualized; STPA and new exercise included</strong>",
+    "zh": "<strong>在并联计算之前说明共因；将 FTA 与 RBD 可视化；纳入 STPA 与新练习</strong>"
+  },
+  "u1545": {
+    "en": "<strong>Predictions and acceleration models placed before application; unsuitable supporting source removed</strong>",
+    "zh": "<strong>将预测与加速模型置于应用之前；删除不适当的支持来源</strong>"
+  },
+  "u1548": {
+    "en": "<strong>Application contract placed before evidence review; work step added</strong>",
+    "zh": "<strong>将应用契约置于证据评审之前；补充工作步骤</strong>"
+  },
+  "u1551": {
+    "en": "<strong>General test methods retained; observation in the workflow and EMC (EMV) reference added</strong>",
+    "zh": "<strong>保留通用试验方法；补充工作流程中的观察与电磁兼容性（EMV）关联</strong>"
+  },
+  "u1554": {
+    "en": "<strong>Updates and AI (KI) added to the workflow; language standardized</strong>",
+    "zh": "<strong>在工作流程中补充更新与 人工智能（KI）；统一措辞</strong>"
+  },
+  "u1557": {
+    "en": "<strong>Prior knowledge linked to confidence; bathtub model and censored Weibull plot added</strong>",
+    "zh": "<strong>将先验知识与置信概念衔接；补充浴盆模型与包含删失数据的 Weibull 图</strong>"
+  },
+  "u1560": {
+    "en": "<strong>Statistical demonstration approaches consolidated; terms and table corrected; advanced exercise added</strong>",
+    "zh": "<strong>整合统计验证方法；纠正术语与表格；补充进阶练习</strong>"
+  },
+  "u1563": {
+    "en": "<strong>Complete workflow placed before evaluation of results; recovery and EMC (EMV) anchored in the evidence</strong>",
+    "zh": "<strong>将完整流程置于结果评估之前；在验证证据中纳入恢复与电磁兼容性（EMV）</strong>"
+  },
+  "u1566": {
+    "en": "<strong>Evidence matrix standardized; versions and unresolved combinations in the workflow</strong>",
+    "zh": "<strong>统一证据矩阵；在工作流程中纳入版本与未解决的组合</strong>"
+  },
+  "u1569": {
+    "en": "<strong>MCF and availability placed before decision pathway; new exercise with model answer</strong>",
+    "zh": "<strong>将 MCF 与可用性置于决策途径之前；新增带参考答案的练习</strong>"
+  },
+  "u1572": {
+    "en": "<strong>Growth model addressed before engineering feedback; Crow-AMSAA chart and operating analysis added</strong>",
+    "zh": "<strong>在工程反馈之前说明增长模型；补充 Crow-AMSAA 图与操作分析</strong>"
+  },
+  "u1575": {
+    "en": "<strong>Six fault paths placed before the detailed T1 case study; procedure list added</strong>",
+    "zh": "<strong>将六条故障路径置于详细 T1 案例研究之前；补充操作步骤清单</strong>"
+  },
+  "u1576": {
+    "en": "Changes to navigation and working aids",
+    "zh": "导航与工作辅助工具的变更"
+  },
+  "u1577": {
+    "en": "<strong>Location</strong>",
+    "zh": "<strong>位置</strong>"
+  },
+  "u1578": {
+    "en": "<strong>Change</strong>",
+    "zh": "<strong>变更</strong>"
+  },
+  "u1579": {
+    "en": "<strong>Reading paths</strong>",
+    "zh": "<strong>阅读路径</strong>"
+  },
+  "u1580": {
+    "en": "<strong>Examination workflow and operator interfaces added as entry points</strong>",
+    "zh": "<strong>增加检查流程与运营方接口作为切入点</strong>"
+  },
+  "u1581": {
+    "en": "<strong>Figure A</strong>",
+    "zh": "<strong>图 A</strong>"
+  },
+  "u1582": {
+    "en": "<strong>Lifetime and confidence-level wording standardized</strong>",
+    "zh": "<strong>统一寿命与置信水平的措辞</strong>"
+  },
+  "u1583": {
+    "en": "<strong>Figure C</strong>",
+    "zh": "<strong>图 C</strong>"
+  },
+  "u1584": {
+    "en": "<strong>Navigator extended with boundaries, versions, STPA, prediction, application contract, MCF, and growth</strong>",
+    "zh": "<strong>导航器扩展，纳入边界、版本、STPA、预测、应用契约、MCF 与增长</strong>"
+  },
+  "u1585": {
+    "en": "<strong>Figure D</strong>",
+    "zh": "<strong>图 D</strong>"
+  },
+  "u1586": {
+    "en": "<strong>Detector and generator separated; readiness, archive acknowledgment, and resource influences shown</strong>",
+    "zh": "<strong>将探测器与发生器分开；展示就绪状态、归档确认与资源影响</strong>"
+  },
+  "u1587": {
+    "en": "<strong>Figure E</strong>",
+    "zh": "<strong>图 E</strong>"
+  },
+  "u1588": {
+    "en": "<strong>Singular form of “failure” corrected in the legend</strong>",
+    "zh": "<strong>纠正图例中“失效”的单数形式</strong>"
+  },
+  "u1589": {
+    "en": "<strong>Figures G to J</strong>",
+    "zh": "<strong>图 G 至 J</strong>"
+  },
+  "u1590": {
+    "en": "<strong>Bathtub model, censored Weibull plot, FTA with RBD, and Crow-AMSAA representation added</strong>",
+    "zh": "<strong>补充浴盆模型、包含删失数据的 Weibull 图、结合 RBD 的 FTA 及 Crow-AMSAA 表示</strong>"
+  },
+  "u1591": {
+    "en": "<strong>Appendix A</strong>",
+    "zh": "<strong>附录 A</strong>"
+  },
+  "u1592": {
+    "en": "<strong>Model answers to the five new advanced exercises added</strong>",
+    "zh": "<strong>补充五个新进阶练习的参考答案</strong>"
+  },
+  "u1593": {
+    "en": "<strong>Appendix B</strong>",
+    "zh": "<strong>附录 B</strong>"
+  },
+  "u1594": {
+    "en": "<strong>Independent purpose, change authority, and change pathway included in the system fact sheet</strong>",
+    "zh": "<strong>在系统概况表中纳入独立目的、变更权限与变更途径</strong>"
+  },
+  "u1595": {
+    "en": "<strong>Appendix C</strong>",
+    "zh": "<strong>附录 C</strong>"
+  },
+  "u1596": {
+    "en": "<strong>German and English terms and sentence structure standardized</strong>",
+    "zh": "<strong>统一德语与英语术语及句子结构</strong>"
+  },
+  "u1597": {
+    "en": "<strong>Appendix D</strong>",
+    "zh": "<strong>附录 D</strong>"
+  },
+  "u1598": {
+    "en": "<strong>Additional demonstration approaches allowing failures, MCF, and growth included in method selection</strong>",
+    "zh": "<strong>在方法选择中纳入允许失效的补充验证方法、MCF 与增长</strong>"
+  },
+  "u1599": {
+    "en": "<strong>Appendix E</strong>",
+    "zh": "<strong>附录 E</strong>"
+  },
+  "u1600": {
+    "en": "<strong>Earlier description of disagreement corrected; changes for V03 documented</strong>",
+    "zh": "<strong>纠正先前对分歧的描述；记录 V03 的变更</strong>"
+  },
+  "u1601": {
+    "en": "<strong>References</strong>",
+    "zh": "<strong>参考文献</strong>"
+  },
+  "u1602": {
+    "en": "<strong>N28 and N29 added; unused Q02 and Q05 and unsuitable supporting source Q26 removed</strong>",
+    "zh": "<strong>补充 N28 与 N29；删除未使用的 Q02、Q05 及不适当的支持来源 Q26</strong>"
+  },
+  "u1603": {
+    "en": "<strong>Entire document</strong>",
+    "zh": "<strong>整个文档</strong>"
+  },
+  "u1604": {
+    "en": "<strong>Evidence matrix standardized; quoted statements placed in quotation marks; compressed headings reworded; confidence-level text edited</strong>",
+    "zh": "<strong>统一证据矩阵；为引用陈述添加引号；改写过于紧凑的标题；编辑置信水平相关文字</strong>"
+  },
+  "u1605": {
+    "en": "Technical decisions from the second review",
+    "zh": "第二次评审中的技术决策"
+  },
+  "u1606": {
+    "en": "Claude's observation about isolated, appended additions was accepted. The additions now appear where they are needed for the next explanation or decision. The “How we proceed” lists explicitly incorporate them. Everyday examples are retained; new exercises enable the transition to technical application.",
+    "zh": "采纳了 Claude 关于补充内容孤立附加的意见。现在，这些补充内容置于后续解释或决策需要它们的位置。“我们的做法”清单明确纳入这些内容。保留日常示例；新练习使读者能够过渡到专业应用。"
+  },
+  "u1607": {
+    "en": "In this handbook, the SoS perspective is assessed at the workflow boundary. Within the product boundary, recursive system decomposition remains the starting point. Moving a detector to another room is insufficient for classification as an SoS. Independent purpose and authority to make changes must actually be established. We describe these authorities rather than assigning an SoS type without a basis.",
+    "zh": "本手册在流程边界上评估 SoS 视角。在产品边界内，递归系统分解仍是起点。将探测器移至另一个房间不足以判定为 SoS。必须确实证实其独立目的与变更权限。我们描述这些权限，而不是在没有依据时指定 SoS 类型。"
+  },
+  "u1608": {
+    "en": "Component-specific failure mechanisms of individual assemblies are not included as a separate catalog. General test methods for electrical loading, packaging and interconnection technology, temperature, humidity, radiation resistance, storage, and mechanics remain in Chapter 12. They support the assessment of supplier evidence and are not universally required as repeated in-house tests.",
+    "zh": "不将各组件特有的失效机制另行列为目录。第 12 章保留电气载荷、封装与互连技术、温度、湿度、抗辐射、储存与机械方面的通用试验方法。这些方法用于评估供应商证据，并不一概要求企业重复自行试验。"
+  },
+  "u1609": {
+    "en": "The earlier version had presented Claude's suggestion at this point as excluding general test methods. That was incorrect and is corrected here. The collection of test methods was not a technical disagreement between the two approaches.",
+    "zh": "先前版本在此处将 Claude 的建议表述为排除通用试验方法。这一表述不正确，现已纠正。两种方法在试验方法汇编上并不存在技术分歧。"
+  },
+  "u1610": {
+    "en": "For the archive exercise, the proposed conditional use was clarified: field observation alone does not make an untested combination permissible. Use under conditions requires a justified decision within the applicable product process. For STPA, we formulate a justified choice of method; it is not made mandatory for every conceivable workflow.",
+    "zh": "在归档练习中，明确了所建议的有条件使用：仅凭现场观察并不能使未经验证的组合获得允许。有条件使用需要在适用的产品流程内作出有依据的决策。对于 STPA，我们提出有依据的方法选择，而不将其作为任意流程的强制要求。"
+  },
+  "u1611": {
+    "en": "The public notice on SN 29500 is not used as evidence from a standard. The handbook does not claim an internally reviewed edition. Full standards texts that have not been consulted remain identifiable as such. The new charts distinguish model assumptions, synthetic events, and estimates from teaching data. This prevents an illustration from being confused with evidence of effectiveness.",
+    "zh": "有关 SN 29500 的公开说明不作为标准证据使用。本手册不声称使用了经过内部审查的版本。未查阅的标准全文仍明确标识为未查阅。新图表区分模型假设、合成事件与教学数据的估计，避免将示意图误认为有效性证据。"
+  },
+  "u1612": {
+    "en": "References and standards",
+    "zh": "文献与标准"
+  },
+  "u1614": {
+    "en": "Source keys link chapters and references. Textbooks and handbooks provide methodological orientation and further study; this textbook contains its own explanations and examples. The standards list is a methodological selection, not a complete register of requirements applicable to a particular product.",
+    "zh": "来源编号关联各章与参考文献。教材与手册用于方法指导和深入学习；本教材包含自己的解释与示例。标准清单是方法层面的选集，并非某一特定产品适用要求的完整目录。"
+  },
+  "u1615": {
+    "en": "Before applying standards normatively, check valid editions, amendments, and national or European adoptions through the approved standards process. Consult the detailed requirements in licensed editions of the standards. An official catalog description does not confirm complete compliance with a standard.",
+    "zh": "在规范性应用之前，应通过已批准的标准流程检查有效版本、修订及国家或欧洲采用版本。详细要求应查阅获许可的标准版本。官方目录说明不能确认对标准的完全符合。"
+  },
+  "u1616": {
+    "en": "Textbooks and scientific sources",
+    "zh": "教材与科研来源"
+  },
+  "u1618": {
+    "en": "Public table of contents and publisher's description evaluated.",
+    "zh": "已评估公开目录与出版商说明。"
+  },
+  "u1627": {
+    "en": "Public teaching content evaluated.",
+    "zh": "已评估公开教学内容。"
+  },
+  "u1630": {
+    "en": "Public structure and online handbook evaluated.",
+    "zh": "已评估公开的结构说明与在线手册。"
+  },
+  "u1633": {
+    "en": "Public handbook, particularly functional, design, and interface FMECA.",
+    "zh": "公开手册，尤其涉及功能、设计与接口 FMECA。"
+  },
+  "u1636": {
+    "en": "Repository metadata and abstract as a further-study reference.",
+    "zh": "将资料库元数据与摘要作为深入学习参考。"
+  },
+  "u1639": {
+    "en": "Author's full text in the German National Library, abstract, and overview of methods evaluated.",
+    "zh": "已评估德国国家图书馆中的作者全文、摘要与方法概览。"
+  },
+  "u1642": {
+    "en": "Author's version and abstract evaluated; not a standalone standard.",
+    "zh": "已评估作者版本与摘要；并非独立标准。"
+  },
+  "u1645": {
+    "en": "Test planning; additionally https://www.itl.nist.gov/div898/handbook/apr/section3/apr312.htm on Weibull and lognormal tests.",
+    "zh": "试验规划；另参阅 https://www.itl.nist.gov/div898/handbook/apr/section3/apr312.htm 中关于 Weibull 与对数正态试验的内容。"
+  },
+  "u1647": {
+    "en": "Public statistical methods sections",
+    "zh": "公开统计方法章节"
+  },
+  "u1649": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1676": {
+    "en": "Public technical section consulted 09.10.2026; SoS characteristics and limits of classification.",
+    "zh": "于 09.10.2026 查阅公开专业章节；涉及 SoS 特征与分类限制。"
+  },
+  "u1679": {
+    "en": "Public full text available; relevant fundamentals and method description consulted 09.10.2026.",
+    "zh": "公开全文可获取；于 09.10.2026 查阅相关基础与方法说明。"
+  },
+  "u1682": {
+    "en": "Public methods section consulted 09.10.2026.",
+    "zh": "于 09.10.2026 查阅公开方法章节。"
+  },
+  "u1685": {
+    "en": "Public methods section consulted 09.10.2026; note confidence direction and test scheme.",
+    "zh": "于 09.10.2026 查阅公开方法章节；注意置信方向与试验方案。"
+  },
+  "u1688": {
+    "en": "Public publisher's description and chapter overview consulted 09.10.2026; full book text not consulted.",
+    "zh": "于 09.10.2026 查阅出版商公开说明与章节概览；未查阅书籍全文。"
+  },
+  "u1691": {
+    "en": "Public methods section consulted 09.10.2026; distinguish growth exponents by parameterization.",
+    "zh": "于 09.10.2026 查阅公开方法章节；应按参数化方式区分增长指数。"
+  },
+  "u1693": {
+    "en": "Standards and specifications",
+    "zh": "标准与规范"
+  },
+  "u1695": {
+    "en": "Official catalog description; terminology basis.",
+    "zh": "官方目录说明；术语基础。"
+  },
+  "u1698": {
+    "en": "Official catalog description; management and life cycle.",
+    "zh": "官方目录说明；管理与寿命周期。"
+  },
+  "u1701": {
+    "en": "Official catalog description; requirements between purchaser and supplier.",
+    "zh": "官方目录说明；采购方与供应商之间的要求。"
+  },
+  "u1704": {
+    "en": "Official catalog description; iterative and recursive life cycle processes.",
+    "zh": "官方目录说明；迭代与递归的寿命周期过程。"
+  },
+  "u1707": {
+    "en": "Official catalog description; planning, execution, documentation, and maintenance.",
+    "zh": "官方目录说明；规划、实施、记录与维护。"
+  },
+  "u1710": {
+    "en": "Official catalog description; fault tree analysis.",
+    "zh": "官方目录说明；故障树分析。"
+  },
+  "u1713": {
+    "en": "Official catalog description; qualitative and quantitative RBD analysis.",
+    "zh": "官方目录说明；定性与定量 RBD 分析。"
+  },
+  "u1716": {
+    "en": "Official catalog description; success proportions, independent trials, and test plans.",
+    "zh": "官方目录说明；成功比例、独立试验与试验方案。"
+  },
+  "u1719": {
+    "en": "Official catalog description; constant rate or intensity as a model assumption.",
+    "zh": "官方目录说明；将恒定率或强度作为模型假设。"
+  },
+  "u1722": {
+    "en": "Official catalog description; data from testing and operation.",
+    "zh": "官方目录说明；来自试验与运行的数据。"
+  },
+  "u1725": {
+    "en": "Official catalog description; accelerated tests and screening.",
+    "zh": "官方目录说明；加速试验与筛选。"
+  },
+  "u1728": {
+    "en": "Official catalog description; tailoring environmental tests.",
+    "zh": "官方目录说明；环境试验的裁剪。"
+  },
+  "u1731": {
+    "en": "Official catalog description; temperature changes.",
+    "zh": "官方目录说明；温度变化。"
+  },
+  "u1734": {
+    "en": "Official catalog description; steady damp heat without condensation.",
+    "zh": "官方目录说明；无凝露的恒定湿热。"
+  },
+  "u1737": {
+    "en": "Official catalog; sinusoidal vibration.",
+    "zh": "官方目录；正弦振动。"
+  },
+  "u1740": {
+    "en": "Official catalog; mechanical shock.",
+    "zh": "官方目录；机械冲击。"
+  },
+  "u1743": {
+    "en": "Official catalog; storage conditions. Correction https://webstore.iec.ch/en/publication/101234.",
+    "zh": "官方目录；储存条件。勘误 https://webstore.iec.ch/en/publication/101234。"
+  },
+  "u1746": {
+    "en": "Official catalog description; risk management throughout the life cycle.",
+    "zh": "官方目录说明；整个寿命周期的风险管理。"
+  },
+  "u1749": {
+    "en": "Official catalog description; does not cover final device validation and release.",
+    "zh": "官方目录说明；不涵盖最终设备确认与放行。"
+  },
+  "u1752": {
+    "en": "Official catalog; context of the quality management system.",
+    "zh": "官方目录；质量管理体系的背景。"
+  },
+  "u1755": {
+    "en": "Official catalog; modality-specific context, not a universal lifetime demonstration.",
+    "zh": "官方目录；成像方式特定的背景，并非通用寿命验证。"
+  },
+  "u1758": {
+    "en": "Public catalog description only; full standard text not consulted. Basic safety and essential performance.",
+    "zh": "仅查阅公开目录说明；未查阅标准全文。基本安全与基本性能。"
+  },
+  "u1761": {
+    "en": "Public catalog description only; full standard text not consulted. Networked health IT.",
+    "zh": "仅查阅公开目录说明；未查阅标准全文。联网健康 IT。"
+  },
+  "u1764": {
+    "en": "Public catalog description only; full standard text not consulted. Security in the software life cycle.",
+    "zh": "仅查阅公开目录说明；未查阅标准全文。软件寿命周期中的信息安全。"
+  },
+  "u1767": {
+    "en": "Public catalog description and abstract consulted 09.10.2026; full standard text not consulted. Check revision before application.",
+    "zh": "于 09.10.2026 查阅公开目录说明与摘要；未查阅标准全文。应用前检查修订版本。"
+  },
+  "u1770": {
+    "en": "Public legal source; Articles 83 to 86 consulted 09.10.2026. Check original legal acts and applicability in the product process.",
+    "zh": "公开法律来源；于 09.10.2026 查阅第 83 至 86 条。在产品流程中检查原始法律文件及适用性。"
+  },
+  "u1773": {
+    "en": "Public catalog description only; full standard text not consulted. Reference conditions and conversion of existing rates, no base rates of its own.",
+    "zh": "仅查阅公开目录说明；未查阅标准全文。涉及参考条件与现有失效率的换算，不提供自身的基础失效率。"
+  },
+  "u1776": {
+    "en": "Official catalog description consulted 09.10.2026; electromagnetic disturbances, emissions, and tests. Full standard text not consulted.",
+    "zh": "于 09.10.2026 查阅官方目录说明；涉及电磁扰动、发射与试验。未查阅标准全文。"
+  },
+  "u1779": {
+    "en": "Official catalog description consulted 09.10.2026; usability in the safety context. Full standard text not consulted.",
+    "zh": "于 09.10.2026 查阅官方目录说明；涉及安全背景下的可用性。未查阅标准全文。"
+  },
+  "u1781": {
+    "en": "Figure A Reliability process  Original life cycle design with chapter references.",
+    "zh": "图 A 可靠性过程  带有章节引用的原创寿命周期设计。"
+  },
+  "u1782": {
+    "en": "Reliability process",
+    "zh": "可靠性过程"
+  },
+  "u1783": {
+    "en": "Figure B System boundary and decomposition  Original depiction of recursive system analysis.",
+    "zh": "图 B 系统边界与分解  递归系统分析的原创表示。"
+  },
+  "u1784": {
+    "en": "System boundary",
+    "zh": "系统边界"
+  },
+  "u1785": {
+    "en": "Figure C Method navigator  Original depiction for starting with an assessment question.",
+    "zh": "图 C 方法导航器  从评估问题切入的原创表示。"
+  },
+  "u1786": {
+    "en": "Method navigator",
+    "zh": "方法导航器"
+  },
+  "u1787": {
+    "en": "Figure D Product boundary and examination workflow  Original depiction for the teaching case described.",
+    "zh": "图 D 产品边界与检查流程  所述教学案例的原创表示。"
+  },
+  "u1788": {
+    "en": "Two boundaries and the possible System of Systems perspective",
+    "zh": "两种边界与可能的系统之系统视角"
+  },
+  "u1789": {
+    "en": "Figure I Fault tree and block diagram of the stairwell lighting  Original depiction for the teaching case described.",
+    "zh": "图 I 楼梯间照明的故障树与框图  所述教学案例的原创表示。"
+  },
+  "u1790": {
+    "en": "Fault tree and block diagram for the same example",
+    "zh": "同一示例的故障树与框图"
+  },
+  "u1791": {
+    "en": "Figure G Bathtub curve as a conceptual model  Original depiction for the teaching case described.",
+    "zh": "图 G 作为概念模型的浴盆曲线  所述教学案例的原创表示。"
+  },
+  "u1792": {
+    "en": "Choose models using data and mechanisms",
+    "zh": "根据数据与机制选择模型"
+  },
+  "u1793": {
+    "en": "Figure H Weibull plot with right-censored observations  Original depiction for the teaching case described.",
+    "zh": "图 H 包含右删失观测的 Weibull 图  所述教学案例的原创表示。"
+  },
+  "u1794": {
+    "en": "Reading a Weibull plot with censored data",
+    "zh": "解读包含删失数据的 Weibull 图"
+  },
+  "u1795": {
+    "en": "Figure E Probability of passing the demonstration for the three test plans  Original depiction for the teaching case described.",
+    "zh": "图 E 三种试验方案通过验证的概率  所述教学案例的原创表示。"
+  },
+  "u1796": {
+    "en": "Demonstrating reliability despite observed failures",
+    "zh": "在观察到失效的情况下完成可靠性验证"
+  },
+  "u1797": {
+    "en": "Figure F Recurrent events in the MCF teaching example  Original depiction for the teaching case described.",
+    "zh": "图 F MCF 教学示例中的重复事件  所述教学案例的原创表示。"
+  },
+  "u1798": {
+    "en": "Analyzing repaired systems with recurrent events",
+    "zh": "分析具有重复事件的已修复系统"
+  },
+  "u1799": {
+    "en": "Figure J Power-law models before and after an action  Original depiction for the teaching case described.",
+    "zh": "图 J 采取措施前后的幂律模型  所述教学案例的原创表示。"
+  },
+  "u1800": {
+    "en": "Reliability growth as a verifiable development",
+    "zh": "将可靠性增长视为可验证的发展过程"
+  },
+  "u1520": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1523": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1526": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1529": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1532": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1535": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1538": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1541": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1544": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1547": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1550": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1553": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1556": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1559": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1562": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1565": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1568": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1571": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1574": {
+    "en": "<strong>Revised</strong>",
+    "zh": "<strong>已修订</strong>"
+  },
+  "u1621": {
+    "en": "Public table of contents and publisher's description evaluated.",
+    "zh": "已评估公开目录与出版商说明。"
+  },
+  "u1624": {
+    "en": "Public table of contents and publisher's description evaluated.",
+    "zh": "已评估公开目录与出版商说明。"
+  },
+  "u1652": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1655": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1658": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1661": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1664": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1667": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1670": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  },
+  "u1673": {
+    "en": "Public methods section; research 08.10.2026.",
+    "zh": "公开方法章节；检索日期 08.10.2026。"
+  }
+}

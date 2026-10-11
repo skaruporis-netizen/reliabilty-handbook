@@ -1,0 +1,1190 @@
+[
+  {
+    "key": "u0335",
+    "de": "<strong>Zwei Datenwege</strong>"
+  },
+  {
+    "key": "u0336",
+    "de": "<strong>Alternative Übertragung</strong>"
+  },
+  {
+    "key": "u0337",
+    "de": "<strong>Gibt es gemeinsame Ursachen und verlässliche Umschaltung</strong>"
+  },
+  {
+    "key": "u0338",
+    "de": "<strong>Zentrale Zustandsverwaltung</strong>"
+  },
+  {
+    "key": "u0339",
+    "de": "<strong>Einheitliche Koordination</strong>"
+  },
+  {
+    "key": "u0340",
+    "de": "<strong>Was passiert bei Ausfall oder veralteten Zustandsdaten</strong>"
+  },
+  {
+    "key": "u0341",
+    "de": "<strong>Lokale Fehlerbehandlung</strong>"
+  },
+  {
+    "key": "u0342",
+    "de": "<strong>Schnelle Reaktion im Subsystem</strong>"
+  },
+  {
+    "key": "u0343",
+    "de": "<strong>Bleiben Systemzustand und andere Subsysteme konsistent</strong>"
+  },
+  {
+    "key": "u0344",
+    "de": "Die Tabelle liefert Fragen, keine pauschale Rangfolge. Weniger Teile können Ausfallmöglichkeiten reduzieren, eine zentrale Ressource kann aber mehrere Funktionen gleichzeitig beeinträchtigen. Die Bewertung hängt vom geforderten Verhalten und den realen Abhängigkeiten ab."
+  },
+  {
+    "key": "u0345",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0346",
+    "de": "Funktionen und ihre erforderlichen Zustände dokumentieren."
+  },
+  {
+    "key": "u0347",
+    "de": "Logische Verantwortlichkeiten und gemeinsame Ressourcen beschreiben."
+  },
+  {
+    "key": "u0348",
+    "de": "Aufgaben konkreter Hardware und Software zuordnen."
+  },
+  {
+    "key": "u0349",
+    "de": "Anforderungen, Fehleranalysen und Tests mit stabilen IDs verknüpfen."
+  },
+  {
+    "key": "u0350",
+    "de": "Bei Änderungen einen betroffenen Modellpfad bis zum Systemoutput verfolgen."
+  },
+  {
+    "key": "u0351",
+    "de": "Versionsmatrix führen und Rückfallebenen mit Übergang, Rückkehr und Grenzen spezifizieren."
+  },
+  {
+    "key": "u0352",
+    "de": "Das Ergebnis ist eine pflegbare Architektur mit nachvollziehbaren Entscheidungen. Ein Modell sollte nicht mehr Detail enthalten, als für die Entscheidung und seine Pflege sinnvoll ist. Ungeklärte Beziehungen werden sichtbar markiert, nicht durch vermeintlich präzise Diagramme versteckt."
+  },
+  {
+    "key": "u0353",
+    "de": "Übung"
+  },
+  {
+    "key": "u0354",
+    "de": "Zwei WLAN-Repeater nutzen denselben Router und dieselbe Steckdosenleiste. Welche Fehler werden durch den zweiten Repeater abgefangen und welche nicht?"
+  },
+  {
+    "key": "u0355",
+    "de": "Vertiefungsübung"
+  },
+  {
+    "key": "u0356",
+    "de": "Ein Betreiber meldet ein Archiv-Upgrade auf Version B. Die Kombination Steuerung 1, Firmware 1 und Archiv B steht in der Versionsmatrix auf offen. Was folgt daraus?"
+  },
+  {
+    "key": "u0357",
+    "de": "7 Anforderungen und Zuverlässigkeitsziele ableiten"
+  },
+  {
+    "key": "u0358",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0359",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a>|  Grundlagen <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0360",
+    "de": "Gute Anforderungen ermöglichen eine Entscheidung"
+  },
+  {
+    "key": "u0361",
+    "de": "Die Forderung „ein Regenschirm muss stabil sein“ lässt offen, welche Belastung er aushalten soll. Auch zehn Jahre haltbar ist unvollständig, wenn er einmal pro Jahr oder täglich benutzt werden kann. Eine technische Anforderung nennt eine Funktion, ihre Bedingungen, den zulässigen Leistungsbereich und den Nachweis."
+  },
+  {
+    "key": "u0362",
+    "de": "Für Zuverlässigkeitsziele kommen Nutzung, Population und Unsicherheit hinzu. Eine Aussage kann beispielsweise den Anteil von Einheiten beschreiben, die eine definierte Nutzung ohne einen festgelegten Funktionsausfall überstehen. Sie ist von der Forderung zu unterscheiden, dass jedes einzelne Muster einen bestimmten Belastungstest ohne Beschädigung bestehen soll. Beide Anforderungen können sinnvoll sein, beantworten aber unterschiedliche Fragen."
+  },
+  {
+    "key": "u0363",
+    "de": "Eine vollständige Zuverlässigkeitsforderung"
+  },
+  {
+    "key": "u0364",
+    "de": "Ein ausschließlich didaktisches Beispiel lautet: Mindestens 90 Prozent der betrachteten Kabelpopulation sollen 500.000 festgelegte Bewegungszyklen ohne Verlust der definierten Übertragungsfunktion überstehen; der Nachweis erfolgt mit einem einseitigen Konfidenzniveau von 95 Prozent. Ergänzt werden müssen unter anderem Biegeradius, Bewegungsverlauf, Temperatur, Einbau und Ausfalldefinition. Die Zahlen sind keine Empfehlung für ein Röntgenprodukt."
+  },
+  {
+    "key": "u0365",
+    "de": "Die statistische Forderung wird in Kapitel 15 geplant. Vorher klären wir, ob 500.000 Zyklen überhaupt zur Anwendung passen. Eine mathematisch saubere Stichprobe rettet keine falsch spezifizierte Nutzung. Ebenso muss feststehen, welche Serienausführung und welche Fertigungsstreuung der Nachweis repräsentiert."
+  },
+  {
+    "key": "u0366",
+    "de": "Eine Kennzahl braucht einen klaren Endpunkt"
+  },
+  {
+    "key": "u0367",
+    "de": "Für die Komponentenlebensdauer, die einzelne Aufnahme und die Betriebsbereitschaft verwenden wir unterschiedliche Ziele. Ein gutes Bild pro Aufnahme, wenige Abbrüche pro Untersuchung und geringe Ausfallzeit pro Betriebsmonat sind verschiedene Aussagen. Sie erhalten getrennte Ereignisdefinitionen und passende Nenner."
+  },
+  {
+    "key": "u0368",
+    "de": "Die erwartete Lebensdauer ist eine vom Hersteller für den vorgesehenen Einsatz festgelegte Zeitspanne im Produktkontext. Sie ist weder eine garantierte Überlebenszeit jedes Exemplars noch gleichbedeutend mit MTBF oder B10. Bei medizintechnischen Anforderungen prüfen wir die Bedeutung in den tatsächlich anwendbaren Normen. Wesentliche Leistungsmerkmale und Sicherheitsanforderungen werden mit dem Risikomanagement verknüpft. Die offizielle Beschreibung von IEC 60601-1 bestätigt den Rahmen für Basissicherheit und wesentliche Leistungsmerkmale. <a href=\"#sources/source_N22\">[N22]</a>"
+  },
+  {
+    "key": "u0369",
+    "de": "Anforderungen auf Ebenen verteilen"
+  },
+  {
+    "key": "u0370",
+    "de": "Wir beginnen bei der Systemfunktion und leiten Bedingungen für Subsysteme, Komponenten und Schnittstellen ab. Ein Systemziel wird nicht einfach allen Komponenten identisch zugewiesen. Komponenten wirken unterschiedlich auf die Funktion, teilen Ressourcen oder übernehmen redundante Aufgaben. Eine erste Zuverlässigkeitsallokation kann die Entwicklung orientieren; sie muss auf einem geeigneten Systemmodell beruhen."
+  },
+  {
+    "key": "u0371",
+    "de": "Ein Zeitbudget illustriert das Herunterbrechen: Im Lehrbeispiel darf eine Antwort insgesamt 100 Millisekunden benötigen. Auftragserzeugung, Transport, Verarbeitung und Rückmeldung beanspruchen Teile dieses Budgets. Werden jeder Teilfunktion jeweils 100 Millisekunden zugestanden, ist die Systemanforderung nicht abgesichert. Neben der Summe brauchen wir Streuungen, konkurrierende Last und Zustandsübergänge. Unabhängige Maximalwerte dürfen nur kombiniert werden, wenn sie gemeinsam auftreten können."
+  },
+  {
+    "key": "u0372",
+    "de": "Anforderungen nach ihrer Aussage unterscheiden"
+  },
+  {
+    "key": "u0373",
+    "de": "<strong>Anforderungsart</strong>"
+  },
+  {
+    "key": "u0374",
+    "de": "<strong>Beispielhafte Frage</strong>"
+  },
+  {
+    "key": "u0375",
+    "de": "<strong>Benötigte Ergänzung</strong>"
+  },
+  {
+    "key": "u0376",
+    "de": "<strong>Funktion und Leistung</strong>"
+  },
+  {
+    "key": "u0377",
+    "de": "<strong>Welcher Output muss bereitstehen</strong>"
+  },
+  {
+    "key": "u0378",
+    "de": "<strong>Toleranz, Zustand und Erfolgskriterium</strong>"
+  },
+  {
+    "key": "u0379",
+    "de": "<strong>Belastung</strong>"
+  },
+  {
+    "key": "u0380",
+    "de": "<strong>Welche Temperatur oder Bewegung tritt auf</strong>"
+  },
+  {
+    "key": "u0381",
+    "de": "<strong>Messort, Verlauf, Dauer und Kombination</strong>"
+  },
+  {
+    "key": "u0382",
+    "de": "<strong>Lebensdauer</strong>"
+  },
+  {
+    "key": "u0383",
+    "de": "<strong>Über welche Nutzung gilt die Funktion</strong>"
+  },
+  {
+    "key": "u0384",
+    "de": "<strong>Stunden, Zyklen oder Kalenderzeit</strong>"
+  },
+  {
+    "key": "u0385",
+    "de": "<strong>Statistisches Ziel</strong>"
+  },
+  {
+    "key": "u0386",
+    "de": "<strong>Welcher Populationsanteil wird gefordert</strong>"
+  },
+  {
+    "key": "u0387",
+    "de": "<strong>Konfidenzniveau, Modell und Repräsentativität</strong>"
+  },
+  {
+    "key": "u0388",
+    "de": "<strong>Schnittstelle</strong>"
+  },
+  {
+    "key": "u0389",
+    "de": "<strong>Wie interagieren Sender und Empfänger</strong>"
+  },
+  {
+    "key": "u0390",
+    "de": "<strong>Timing, Gültigkeit und Fehlerreaktion</strong>"
+  },
+  {
+    "key": "u0391",
+    "de": "Nachweisbarkeit früh prüfen"
+  },
+  {
+    "key": "u0392",
+    "de": "Zu jeder Anforderung vereinbaren wir Analyse, Test, Inspektion oder eine begründete Kombination. Vorhandene Supplier-Evidenz kann ein Teil sein. Eine Forderung ohne realistischen Nachweisweg führt oft erst spät zu Diskussionen. Ebenso problematisch ist ein Test ohne klaren Bezug zu einer Anforderung: Es bleibt unklar, welche Aussage ein positives Ergebnis ermöglicht."
+  },
+  {
+    "key": "u0393",
+    "de": "Im Röntgensystem leiten wir beispielsweise aus der Aufnahmefunktion Anforderungen an Expositionskoordination und Statusgültigkeit ab. Aus dem Nutzungsprofil entstehen thermische und zyklische Belastungen. Aus der Architektur entstehen gemeinsame Ressourcen und Fehlerreaktionen. Anforderungen werden aus diesen Beziehungen begründet und nicht nur aus einem früheren Projekt kopiert."
+  },
+  {
+    "key": "u0394",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0395",
+    "de": "Systemfunktion und Nutzerbedarf in überprüfbare Leistung übersetzen."
+  },
+  {
+    "key": "u0396",
+    "de": "Einsatzprofil, Geltungsbereich und Ausfalldefinition referenzieren."
+  },
+  {
+    "key": "u0397",
+    "de": "Funktion, Belastung, Nutzungsumfang und statistisches Ziel getrennt formulieren."
+  },
+  {
+    "key": "u0398",
+    "de": "Anforderungen über die Architektur auf geeignete Ebenen verteilen."
+  },
+  {
+    "key": "u0399",
+    "de": "Vor der Freigabe Akzeptanzkriterium, Nachweis und Verantwortlichen festlegen."
+  },
+  {
+    "key": "u0400",
+    "de": "Endpunkt und Nenner je Kennzahl festlegen; erwartete Lebensdauer getrennt von MTBF und B10 behandeln."
+  },
+  {
+    "key": "u0401",
+    "de": "Das Ergebnis ist ein prüfbarer Anforderungssatz. Typische Denkfehler sind zuverlässig ohne Messgröße, lange Lebensdauer ohne Profil und ein Konfidenzniveau ohne benannte Bezugsgröße. Beim Supplier müssen dieselben Begriffe und Einheiten gelten wie auf der Systemseite."
+  },
+  {
+    "key": "u0402",
+    "de": "Übung"
+  },
+  {
+    "key": "u0403",
+    "de": "Verbessere die Forderung „der Laptopakku soll lange halten“. Unterscheide Laufzeit pro Ladung, Ladezyklen, Kalenderalter und statistischen Populationsanteil."
+  },
+  {
+    "key": "u0404",
+    "de": "8 FMEA aus Funktionen und Schnittstellen ableiten"
+  },
+  {
+    "key": "u0405",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0406",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N05\">[N05]</a> <a href=\"#sources/source_N18\">[N18]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0407",
+    "de": "Von einer möglichen Abweichung zu ihrer Wirkung"
+  },
+  {
+    "key": "u0408",
+    "de": "Eine FMEA ist eine strukturierte Untersuchung möglicher Fehlermöglichkeiten und ihrer Wirkungen. Wir gehen von einer Funktion oder einem Element aus und fragen, auf welche Weise es seine Aufgabe verfehlen kann. Anschließend betrachten wir Ursachen, lokale Wirkung, Wirkung auf die nächste Ebene und Wirkung auf die Systemfunktion. FMECA ergänzt eine Kritikalitätsbewertung."
+  },
+  {
+    "key": "u0409",
+    "de": "Ein Alltagsszenario ist die Kaffeemaschine: Das Ventil soll zum richtigen Zeitpunkt Wasser freigeben. Es kann geschlossen bleiben, undicht sein oder zu spät öffnen. Die lokalen Wirkungen unterscheiden sich. Auf der Systemebene kann Kaffee fehlen, die Füllmenge falsch sein oder Wasser außerhalb des vorgesehenen Pfads austreten. Die Ursache kann jeweils in Mechanik, Ansteuerung, Verschmutzung oder Spezifikation liegen."
+  },
+  {
+    "key": "u0410",
+    "de": "Die FMEA aus Systemgrenze und Schnittstellen vorbereiten"
+  },
+  {
+    "key": "u0411",
+    "de": "Bevor wir Zeilen ausfüllen, brauchen wir die Systemgrenze, Funktionsstruktur, Schnittstellen und Zustände aus Kapitel 3 bis 6. Ohne diese Vorbereitung entsteht häufig eine Bauteilliste mit allgemeinen Aussagen wie „Elektronik defekt“. Sie zeigt weder die geforderte Funktion noch die Fehlerausbreitung."
+  },
+  {
+    "key": "u0412",
+    "de": "Für jede relevante Ausgabe prüfen wir Abweichungen: fehlt, falsch, zu viel, zu wenig, zu früh, zu spät, intermittierend, veraltet oder im falschen Zustand. Auch unerwünschte Ausgaben werden betrachtet. Ein Element kann seine Sollausgabe liefern und gleichzeitig eine störende Nebenwirkung erzeugen. Bei Inputs fragen wir zusätzlich, wie das Element auf ungültige oder außerhalb der Annahmen liegende Werte reagieren soll."
+  },
+  {
+    "key": "u0413",
+    "de": "Den Übergang zwischen Systemen ausdrücklich prüfen"
+  },
+  {
+    "key": "u0414",
+    "de": "Für jede Übergabe betrachten wir fehlenden, falschen, verspäteten, veralteten und doppelt gelieferten Output. Ergänzend fragen wir nach falscher Reihenfolge und ungültigem Zustand. Diese Begriffe beschreiben Abweichungen; erst ihre Wirkung auf die benötigte Funktion entscheidet über die Relevanz."
+  },
+  {
+    "key": "u0415",
+    "de": "Ein Archiv kann dieselbe Nachricht zweimal erhalten. Die FMEA untersucht, ob eine Wiederholung korrekt erkannt wird oder eine falsche Zuordnung erzeugt. Ein nicht erreichbares Archiv kann zu einem kontrollierten Wartezustand führen; ein fälschlich bestätigter Empfang dagegen zu einem unerkannten Verlust. Beide Fälle brauchen unterschiedliche Maßnahmen und Testorakel."
+  },
+  {
+    "key": "u0416",
+    "de": "Die passende Sicht für die FMEA wählen"
+  },
+  {
+    "key": "u0417",
+    "de": "Eine funktionale FMEA untersucht die Leistung und ihre Abweichungen, auch bevor die konkrete Bauform feststeht. Eine Design-FMEA untersucht die gewählte Realisierung. Eine Interface-FMEA betrachtet Austauschvorgänge und gegenseitige Wirkungen zwischen Elementen. Eine Prozess-FMEA untersucht Herstellungs- oder Montageabläufe. Diese Sichten werden abgestimmt; sie sollen nicht dieselben Informationen ohne Verbindung mehrfach pflegen."
+  },
+  {
+    "key": "u0418",
+    "de": "Am Röntgensystem kann die Interface-FMEA feststellen, dass ein Bereitschaftsstatus noch gespeichert ist, obwohl der Detektor inzwischen nicht mehr aufnahmebereit ist. Ein Bauteil muss dafür nicht beschädigt sein. Sender, Übertragung, Empfänger und Zeitbezug müssen gemeinsam untersucht werden."
+  },
+  {
+    "key": "u0419",
+    "de": "Ein Ausschnitt aus der FMEA"
+  },
+  {
+    "key": "u0420",
+    "de": "Der folgende Ausschnitt ist ein Lehrbeispiel. Er enthält bewusst keine freigegebenen Risiko- oder Bewertungsskalen."
+  },
+  {
+    "key": "u0421",
+    "de": "<strong>ID und Funktion</strong>"
+  },
+  {
+    "key": "u0422",
+    "de": "<strong>Fehlermöglichkeit</strong>"
+  },
+  {
+    "key": "u0423",
+    "de": "<strong>Mögliche Ursache</strong>"
+  },
+  {
+    "key": "u0424",
+    "de": "<strong>Wirkung auf die Systemfunktion</strong>"
+  },
+  {
+    "key": "u0425",
+    "de": "<strong>F01 Bereitschaft melden</strong>"
+  },
+  {
+    "key": "u0426",
+    "de": "<strong>Status veraltet</strong>"
+  },
+  {
+    "key": "u0427",
+    "de": "<strong>Zustandswechsel wird nicht rechtzeitig erkannt</strong>"
+  },
+  {
+    "key": "u0428",
+    "de": "<strong>Freigabeentscheidung passt nicht zum aktuellen Zustand</strong>"
+  },
+  {
+    "key": "u0429",
+    "de": "<strong>F02 Bild übertragen</strong>"
+  },
+  {
+    "key": "u0430",
+    "de": "<strong>Daten fehlen teilweise</strong>"
+  },
+  {
+    "key": "u0431",
+    "de": "<strong>Unterbrechung oder Ressourcenengpass</strong>"
+  },
+  {
+    "key": "u0432",
+    "de": "<strong>Kein vollständig nutzbares Bild</strong>"
+  },
+  {
+    "key": "u0433",
+    "de": "<strong>F03 Wärme abführen</strong>"
+  },
+  {
+    "key": "u0434",
+    "de": "<strong>Kühlleistung zu klein</strong>"
+  },
+  {
+    "key": "u0435",
+    "de": "<strong>Einbau behindert Luftstrom</strong>"
+  },
+  {
+    "key": "u0436",
+    "de": "<strong>Degradation oder Schutzunterbrechung</strong>"
+  },
+  {
+    "key": "u0437",
+    "de": "<strong>ID</strong>"
+  },
+  {
+    "key": "u0438",
+    "de": "<strong>Mögliche Maßnahme</strong>"
+  },
+  {
+    "key": "u0439",
+    "de": "<strong>Nachweis der Maßnahme</strong>"
+  },
+  {
+    "key": "u0440",
+    "de": "<strong>F01</strong>"
+  },
+  {
+    "key": "u0441",
+    "de": "<strong>Auftragskennung und Gültigkeitsprüfung einführen</strong>"
+  },
+  {
+    "key": "u0442",
+    "de": "<strong>Verzögerte und veraltete Meldungen gezielt prüfen</strong>"
+  },
+  {
+    "key": "u0443",
+    "de": "<strong>F02</strong>"
+  },
+  {
+    "key": "u0444",
+    "de": "<strong>Vollständigkeit erkennen und definierte Fehlerreaktion</strong>"
+  },
+  {
+    "key": "u0445",
+    "de": "<strong>Unterbrechung an verschiedenen Übertragungspunkten injizieren</strong>"
+  },
+  {
+    "key": "u0446",
+    "de": "<strong>F03</strong>"
+  },
+  {
+    "key": "u0447",
+    "de": "<strong>Einbaubedingungen absichern und Temperatur überwachen</strong>"
+  },
+  {
+    "key": "u0448",
+    "de": "<strong>Thermischer Systemtest im relevanten Lastprofil</strong>"
+  },
+  {
+    "key": "u0449",
+    "de": "Ein ausgefüllter Analysebogen ergänzt vorhandene Prävention und Erkennung, Verantwortliche, Termine, Bewertung und Restzustand. Eine Maßnahme bleibt offen, bis ihre Wirksamkeit nachgewiesen ist. Ein erledigtes Entwicklungs-Ticket allein beweist diese Wirksamkeit nicht."
+  },
+  {
+    "key": "u0450",
+    "de": "Bedienhandlungen in die Analyse einbeziehen"
+  },
+  {
+    "key": "u0451",
+    "de": "Eine unklare Anzeige kann eine falsche Handlung begünstigen, obwohl Elektronik und Software technisch funktionieren. Wie bei zwei ähnlich aussehenden Herdknöpfen müssen Zuordnung, Rückmeldung und erwartete Bedienung zusammenpassen. Sicherheitsrelevante Bedienhandlungen werden mit dem Prozess der Gebrauchstauglichkeit nach IEC 62366-1 verknüpft. Die FMEA ersetzt diesen Prozess nicht. <a href=\"#sources/source_N29\">[N29]</a>"
+  },
+  {
+    "key": "u0452",
+    "de": "Bewertung und Grenzen"
+  },
+  {
+    "key": "u0453",
+    "de": "Schwere, Auftreten und Erkennung werden anhand begründeter unternehmensspezifischer Skalen bewertet. Eine Risikoprioritätszahl kann als Hilfsgröße verwendet werden, darf aber keine relevante hohe Schwere hinter einer kleinen Zahl verstecken. Die Verknüpfung mit dem medizinischen Risikomanagement muss separat sichergestellt werden. Nicht jeder Zuverlässigkeitsausfall führt zu einem Schaden, und nicht jedes Risiko entsteht durch einen einzelnen Komponentenfehler."
+  },
+  {
+    "key": "u0454",
+    "de": "Die FMEA ist besonders gut für nachvollziehbare Einzelabweichungen und deren Fortpflanzung. Kombinationen, gemeinsame Ursachen und komplexe zeitliche Wechselwirkungen benötigen häufig ergänzende Methoden, etwa FTA oder Zustandsmodelle. Sie wird bei Architekturänderungen, neuen Use Cases und Feldbefunden gepflegt."
+  },
+  {
+    "key": "u0455",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0456",
+    "de": "Grenze, Funktion, Zustand und betrachtete Schnittstelle festlegen."
+  },
+  {
+    "key": "u0457",
+    "de": "Abweichungen mit einer systematischen Fragenliste erzeugen."
+  },
+  {
+    "key": "u0458",
+    "de": "Ursachen und Wirkungen über die Ebenen verfolgen."
+  },
+  {
+    "key": "u0459",
+    "de": "Vorhandene Kontrollen und relevante Bewertungsmaßstäbe dokumentieren."
+  },
+  {
+    "key": "u0460",
+    "de": "Maßnahmen mit Verantwortlichen und Wirksamkeitsnachweisen vereinbaren."
+  },
+  {
+    "key": "u0461",
+    "de": "Neue Erkenntnisse in Funktionen, Anforderungen und Tests zurückführen."
+  },
+  {
+    "key": "u0462",
+    "de": "Übergaben auf fehlenden, falschen, verspäteten, veralteten und doppelten Output sowie falsche Reihenfolge prüfen."
+  },
+  {
+    "key": "u0463",
+    "de": "Übung"
+  },
+  {
+    "key": "u0464",
+    "de": "Eine Haustürklingel klingelt zehn Sekunden zu spät. Formuliere Funktion, Fehlermöglichkeit, zwei mögliche Ursachen und die Wirkung. Warum ist „Klingel defekt“ als Beschreibung zu ungenau?"
+  },
+  {
+    "key": "u0465",
+    "de": "9 Fehlerkombinationen und Systemzuverlässigkeit analysieren"
+  },
+  {
+    "key": "u0466",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0467",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0468",
+    "de": "Unterschiedliche Fragen brauchen unterschiedliche Modelle"
+  },
+  {
+    "key": "u0469",
+    "de": "Bei einer FMEA fragen wir von einer Fehlermöglichkeit aus nach ihren Wirkungen. Bei einer Fehlerbaumanalyse, kurz FTA, beginnen wir mit einem unerwünschten Ereignis und suchen seine Ursachen und Kombinationen. Ein Zuverlässigkeitsblockdiagramm, kurz RBD, beschreibt dagegen, welche Elemente für die betrachtete Funktion erfolgreich sein müssen."
+  },
+  {
+    "key": "u0470",
+    "de": "Das Treppenhauslicht kann ausfallen, weil die Lampe, die Versorgung oder die Steuerung fehlt. Für das Ereignis „kein Licht“ genügt möglicherweise jeder dieser Fehler allein. Bei einer zweiten Lampe kann der Verlust beider Lampen nötig sein, während eine gemeinsame Sicherung weiterhin ein Einzelfehler bleibt. Schon dieses einfache Beispiel zeigt den Unterschied zwischen Redundanz und gemeinsamer Ursache."
+  },
+  {
+    "key": "u0471",
+    "de": "ODER und UND richtig interpretieren"
+  },
+  {
+    "key": "u0472",
+    "de": "Ein ODER-Gatter bedeutet, dass mindestens eines seiner Eingangsevents für den betrachteten Fehlerpfad genügt. Ein UND-Gatter bedeutet, dass die beschriebene Kombination erforderlich ist. Die genaue Ereignisdefinition und betrachtete Dauer entscheiden über die Bedeutung. Zwei Ereignisse dürfen nicht deshalb als unabhängig behandelt werden, weil sie in verschiedenen Kästchen stehen."
+  },
+  {
+    "key": "u0473",
+    "de": "Bei quantitativen Modellen benötigen wir passende Eingangsdaten und Annahmen zu Zeit, Reparatur, Abhängigkeiten und Ausfalldefinition. Die Rate eines Serviceaustauschs ist nicht ohne Prüfung die Wahrscheinlichkeit eines bestätigten Funktionsausfalls. Ein numerisch berechnetes Ergebnis kann sehr präzise aussehen und dennoch auf ungeeigneten Daten beruhen."
+  },
+  {
+    "key": "u0474",
+    "de": "Gemeinsame Ursachen quantitativ vorsichtig behandeln"
+  },
+  {
+    "key": "u0475",
+    "de": "Redundanz hilft gegen unabhängige Ausfälle. Ein gemeinsames Netzteil, eine gemeinsame Kühlung oder derselbe Softwarefehler kann beide Kanäle treffen. Wir modellieren die gemeinsame Ursache ausdrücklich, bevor wir die Parallelformel verwenden."
+  },
+  {
+    "key": "u0476",
+    "de": "Als vereinfachte Aufteilung kann ein Anteil b der Ausfallrate eines Elements gemeinsamen Ursachen zugeordnet werden. Der übrige Anteil wird als unabhängig behandelt. Im Lehrbeispiel mit 100 FIT und b gleich 0,05 entfallen 5 FIT auf den gemeinsamen und 95 FIT auf den unabhängigen Anteil. FIT bedeutet ein Ausfall pro einer Milliarde Einheitenstunden. Die Aufteilung ersetzt keine vollständige Rechnung der redundanten Architektur."
+  },
+  {
+    "key": "u0478",
+    "de": "Der Faktor wird aus geeigneter Evidenz oder einem begründeten, anwendbaren Verfahren abgeleitet. Er darf nicht beliebig optimistisch gewählt werden. Für systematische Software- und Integrationsfehler ist diese einfache konstante Ratenaufteilung häufig ungeeignet. Eine gemeinsame Ursache kann außerdem mehr als zwei Elemente und mehrere Funktionen betreffen."
+  },
+  {
+    "key": "u0479",
+    "de": "Fehlerbaum und Blockdiagramm am selben Beispiel"
+  },
+  {
+    "key": "u0480",
+    "de": "Schaubild I Fehlerbaum und Blockdiagramm des Treppenhauslichts  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0481",
+    "de": "Schaubild I Fehlerbaum und Blockdiagramm des Treppenhauslichts  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0482",
+    "de": "Das Treppenhaus hat zwei Lampen und eine gemeinsame Versorgung. Licht ist vorhanden, wenn die Versorgung funktioniert und mindestens eine Lampe leuchtet. Kein Licht entsteht, wenn die Versorgung ausfällt oder beide Lampen ausfallen. Der Fehlerbaum und das Blockdiagramm zeigen dieselbe vereinfachte Logik aus entgegengesetzten Richtungen. Eine gemeinsame Steuerung, Reparatur oder dynamische Umschaltung sind hier bewusst noch nicht enthalten. Erst nach dieser qualitativen Klärung wählen wir passende Wahrscheinlichkeiten. <a href=\"#sources/source_N06\">[N06]</a> <a href=\"#sources/source_N07\">[N07]</a>"
+  },
+  {
+    "key": "u0483",
+    "de": "Zwei einfache Rechnungen"
+  },
+  {
+    "key": "u0484",
+    "de": "Im Lehrbeispiel werden zwei Elemente für dieselbe Mission benötigt. Jedes hat eine Zuverlässigkeit von 0,99. Sind ihre Ausfälle unabhängig und reicht bereits der Ausfall eines Elements für den Funktionsverlust, ergibt sich die Serienzuverlässigkeit als Produkt."
+  },
+  {
+    "key": "u0486",
+    "de": "Für zwei solche Elemente ergeben sich 0,9801 beziehungsweise 98,01 Prozent. Hohe Einzelwerte garantieren also nicht denselben Systemwert. Die Gleichung gilt für den definierten Erfolg beider Elemente über dieselbe Mission, nur für die so definierten Missionswahrscheinlichkeiten; MTBF-Zahlen sind keine solchen Wahrscheinlichkeiten."
+  },
+  {
+    "key": "u0487",
+    "de": "Bei idealer aktiver Redundanz reicht ein funktionsfähiges Element. Sind die Ausfälle unabhängig und gibt es keine weitere gemeinsame Verlustquelle, ergibt sich:"
+  },
+  {
+    "key": "u0489",
+    "de": "Bei zwei Elementen mit jeweils 0,99 entstehen im idealen Modell 0,9999 beziehungsweise 99,99 Prozent. Eine gemeinsame Versorgung, eine fehlerhafte Umschaltung oder eine gemeinsame Softwareursache kann diesen Vorteil deutlich einschränken. Die idealisierte Rechnung ist deshalb ein Ausgangspunkt, kein vollständiger Architekturnachweis."
+  },
+  {
+    "key": "u0490",
+    "de": "Steuerung und Rückmeldung mit STPA untersuchen"
+  },
+  {
+    "key": "u0491",
+    "de": "Die System-Theoretic Process Analysis, kurz STPA, ergänzt Fehleranalysen um Steuerungsbeziehungen. Sie ist eine Methode zur Gefährdungsanalyse und keine Formel für eine Ausfallwahrscheinlichkeit. Wir verwenden sie besonders dann, wenn ein problematischer Ablauf entstehen kann, obwohl kein Einzelteil beschädigt ist. <a href=\"#sources/source_Q23\">[Q23]</a>"
+  },
+  {
+    "key": "u0492",
+    "de": "Beim Bereitschaftsfall betrachten wir Controller, Freigabebefehl, gesteuerten Prozess und Rückmeldung. Wir fragen: Wird ein erforderlicher Befehl nicht gegeben? Wird ein unzulässiger Befehl gegeben? Kommt er zu früh, zu spät oder in falscher Reihenfolge? Dauert er zu lange oder endet er zu früh? Daraus entstehen konkrete Szenarien, Bedingungen und Maßnahmen."
+  },
+  {
+    "key": "u0493",
+    "de": "Das Ergebnis ergänzt die FMEA und die Tests. Eine vollständige STPA benötigt definierte Verluste, Gefährdungen, Steuerungsstruktur und Ursachenanalyse. Die kurzen Leitfragen hier sind ein Einstieg, kein vollständiger Sicherheitsnachweis."
+  },
+  {
+    "key": "u0494",
+    "de": "Zeit und Reparatur ergänzen"
+  },
+  {
+    "key": "u0495",
+    "de": "Eine Kaffeemaschine, die sofort repariert werden kann, hat eine andere Verfügbarkeit als eine mit langer Ersatzteilwartezeit. Ein Zustandsmodell beschreibt beispielsweise funktionsfähig, eingeschränkt, ausgefallen und in Reparatur. Markov-Modelle verwenden bestimmte Annahmen über Zustandsübergänge; ihre Übergangsannahmen müssen zum betrachteten Prozess passen. Für komplexere Abläufe können Simulationen oder andere zeitabhängige Modelle geeigneter sein."
+  },
+  {
+    "key": "u0496",
+    "de": "Im einfachen Modell mit mittlerer Betriebszeit MTBF und mittlerer Reparaturzeit MTTR kann eine langfristige intrinsische Verfügbarkeit angenähert beziehungsweise unter passenden Erneuerungsannahmen berechnet werden:"
+  },
+  {
+    "key": "u0498",
+    "de": "Logistik, geplante Wartung und reale Betriebsorganisation benötigen gegebenenfalls weitere Zeiten. Die Formel macht eine Entscheidung sichtbar: Verfügbarkeit kann durch weniger Fehler oder durch schnellere Wiederherstellung verbessert werden. Die schnellere Wiederherstellung verkürzt die Ausfallzeit, verhindert aber keinen Missionsausfall."
+  },
+  {
+    "key": "u0499",
+    "de": "Anwendung am Röntgensystem"
+  },
+  {
+    "key": "u0500",
+    "de": "Für das Top Event „keine verwendbare Aufnahme“ betrachten wir beispielsweise Detektor, Expositionskoordination, Versorgung und Datenbereitstellung. Wir definieren den Output, bevor wir Fehlerpfade sammeln. Gemeinsame Ressourcen werden zuerst qualitativ geprüft. Eine spätere Quantifizierung soll zeigen, welche Unsicherheit besonders relevant ist und wo zusätzliche Daten den größten Nutzen bringen."
+  },
+  {
+    "key": "u0501",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0502",
+    "de": "Systemfunktion beziehungsweise Top Event einschließlich Zeitbezug definieren."
+  },
+  {
+    "key": "u0503",
+    "de": "Die passende Modellform wählen und ihre Grenze dokumentieren."
+  },
+  {
+    "key": "u0504",
+    "de": "Gemeinsame Ursachen, Fehlerfortpflanzung und Wiederherstellung ergänzen."
+  },
+  {
+    "key": "u0505",
+    "de": "Eingangsdaten auf identische Nutzung und Ausfalldefinition prüfen."
+  },
+  {
+    "key": "u0506",
+    "de": "Sensitivität und Unsicherheit des Ergebnisses bewerten."
+  },
+  {
+    "key": "u0507",
+    "de": "Gemeinsame Ursachen vor der Parallelrechnung modellieren; bei relevanten Steuerungsabläufen eine STPA erwägen."
+  },
+  {
+    "key": "u0508",
+    "de": "Das Ergebnis ist ein begründeter Fehlerpfad oder ein Systemmodell mit klaren Annahmen. Redundanz ohne Prüfung gemeinsamer Ursachen und das Multiplizieren beliebiger Kennzahlen sind typische Denkfehler."
+  },
+  {
+    "key": "u0509",
+    "de": "Übung"
+  },
+  {
+    "key": "u0510",
+    "de": "Zwei Taschenlampen haben getrennte Batterien, wurden aber beide im selben feuchten Keller gelagert. Welche Unabhängigkeitsannahme solltest du vor einer Redundanzrechnung prüfen?"
+  },
+  {
+    "key": "u0511",
+    "de": "Vertiefungsübung"
+  },
+  {
+    "key": "u0512",
+    "de": "Ein redundanter Kanal hat 200 FIT. Im vereinfachten Ratenmodell beträgt der Anteil gemeinsamer Ursachen 0,10. Wie teilen wir die Rate auf, und was sagt das noch nicht?"
+  },
+  {
+    "key": "u0513",
+    "de": "10 Ausfallmechanismen und Robustheitsreserven verstehen"
+  },
+  {
+    "key": "u0514",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0515",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_Q11\">[Q11]</a> <a href=\"#sources/source_N11\">[N11]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0516",
+    "de": "Belastung und Beanspruchbarkeit zusammen betrachten"
+  },
+  {
+    "key": "u0517",
+    "de": "Eine Einkaufstasche trägt fünf Kilogramm problemlos. Wenn sie nass wird, kann dieselbe Last kritischer sein. Entscheidend sind Belastung, Materialzustand und Beanspruchbarkeit. Im technischen Produkt wirken Temperatur, Spannung, Bewegung, Strahlung und weitere Einflüsse auf konkrete physikalische Mechanismen. Physics of Failure bedeutet, diesen Zusammenhang zu verstehen und in der Auslegung zu berücksichtigen."
+  },
+  {
+    "key": "u0518",
+    "de": "Ein Mechanismus ist beispielsweise eine thermisch getriebene Schädigung oder eine Ermüdung an einer Verbindung. Das sichtbare Fehlerbild ist etwa intermittierender Kontakt oder Bildausfall. Ursache, Mechanismus und Symptom werden getrennt. Eine hohe Ausfallzahl sagt zunächst wenig darüber aus, welcher Mechanismus verändert werden muss."
+  },
+  {
+    "key": "u0519",
+    "de": "Drei Bereiche unterscheiden"
+  },
+  {
+    "key": "u0520",
+    "de": "Der Nominalpunkt beschreibt einen repräsentativen Betrieb. Der ungünstigste zulässige Fall liegt innerhalb der spezifizierten Anwendung. Explorative Grenztests untersuchen zusätzlich, wie sich das Produkt bei schrittweiser Annäherung an eine Grenze oder darüber hinaus verhält. Ein Versagen außerhalb der Spezifikation ist nur dann eine Nichterfüllung der Anforderung, wenn die geprüfte Bedingung zu ihrem Geltungsbereich gehört; es kann aber eine geringe Reserve oder eine unerwünschte Fehlerreaktion sichtbar machen."
+  },
+  {
+    "key": "u0521",
+    "de": "Ein Smartphone kann im Alltag bei Raumtemperatur funktionieren und im heißen Auto abschalten. Der erste Nachweis betrifft normale Nutzung, der zweite zulässige oder unzulässige Umgebungsbedingungen je nach Spezifikation. Eine kontrollierte Untersuchung der Grenze hilft, die Empfindlichkeit zu verstehen. Sie darf nicht mit einem Lebensdauernachweis verwechselt werden."
+  },
+  {
+    "key": "u0522",
+    "de": "Reserven sind mehrdimensional"
+  },
+  {
+    "key": "u0523",
+    "de": "Im didaktischen Temperaturbeispiel liegt eine Bauteiltemperatur im ungünstigsten zulässigen Betrieb bei 70 Grad Celsius. Eine definierte Leistungsgrenze wird experimentell erst bei 85 Grad Celsius erreicht. Der Abstand beträgt für genau diese Konfiguration 15 Kelvin. Messunsicherheit, Streuung und andere Belastungen sind noch zu berücksichtigen. Dies ist kein universeller Sicherheitsabstand für ein Produkt."
+  },
+  {
+    "key": "u0524",
+    "de": "Bei höherer Versorgungslast kann die Grenze niedriger liegen. Eine Timingreserve kann durch Netzwerkverkehr schrumpfen. Ein älteres Bauteil kann andere Reserven haben als ein neues. Wir dokumentieren deshalb, welche Grenze gemessen, berechnet oder nur angenommen wurde, und unter welchen Kombinationen sie gilt."
+  },
+  {
+    "key": "u0525",
+    "de": "Auslegungsreserven und Streuungen untersuchen"
+  },
+  {
+    "key": "u0526",
+    "de": "Derating bedeutet, ein Element nicht dauerhaft an einer relevanten Nenn- oder Grenzbelastung zu betreiben. Der geeignete Umfang hängt vom Mechanismus und den Daten ab; ein pauschaler Prozentwert reicht nicht. Bei Elektronik ist etwa die tatsächliche Bauteiltemperatur und nicht nur die Raumtemperatur relevant."
+  },
+  {
+    "key": "u0527",
+    "de": "Toleranzanalysen untersuchen, wie Fertigungs- und Betriebsstreuungen die Funktion verändern. Sensitivitätsanalysen zeigen, welche Einflussgröße das Ergebnis stark bewegt. Design of Experiments, kurz DoE, plant kontrollierte Kombinationen von Faktoren. Gegenüber wahllosem Verändern einzelner Größen kann es Wechselwirkungen sichtbar machen. Ein kleiner zweifaktorieller Plan kann beispielsweise niedrige und hohe Temperatur mit niedriger und hoher Last kombinieren; seine Aussage bleibt auf den untersuchten Bereich begrenzt."
+  },
+  {
+    "key": "u0528",
+    "de": "Frühe Zuverlässigkeitsvorhersagen richtig nutzen"
+  },
+  {
+    "key": "u0529",
+    "de": "Zu Beginn eines Projekts fehlen oft Lebensdauerdaten der endgültigen Baugruppe. Eine Vorhersage kann Varianten vergleichen oder eine erste Allokation unterstützen. Verfahren auf Basis von Bauteilzahlen oder Belastungsdaten benötigen Referenzraten, Betriebsbedingungen und eine passende Architektur. Eine Zahl ohne diese Angaben ist kaum überprüfbar."
+  },
+  {
+    "key": "u0530",
+    "de": "IEC 61709 beschreibt die Umrechnung vorhandener Ausfallratendaten zwischen Referenz- und Einsatzbedingungen innerhalb der vorgesehenen Funktionsgrenzen. Die Norm liefert selbst keine Basis-Ausfallraten. <a href=\"#sources/source_N27\">[N27]</a>"
+  },
+  {
+    "key": "u0531",
+    "de": "Als Orientierung können im Projekt etwa SN 29500, FIDES oder MIL-HDBK-217F begegnen. Dieses Handbuch legt keine intern geprüfte Ausgabe dieser Verfahren fest und belegt daraus keine Ausfallrate. Vor ihrer Verwendung werden die tatsächlich freigegebenen Teile, Fassungen, Daten und Einsatzgrenzen beschafft und geprüft. Der frühere öffentliche Hinweis zu SN 29500 wird nicht als Beleg verwendet."
+  },
+  {
+    "key": "u0532",
+    "de": "Im vereinfachten Reihenmodell ergeben zehn unabhängige Elemente mit jeweils 100 FIT eine Rate von 1.000 FIT, also 0,000001 pro Stunde. Deren Kehrwert ist eine Million Stunden. Diese Modellzahl ist keine zugesicherte Lebensdauer und enthält keine automatisch bewerteten Software-, Schnittstellen- oder „Bedienfehler“. Frühe Vorhersage, experimenteller Nachweis und Feldschätzung werden im Bericht getrennt benannt."
+  },
+  {
+    "key": "u0533",
+    "de": "Weitere Modelle für beschleunigte Beanspruchung auswählen"
+  },
+  {
+    "key": "u0534",
+    "de": "Wir wählen das Modell nach dem Mechanismus und kalibrieren seine Parameter mit geeigneten Daten. Das Beschleunigungsmodell gehört zum Nachweis, nicht nur zur Rechenhilfe."
+  },
+  {
+    "key": "u0535",
+    "de": "<strong>Mechanismus</strong>"
+  },
+  {
+    "key": "u0536",
+    "de": "<strong>Möglicher Ansatz</strong>"
+  },
+  {
+    "key": "u0537",
+    "de": "<strong>Entscheidende Grenze</strong>"
+  },
+  {
+    "key": "u0538",
+    "de": "<strong>Thermisch aktivierter Prozess</strong>"
+  },
+  {
+    "key": "u0539",
+    "de": "<strong>Arrhenius</strong>"
+  },
+  {
+    "key": "u0540",
+    "de": "<strong>Passende Aktivierungsenergie und gleichbleibender Mechanismus</strong>"
+  },
+  {
+    "key": "u0541",
+    "de": "<strong>Temperatur und Feuchte</strong>"
+  },
+  {
+    "key": "u0542",
+    "de": "<strong>Peck oder geeigneter Eyring Ansatz</strong>"
+  },
+  {
+    "key": "u0543",
+    "de": "<strong>Kalibrierung und Kondensation beachten</strong>"
+  },
+  {
+    "key": "u0544",
+    "de": "<strong>Temperaturwechselermüdung</strong>"
+  },
+  {
+    "key": "u0545",
+    "de": "<strong>Coffin Manson oder Norris Landzberg</strong>"
+  },
+  {
+    "key": "u0546",
+    "de": "<strong>Temperaturhub Verweilzeit und Frequenz beachten</strong>"
+  },
+  {
+    "key": "u0547",
+    "de": "<strong>Mechanische Ermüdung</strong>"
+  },
+  {
+    "key": "u0548",
+    "de": "<strong>Wöhler oder Basquin Ansatz</strong>"
+  },
+  {
+    "key": "u0549",
+    "de": "<strong>Lastkollektiv und relevante Versagensart abdecken</strong>"
+  },
+  {
+    "key": "u0550",
+    "de": "<strong>Lastabhängige Lebensdauer</strong>"
+  },
+  {
+    "key": "u0551",
+    "de": "<strong>Inverses Potenzgesetz</strong>"
+  },
+  {
+    "key": "u0552",
+    "de": "<strong>Exponent und zulässigen Belastungsbereich bestimmen</strong>"
+  },
+  {
+    "key": "u0553",
+    "de": "Ein Potenzgesetz kann ein Verhältnis der Lebensdauern aus dem Verhältnis zweier Lasten ableiten. Sein Exponent muss zum betrachteten Mechanismus passen. Bei Feuchte genügt ein Verhältnis relativer Feuchten nicht, wenn Kondensation oder andere Prozesse hinzukommen. Mehrere Stressoren werden gemeinsam modelliert; ihre Faktoren werden nicht allein aus praktischen Gründen multipliziert. Die Modellfamilien dienen hier der Auswahl, nicht als universelle Umrechnungstabelle. <a href=\"#sources/source_Q15\">[Q15]</a> <a href=\"#sources/source_Q19\">[Q19]</a>"
+  },
+  {
+    "key": "u0554",
+    "de": "Anwendung am Röntgensystem"
+  },
+  {
+    "key": "u0555",
+    "de": "Wir untersuchen zum Beispiel, ob ein Detektor bei hoher Expositionsfolge, ungünstigem Einbau und erhöhtem Kommunikationsverkehr noch alle benötigten Funktionen erfüllt. Als Ergebnis messen wir nicht nur „Test bestanden“, sondern auch Temperatur, Datenlatenz, Fehlerreaktion und Abstand zu definierten Grenzen. Eine Schutzabschaltung wird als solche erkannt und von unkontrolliertem Verhalten unterschieden."
+  },
+  {
+    "key": "u0556",
+    "de": "Solche Prüfungen sind in einer geeigneten technischen Testumgebung mit freigegebenen Schutzmaßnahmen durchzuführen. Schutzfunktionen werden nicht für einen Grenztest unkontrolliert umgangen. Beispiele aus diesem Handbuch legitimieren keine Überschreitung sicherheitsrelevanter Grenzen am klinisch genutzten Gerät."
+  },
+  {
+    "key": "u0557",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0558",
+    "de": "Relevante Mechanismen und empfindliche Leistungsgrößen benennen."
+  },
+  {
+    "key": "u0559",
+    "de": "Nominalbetrieb und ungünstige zulässige Kombinationen festlegen."
+  },
+  {
+    "key": "u0560",
+    "de": "Messbare Grenzen und vorhandene Auslegungsreserven beschreiben."
+  },
+  {
+    "key": "u0561",
+    "de": "Einflussgrößen kontrolliert variieren und Wechselwirkungen prüfen."
+  },
+  {
+    "key": "u0562",
+    "de": "Streuung, Alterung und Messunsicherheit in die Aussage aufnehmen."
+  },
+  {
+    "key": "u0563",
+    "de": "Bei Vorhersagen Datenbasis, Ausgabe und Einsatzbedingungen nennen; Beschleunigungsmodelle nach dem Mechanismus wählen."
+  },
+  {
+    "key": "u0564",
+    "de": "Das Ergebnis ist eine begründete Robustheitsbewertung. Ein einziger Reservewert für das gesamte System verdeckt meistens unterschiedliche Grenzen. Eine bestandene kurze Überlastprüfung beweist keine langfristige Ermüdungsfestigkeit."
+  },
+  {
+    "key": "u0565",
+    "de": "Übung"
+  },
+  {
+    "key": "u0566",
+    "de": "Ein Regenschirm übersteht starken Wind im Neuzustand. Welche Fragen bleiben offen, wenn er vorher mehrere Jahre feucht gelagert wurde und seine Gelenke Spiel bekommen haben?"
+  },
+  {
+    "key": "u0567",
+    "de": "11 Zulieferkomponenten spezifizieren und Nachweise übernehmen"
+  },
+  {
+    "key": "u0568",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0569",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0570",
+    "de": "Die richtige Frage an den Lieferanten stellen"
+  },
+  {
+    "key": "u0571",
+    "de": "Wer einen Fahrradreifen bestellt, muss Reifengröße, Felge, Last und vorgesehenen Einsatz kennen. Ein hochwertiger Reifen in der falschen Größe löst die Aufgabe nicht. Im technischen Einkauf ist die Aufgabe anspruchsvoller, aber das Prinzip bleibt gleich: Ein Supplier kann nur für den beschriebenen und vereinbarten Bereich geeignete Evidenz liefern."
+  },
+  {
+    "key": "u0572",
+    "de": "Wir spezifizieren Funktionen und Schnittstellen sowie Umwelt, Einbau, Nutzung, Lebensdauer und gewünschtes Nachweisniveau. Die Anforderung darf nicht ausschließlich den Normalbetrieb abdecken. Einschalten, Wiederanlauf, Lagerung, Transport und relevante Fehlerreaktionen gehören je nach Funktion dazu. Die Supplier-Spezifikation verweist auf dieselben Definitionen und Profile wie die Systemanforderung."
+  },
+  {
+    "key": "u0573",
+    "de": "Ein Nachweispaket besteht aus überprüfbarer Evidenz"
+  },
+  {
+    "key": "u0574",
+    "de": "Ein Prüfbericht sollte mindestens Musteridentität, Hardware- und Softwarestand, relevante Fertigungsmerkmale, Prüfanordnung, Messmittel, Belastungsprofil und Ergebnisse enthalten. Ausfälle, Abweichungen und abgebrochene Prüfungen werden nicht durch eine zusammenfassende Aussage bestanden ersetzt. Bei statistischen Aussagen brauchen wir die Population, Stichprobe, Prüfdauer, zensierte Beobachtungen, Modellannahmen und Unsicherheit."
+  },
+  {
+    "key": "u0575",
+    "de": "Wir können zusätzliche Analysen, bekannte Fehlermechanismen, Einsatzgrenzen und Änderungsmitteilungen vereinbaren. Der Umfang richtet sich nach Funktion und Risiko; nicht jede Komponente braucht dieselbe Dokumentenmenge. Ein Lieferant von Kabeln liefert andere technische Nachweise als ein Lieferant von Software."
+  },
+  {
+    "key": "u0576",
+    "de": "Drei Entscheidungen statt eines pauschalen Ja"
+  },
+  {
+    "key": "u0577",
+    "de": "Eine Evidenzbewertung endet mit akzeptiert, akzeptiert mit dokumentierten Einschränkungen oder ergänzender Nachweis erforderlich. Eine Einschränkung kann einen bestimmten Temperaturbereich oder eine freigegebene Version betreffen. Sie muss in der Integration wirksam werden. Ein Freigabevermerk, dessen Bedingungen niemand kennt, verhindert keinen falschen Einsatz."
+  },
+  {
+    "key": "u0578",
+    "de": "Ein Lehrbeispiel: Der Supplier hat einen Detektor bei einer definierten äußeren Temperatur geprüft. Im System erhöht sich seine Bauteiltemperatur durch den Einbau. Wir prüfen zunächst Messort und thermische Randbedingungen des Nachweises. Ein geeigneter Systemtest kann die tatsächliche Temperatur und Funktion absichern. Er ersetzt fehlende Lebensdauerdaten nur, wenn sein Profil und seine statistische Aussage den Lebensdauernachweis tatsächlich abdecken, aber er kann zeigen, ob wir innerhalb des belegten Einsatzbereichs bleiben."
+  },
+  {
+    "key": "u0579",
+    "de": "Einen Einsatzvertrag für die Komponente festhalten"
+  },
+  {
+    "key": "u0580",
+    "de": "Wir fassen die Übernahme in einem kurzen Einsatzvertrag zusammen: Funktion und Leistungsgrenzen, tatsächliches Nutzungsprofil, relevante Abweichungen am Output, verfügbare Evidenz und Änderungsweg. Dazu gehören Teilenummer, Fertigungsstand und Softwareversion. Der Vertrag verbindet den Zuliefernachweis mit unserer Systemanforderung."
+  },
+  {
+    "key": "u0581",
+    "de": "Qualifikation ist ein dokumentierter Ausgangspunkt. Im Betrieb beobachten wir dieselbe Komponente mit Serien- und Versionsbezug weiter. Neue Lastprofile, Fertigungsänderungen oder Feldbefunde können eine Neubewertung auslösen. Kapitel 12 bleibt dafür eine Arbeitshilfe zur technischen Bewertung von Prüfmethoden; geeignete Zulieferprüfungen werden übernommen und verbleibende Lücken gezielt geschlossen."
+  },
+  {
+    "key": "u0582",
+    "de": "Ein Review strukturiert durchführen"
+  },
+  {
+    "key": "u0583",
+    "de": "<strong>Prüffrage</strong>"
+  },
+  {
+    "key": "u0584",
+    "de": "<strong>Was vergleichen wir</strong>"
+  },
+  {
+    "key": "u0585",
+    "de": "<strong>Mögliche Folge</strong>"
+  },
+  {
+    "key": "u0586",
+    "de": "<strong>Passt die Ausführung</strong>"
+  },
+  {
+    "key": "u0587",
+    "de": "<strong>Berichtsmuster gegen gelieferten Stand</strong>"
+  },
+  {
+    "key": "u0588",
+    "de": "<strong>Versionsbezogene Ergänzung</strong>"
+  },
+  {
+    "key": "u0589",
+    "de": "<strong>Passt die Nutzung</strong>"
+  },
+  {
+    "key": "u0590",
+    "de": "<strong>Testprofil gegen Systemprofil</strong>"
+  },
+  {
+    "key": "u0591",
+    "de": "<strong>Zusätzliche zyklische oder thermische Evidenz</strong>"
+  },
+  {
+    "key": "u0592",
+    "de": "<strong>Passt die Funktion</strong>"
+  },
+  {
+    "key": "u0593",
+    "de": "<strong>Akzeptanzkriterium gegen Systemanforderung</strong>"
+  },
+  {
+    "key": "u0594",
+    "de": "<strong>Funktion während Belastung gezielt prüfen</strong>"
+  },
+  {
+    "key": "u0595",
+    "de": "<strong>Passt die Population</strong>"
+  },
+  {
+    "key": "u0596",
+    "de": "<strong>Musterherkunft gegen Serienprozess</strong>"
+  },
+  {
+    "key": "u0597",
+    "de": "<strong>Repräsentativität begründen oder nachweisen</strong>"
+  },
+  {
+    "key": "u0598",
+    "de": "<strong>Sind Änderungen geregelt</strong>"
+  },
+  {
+    "key": "u0599",
+    "de": "<strong>Material, Prozess, Firmware und Unterlieferant</strong>"
+  },
+  {
+    "key": "u0600",
+    "de": "<strong>Informations- und Neubewertungsweg vereinbaren</strong>"
+  },
+  {
+    "key": "u0601",
+    "de": "Diese Fragen verhindern sowohl unnötige Wiederholungen als auch blinde Übernahmen. Ein anderes Labor oder ein neues Formular sind allein noch kein technischer Grund für eine Wiederholung. Neue Beanspruchung, unpassende Muster oder ein veränderter Mechanismus können dagegen einen guten Grund darstellen."
+  },
+  {
+    "key": "u0602",
+    "de": "Was nach der Komponentenfreigabe geschieht"
+  },
+  {
+    "key": "u0603",
+    "de": "Die akzeptierte Komponente wird für einen definierten Einsatz verwendet. Eingangskontrollen und Fertigungsprüfungen überwachen vereinbarte Merkmale, sind aber nicht mit der vollständigen Entwicklungsqualifikation gleichzusetzen. Im Feld werden bestätigte Fehler, Nutzung und Konfiguration verfolgt. Supplier und Systemteam erhalten relevante Befunde, und Maßnahmen werden mit Wirksamkeitsnachweis geschlossen."
+  },
+  {
+    "key": "u0604",
+    "de": "Eine bestehende Qualifikation darf bei Änderungen nicht stillschweigend übertragen werden. Umgekehrt wird sie nicht ohne Begründung verworfen. Ein neues Steckergehäuse kann die Mechanik beeinflussen, eine geänderte Firmware das Timing. Die Änderungsanalyse entscheidet, welche Evidenz betroffen ist."
+  },
+  {
+    "key": "u0605",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0606",
+    "de": "Einsatzprofil und Nachweisziel vor der Beschaffung gemeinsam klären."
+  },
+  {
+    "key": "u0607",
+    "de": "Das Nachweispaket mit klaren Akzeptanzkriterien vereinbaren."
+  },
+  {
+    "key": "u0608",
+    "de": "Identität, Anwendbarkeit, Datenqualität und Lücken bewerten."
+  },
+  {
+    "key": "u0609",
+    "de": "Gezielt ergänzen und Bedingungen der Übernahme dokumentieren."
+  },
+  {
+    "key": "u0610",
+    "de": "Feldfeedback und Änderungsinformation als laufende Übergabe einrichten."
+  },
+  {
+    "key": "u0611",
+    "de": "Für jede übernommene Komponente Einsatzbedingungen, Leistungszusage und Änderungsweg in einem Einsatzvertrag festhalten."
+  },
+  {
+    "key": "u0612",
+    "de": "Das Ergebnis ist eine freigegebene Komponente mit einem nachvollziehbaren Evidenzpaket. Der Satz „der Supplier ist zuständig“ beantwortet noch nicht, ob unsere Anwendung tatsächlich abgedeckt ist."
+  },
+  {
+    "key": "u0613",
+    "de": "Übung"
+  },
+  {
+    "key": "u0614",
+    "de": "Eine Outdoor-Lampe wurde vom Hersteller gegen Regen geprüft. Du willst sie in einem geschlossenen, heißen Gehäuse betreiben. Welche zwei Fragen stellst du, bevor du neue Tests beauftragst?"
+  },
+  {
+    "key": "u0615",
+    "de": "12 Hardwarekomponenten qualifizieren"
+  },
+  {
+    "key": "u0616",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0617",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_N11\">[N11]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N13\">[N13]</a> <a href=\"#sources/source_N14\">[N14]</a> <a href=\"#sources/source_N15\">[N15]</a> <a href=\"#sources/source_N16\">[N16]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0618",
+    "de": "Vom Mechanismus zur Prüfung"
+  },
+  {
+    "key": "u0619",
+    "de": "Eine Prüfung wird gewählt, weil sie eine relevante Beanspruchung und einen möglichen Funktionsverlust untersucht. Die Frage welchen Klimatest machen wir wird deshalb zuerst in die Frage übersetzt, welches Einsatzprofil und welcher Mechanismus abgesichert werden sollen. Die IEC-60068-Reihe bietet Methoden für Umweltprüfungen; die Auswahl und Anpassung brauchen weiterhin eine technische Begründung."
+  },
+  {
+    "key": "u0620",
+    "de": "Ein Turnschuh kann im trockenen Laden gut aussehen und bei Regen rutschig werden. Eine Sichtprüfung beantwortet die Frage nach Nässeverhalten nicht. Ebenso zeigt ein unauffälliges Elektronikmodul bei Raumtemperatur noch nicht, ob seine Verbindungstechnik Temperaturwechsel oder seine Mechanik Bewegung erträgt."
+  },
+  {
+    "key": "u0621",
+    "de": "Prüfziel und Aussage festlegen"
+  },
+  {
+    "key": "u0622",
+    "de": "Wir unterscheiden Funktionsprüfung, Qualifikation gegen festgelegte Belastungen, explorative Robustheitsprüfung und quantitative Lebensdauerbewertung. Ein bestandener Belastungstest kann Eignung unter diesen Bedingungen zeigen. Für eine Populationsaussage über eine Zielnutzung benötigen wir zusätzlich die Statistik aus Kapitel 14 und 15."
+  },
+  {
+    "key": "u0623",
+    "de": "Vor jeder Prüfung werden Muster, Profil, Messgrößen, Ausfallkriterium und Abbruchregeln festgelegt. Funktionen werden nach Bedarf vor, während und nach der Belastung kontrolliert. Ein intermittierender Kontakt kann nach dem Abkühlen wieder funktionieren. Wer nur hinterher misst, kann diesen Fehler übersehen."
+  },
+  {
+    "key": "u0624",
+    "de": "Elektrische Belastungen und thermische Auslegung"
+  },
+  {
+    "key": "u0625",
+    "de": "Wir untersuchen Versorgungstoleranz, Transienten, Einschaltstrom, Lastwechsel und wiederholtes Ein- und Ausschalten, soweit sie im Profil relevant sind. Das Bauteil wird im vorgesehenen Zustand betrieben und mit passenden Messmitteln beobachtet. Versorgungseinbrüche können einen Neustart auslösen, ohne sichtbare Hardwarebeschädigung."
+  },
+  {
+    "key": "u0626",
+    "de": "Alltagsbeispiel: Ein Ladegerät funktioniert unbelastet, bricht aber beim Laden eines leeren Akkus ein. Der Leerlauftest hat den kritischen Zustand nicht enthalten. Am Röntgensystem vergleichen wir deshalb benötigte Last, Versorgungspfad, lokale Temperatur und Fehlerreaktion. EMV-Prüfungen untersuchen zusätzlich bestimmte Störeinwirkungen und Emissionen; sie ersetzen keinen allgemeinen Lebensdauernachweis."
+  },
+  {
+    "key": "u0627",
+    "de": "Elektromagnetische Störfestigkeit und Emissionen werden gesondert betrachtet. IEC 60601-1-2 ordnet die Anforderungen und Prüfungen im Kontext von Basissicherheit und wesentlichen Leistungsmerkmalen ein. Eine störfeste Einzelbaugruppe reicht als Systemnachweis nur, wenn Einbau, Leitungen, Schnittstellen und Betriebszustände passend abgedeckt sind. <a href=\"#sources/source_N28\">[N28]</a>"
+  },
+  {
+    "key": "u0628",
+    "de": "Aufbau und Verbindungstechnik"
+  },
+  {
+    "key": "u0629",
+    "de": "Leiterplatte, Lötstelle, Bond, Stecker, Kabel, Klebung und Verguss haben unterschiedliche Mechanismen. Temperaturwechsel erzeugen beispielsweise unterschiedliche Ausdehnung. Vibration und Kabelzug beanspruchen andere Stellen. Wir kombinieren die passende Belastung mit Messungen wie Kontaktwiderstand oder kontinuierlicher Unterbrechungsüberwachung. Mikroskopie, Röntgeninspektion oder Querschliff können Befunde ergänzen; zerstörende Untersuchungen werden im Prüfplan berücksichtigt."
+  },
+  {
+    "key": "u0630",
+    "de": "Alltagsbeispiel: Ein Kopfhörerkabel spielt Musik, solange es ruhig liegt, setzt aber beim Biegen am Stecker aus. Der Fehler ist lageabhängig. Eine unbewegte Abschlussprüfung kann ihn verpassen. Ein Detektorkabel wird entsprechend mit realistischem Biegeradius, Zugentlastung und Bewegung bewertet, nicht nur mit einer beliebigen Zahl von Biegungen."
+  },
+  {
+    "key": "u0631",
+    "de": "Temperatur und Temperaturwechsel"
+  },
+  {
+    "key": "u0632",
+    "de": "Eine Prüfung bei konstanter Temperatur untersucht andere Aspekte als eine Temperaturwechselprüfung. Wir definieren obere und untere Temperatur, Messort, Rampen, Verweilzeit, Zykluszahl und Betriebszustand. Die Bauteiltemperatur kann wegen Eigenwärme von der Kammerluft abweichen. Ausreichende Stabilisierung wird am relevanten Ort bewertet."
+  },
+  {
+    "key": "u0633",
+    "de": "Alltagsbeispiel: Ein Marmeladenglas reagiert anders auf langsam steigende Temperatur als auf einen schnellen Wechsel von kalt zu heiß. Das verdeutlicht, warum Temperaturbereich und Wechselgeschwindigkeit getrennte Angaben sind. Für ein Modul untersuchen wir, ob der Test die relevante Materialbeanspruchung trifft und keine völlig andere, im Einsatz nicht vorkommende Schädigung erzeugt."
+  },
+  {
+    "key": "u0634",
+    "de": "Feuchte und Kondensation"
+  },
+  {
+    "key": "u0635",
+    "de": "Relative Feuchte, Temperatur und Kondensation müssen unterschieden werden. Kondensation hängt von Oberflächentemperatur und Taupunkt ab. Ein Test mit konstanter feuchter Wärme ohne Kondensation deckt das Beschlagen einer kalten Oberfläche nach Transport in einen warmen Raum nur mit einem entsprechenden Kondensationsprofil ab. IEC 60068-2-78 beschreibt einen solchen konstanten Feuchtefall; andere Szenarien brauchen passende Methoden."
+  }
+]

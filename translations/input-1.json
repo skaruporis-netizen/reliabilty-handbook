@@ -1,0 +1,1342 @@
+[
+  {
+    "key": "u0000",
+    "de": "1 Qualität und Zuverlässigkeit verstehen"
+  },
+  {
+    "key": "u0001",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0002",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_N01\">[N01]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0003",
+    "de": "Eine Funktion kann heute gut sein und morgen ausfallen"
+  },
+  {
+    "key": "u0004",
+    "de": "Ein neuer Wasserkocher erhitzt Wasser schnell, lässt sich gut bedienen und ist dicht. Er erfüllt damit wichtige Qualitätsanforderungen. Wenn sein Schalter nach einigen Wochen nicht mehr funktioniert, fehlt ihm Zuverlässigkeit über die vorgesehene Nutzung. Umgekehrt kann ein langlebiger Wasserkocher schlecht gestaltet sein: Er hält jahrelang, aber sein Griff wird unangenehm heiß. Lange Lebensdauer allein macht ihn nicht zu einem guten Produkt."
+  },
+  {
+    "key": "u0005",
+    "de": "Qualität beschreibt, in welchem Maß ein Produkt seine Anforderungen und relevanten Bedürfnisse erfüllt. Zuverlässigkeit beschreibt seine Fähigkeit, eine festgelegte Funktion unter festgelegten Bedingungen über eine festgelegte Dauer beziehungsweise Nutzung zu erfüllen. Sie ist damit ein Qualitätsmerkmal, aber nicht die ganze Qualität. Wir fragen immer: Welche Funktion, unter welchen Bedingungen, über welche Nutzung und mit welcher zulässigen Abweichung?"
+  },
+  {
+    "key": "u0006",
+    "de": "Bei technischen Produkten verwenden wir hier Zuverlässigkeit als deutsche Bezeichnung für Reliability. Der Ausdruck Reliabilität wird außerhalb der Technik auch für die Verlässlichkeit von Messverfahren verwendet. Ein eindeutig vereinbartes Glossar verhindert, dass Kollegen mit demselben Wort unterschiedliche Dinge meinen."
+  },
+  {
+    "key": "u0007",
+    "de": "Zum Zusammenspiel von Hardware und Software"
+  },
+  {
+    "key": "u0008",
+    "de": "Hardware kann durch Verschleiß, Korrosion, Materialermüdung oder andere physikalische Mechanismen ausfallen. Auch Fertigungsabweichungen können erst später sichtbar werden. Software verschleißt nicht wie eine Lötstelle. Ein vorhandener Programmfehler kann aber durch eine seltene Eingabe, einen bestimmten Zustand oder eine ungünstige Ereignisfolge aktiviert werden. Ressourcen können im Betrieb erschöpft werden, beispielsweise durch ein Speicherleck."
+  },
+  {
+    "key": "u0009",
+    "de": "Das Zusammenspiel bildet eine dritte Betrachtungsebene. Zwei für sich geeignete Elemente können gemeinsam eine Funktion verlieren. Ein funktionierender Wasserkocher an einer ungeeigneten Mehrfachsteckdose illustriert das: Der Schalter und die Heizung müssen nicht defekt sein, wenn die Versorgung unter Last abschaltet. Ebenso kann ein qualifizierter Detektor mit einem qualifizierten Generator einen Aufnahmeabbruch verursachen, wenn ihre Bereitschafts- und Freigabesignale zeitlich nicht zusammenpassen."
+  },
+  {
+    "key": "u0010",
+    "de": "Der Ausfall wird deshalb an einer Funktion definiert, nicht nur an einem beschädigten Bauteil. Auch ein fehlendes Bild, ein unzulässiger Bildqualitätsverlust oder eine notwendige Wiederholung kann ein Funktionsausfall sein. Welche Ereignisse gezählt werden, muss vor der Bewertung feststehen. Eine geplante Wartungsunterbrechung ist anders zu behandeln als ein ungeplanter Aufnahmeabbruch."
+  },
+  {
+    "key": "u0011",
+    "de": "Benachbarte Begriffe richtig einordnen"
+  },
+  {
+    "key": "u0012",
+    "de": "<strong>Begriff</strong>"
+  },
+  {
+    "key": "u0013",
+    "de": "<strong>Leitfrage</strong>"
+  },
+  {
+    "key": "u0014",
+    "de": "<strong>Alltagsbeispiel</strong>"
+  },
+  {
+    "key": "u0015",
+    "de": "<strong>Qualität</strong>"
+  },
+  {
+    "key": "u0016",
+    "de": "<strong>Erfüllt das Produkt die relevanten Anforderungen</strong>"
+  },
+  {
+    "key": "u0017",
+    "de": "<strong>Ein Fahrrad ist passend, sicher bedienbar und gut verarbeitet</strong>"
+  },
+  {
+    "key": "u0018",
+    "de": "<strong>Zuverlässigkeit</strong>"
+  },
+  {
+    "key": "u0019",
+    "de": "<strong>Bleibt die definierte Funktion über die Nutzung erhalten</strong>"
+  },
+  {
+    "key": "u0020",
+    "de": "<strong>Die Schaltung funktioniert über die vereinbarte Strecke</strong>"
+  },
+  {
+    "key": "u0021",
+    "de": "<strong>Verfügbarkeit</strong>"
+  },
+  {
+    "key": "u0022",
+    "de": "<strong>Ist die Funktion zu einem betrachteten Zeitpunkt nutzbar</strong>"
+  },
+  {
+    "key": "u0023",
+    "de": "<strong>Nach einer Reparatur steht das Fahrrad wieder bereit</strong>"
+  },
+  {
+    "key": "u0024",
+    "de": "<strong>Instandhaltbarkeit</strong>"
+  },
+  {
+    "key": "u0025",
+    "de": "<strong>Wie gut lässt sich die Funktion wiederherstellen</strong>"
+  },
+  {
+    "key": "u0026",
+    "de": "<strong>Ein Schlauchwechsel ist ohne Spezialwerkzeug möglich</strong>"
+  },
+  {
+    "key": "u0027",
+    "de": "<strong>Robustheit</strong>"
+  },
+  {
+    "key": "u0028",
+    "de": "<strong>Wie wenig empfindlich ist die Funktion gegenüber Abweichungen</strong>"
+  },
+  {
+    "key": "u0029",
+    "de": "<strong>Die Schaltung toleriert Schmutz und kleine Justagefehler</strong>"
+  },
+  {
+    "key": "u0030",
+    "de": "<strong>Sicherheit</strong>"
+  },
+  {
+    "key": "u0031",
+    "de": "<strong>Sind unvertretbare Risiken vermieden</strong>"
+  },
+  {
+    "key": "u0032",
+    "de": "<strong>Die Bremse verhindert einen gefährlichen Kontrollverlust</strong>"
+  },
+  {
+    "key": "u0033",
+    "de": "Ein System kann sicher abschalten und damit seine Nutzfunktion verlieren. Die Abschaltung kann ein richtiger Schutz sein, obwohl sie die Verfügbarkeit vermindert. Umgekehrt kann ein System lange laufen und dennoch ein Sicherheitsproblem haben. Dependability ist ein übergeordneter Begriff, der unter anderem Zuverlässigkeit, Verfügbarkeit und Instandhaltbarkeit zusammenführt. Security betrachtet den Schutz vor relevanten absichtlichen oder unbefugten Einwirkungen; sie kann Zuverlässigkeit und Sicherheit beeinflussen."
+  },
+  {
+    "key": "u0034",
+    "de": "Anwendung am Röntgensystem"
+  },
+  {
+    "key": "u0035",
+    "de": "Wir trennen die klinische Aufgabe, die technische Funktion und die benötigten Elemente. Die Aufgabe kann sein, eine diagnostisch brauchbare Aufnahme bereitzustellen. Dazu werden beispielsweise Positionierung, Exposition, Detektion, Bildverarbeitung und Datenbereitstellung benötigt. Ob ein fehlender Pixel einen Systemausfall darstellt, entscheidet seine Wirkung gegenüber der festgelegten Leistungsanforderung. Ein Neustart unterbricht unter Umständen den Workflow und muss an dessen Anforderungen bewertet werden."
+  },
+  {
+    "key": "u0036",
+    "de": "Vom funktionierenden Teil zur gelungenen Untersuchung"
+  },
+  {
+    "key": "u0037",
+    "de": "Eine Untersuchung gelingt erst, wenn die benötigte Leistung im gesamten vereinbarten Ablauf entsteht. Wir können deshalb drei Fragen stellen: Hält die Komponente ihre Funktion durch? Liefert das integrierte Gerät die Aufnahme? Und erreicht die Aufnahme den richtigen klinischen Arbeitsablauf? Diese Ebenen ergänzen einander. Welche davon bewertet wird, steht im Systemsteckbrief. Kapitel 3 und Schaubild D zeigen, wie wir Produktgrenze und Ablaufgrenze auseinanderhalten."
+  },
+  {
+    "key": "u0038",
+    "de": "Ein zuverlässiges Bildarchiv kann ein korrektes Bild speichern, während die Gesamtaufgabe wegen einer falschen Auftragszuordnung misslingt. Bei einer Geräteprüfung kann das Ende bereits die korrekt bereitgestellte Bilddatei sein. Bei der Bewertung des Klinikablaufs kann zusätzlich eine bestätigte Archivierung erforderlich sein. Wir legen den Endpunkt ausdrücklich fest, bevor wir Erfolge zählen."
+  },
+  {
+    "key": "u0039",
+    "de": "Resilienz bezeichnet hier die Fähigkeit, eine Störung zu bewältigen und die vereinbarte Leistung aufrechtzuerhalten oder wiederherzustellen. Eine freigegebene lokale Pufferung kann beispielsweise eine unterbrochene Archivverbindung überbrücken. Ob sie für den jeweiligen Ablauf ausreicht, hängt von Identitätssicherung, Kapazität, Wiederanlauf und dem zulässigen Zeitfenster ab."
+  },
+  {
+    "key": "u0040",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0041",
+    "de": "Die zu bewertende Funktion und ihren Leistungsbereich in einem Satz festhalten."
+  },
+  {
+    "key": "u0042",
+    "de": "Beginn, Ende und Einheit der Nutzung definieren, etwa Aufnahme, Betriebsstunde oder Lebenszyklus."
+  },
+  {
+    "key": "u0043",
+    "de": "Ausfall, Degradation, Wiederherstellung und geplante Unterbrechung getrennt definieren."
+  },
+  {
+    "key": "u0044",
+    "de": "Hardwarefehler, Softwarefehler und Integrationsfehler als mögliche Ursachen offenhalten."
+  },
+  {
+    "key": "u0045",
+    "de": "Die Begriffe gemeinsam mit Entwicklung, Qualität und Service an realen Ereignissen prüfen."
+  },
+  {
+    "key": "u0046",
+    "de": "Bewertungsendpunkt festlegen: Komponente, Gerät oder Untersuchungsablauf."
+  },
+  {
+    "key": "u0047",
+    "de": "Das Ergebnis ist ein Funktions- und Ereignisglossar. Der häufigste Denkfehler ist, einen bestandenen Funktionstest am ersten Tag mit einem Lebensdauernachweis gleichzusetzen. Ein zweiter ist, nur Austauschteile zu zählen und dabei Funktionsverluste ohne Austausch zu übersehen."
+  },
+  {
+    "key": "u0048",
+    "de": "Übung"
+  },
+  {
+    "key": "u0049",
+    "de": "Ein Router fällt jede Woche kurz aus und startet nach einer Minute selbst neu. Ist er zuverlässig, verfügbar und leicht wiederherstellbar? Formuliere zunächst die geforderte Funktion. Eine Musterantwort steht in Anhang A."
+  },
+  {
+    "key": "u0050",
+    "de": "2 Lebenszyklus und Verantwortlichkeiten festlegen"
+  },
+  {
+    "key": "u0051",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0052",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a>|  Grundlagen <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N20\">[N20]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0053",
+    "de": "Ein guter Bestandteil braucht einen passenden Einsatz"
+  },
+  {
+    "key": "u0054",
+    "de": "Wer eine Küche kauft, erwartet vom Hersteller des Kühlschranks ein funktionierendes Gerät. Der Küchenplaner muss trotzdem sicherstellen, dass die Einbaunische genug Platz und die notwendige Belüftung bietet. Wenn der Kühlschrank in einem zu engen, schlecht belüfteten Schrank überhitzt, lässt sich das Problem nicht allein mit dem Hinweis auf den Gerätehersteller lösen."
+  },
+  {
+    "key": "u0055",
+    "de": "Genauso unterscheiden wir die Absicherung einer zugelieferten Komponente von ihrer richtigen Anwendung im System. Der Supplier liefert die vereinbarte Funktion, Qualität und Nachweise. Wir beschreiben den tatsächlichen Einsatz, bewerten die Eignung der Evidenz und verantworten unsere Systemintegration. Eine Rollenverteilung ersetzt keine technische Prüfung ihrer Übergaben. Die konkreten Zuständigkeiten werden im Projekt vereinbart; dieses Handbuch legt keine Organisationsstruktur verbindlich fest."
+  },
+  {
+    "key": "u0056",
+    "de": "Die ganze Lebensgeschichte berücksichtigen"
+  },
+  {
+    "key": "u0057",
+    "de": "Zuverlässigkeit beginnt vor der ersten Kundenaufnahme. In der Entwicklung wählen wir Anforderungen, Materialien und Architektur. In der Fertigung entstehen Streuungen und möglicherweise latente Fehler. Lagerung und Transport können Vorschädigungen bewirken. Im Betrieb wirken Lasten und Umweltbedingungen; im Service verändern Reparaturen und Updates die Konfiguration. Auch ein gelagertes Ersatzteil altert, obwohl sein Betriebsstundenzähler bei null steht."
+  },
+  {
+    "key": "u0058",
+    "de": "Eine Taschenlampe verdeutlicht die unterschiedlichen Zeiten: Ihre LED hat wenige Betriebsstunden, während eine jahrelang eingelegte Batterie auslaufen kann. Betriebsdauer und Kalenderalter beantworten verschiedene Fragen. Für das Röntgensystem führen wir deshalb die Nutzungshistorie und relevante Lebenszyklusbelastungen getrennt."
+  },
+  {
+    "key": "u0059",
+    "de": "Aufgaben an den Übergaben vereinbaren"
+  },
+  {
+    "key": "u0060",
+    "de": "<strong>Beteiligte Rolle</strong>"
+  },
+  {
+    "key": "u0061",
+    "de": "<strong>Typischer Beitrag</strong>"
+  },
+  {
+    "key": "u0062",
+    "de": "<strong>Erforderliche Übergabe</strong>"
+  },
+  {
+    "key": "u0063",
+    "de": "<strong>Systementwicklung</strong>"
+  },
+  {
+    "key": "u0064",
+    "de": "<strong>Use Cases, Architektur und reale Einsatzbedingungen</strong>"
+  },
+  {
+    "key": "u0065",
+    "de": "<strong>Prüffähige Anforderungen und Integrationskonzept</strong>"
+  },
+  {
+    "key": "u0066",
+    "de": "<strong>Supplier und Lieferantenbetreuung</strong>"
+  },
+  {
+    "key": "u0067",
+    "de": "<strong>Komponentenentwicklung und vereinbarte Qualifikation</strong>"
+  },
+  {
+    "key": "u0068",
+    "de": "<strong>Versionsbezogene Berichte, Rohdaten und Einsatzgrenzen</strong>"
+  },
+  {
+    "key": "u0069",
+    "de": "<strong>Qualität und Risikomanagement</strong>"
+  },
+  {
+    "key": "u0070",
+    "de": "<strong>Prozesskontrolle und Bewertung relevanter Risiken</strong>"
+  },
+  {
+    "key": "u0071",
+    "de": "<strong>Freigabekriterien und bearbeitete Abweichungen</strong>"
+  },
+  {
+    "key": "u0072",
+    "de": "<strong>Fertigung und Logistik</strong>"
+  },
+  {
+    "key": "u0073",
+    "de": "<strong>Reproduzierbare Herstellung und Handhabung</strong>"
+  },
+  {
+    "key": "u0074",
+    "de": "<strong>Prozessdaten, Rückverfolgbarkeit und Änderungsinformation</strong>"
+  },
+  {
+    "key": "u0075",
+    "de": "<strong>Service und Feldanalyse</strong>"
+  },
+  {
+    "key": "u0076",
+    "de": "<strong>Ereignisse erfassen und Fehler untersuchen</strong>"
+  },
+  {
+    "key": "u0077",
+    "de": "<strong>Verknüpfte Nutzung, Konfiguration und Fehlerbefunde</strong>"
+  },
+  {
+    "key": "u0078",
+    "de": "Die Lieferantenbetreuung erhält eine eindeutig benannte Rolle. Im Projekt wird festgelegt, wer Anforderungen freigibt, Nachweise akzeptiert und Fehlerfälle mit dem Zulieferer schließt."
+  },
+  {
+    "key": "u0079",
+    "de": "Nachweise übernehmen ohne sie blind zu übernehmen"
+  },
+  {
+    "key": "u0080",
+    "de": "Wir übernehmen passende Supplier-Nachweise und prüfen gezielt die verbleibenden Lücken. Zuerst fragen wir, ob die geprüfte Version, Fertigung, Nutzung und Belastung unsere Anwendung abdecken. Ein geeigneter Nachweis darf übernommen werden. Für eine relevante Lücke wählen wir eine gezielte Ergänzung. Eine andere Einbausituation kann beispielsweise eine thermische Integrationsprüfung erfordern, ohne die mechanische Bauteilqualifikation neu aufzurollen."
+  },
+  {
+    "key": "u0081",
+    "de": "Die Übernahme gilt für einen dokumentierten Bereich. Wird ein qualifiziertes Kabel plötzlich häufiger bewegt oder anders geführt, muss die Änderungswirkung bewertet werden. Ein Fahrradreifen für die Straße ist nicht allein deshalb ungeeignet, weil er auf einem Schotterweg platzt; die erste Frage lautet, ob dieser Einsatz vereinbart und abgesichert war."
+  },
+  {
+    "key": "u0082",
+    "de": "Der Zuverlässigkeitsplan"
+  },
+  {
+    "key": "u0083",
+    "de": "Ein schlanker Plan beschreibt Bewertungsziele, Funktionen, Einsatzprofile, Verantwortliche, Methoden, benötigte Daten und Entscheidungszeitpunkte. Er verbindet präventive Arbeit mit dem späteren Feldmonitoring. Ein Plan mit ausschließlich Feldkennzahlen kommt zu spät, wenn kritische Schnittstellen vorher nicht analysiert wurden."
+  },
+  {
+    "key": "u0084",
+    "de": "Der Plan wird aktualisiert, wenn neue Informationen eintreffen. Ein unbekannter Fehlermechanismus kann zusätzliche Analysen auslösen. Eine neue Nutzung kann bisher ausreichende Nachweise einschränken. Die Dokumentation sollte zeigen, welche Entscheidung aus welcher Erkenntnis folgt, statt nur eine Liste geplanter Tests fortzuschreiben."
+  },
+  {
+    "key": "u0085",
+    "de": "Drei Verantwortungsbereiche unterscheiden"
+  },
+  {
+    "key": "u0086",
+    "de": "Die folgende Aufteilung hilft bei der Arbeit. Sie bezeichnet Verantwortungsbereiche und ist keine gesetzliche Zuordnung. Ein fremdes Teil wird durch den Einkauf nicht zu einem Nachweis ohne Grenzen."
+  },
+  {
+    "key": "u0087",
+    "de": "<strong>Bereich</strong>"
+  },
+  {
+    "key": "u0088",
+    "de": "<strong>Beispiel</strong>"
+  },
+  {
+    "key": "u0089",
+    "de": "<strong>Unsere Aufgabe</strong>"
+  },
+  {
+    "key": "u0090",
+    "de": "<strong>A Eigene Entwicklung</strong>"
+  },
+  {
+    "key": "u0091",
+    "de": "<strong>Steuerung und Integration</strong>"
+  },
+  {
+    "key": "u0092",
+    "de": "<strong>Anforderungen entwickeln und eigene Nachweise führen</strong>"
+  },
+  {
+    "key": "u0093",
+    "de": "<strong>B Zulieferung</strong>"
+  },
+  {
+    "key": "u0094",
+    "de": "<strong>Detektor und Generator</strong>"
+  },
+  {
+    "key": "u0095",
+    "de": "<strong>Einsatz spezifizieren und passende Nachweise übernehmen</strong>"
+  },
+  {
+    "key": "u0096",
+    "de": "<strong>C Betreiberumgebung</strong>"
+  },
+  {
+    "key": "u0097",
+    "de": "<strong>Netzwerk und Archiv</strong>"
+  },
+  {
+    "key": "u0098",
+    "de": "<strong>Schnittstellenbedingungen abstimmen und Gesamtfunktion prüfen</strong>"
+  },
+  {
+    "key": "u0099",
+    "de": "Für jede Übergabe vereinbaren wir Ansprechpartner, technische Annahmen und einen Weg für Änderungen. Der Betreiber kann sein Netzwerk unabhängig ändern; ein Zulieferer kann eine Firmware aktualisieren. Wir halten deshalb einen gemeinsamen Konfigurationsstand fest, auch wenn die einzelnen Systeme unterschiedliche Lebenszyklen haben. Die Herstellerverantwortung für das eigene Produkt bleibt bestehen."
+  },
+  {
+    "key": "u0100",
+    "de": "Normen als Wegweiser verwenden"
+  },
+  {
+    "key": "u0101",
+    "de": "Die Tabelle ordnet Normen den Nachweisfragen zu. Anwendbarkeit und Detailanforderungen werden im Normenprozess geprüft; hier wurden nur öffentliche Katalogbeschreibungen ausgewertet."
+  },
+  {
+    "key": "u0102",
+    "de": "<strong>Dokument oder Rahmen</strong>"
+  },
+  {
+    "key": "u0103",
+    "de": "<strong>Leitfrage</strong>"
+  },
+  {
+    "key": "u0104",
+    "de": "<strong>Kapitel</strong>"
+  },
+  {
+    "key": "u0105",
+    "de": "<strong>IEC 60601-1 und zutreffende besondere Teile</strong>"
+  },
+  {
+    "key": "u0106",
+    "de": "<strong>Welche Basissicherheit und wesentlichen Leistungsmerkmale müssen erhalten bleiben</strong>"
+  },
+  {
+    "key": "u0107",
+    "de": "<strong>7 12 16 17</strong>"
+  },
+  {
+    "key": "u0108",
+    "de": "<strong>IEC 60601-2-54 [N21]</strong>"
+  },
+  {
+    "key": "u0109",
+    "de": "<strong>Welche besonderen Anforderungen betreffen Radiographie und Radioskopie</strong>"
+  },
+  {
+    "key": "u0110",
+    "de": "<strong>7 16 17</strong>"
+  },
+  {
+    "key": "u0111",
+    "de": "<strong>IEC 60601-1-2 [N28]</strong>"
+  },
+  {
+    "key": "u0112",
+    "de": "<strong>Welche Störfestigkeit und Emissionen werden im Hinblick auf Basissicherheit und wesentliche Leistungsmerkmale geprüft</strong>"
+  },
+  {
+    "key": "u0113",
+    "de": "<strong>12 16</strong>"
+  },
+  {
+    "key": "u0114",
+    "de": "<strong>IEC 62366-1 [N29]</strong>"
+  },
+  {
+    "key": "u0115",
+    "de": "<strong>Wie werden sicherheitsrelevante Bedienhandlungen und Gebrauchstauglichkeit analysiert und geprüft</strong>"
+  },
+  {
+    "key": "u0116",
+    "de": "<strong>8 19</strong>"
+  },
+  {
+    "key": "u0117",
+    "de": "<strong>ISO 14971</strong>"
+  },
+  {
+    "key": "u0118",
+    "de": "<strong>Welche Funktionsverluste können zu unvertretbaren Risiken führen</strong>"
+  },
+  {
+    "key": "u0119",
+    "de": "<strong>8 9 17</strong>"
+  },
+  {
+    "key": "u0120",
+    "de": "<strong>IEC 62304 und IEC 81001-5-1</strong>"
+  },
+  {
+    "key": "u0121",
+    "de": "<strong>Wie werden Software und Security im Lebenszyklus behandelt</strong>"
+  },
+  {
+    "key": "u0122",
+    "de": "<strong>13 17</strong>"
+  },
+  {
+    "key": "u0123",
+    "de": "<strong>IEC 80001-1</strong>"
+  },
+  {
+    "key": "u0124",
+    "de": "<strong>Wie werden Risiken vernetzter Gesundheits IT zwischen Beteiligten behandelt</strong>"
+  },
+  {
+    "key": "u0125",
+    "de": "<strong>3 5 16</strong>"
+  },
+  {
+    "key": "u0126",
+    "de": "<strong>ISO/IEC/IEEE 15288 und 21839</strong>"
+  },
+  {
+    "key": "u0127",
+    "de": "<strong>Welche Lebenszyklusprozesse und übergreifenden Systembeziehungen sind relevant</strong>"
+  },
+  {
+    "key": "u0128",
+    "de": "<strong>2 3 6</strong>"
+  },
+  {
+    "key": "u0129",
+    "de": "<strong>MDR Überwachung nach dem Inverkehrbringen</strong>"
+  },
+  {
+    "key": "u0130",
+    "de": "<strong>Wie fließen Feldinformationen in die Produktbewertung zurück</strong>"
+  },
+  {
+    "key": "u0131",
+    "de": "<strong>18 19</strong>"
+  },
+  {
+    "key": "u0132",
+    "de": "Aktuelle Fassungen, Änderungen und geltende Übernahmen werden im Normenprozess geprüft. <a href=\"#sources/source_N22\">[N22]</a> <a href=\"#sources/source_N23\">[N23]</a> <a href=\"#sources/source_N24\">[N24]</a> <a href=\"#sources/source_N25\">[N25]</a> <a href=\"#sources/source_N26\">[N26]</a>"
+  },
+  {
+    "key": "u0133",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0134",
+    "de": "Lebenszyklusphasen einschließlich Lagerung, Transport und Service auflisten."
+  },
+  {
+    "key": "u0135",
+    "de": "Pro Nachweis eine verantwortliche Rolle und einen akzeptierenden Empfänger benennen."
+  },
+  {
+    "key": "u0136",
+    "de": "Übergaben mit Inhalt, Version und Einsatzgrenzen definieren."
+  },
+  {
+    "key": "u0137",
+    "de": "Supplier-Evidenz, Integrationsnachweise und Feldauswertung getrennt planen und verknüpfen."
+  },
+  {
+    "key": "u0138",
+    "de": "Eskalationswege für Lücken, Änderungen und kritische Fehlerfälle vereinbaren."
+  },
+  {
+    "key": "u0139",
+    "de": "Für jede Übergabe Bereich A, B oder C und anwendbare Normen festhalten."
+  },
+  {
+    "key": "u0140",
+    "de": "Das Ergebnis ist ein abgestimmter Zuverlässigkeitsplan. Ein bloßes Zertifikat ohne Bezug zur gelieferten Variante ist keine ausreichende technische Übergabe. Vertragliche Verantwortung und die Eignung eines konkreten Nachweises sind unterschiedliche Fragen."
+  },
+  {
+    "key": "u0141",
+    "de": "Übung"
+  },
+  {
+    "key": "u0142",
+    "de": "Eine Waschmaschine wird in einen engen Schrank eingebaut und vibriert dort stärker als freistehend. Welche Nachweise gehören zum Gerätehersteller, welche zur Einbaubewertung?"
+  },
+  {
+    "key": "u0143",
+    "de": "3 Systemgrenzen und Wechselwirkungen modellieren"
+  },
+  {
+    "key": "u0144",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0145",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0146",
+    "de": "Die Grenze hängt von der Frage ab"
+  },
+  {
+    "key": "u0147",
+    "de": "Betrachten wir eine Waschmaschine, ist das gesamte Gerät unser System. Wasseranschluss, Stromnetz, Nutzer und Fußboden gehören zur Umgebung. Untersuchen wir nur ihre Pumpe, werden Trommel, Steuerung und Schläuche ebenfalls zu ihrer Umgebung. Das Bauteil ist unverändert; die betrachtete Grenze hat sich geändert."
+  },
+  {
+    "key": "u0148",
+    "de": "Dieses gewählte Untersuchungsobjekt nennen wir System of Interest. Seine Grenze trennt, was wir zunächst intern modellieren, von dem, was als äußere Einwirkung oder Schnittstelle beschrieben wird. Eine Grenze darf deshalb nicht nur aus der Stückliste übernommen werden. Sie muss zur Bewertungsfrage passen."
+  },
+  {
+    "key": "u0149",
+    "de": "Zwei Grenzen und die mögliche Sicht als System of Systems"
+  },
+  {
+    "key": "u0150",
+    "de": "Mehrere Subsysteme machen ein Gerät noch nicht zu einem System of Systems, kurz SoS. Entscheidend sind insbesondere eigenständige operative Zwecke und eigenständige Führung der beteiligten Systeme. Räumliche Verteilung, Weiterentwicklung und Verhalten aus dem Zusammenspiel ergänzen diese Betrachtung. Ein Detektor wird nicht allein dadurch operativ unabhängig, dass er in mehreren Räumen eingesetzt werden kann. <a href=\"#sources/source_Q22\">[Q22]</a>"
+  },
+  {
+    "key": "u0151",
+    "de": "Innerhalb der Produktgrenze zerlegen wir das Röntgengerät rekursiv in Subsysteme und Komponenten. Im hier betrachteten Produkt sind Detektor und Generator Subsysteme; räumliche Mobilität macht sie noch nicht zu eigenständigen Systemen eines SoS. Betrachten wir dagegen den Untersuchungsablauf mit Gerät, Auftragsverwaltung, Archiv und Betreiber-IT, kann die SoS-Sicht passen. Ein Archiv bedient weitere Modalitäten und verfolgt eigene Betriebs- und Änderungsziele. Wir begründen die Einordnung am gewählten Untersuchungsobjekt. ISO/IEC/IEEE 21839 behandelt SoS-Beziehungen im Lebenszyklus eines beteiligten Systems. <a href=\"#sources/source_N25\">[N25]</a>"
+  },
+  {
+    "key": "u0152",
+    "de": "Schaubild D Produktgrenze und Untersuchungsablauf  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0153",
+    "de": "Schaubild D Produktgrenze und Untersuchungsablauf  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u0154",
+    "de": "Das vereinfachte Funktionsbild trennt Produktgrenze und Ablaufgrenze. Der Expositionspfad schließt den Strahler ein; weitere Subsysteme wie Bildverarbeitung und Positionierung sind hier nicht gesondert gezeichnet. Der Hersteller kann viele innere Übergaben gestalten, aber Änderungen des Betreiberarchivs nur abstimmen. Prüfungen an diesen Übergaben bleiben erforderlich. Evidenzübernahme, Schnittstellenvereinbarung und Integrationsprüfung haben jeweils eine eigene Aufgabe."
+  },
+  {
+    "key": "u0155",
+    "de": "Für den SoS-Steckbrief ergänzen wir die beteiligten Systeme, ihre eigenen Zwecke, Verantwortlichen und Änderungswege. Ob eine zentrale Stelle Änderungen durchsetzen kann oder Kooperation benötigt, wird konkret dokumentiert. Eine pauschale Einordnung jedes Röntgenablaufs als anerkanntes oder kollaboratives SoS hilft weniger als eine klare Beschreibung der tatsächlichen Befugnisse."
+  },
+  {
+    "key": "u0156",
+    "de": "Schnittstellen und zusätzliche Einwirkungen"
+  },
+  {
+    "key": "u0157",
+    "de": "Beabsichtigte Inputs sind beispielsweise Aufträge, elektrische Energie, Daten oder Material. Beabsichtigte Outputs sind die geforderte Leistung oder Information. Zusätzlich wirken Umweltbedingungen auf das System ein: Temperatur, Feuchte, mechanische Belastung oder elektromagnetische Störung. Das System wirkt seinerseits auf die Umgebung, etwa durch Abwärme, Kräfte oder Emissionen."
+  },
+  {
+    "key": "u0158",
+    "de": "Die Abgrenzung in Schaubild B hilft, diese Beziehungen sichtbar zu machen. Eine Leitung kann zugleich gewünschte Daten übertragen und unerwünschte Störungen einkoppeln. Die Einteilung ist eine analytische Hilfe, keine Behauptung, dass gewollte und ungewollte Vorgänge physikalisch getrennt stattfinden."
+  },
+  {
+    "key": "u0159",
+    "de": "Beim Wasserkocher sind Wasser und elektrische Energie beabsichtigte Inputs, warmes Wasser ist ein beabsichtigter Output. Raumtemperatur und Kalkbelastung beeinflussen ihn. Abwärme und Dampf wirken nach außen. Ein reines Blockbild mit dem Pfeil „Strom hinein und heißes Wasser hinaus“ würde wichtige Belastungen übersehen."
+  },
+  {
+    "key": "u0160",
+    "de": "Zustand und Vorgeschichte ergänzen die Schnittstelle"
+  },
+  {
+    "key": "u0161",
+    "de": "Dasselbe Inputsignal kann unterschiedliche Wirkungen haben. Der Einschaltknopf einer Waschmaschine startet je nach Zustand ein Programm, setzt es fort oder wird gesperrt. Für die Zuverlässigkeitsanalyse brauchen wir deshalb Betriebsarten, Zustände und Übergänge. Zur Vorgeschichte gehören beispielsweise Temperatur, kumulierte Last und bereits empfangene Befehle."
+  },
+  {
+    "key": "u0162",
+    "de": "Ein Detektor kann ein Bereitschaftssignal senden und kurze Zeit später in einen anderen Zustand wechseln. Ein Empfänger, der nur den letzten Wert kennt, muss zusätzlich wissen, ob er noch gültig ist. Signalwert, Zeit und Zustand gehören gemeinsam zur Schnittstellenbeschreibung. Auch Rückkopplungen sind wichtig: Eine Kühlungsregelung verändert die Temperatur, die wiederum die Regelung beeinflusst."
+  },
+  {
+    "key": "u0163",
+    "de": "Rekursive Zerlegung am Röntgensystem"
+  },
+  {
+    "key": "u0164",
+    "de": "Zuerst grenzen wir das Gesamtsystem ab. Danach wählen wir beispielsweise den Detektor als neues Untersuchungsobjekt. Seine Umgebung enthält nun Generator, Steuerung, Einbau, Stromversorgung, Kommunikation und Strahlungsfeld. Innerhalb des Detektors können Sensorik, Elektronik und Firmware erneut betrachtet werden. Auf jeder Ebene stellen wir dieselben Fragen nach Funktion, I/O, Belastung, Zuständen und Wirkungen."
+  },
+  {
+    "key": "u0165",
+    "de": "Die Zerlegung schafft Ordnung, aber keine automatische Unabhängigkeit. Zwei Subsysteme können ein Netzteil, eine Kühlung oder einen Kommunikationskanal teilen. Ein Umweltproblem kann mehrere Elemente gleichzeitig treffen. Diese Kopplungen werden beim Herunterbrechen erhalten und in Kapitel 9 bewertet."
+  },
+  {
+    "key": "u0166",
+    "de": "Einen Systemsteckbrief erstellen"
+  },
+  {
+    "key": "u0167",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u0168",
+    "de": "<strong>Frage</strong>"
+  },
+  {
+    "key": "u0169",
+    "de": "<strong>Beispiel am Detektor</strong>"
+  },
+  {
+    "key": "u0170",
+    "de": "<strong>Grenze</strong>"
+  },
+  {
+    "key": "u0171",
+    "de": "<strong>Was liegt innerhalb und außerhalb</strong>"
+  },
+  {
+    "key": "u0172",
+    "de": "<strong>Detektormodul innen, Systemsteuerung außen</strong>"
+  },
+  {
+    "key": "u0173",
+    "de": "<strong>Funktion</strong>"
+  },
+  {
+    "key": "u0174",
+    "de": "<strong>Welche Leistung wird erwartet</strong>"
+  },
+  {
+    "key": "u0175",
+    "de": "<strong>Bilddaten innerhalb definierter Grenzen bereitstellen</strong>"
+  },
+  {
+    "key": "u0176",
+    "de": "<strong>Inputs</strong>"
+  },
+  {
+    "key": "u0177",
+    "de": "<strong>Welche Flüsse werden benötigt</strong>"
+  },
+  {
+    "key": "u0178",
+    "de": "<strong>Versorgung, Steuerung, Exposition</strong>"
+  },
+  {
+    "key": "u0179",
+    "de": "<strong>Outputs</strong>"
+  },
+  {
+    "key": "u0180",
+    "de": "<strong>Was wird abgegeben</strong>"
+  },
+  {
+    "key": "u0181",
+    "de": "<strong>Bilddaten, Status und Abwärme</strong>"
+  },
+  {
+    "key": "u0182",
+    "de": "<strong>Einwirkungen</strong>"
+  },
+  {
+    "key": "u0183",
+    "de": "<strong>Was verändert Bedingungen</strong>"
+  },
+  {
+    "key": "u0184",
+    "de": "<strong>Einbauwärme, Strahlung und mechanische Last</strong>"
+  },
+  {
+    "key": "u0185",
+    "de": "<strong>Zustände</strong>"
+  },
+  {
+    "key": "u0186",
+    "de": "<strong>Wann gilt welcher Vertrag</strong>"
+  },
+  {
+    "key": "u0187",
+    "de": "<strong>Start, bereit, Aufnahme, Auslesen und Fehler</strong>"
+  },
+  {
+    "key": "u0188",
+    "de": "<strong>Eigener Zweck</strong>"
+  },
+  {
+    "key": "u0189",
+    "de": "<strong>Welche Leistung erfüllt das Element außerhalb unseres Ablaufs</strong>"
+  },
+  {
+    "key": "u0190",
+    "de": "<strong>Beim Detektormodul nicht eigenständig belegt; beim Archiv auch Speicherung für andere Modalitäten</strong>"
+  },
+  {
+    "key": "u0191",
+    "de": "<strong>Änderungsbefugnis</strong>"
+  },
+  {
+    "key": "u0192",
+    "de": "<strong>Wer kann eine Änderung beschließen und durchsetzen</strong>"
+  },
+  {
+    "key": "u0193",
+    "de": "<strong>Hersteller beim Gerät, Betreiber oder Dritthersteller beim Archiv</strong>"
+  },
+  {
+    "key": "u0194",
+    "de": "<strong>Änderungsweg</strong>"
+  },
+  {
+    "key": "u0195",
+    "de": "<strong>Wie erfahren andere Beteiligte von einer Änderung</strong>"
+  },
+  {
+    "key": "u0196",
+    "de": "<strong>Versionsmeldung, Wirkungsanalyse und abgestimmter Kompatibilitätsnachweis</strong>"
+  },
+  {
+    "key": "u0197",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0198",
+    "de": "Eine konkrete Bewertungsfrage formulieren und die Systemgrenze zeichnen."
+  },
+  {
+    "key": "u0199",
+    "de": "Alle Energie-, Informations- und Stoffflüsse an der Grenze sammeln."
+  },
+  {
+    "key": "u0200",
+    "de": "Umwelt- und Rückwirkungen ergänzen, einschließlich gemeinsam genutzter Ressourcen."
+  },
+  {
+    "key": "u0201",
+    "de": "Für jeden relevanten Fluss Richtung, Einheit, Timing, Gültigkeit und Grenzwerte beschreiben."
+  },
+  {
+    "key": "u0202",
+    "de": "Zustände und Vorgeschichte aufnehmen und die Betrachtung bei Bedarf im Subsystem wiederholen."
+  },
+  {
+    "key": "u0203",
+    "de": "Produktgrenze und Ablaufgrenze getrennt zeichnen; eigene Zwecke, Änderungsbefugnisse und Änderungswege dokumentieren."
+  },
+  {
+    "key": "u0204",
+    "de": "Das Ergebnis ist ein überprüfbarer Systemsteckbrief. Wenn eine Schnittstelle keinen verantwortlichen Besitzer hat, ist die Modellierung noch nicht abgeschlossen. Ein häufiges Problem ist, Wärme oder Erdung als bloße Randnotiz zu behandeln, obwohl sie die Funktion maßgeblich beeinflussen."
+  },
+  {
+    "key": "u0205",
+    "de": "Übung"
+  },
+  {
+    "key": "u0206",
+    "de": "Grenze einen Kühlschrank erst als Gesamtsystem und danach nur seinen Kompressor ab. Welche zuvor internen Elemente werden beim zweiten Blick zur Umgebung?"
+  },
+  {
+    "key": "u0207",
+    "de": "Vertiefungsübung"
+  },
+  {
+    "key": "u0208",
+    "de": "Ein mobiler Detektor wird zwischen zwei Räumen getauscht. Reicht das aus, um ihn als eigenständiges System eines SoS einzuordnen? Welche Angaben fehlen?"
+  },
+  {
+    "key": "u0209",
+    "de": "4 Use Cases und Nutzungsprofile beschreiben"
+  },
+  {
+    "key": "u0210",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0211",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a>|  Grundlagen <a href=\"#sources/source_Q06\">[Q06]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N12\">[N12]</a> <a href=\"#sources/source_N17\">[N17]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0212",
+    "de": "Gleiche Produkte erleben unterschiedliche Belastungen"
+  },
+  {
+    "key": "u0213",
+    "de": "Zwei identische Fahrräder können nach einem Jahr sehr verschieden aussehen. Eines wurde zweimal im Monat gefahren, das andere täglich bei Regen und mit Gepäck. Die Aussage „ein Jahr Lebensdauer“ beschreibt ihre tatsächliche Nutzung nur unzureichend. Wir brauchen Kilometer, Last, Wetter, Wartung und gegebenenfalls die Zahl bestimmter Bewegungen."
+  },
+  {
+    "key": "u0214",
+    "de": "Ein Use Case beschreibt einen Ablauf aus Sicht einer benötigten Leistung. Ein Mission Profile beschreibt die zugehörigen Zustände und Belastungen während einer typischen oder definierten Nutzung. Ein Life Cycle Profile ergänzt Lagerung, Transport, Wartung und weitere Phasen der Lebensgeschichte. Diese Profile verbinden Anforderungen mit realen Prüfbedingungen."
+  },
+  {
+    "key": "u0215",
+    "de": "Mehrere Nutzungsuhren führen"
+  },
+  {
+    "key": "u0216",
+    "de": "Für ein Röntgensystem können Kalenderalter, Einschaltstunden, Expositionen, Lastwechsel, Bewegungszyklen und kumulierte Strahlungsbelastung gleichzeitig relevant sein. Jede Größe wird am passenden Ort und mit passender Einheit definiert. Eine kumulierte Dosisangabe ohne Messort und Bestrahlungsbedingungen kann missverständlich sein. Sie darf nicht mit einer Patientendosis gleichgesetzt werden."
+  },
+  {
+    "key": "u0217",
+    "de": "Die Röhre erlebt andere Beanspruchungen als ein Detektorkabel. Eine Firmware erlebt bestimmte Zustandsfolgen, während ein Lagerteil chemisch altert. Wir wählen die Nutzungsgröße deshalb anhand des vermuteten Ausfallmechanismus. Bei unbekannten Mechanismen dokumentieren wir mehrere Größen, statt vorschnell nur Betriebsstunden zu sammeln."
+  },
+  {
+    "key": "u0218",
+    "de": "Eine Untersuchung vom Auftrag bis zum Ergebnis verfolgen"
+  },
+  {
+    "key": "u0219",
+    "de": "Wir zeichnen einen beispielhaften Ablauf: Auftrag annehmen, Identität und Aufnahmeziel prüfen, Gerät vorbereiten, Aufnahme erzeugen, Bild verarbeiten und Ergebnis bereitstellen. Wenn die gewählte Grenze das Archiv einschließt, gehört die bestätigte Übergabe ebenfalls dazu. Neben der normalen Reihenfolge beschreiben wir Abbruch, Wiederholung und Wiederanlauf."
+  },
+  {
+    "key": "u0220",
+    "de": "Ein Auftrag erhält eine eindeutige Kennung. An jedem Übergang fragen wir, ob Inhalt, Kennung, Status und Zeit noch zusammenpassen. Ein spätes Bild kann technisch vollständig sein und trotzdem zum falschen Vorgang gehören. Der Ablauf liefert daher Eingaben für die Schnittstellen-FMEA und für die Integrationstests."
+  },
+  {
+    "key": "u0221",
+    "de": "Für die Abschlussquote zählen wir eindeutig definierte begonnene Untersuchungen und deren Endzustand. Wiederholungsaufnahmen innerhalb derselben Untersuchung werden zusätzlich gezählt und nicht als neue erfolgreiche Untersuchung versteckt. Technisch verursachte Wiederholungen, geplante Mehrfachaufnahmen und klinisch veranlasste Wiederholungen werden getrennt. Zielwerte folgen aus der Anwendung; das Handbuch gibt keine klinischen Grenzwerte vor."
+  },
+  {
+    "key": "u0222",
+    "de": "Ein einfaches Lastprofil rechnen"
+  },
+  {
+    "key": "u0223",
+    "de": "Das folgende Lehrbeispiel ist keine Produktanforderung: Ein Kabel wird bei einem Aufnahmeablauf viermal bewegt. Es gibt 80 solche Abläufe pro Arbeitstag und 220 Arbeitstage pro Jahr. Daraus ergeben sich 70.400 Bewegungen pro Jahr und 704.000 Bewegungen in zehn Jahren. Das ist zunächst nur eine Zählung. Biegeradius, Zug, Temperatur und Bewegungsform fehlen noch, um einen Lebensdauerversuch festzulegen."
+  },
+  {
+    "key": "u0224",
+    "de": "Ein weiterer Lehrfall zeigt den Unterschied zwischen Mittelwert und Spitzenlast: Eine Kaffeemaschine bereitet über den Tag verteilt 30 Tassen zu. Eine zweite bereitet dieselbe Zahl innerhalb einer halben Stunde zu. Die Gesamtmenge ist gleich; thermische Spitzen, Pausen und Erholung sind unterschiedlich. Bei Röntgenaufnahmen können entsprechend Sequenz und Pausen ebenso wichtig sein wie die Gesamtzahl."
+  },
+  {
+    "key": "u0225",
+    "de": "Betriebsfälle und Grenzen"
+  },
+  {
+    "key": "u0226",
+    "de": "Wir beschreiben den häufigen Betrieb, wenig häufige zulässige Fälle und ungünstige zulässige Kombinationen. Auch Start, Abschaltung, Standby, Wiederanlauf, Service und Variantenwechsel können relevante Use Cases sein. Fehlgebrauch und Fehlerfälle werden gesondert bewertet; sie dürfen nicht unbemerkt als Normalbetrieb in dieselbe Statistik eingehen."
+  },
+  {
+    "key": "u0227",
+    "de": "Ein ungünstiger zulässiger Fall muss physikalisch möglich und im vorgesehenen Einsatz relevant sein. Die Kombination aller denkbaren Maximalwerte kann unmöglich sein oder eine Schutzfunktion aktivieren, die die Last begrenzt. Solche Abhängigkeiten gehören in das Profil. Ein belastbarer Worst Case ist begründet, nicht einfach eine beliebig große Zahl."
+  },
+  {
+    "key": "u0228",
+    "de": "Profile am Röntgensystem anwenden"
+  },
+  {
+    "key": "u0229",
+    "de": "Radiographie kann kurze Expositionen und häufige Positionswechsel enthalten. Fluoroskopische Abläufe können längere aktive Phasen und andere thermische Muster erzeugen. Mammographie kann andere Anforderungen an Positionierung und Mechanik haben. Daraus werden noch keine universellen Prüfschärfen abgeleitet: Varianten, Funktionen und tatsächliche Einsatzdaten entscheiden."
+  },
+  {
+    "key": "u0230",
+    "de": "Wenn Felddaten fehlen, trennen wir bekannte Fakten, technische Annahmen und konservative Setzungen. Wir prüfen mehrere plausible Profile und machen deutlich, bei welchem Profil die Aussage gilt. Die Profile müssen auch relevante Kunden mit abweichender Nutzung abdecken."
+  },
+  {
+    "key": "u0231",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0232",
+    "de": "Use Cases mit Startzustand, Ablauf, Erfolgskriterium und Endzustand beschreiben."
+  },
+  {
+    "key": "u0233",
+    "de": "Relevante Belastungsgrößen und Nutzungsuhren pro Komponente identifizieren."
+  },
+  {
+    "key": "u0234",
+    "de": "Häufigkeiten, Verteilungen, Spitzen und Reihenfolgen erfassen."
+  },
+  {
+    "key": "u0235",
+    "de": "Zulässige Grenzkombinationen mit ihren Abhängigkeiten festlegen."
+  },
+  {
+    "key": "u0236",
+    "de": "Quellen, Annahmen und Streuung dokumentieren und mit Felddaten aktualisieren."
+  },
+  {
+    "key": "u0237",
+    "de": "Begonnene Untersuchungen, Endzustände und Wiederholungen nach einer vereinbarten Zählregel erfassen."
+  },
+  {
+    "key": "u0238",
+    "de": "Das Ergebnis sind referenzierte Einsatzprofile. Eine Prüfdauer wird erst anschließend aus dem Nachweisziel und dem Mechanismus abgeleitet. Der Denkfehler „zehn Jahre entsprechen immer einer bestimmten Zahl von Stunden“ ist zu vermeiden."
+  },
+  {
+    "key": "u0239",
+    "de": "Übung"
+  },
+  {
+    "key": "u0240",
+    "de": "Ein Haustürschloss wird täglich zehnmal betätigt, ein Büroschloss hundertmal. Welche weiteren Angaben brauchst du, bevor du einen gemeinsamen Zehnjahresnachweis planst?"
+  },
+  {
+    "key": "u0241",
+    "de": "5 Funktionsketten und Signalketten zerlegen"
+  },
+  {
+    "key": "u0242",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0243",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q08\">[Q08]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0244",
+    "de": "Von der Leistung zu den Bauteilen"
+  },
+  {
+    "key": "u0245",
+    "de": "Beim Zubereiten von Kaffee werden Wasser bereitgestellt, erwärmt, durch das Kaffeepulver geführt und in die Tasse abgegeben. Das sind Funktionen. Wassertank, Heizung, Pumpe und Ventil sind mögliche Realisierungen. Wenn wir mit der Bauteilliste beginnen, übersehen wir leicht eine Funktion, die nicht eindeutig einem einzigen Teil gehört."
+  },
+  {
+    "key": "u0246",
+    "de": "Eine Funktionszerlegung beantwortet, welche Teilfunktionen eine übergeordnete Leistung ermöglichen. Eine Ablaufkette zeigt die Reihenfolge von Aktivitäten. Eine Signalkette zeigt Informationen und ihre Weitergabe. Energie- und Kraftflüsse werden zusätzlich betrachtet. Diese Sichten sind miteinander verknüpft, aber nicht austauschbar."
+  },
+  {
+    "key": "u0247",
+    "de": "Die Aufnahmefunktion zerlegen"
+  },
+  {
+    "key": "u0248",
+    "de": "Eine vereinfachte Aufnahmefunktion umfasst Auftrag prüfen, Aufnahmebereitschaft herstellen, Exposition koordinieren, Bildsignal erfassen, Daten auslesen und ein verwendbares Bild bereitstellen. Der tatsächliche Produktablauf kann abweichen. Für jede Teilfunktion beschreiben wir Erfolg und zulässige Abweichung. Dadurch wird später sichtbar, an welcher Stelle ein Aufnahmeabbruch entsteht."
+  },
+  {
+    "key": "u0249",
+    "de": "Parallel zum Ablauf stehen verschiedene Ketten: Der Aufnahmeauftrag und die Statusmeldung bilden Informationsflüsse. Versorgung und Exposition sind Energieflüsse. Positionierung und Halterung erzeugen mechanische Beziehungen. Ein Zeitdiagramm ergänzt die Frage, wann sich bestimmte Zustände überlappen müssen. Ein reines Architekturdiagramm beantwortet diese Timingfrage nicht."
+  },
+  {
+    "key": "u0250",
+    "de": "Ein Schnittstellenvertrag braucht mehr als ein Datenformat"
+  },
+  {
+    "key": "u0251",
+    "de": "Ein USB-Stecker passt mechanisch, aber ein Kabel kann trotzdem eine benötigte Datenrate oder Versorgungsleistung nicht ermöglichen. Das Alltagsbeispiel zeigt, warum passende Form allein noch keine funktionierende Schnittstelle beweist. Wir beschreiben Inhalt, Einheit, Wertebereich, Zeitverhalten und Fehlerbehandlung."
+  },
+  {
+    "key": "u0252",
+    "de": "Für eine Statusmeldung fragen wir: Wer erzeugt sie? Wann wird sie gültig? Wie lange bleibt sie gültig? Gehört sie zum aktuellen Auftrag? Was passiert bei Verlust, Verspätung, Wiederholung oder Neustart? Bei physikalischen Schnittstellen ergänzen wir beispielsweise Spannung, Strom, Impedanz, Bezugspotenzial und thermische Randbedingungen."
+  },
+  {
+    "key": "u0253",
+    "de": "Eine Kette mit Zuständen verbinden"
+  },
+  {
+    "key": "u0254",
+    "de": "<strong>Teilfunktion</strong>"
+  },
+  {
+    "key": "u0255",
+    "de": "<strong>Erforderlicher Input</strong>"
+  },
+  {
+    "key": "u0256",
+    "de": "<strong>Erwarteter Output</strong>"
+  },
+  {
+    "key": "u0257",
+    "de": "<strong>Kritische Bedingung</strong>"
+  },
+  {
+    "key": "u0258",
+    "de": "<strong>Auftrag annehmen</strong>"
+  },
+  {
+    "key": "u0259",
+    "de": "<strong>Gültiger Aufnahmeauftrag</strong>"
+  },
+  {
+    "key": "u0260",
+    "de": "<strong>Bestätigter Auftrag</strong>"
+  },
+  {
+    "key": "u0261",
+    "de": "<strong>Passende Konfiguration und Kennung</strong>"
+  },
+  {
+    "key": "u0262",
+    "de": "<strong>Bereitschaft herstellen</strong>"
+  },
+  {
+    "key": "u0263",
+    "de": "<strong>Konfiguration und stabile Versorgung</strong>"
+  },
+  {
+    "key": "u0264",
+    "de": "<strong>Gültiger Bereitschaftsstatus</strong>"
+  },
+  {
+    "key": "u0265",
+    "de": "<strong>Richtiger Zustand und frische Information</strong>"
+  },
+  {
+    "key": "u0266",
+    "de": "<strong>Exposition koordinieren</strong>"
+  },
+  {
+    "key": "u0267",
+    "de": "<strong>Freigabe und Bereitschaft</strong>"
+  },
+  {
+    "key": "u0268",
+    "de": "<strong>Kontrollierte Exposition</strong>"
+  },
+  {
+    "key": "u0269",
+    "de": "<strong>Erforderliche zeitliche Überdeckung</strong>"
+  },
+  {
+    "key": "u0270",
+    "de": "<strong>Bild bereitstellen</strong>"
+  },
+  {
+    "key": "u0271",
+    "de": "<strong>Erfasste und ausgelesene Daten</strong>"
+  },
+  {
+    "key": "u0272",
+    "de": "<strong>Bild und zugehöriger Status</strong>"
+  },
+  {
+    "key": "u0273",
+    "de": "<strong>Vollständigkeit und korrekte Zuordnung</strong>"
+  },
+  {
+    "key": "u0274",
+    "de": "Diese Tabelle ist ein Lehrmodell, keine fertige Produktspezifikation. Sie führt zur FMEA: Ein verspäteter Bereitschaftsstatus kann auf der lokalen Ebene korrekt aussehen und auf der Systemebene falsch verwendet werden. Deshalb untersuchen wir nicht nur, ob ein Output entsteht, sondern auch, ob er im richtigen Kontext wirksam wird."
+  },
+  {
+    "key": "u0275",
+    "de": "Annahmen und zugesicherte Leistungen verbinden"
+  },
+  {
+    "key": "u0276",
+    "de": "Ein Schnittstellenvertrag beschreibt, unter welchen Bedingungen ein Element welche Leistung zusichert. Wir nennen die Bedingungen Annahmen und die zugesagte Leistung Garantie. Diese technische Garantie ist keine Aussage über eine rechtliche Gewährleistung. Ist die Annahme verletzt, muss die vorgesehene Reaktion ebenfalls beschrieben sein."
+  },
+  {
+    "key": "u0277",
+    "de": "Beim Detektor lautet eine mögliche Annahme: Der Auftrag ist gültig, der relevante Zustand ist bekannt und die Versorgung liegt im festgelegten Bereich. Die zugesicherte Leistung beschreibt Bilddaten, Auftragskennung, zulässige Verzögerung und Fehlerstatus. Bei einer veralteten Bereitschaftsmeldung darf der Empfänger die Aufnahmefreigabe nicht allein aus dem früheren Wert ableiten. Der Vertrag legt fest, welche zusätzliche Aktualitätsprüfung nötig ist."
+  },
+  {
+    "key": "u0278",
+    "de": "Gemeinsam genutzte Ressourcen erhalten eigene Einträge: Versorgung, Kühlung, Netzwerk, Zeitbasis und Speicher. Zwei getrennte Datenpfade sind abhängig, wenn sie denselben Server benötigen. Solche Abhängigkeiten werden in Kapitel 9 und im Integrationsplan weitergeführt."
+  },
+  {
+    "key": "u0279",
+    "de": "Grenzen und Gegenprüfungen"
+  },
+  {
+    "key": "u0280",
+    "de": "Funktionsketten sind nicht immer linear. Rückmeldungen, Schleifen und parallele Aktivitäten sind üblich. Eine Schutzfunktion kann den Ablauf bewusst unterbrechen. Wir zeichnen solche Beziehungen explizit. Das Modell muss außerdem zeigen, welche Nebenfunktion eine Hauptfunktion ermöglicht, etwa Kühlung oder Synchronisation."
+  },
+  {
+    "key": "u0281",
+    "de": "Ein nützlicher Gegencheck beginnt beim geforderten Systemoutput: Sind alle notwendigen Funktionen enthalten? Ein zweiter beginnt bei jeder Schnittstelle: Gibt es einen Sender, einen Empfänger und einen gemeinsamen Vertrag? Ein dritter betrachtet Fehlerzustände: Ist klar, wie die Kette reagiert, wenn eine Teilfunktion nicht rechtzeitig erfüllt wird?"
+  },
+  {
+    "key": "u0282",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0283",
+    "de": "Die übergeordnete Funktion in Teilfunktionen zerlegen, ohne vorschnell ein Bauteil zuzuordnen."
+  },
+  {
+    "key": "u0284",
+    "de": "Ablauf, Information, Energie und mechanische Beziehungen getrennt zeichnen."
+  },
+  {
+    "key": "u0285",
+    "de": "Die Sichten über gemeinsame IDs verknüpfen."
+  },
+  {
+    "key": "u0286",
+    "de": "Zustände, Timing, Rückkopplungen und Schutzreaktionen ergänzen."
+  },
+  {
+    "key": "u0287",
+    "de": "Mit einem konkreten Normalfall und einem Fehlerfall durch das Modell gehen."
+  },
+  {
+    "key": "u0288",
+    "de": "Für jede Schnittstelle Annahme, Leistungszusage und Reaktion auf eine verletzte Annahme festhalten."
+  },
+  {
+    "key": "u0289",
+    "de": "Das Ergebnis ist eine Funktionsstruktur mit Ketten und Schnittstellenverträgen. Sie liefert die Eingabe für Architektur, Anforderungen und FMEA. Modellpflege gehört zur Entwicklung: Ein geändertes Timeout muss im Test und im Schnittstellenmodell denselben Stand haben."
+  },
+  {
+    "key": "u0290",
+    "de": "Übung"
+  },
+  {
+    "key": "u0291",
+    "de": "Zerlege das Laden eines Smartphones in Funktionen und Flüsse. Warum reicht die Aussage „Ladekabel angeschlossen“ nicht als Nachweis der Ladefunktion?"
+  },
+  {
+    "key": "u0292",
+    "de": "6 Architektur und MBSE verknüpfen"
+  },
+  {
+    "key": "u0293",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0294",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a>|  Grundlagen <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_Q09\">[Q09]</a> <a href=\"#sources/source_N04\">[N04]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0295",
+    "de": "Eine Funktion kann unterschiedlich realisiert werden"
+  },
+  {
+    "key": "u0296",
+    "de": "Ein Zimmer kann durch einen Heizkörper, eine Fußbodenheizung oder eine Wärmepumpe mit Luftverteilung warm werden. Die Funktion ist ähnlich, die Architektur unterscheidet sich. Mit der Entscheidung ändern sich Energieversorgung, Regelung, Wartung und mögliche Fehler. Architektur legt damit einen wesentlichen Teil der späteren Zuverlässigkeit fest."
+  },
+  {
+    "key": "u0297",
+    "de": "Wir unterscheiden funktionale, logische und physische Sichten. Die funktionale Sicht beschreibt die benötigte Leistung. Die logische Sicht beschreibt die zusammenwirkenden Elemente und ihre Verantwortlichkeiten. Die physische Sicht ordnet diese Aufgaben konkreter Hardware, Software, Firmware und Schnittstellen zu. Eine Funktion kann mehrere Elemente benötigen; ein Element kann mehrere Funktionen tragen."
+  },
+  {
+    "key": "u0298",
+    "de": "Gemeinsame Ressourcen bewusst betrachten"
+  },
+  {
+    "key": "u0299",
+    "de": "In einem Haushalt können Kühlschrank und Router an getrennten Steckdosen hängen, aber über denselben Sicherungsstromkreis versorgt werden. Die sichtbare Trennung schützt nicht vor dem Ausfall des gemeinsamen Stromkreises. Im Röntgensystem können entsprechend Netzteil, Kühlung, Taktquelle, Netzwerk oder gemeinsame Softwarebibliothek mehrere Funktionsketten beeinflussen."
+  },
+  {
+    "key": "u0300",
+    "de": "Wir fragen deshalb schon bei der Architekturentscheidung, ob eine gemeinsame Ressource sinnvoll ist und wie ihr Ausfall wirkt. Redundanz ist nur dann hilfreich, wenn die erforderliche Funktion im Fehlerfall tatsächlich weiterläuft. Zwei Kommunikationswege nützen wenig, wenn beide denselben fehlerhaften Zustand verwenden oder die Umschaltung nicht funktioniert."
+  },
+  {
+    "key": "u0301",
+    "de": "Was modellbasiertes Systems Engineering bedeutet"
+  },
+  {
+    "key": "u0302",
+    "de": "Model Based Systems Engineering, kurz MBSE, verbindet Anforderungen, Funktionen, Architektur, Verhalten, Analysen und Nachweise in nachvollziehbaren Modellen. Der Nutzen liegt in konsistenten Beziehungen, nicht in einer möglichst großen Zahl von Diagrammen. Ein Werkzeug kann diese Pflege unterstützen; es ersetzt weder fachliche Entscheidungen noch geeignete Daten."
+  },
+  {
+    "key": "u0303",
+    "de": "Wir können klein beginnen: Ein Use Case bekommt eine ID, die benötigte Funktion eine zweite, die Schnittstelle eine dritte. Eine Anforderung verweist auf diese Beziehungen. Ein Test prüft die Anforderung, und ein Feldfehler verweist auf betroffene Funktionen und Versionen. So lässt sich bei einer Änderung fragen, welche Nachweise betroffen sind. Ein lose abgelegtes Architekturbild ohne verknüpfte IDs und Nachweise lässt diese Rückverfolgung offen."
+  },
+  {
+    "key": "u0304",
+    "de": "Freigegebene Versionskombinationen beherrschen"
+  },
+  {
+    "key": "u0305",
+    "de": "Eine Architektur hat auch eine zeitliche Seite: Firmware, Steuerungssoftware, Betriebssystem und Archiv werden weiterentwickelt. Wir halten die erlaubten Kombinationen fest und verbinden sie mit den geprüften Funktionen. Die Tabelle ist ein erfundenes Lehrbeispiel; „Offen“ bedeutet ungeprüft; erst die Bewertung entscheidet über die Eignung."
+  },
+  {
+    "key": "u0306",
+    "de": "<strong>Steuerung und Detektor</strong>"
+  },
+  {
+    "key": "u0307",
+    "de": "<strong>Archiv Version A</strong>"
+  },
+  {
+    "key": "u0308",
+    "de": "<strong>Archiv Version B</strong>"
+  },
+  {
+    "key": "u0309",
+    "de": "<strong>Entscheidung</strong>"
+  },
+  {
+    "key": "u0310",
+    "de": "<strong>Steuerung 1 und Firmware 1</strong>"
+  },
+  {
+    "key": "u0311",
+    "de": "<strong>Geprüft</strong>"
+  },
+  {
+    "key": "u0312",
+    "de": "<strong>Offen</strong>"
+  },
+  {
+    "key": "u0313",
+    "de": "<strong>Nur A freigegeben</strong>"
+  },
+  {
+    "key": "u0314",
+    "de": "<strong>Steuerung 2 und Firmware 1</strong>"
+  },
+  {
+    "key": "u0315",
+    "de": "<strong>Geprüft</strong>"
+  },
+  {
+    "key": "u0316",
+    "de": "<strong>Geprüft</strong>"
+  },
+  {
+    "key": "u0317",
+    "de": "<strong>Beide Kombinationen freigegeben</strong>"
+  },
+  {
+    "key": "u0318",
+    "de": "<strong>Steuerung 2 und Firmware 2</strong>"
+  },
+  {
+    "key": "u0319",
+    "de": "<strong>Offen</strong>"
+  },
+  {
+    "key": "u0320",
+    "de": "<strong>Geprüft</strong>"
+  },
+  {
+    "key": "u0321",
+    "de": "<strong>Nur B freigegeben</strong>"
+  },
+  {
+    "key": "u0322",
+    "de": "Die Freigabe umfasst Funktionen, Nutzung und Grenzen dieser Kombinationen. Ein Patch kann auch ohne geändertes Datenformat Zeitverhalten oder Ressourcenbedarf verändern. Die Änderungsanalyse prüft deshalb betroffene Verträge und Nachweise."
+  },
+  {
+    "key": "u0323",
+    "de": "Bei vielen Varianten können kombinatorische Tests den Umfang begrenzen. Paarweise Abdeckung untersucht alle ausgewählten Zweierkombinationen, erfasst aber nicht jede Wechselwirkung von drei oder mehr Faktoren. Wir ergänzen deshalb risikorelevante Kombinationen, bekannte Fehlerauslöser und Randfälle. Die Auswahl wird begründet; eine reduzierte Testzahl ist keine vollständige Abdeckung."
+  },
+  {
+    "key": "u0324",
+    "de": "Rückfallebenen brauchen eine eigene Funktionsbeschreibung. Lokale Bildpufferung muss beispielsweise korrekte Zuordnung, vollständige Übertragung, Duplikaterkennung und geordneten Wiederanlauf sichern. Eine Ersatzfunktion wird erst dann zur belastbaren Reserve, wenn ihr Übergang und ihre Grenzen geprüft sind."
+  },
+  {
+    "key": "u0325",
+    "de": "Ein Beispiel mit einer geänderten Bereitschaftsmeldung"
+  },
+  {
+    "key": "u0326",
+    "de": "Ein Detektor erhält neue Firmware. Der Bereitschaftsstatus hat weiterhin dasselbe Datenformat, wird aber in einer anderen Phase zurückgenommen. Mechanisch bleibt der Detektor unverändert. Über das Modell erkennen wir die betroffene Zustandsbeziehung, die Systemanforderung an die Expositionsfreigabe und die zugehörigen Tests. Wir können diese Nachweise gezielt prüfen, statt wahllos jede Komponentenqualifikation zu wiederholen."
+  },
+  {
+    "key": "u0327",
+    "de": "Ein Digital Twin kann Teil dieser Arbeit sein. Er ist ein Modell eines relevanten Systemverhaltens, kein automatisch vollständiger Ersatz des realen Produkts. Für jede Verwendung werden Zweck, Eingaben, Modellgrenzen und Abgleich mit der Realität dokumentiert. Ein Timingmodell beweist beispielsweise keine Lötstellenlebensdauer. Ein Modell kann auch denselben Fehler wie die Spezifikation enthalten; unabhängige Gegenprüfungen bleiben nötig."
+  },
+  {
+    "key": "u0328",
+    "de": "Architekturentscheidungen vergleichen"
+  },
+  {
+    "key": "u0329",
+    "de": "<strong>Entscheidung</strong>"
+  },
+  {
+    "key": "u0330",
+    "de": "<strong>Möglicher Vorteil</strong>"
+  },
+  {
+    "key": "u0331",
+    "de": "<strong>Zuverlässigkeitsfrage</strong>"
+  },
+  {
+    "key": "u0332",
+    "de": "<strong>Gemeinsames Netzteil</strong>"
+  },
+  {
+    "key": "u0333",
+    "de": "<strong>Weniger Teile und einfacherer Aufbau</strong>"
+  },
+  {
+    "key": "u0334",
+    "de": "<strong>Welche Funktionen verlieren gleichzeitig ihre Versorgung</strong>"
+  }
+]

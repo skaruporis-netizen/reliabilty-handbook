@@ -1,0 +1,1134 @@
+[
+  {
+    "key": "u0905",
+    "de": "<strong>Prüffrage</strong>"
+  },
+  {
+    "key": "u0906",
+    "de": "<strong>Gezielte Variation</strong>"
+  },
+  {
+    "key": "u0907",
+    "de": "<strong>Erwartete Beobachtung</strong>"
+  },
+  {
+    "key": "u0908",
+    "de": "<strong>Ist Bereitschaft gültig</strong>"
+  },
+  {
+    "key": "u0909",
+    "de": "<strong>Nachricht verzögern oder aus altem Auftrag senden</strong>"
+  },
+  {
+    "key": "u0910",
+    "de": "<strong>Keine ungeprüfte Verwendung veralteter Information</strong>"
+  },
+  {
+    "key": "u0911",
+    "de": "<strong>Bleibt Bildzuordnung korrekt</strong>"
+  },
+  {
+    "key": "u0912",
+    "de": "<strong>Übertragung unterbrechen und neu starten</strong>"
+  },
+  {
+    "key": "u0913",
+    "de": "<strong>Konsistente Zuordnung und definierte Reaktion</strong>"
+  },
+  {
+    "key": "u0914",
+    "de": "<strong>Passt der Einbau</strong>"
+  },
+  {
+    "key": "u0915",
+    "de": "<strong>Relevante thermische Lastkombination</strong>"
+  },
+  {
+    "key": "u0916",
+    "de": "<strong>Funktion innerhalb der belegten Bedingungen</strong>"
+  },
+  {
+    "key": "u0917",
+    "de": "<strong>Ist Recovery vollständig</strong>"
+  },
+  {
+    "key": "u0918",
+    "de": "<strong>Neustart in verschiedenen Zuständen</strong>"
+  },
+  {
+    "key": "u0919",
+    "de": "<strong>Kein alter Auftrag wird unbeabsichtigt fortgesetzt</strong>"
+  },
+  {
+    "key": "u0920",
+    "de": "<strong>Wie groß ist die Reserve</strong>"
+  },
+  {
+    "key": "u0921",
+    "de": "<strong>Last und Timing kontrolliert variieren</strong>"
+  },
+  {
+    "key": "u0922",
+    "de": "<strong>Messbarer Abstand zu definierten Grenzen</strong>"
+  },
+  {
+    "key": "u0923",
+    "de": "Die Erwartungen in dieser Tabelle sind allgemeine Lehrziele; konkrete Produktschutzfunktionen und Akzeptanzwerte werden im freigegebenen Projektprozess definiert. Eine Fehlerinjektion darf keine klinisch genutzte Anwendung gefährden oder Schutzfunktionen unkontrolliert umgehen."
+  },
+  {
+    "key": "u0924",
+    "de": "Den gesamten Ablauf und seine Rückfallebenen prüfen"
+  },
+  {
+    "key": "u0925",
+    "de": "Ein Test beginnt mit dem definierten Auftrag und endet am vereinbarten Erfolgspunkt. Wir prüfen dabei Identität, Reihenfolge, Zustand und Zeit an den Übergaben. Simulatoren können ungewöhnliche Antworten oder Verzögerungen gezielt erzeugen; reale Gegenstellen prüfen zusätzlich tatsächliche Interoperabilität und Implementierungsdetails."
+  },
+  {
+    "key": "u0926",
+    "de": "Am Archivanschluss injizieren wir beispielsweise eine unterbrochene Verbindung, eine verspätete Bestätigung und eine doppelte Antwort. Das Testorakel unterscheidet erfolgreiche Archivierung, zulässige lokale Pufferung, offene Übertragung und eindeutigen Fehler. Eine sichtbare Bilddatei allein ist noch keine Bestätigung des vollständigen Ablaufs."
+  },
+  {
+    "key": "u0927",
+    "de": "Der Test der Rückkehr in den Normalbetrieb gehört dazu. Nach einer Unterbrechung müssen offene Aufträge richtig zugeordnet und genau gemäß der vereinbarten Übertragungslogik abgeschlossen werden. Rückfallebenen dürfen weder unbemerkten Datenverlust noch eine unzulässige Aufnahmefolge erzeugen. Welche Wiederholung technisch und klinisch zulässig ist, wird im Produktprozess festgelegt."
+  },
+  {
+    "key": "u0928",
+    "de": "Bei elektromagnetischen Störungen beobachten wir die betroffene Funktion und Fehlerreaktion im relevanten Betriebszustand. Der Komponentenbericht und die Systemprüfung erhalten denselben Bezug zu Einbau und wesentlichen Leistungsmerkmalen. <a href=\"#sources/source_N28\">[N28]</a>"
+  },
+  {
+    "key": "u0929",
+    "de": "Ergebnisse interpretierbar machen"
+  },
+  {
+    "key": "u0930",
+    "de": "Wir erfassen Testkonfiguration, Versionen, Startzustand, Stimuli, Zeitverlauf und Ergebnis. Zeitstempel über mehrere Elemente benötigen eine geeignete gemeinsame Basis oder eine dokumentierte Unsicherheit. Andernfalls kann eine scheinbar frühe Meldung tatsächlich später eingetroffen sein."
+  },
+  {
+    "key": "u0931",
+    "de": "Ein Erfolgskriterium ist mehr als kein Absturz. Bei einer Aufnahme können Vollständigkeit, Zuordnung, Bildqualität, Timing und Status relevant sein. Ein Fehler im Testorakel kann viele falsche Erfolge erzeugen. Die Messkette wird deshalb ebenfalls geprüft. Beobachtbarkeit und Logging werden früh gestaltet, nicht erst nach einem schwer reproduzierbaren Feldfehler."
+  },
+  {
+    "key": "u0932",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0933",
+    "de": "Akzeptierte Komponentenstände und Einsatzgrenzen prüfen."
+  },
+  {
+    "key": "u0934",
+    "de": "Integrationsrisiken aus Architektur, I/O und FMEA priorisieren."
+  },
+  {
+    "key": "u0935",
+    "de": "Normalfälle, ungünstige zulässige Kombinationen und Recovery auswählen."
+  },
+  {
+    "key": "u0936",
+    "de": "Physikalische und virtuelle Ebenen nach ihrer Aussage kombinieren."
+  },
+  {
+    "key": "u0937",
+    "de": "Fehlerreaktion, Leistungsreserven und verbleibende Unsicherheit dokumentieren."
+  },
+  {
+    "key": "u0938",
+    "de": "Den gesamten Ablauf einschließlich Rückkehr aus einer Rückfallebene prüfen."
+  },
+  {
+    "key": "u0939",
+    "de": "Das Ergebnis ist ein versionsbezogener Nachweis der Systemfunktion. Ein bestandenes Systemtestskript beantwortet nur die tatsächlich beobachteten Anforderungen und Bedingungen."
+  },
+  {
+    "key": "u0940",
+    "de": "Übung"
+  },
+  {
+    "key": "u0941",
+    "de": "Zwei Smartphones funktionieren einzeln, aber eine Videoübertragung zwischen ihnen bricht unter Last ab. Welche Integrationsfragen bleiben offen, obwohl beide Geräte ihre Einzeltests bestanden haben?"
+  },
+  {
+    "key": "u0942",
+    "de": "17 Freigabe und Änderungen begründet bewerten"
+  },
+  {
+    "key": "u0943",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0944",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q07\">[Q07]</a> <a href=\"#sources/source_N03\">[N03]</a> <a href=\"#sources/source_N04\">[N04]</a> <a href=\"#sources/source_N18\">[N18]</a> <a href=\"#sources/source_N19\">[N19]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0945",
+    "de": "Drei Nachweisfragen unterscheiden"
+  },
+  {
+    "key": "u0946",
+    "de": "Verifikation fragt, ob die Umsetzung die festgelegten Anforderungen erfüllt. Validierung fragt, ob das resultierende Produkt im vorgesehenen Kontext die benötigte Anwendung erfüllt. Qualifikation bezeichnet hier die begründete Eignungsbewertung einer Ausführung für festgelegte Bedingungen und Nutzung. Die Begriffe werden mit den unternehmensweit gültigen Prozessdefinitionen abgestimmt."
+  },
+  {
+    "key": "u0947",
+    "de": "Alltagsbeispiel: Ein Bücherregal wird nach Zeichnung gebaut. Maße und Tragfähigkeit entsprechen den Anforderungen: Das kann verifiziert werden. Ob es für die tatsächlich großen und schweren Bücher des Nutzers geeignet ist, gehört zur Validierung des Bedarfs. Wird eine bestimmte Ausführung unter einem festgelegten Belastungsprofil untersucht, unterstützt das ihre Qualifikation für diesen Einsatz."
+  },
+  {
+    "key": "u0948",
+    "de": "Freigabe ist eine begründete Entscheidung"
+  },
+  {
+    "key": "u0949",
+    "de": "Eine Freigabe bündelt Anforderungen, Analysen, Supplier-Nachweise, Tests, Abweichungen und relevante Felderfahrung. Sie sagt, für welche Konfiguration und welchen Einsatz die Evidenz ausreichend ist. Sie verspricht keine absolute Ausfallfreiheit. Offene Punkte werden nicht allein dadurch erledigt, dass genügend andere Tests grün sind."
+  },
+  {
+    "key": "u0950",
+    "de": "Eine Nachweismatrix (Evidence Matrix) macht die Beziehungen prüfbar. Jede relevante Anforderung verweist auf einen Nachweis, dessen Ergebnis und Geltungsbereich. Eine Zeile wie „thermischer Test bestanden“ ohne Musteridentität und Profil ist wenig hilfreich. Ein zulässiger Übernahmenachweis wird als solcher kenntlich gemacht, damit seine Bedingungen später überprüft werden können."
+  },
+  {
+    "key": "u0951",
+    "de": "<strong>Anforderung im Lehrbeispiel</strong>"
+  },
+  {
+    "key": "u0952",
+    "de": "<strong>Evidenz</strong>"
+  },
+  {
+    "key": "u0953",
+    "de": "<strong>Geltungsbereich</strong>"
+  },
+  {
+    "key": "u0954",
+    "de": "<strong>Entscheidung</strong>"
+  },
+  {
+    "key": "u0955",
+    "de": "<strong>Kabel übersteht Zielbewegung</strong>"
+  },
+  {
+    "key": "u0956",
+    "de": "<strong>Supplier-Prüfung mit passender Statistik</strong>"
+  },
+  {
+    "key": "u0957",
+    "de": "<strong>Definierter Kabel- und Einbaustand</strong>"
+  },
+  {
+    "key": "u0958",
+    "de": "<strong>Übernahme nach Eignungsreview</strong>"
+  },
+  {
+    "key": "u0959",
+    "de": "<strong>Status gehört zum aktuellen Auftrag</strong>"
+  },
+  {
+    "key": "u0960",
+    "de": "<strong>Integrationstest mit veralteten Nachrichten</strong>"
+  },
+  {
+    "key": "u0961",
+    "de": "<strong>Definierter Softwarestand</strong>"
+  },
+  {
+    "key": "u0962",
+    "de": "<strong>Erfüllt oder gezielte Maßnahme</strong>"
+  },
+  {
+    "key": "u0963",
+    "de": "<strong>Temperatur bleibt im belegten Bereich</strong>"
+  },
+  {
+    "key": "u0964",
+    "de": "<strong>Thermischer Systemnachweis</strong>"
+  },
+  {
+    "key": "u0965",
+    "de": "<strong>Profil und Einbaukonfiguration</strong>"
+  },
+  {
+    "key": "u0966",
+    "de": "<strong>Anwendung bestätigt oder eingeschränkt</strong>"
+  },
+  {
+    "key": "u0967",
+    "de": "Änderungen entlang ihrer Wirkung bewerten"
+  },
+  {
+    "key": "u0968",
+    "de": "Eine neue Farbe des Gehäuses kann je nach Material und Prozess nur kosmetisch oder technisch relevant sein. Ein neues Kabelmaterial kann Flexibilität und Alterung ändern. Ein scheinbar kleiner Timeout kann viele Zustandsübergänge beeinflussen. Der Änderungsname klein sagt deshalb nichts über die notwendige Nachweistiefe."
+  },
+  {
+    "key": "u0969",
+    "de": "Wir verfolgen die Änderung über Funktion, Architektur, Mechanismus und Nutzung bis zur betroffenen Evidenz. Unbetroffene Nachweise bleiben nutzbar, wenn ihre Unbetroffenheit begründet ist. Betroffene Nachweise werden ergänzt oder wiederholt. Diese Entscheidung wird dokumentiert, statt entweder alles neu zu prüfen oder jeden früheren Bericht unverändert zu übernehmen."
+  },
+  {
+    "key": "u0970",
+    "de": "Anwendung am Röntgensystem"
+  },
+  {
+    "key": "u0971",
+    "de": "Eine neue Detektor-Firmware kann Bildauslesetiming und Bereitschaft beeinflussen. Die mechanische Ausführung ist gleich geblieben. Das legt zunächst eine Bewertung der Zustands- und Schnittstellennachweise nahe. Wenn die neue Firmware zusätzlich andere Verlustleistung erzeugt, kann auch die thermische Evidenz betroffen sein. Die Wirkung wird geprüft, nicht aus dem Versionsnamen abgeleitet."
+  },
+  {
+    "key": "u0972",
+    "de": "Eine neue Nutzung mit höherer Expositionsfolge kann bestehende Grenzen berühren, obwohl sich kein Bauteil geändert hat. Auch ein Use-Case-Wechsel ist deshalb eine mögliche technische Änderung. Medizinisches Risikomanagement und regulatorische Freigaben werden nach den geltenden Unternehmensprozessen separat einbezogen; die Nachweismatrix ersetzt diese nicht."
+  },
+  {
+    "key": "u0973",
+    "de": "Änderungen fremder Systeme berücksichtigen"
+  },
+  {
+    "key": "u0974",
+    "de": "Unsere Freigabe benennt die geprüften und zulässigen Gegenstellen, Versionen, Funktionen und Randbedingungen. Meldet ein Betreiber ein Archiv-Upgrade, prüfen wir die Wirkung auf diese Basis. Ein fremdes Update ist kein Grund, alle Komponenten neu zu qualifizieren, kann aber einen gezielten Kompatibilitätsnachweis benötigen."
+  },
+  {
+    "key": "u0975",
+    "de": "Die Entscheidung lautet beispielsweise: unverändert gültig, gültig unter einer dokumentierten Bedingung oder zusätzliche Evidenz erforderlich. Offene Kombinationen werden nicht wie freigegebene behandelt. Bei einer zeitweisen Nutzung unter Bedingungen werden Verantwortliche, Grenzen und Folgeaktivitäten dokumentiert."
+  },
+  {
+    "key": "u0976",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u0977",
+    "de": "Freizugebende Konfiguration und Einsatzbereich eindeutig festlegen."
+  },
+  {
+    "key": "u0978",
+    "de": "Anforderungen und Nachweismatrix auf Vollständigkeit und Eignung prüfen."
+  },
+  {
+    "key": "u0979",
+    "de": "Abweichungen, Grenzen und verbleibende Unsicherheit bewerten."
+  },
+  {
+    "key": "u0980",
+    "de": "Änderungen über ihre tatsächliche Wirkung analysieren."
+  },
+  {
+    "key": "u0981",
+    "de": "Entscheidung mit Bedingungen, Verantwortlichen und Folgeaktivitäten dokumentieren."
+  },
+  {
+    "key": "u0982",
+    "de": "Geprüfte Gegenstellen und Versionen in der Freigabe nennen; offene Kombinationen kennzeichnen."
+  },
+  {
+    "key": "u0983",
+    "de": "Übung"
+  },
+  {
+    "key": "u0984",
+    "de": "Ein Hersteller verändert nur die Software eines Thermostats. Warum kann das trotzdem den Nachweis einer mechanischen oder thermischen Komponente beeinflussen?"
+  },
+  {
+    "key": "u0985",
+    "de": "18 Qualität und Zuverlässigkeit im Feld überwachen"
+  },
+  {
+    "key": "u0986",
+    "de": "Einführung"
+  },
+  {
+    "key": "u0987",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q03\">[Q03]</a> <a href=\"#sources/source_N02\">[N02]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u0988",
+    "de": "Ohne Nenner führt eine Ausfallzahl leicht in die Irre"
+  },
+  {
+    "key": "u0989",
+    "de": "Eine Fahrradwerkstatt repariert in einem Monat zehn E-Bikes und fünf normale Fahrräder. Daraus lässt sich nicht ableiten, dass E-Bikes doppelt so unzuverlässig sind. Vielleicht wurden zehnmal so viele E-Bikes verkauft oder sie werden viel intensiver genutzt. Wir benötigen Population, Beobachtungsdauer und Nutzung."
+  },
+  {
+    "key": "u0990",
+    "de": "Im Feld unterscheiden wir Ereignisse pro Aufnahme, pro Betriebsstunde, pro Gerätejahr oder pro anderer passender Exposition. Der Nenner muss zur Funktion und zum Mechanismus passen. Ein mechanischer Bewegungsfehler wird nicht allein durch die Zahl der Bildaufnahmen erklärt. Kalenderalter, Betriebsalter und Version helfen, Populationen vergleichbar zu machen."
+  },
+  {
+    "key": "u0991",
+    "de": "Ereignisse sauber definieren"
+  },
+  {
+    "key": "u0992",
+    "de": "Aufnahmeabbruch, Systemneustart, bestätigter Komponentenfehler, Serviceaustausch und No Fault Found sind verschiedene Ereignisse. Ein Austausch kann eine diagnostische Maßnahme sein, ohne dass das entfernte Teil defekt ist. Umgekehrt kann ein relevanter Funktionsverlust ohne Austausch auftreten. Wir dokumentieren den Befund und seine Sicherheit, nicht nur den Ersatzteilverbrauch."
+  },
+  {
+    "key": "u0993",
+    "de": "Eine erste Meldung darf als Signal erfasst werden, auch wenn ihre Ursache offen ist. Für quantitative Aussagen wird der Status nachvollziehbar gepflegt. Mehrfache Tickets zum selben Ereignis werden nicht ungeprüft mehrfach gezählt. Mehrere unterschiedliche Ereignisse am selben Gerät können dagegen relevant sein und benötigen ein passendes Modell für Abhängigkeit und Wiederherstellung."
+  },
+  {
+    "key": "u0994",
+    "de": "Ein Zahlenbeispiel"
+  },
+  {
+    "key": "u0995",
+    "de": "Im fiktiven Datensatz treten vor einer Maßnahme 40 Ereignisse bei zwei Millionen Aufnahmen auf. Das entspricht 20 Ereignissen pro Million Aufnahmen. Danach treten 25 Ereignisse bei zweieinhalb Millionen Aufnahmen auf, entsprechend zehn pro Million. Der Punktschätzer der Rate hat sich halbiert. Die rohe Zahl ist nur um 15 Ereignisse gesunken."
+  },
+  {
+    "key": "u0996",
+    "de": "Ob die Maßnahme die Ursache für diese Veränderung ist, bleibt zunächst offen. Nutzung, Alter, Gerätevarianten, Meldeverhalten und andere Änderungen können sich unterscheiden. Auch die statistische Unsicherheit wird berücksichtigt. Die Rechnung illustriert den passenden Nenner und beweist noch keine Wirksamkeit oder statistische Signifikanz."
+  },
+  {
+    "key": "u0997",
+    "de": "Kohorten und Datenqualität"
+  },
+  {
+    "key": "u0998",
+    "de": "Wir bilden geeignete Gruppen nach Inbetriebnahme, Alter, Nutzung, Hardwarestand, Softwarestand und relevanten Einsatzbedingungen. Neue Geräte mit kurzer Beobachtung dürfen nicht ohne Weiteres mit alten Geräten über viele Jahre verglichen werden. Rechtszensierte Beobachtung und unterschiedliche Meldetiefe werden sichtbar gemacht."
+  },
+  {
+    "key": "u0999",
+    "de": "Ein Softwareupdate kann zugleich die Fehlererkennung verbessern. Wenn danach mehr Ereignisse im Log erscheinen, ist zuerst zu prüfen, ob sich die Funktion oder nur ihre Erkennung verändert hat. Umgekehrt kann ein seltener Servicebesuch bedeuten, dass Ausfälle nicht gemeldet wurden. Datenqualität ist eine Voraussetzung der Statistik, kein nachträglicher Kommentar."
+  },
+  {
+    "key": "u1000",
+    "de": "Logs mit einem Zweck gestalten"
+  },
+  {
+    "key": "u1001",
+    "de": "Ein brauchbarer Ereignisdatensatz enthält Zeit, Ereignisdefinition, Geräte- und Konfigurationsbezug, Betriebszustand, Nutzung, relevante Messwerte und den anschließenden Befund. Kausal wichtige Meldungen über mehrere Elemente werden zeitlich zuordenbar. Patientendaten werden für technische Analysen nicht unnötig erfasst; Datenschutz, Zugriff und Aufbewahrung folgen den geltenden Prozessen."
+  },
+  {
+    "key": "u1002",
+    "de": "Alltagsbeispiel: Wenn ein Auto nicht anspringt, hilft die Meldung Fehler wenig. Batteriezustand, Außentemperatur und Startversuch helfen, Hypothesen zu unterscheiden. Am Röntgensystem sind passende Zustände und Lastdaten ähnlich wertvoll, solange sie gezielt und interpretierbar aufgezeichnet werden."
+  },
+  {
+    "key": "u1003",
+    "de": "Reparierte Systeme mit wiederkehrenden Ereignissen auswerten"
+  },
+  {
+    "key": "u1004",
+    "de": "Bei einem reparierbaren System kann dieselbe Einheit mehrfach ausfallen. Eine Kurve der Zeit bis zum ersten Ausfall verliert dann einen Teil der Geschichte. Die mittlere kumulierte Ereigniszahl, englisch Mean Cumulative Function oder MCF, beschreibt, wie viele definierte Ereignisse eine Einheit im Mittel bis zur Nutzung t erlebt. Sie ist keine Ausfallwahrscheinlichkeit und kann größer als eins werden. <a href=\"#sources/source_Q27\">[Q27]</a>"
+  },
+  {
+    "key": "u1005",
+    "de": "Für exakte Ereigniszeiten, gemeinsame Nutzungsachse und geeignete unabhängige Rechtszensierung addiert eine nichtparametrische Schätzung an jedem Ereigniszeitpunkt den Quotienten aus Ereigniszahl d und beobachteten Einheiten Y. Reparierte Einheiten können weiter zur Beobachtung beitragen. Y zählt hier beobachtete Einheiten, nicht nur Einheiten ohne früheren Ausfall."
+  },
+  {
+    "key": "u1007",
+    "de": "Im kleinen Lehrbeispiel werden vier Systeme beobachtet. Bei 100 Stunden tritt ein Ereignis auf, bei 200 Stunden zwei weitere. Alle vier sind noch in Beobachtung. Die Schätzung steigt zunächst auf 0,25 und dann auf 0,75 Ereignisse pro System. Nach einer Zensierung werden noch drei Systeme beobachtet. Ein weiteres Ereignis bei 300 Stunden erhöht den Wert um ein Drittel auf ungefähr 1,083. Er ist kein Anteil von 108,3 Prozent defekter Systeme."
+  },
+  {
+    "key": "u1008",
+    "de": "Schaubild F Wiederkehrende Ereignisse im MCF Lehrbeispiel  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1009",
+    "de": "Schaubild F Wiederkehrende Ereignisse im MCF Lehrbeispiel  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1010",
+    "de": "Kohorten vergleichen wir auf derselben Nutzungsachse mit gleichen Ereignisdefinitionen. Unsicherheitsbereiche müssen die wiederholten Beobachtungen je System berücksichtigen. Andere Nutzungsprofile, wechselnde Versionen und informative Beobachtungsabbrüche können einen Vergleich verzerren. Das Lehrdiagramm erklärt die Schätzung und ist kein statistischer Wirksamkeitsnachweis."
+  },
+  {
+    "key": "u1011",
+    "de": "Betriebsverfügbarkeit gesondert erfassen"
+  },
+  {
+    "key": "u1012",
+    "de": "Die operative Verfügbarkeit ist der Anteil der vorher definierten benötigten Betriebszeit, in dem die vereinbarte Fähigkeit nutzbar ist. Wartezeiten auf Ersatzteile oder Service können dazugehören. Geplante Wartung wird ausdrücklich ein- oder ausgeschlossen. Sie darf nicht beiläufig aus dem Nenner verschwinden. Die einfache Formel aus Kapitel 9 beschreibt dagegen eine idealisierte Verfügbarkeit unter engeren Modellannahmen."
+  },
+  {
+    "key": "u1013",
+    "de": "Bei zehn benötigten Betriebsstunden und zwei Stunden ungeplanter Nichtverfügbarkeit beträgt der Anteil acht von zehn, also 80 Prozent. Ein kurzer Aufnahmeabbruch kann die Missionszuverlässigkeit beeinflussen, ohne den Tagesanteil stark zu ändern. Beide Kennzahlen liefern unterschiedliche, nützliche Informationen."
+  },
+  {
+    "key": "u1014",
+    "de": "Feldbeobachtung mit der Produktüberwachung verbinden"
+  },
+  {
+    "key": "u1015",
+    "de": "Für Medizinprodukte verbindet die Überwachung nach dem Inverkehrbringen Feldinformationen mit der fortlaufenden Produktbewertung. Die MDR enthält hierzu insbesondere die Artikel 83 bis 86. Welche Berichte und Pflichten anwendbar sind, hängt vom konkreten Produkt und seiner Einordnung ab. Zuverlässigkeitsdaten sind ein Beitrag zu diesem Prozess; sie ersetzen die übrigen erforderlichen Informationen nicht. <a href=\"#sources/source_N26\">[N26]</a>"
+  },
+  {
+    "key": "u1016",
+    "de": "Signale in Entscheidungen überführen"
+  },
+  {
+    "key": "u1017",
+    "de": "Ein Monitoringplan beschreibt Messgrößen, Datenquellen, Aktualisierung, Vergleichsgruppen und verantwortliche Bewertung. Kritische Einzelereignisse können unabhängig von einem Trend eine Untersuchung und Eskalation verlangen. Schwellen für Häufungen werden projektspezifisch definiert. Das Feldmonitoring wird mit den geltenden Qualitäts- und Sicherheitsprozessen verbunden."
+  },
+  {
+    "key": "u1018",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u1019",
+    "de": "Ereignisdefinitionen mit Entwicklung und Service vereinbaren."
+  },
+  {
+    "key": "u1020",
+    "de": "Nutzung, Population, Version und Alter als Nenner und Kontext sichern."
+  },
+  {
+    "key": "u1021",
+    "de": "Datenqualität, Mehrfachzählung und offene Befunde prüfen."
+  },
+  {
+    "key": "u1022",
+    "de": "Vergleichbare Kohorten und geeignete Unsicherheitsbereiche auswerten."
+  },
+  {
+    "key": "u1023",
+    "de": "Signale an Ursachenanalyse, Supplier und Systementwicklung übergeben."
+  },
+  {
+    "key": "u1024",
+    "de": "Wiederkehrende Ereignisse mit einer geeigneten MCF auswerten, operative Verfügbarkeit mit definiertem Nenner erfassen und die Produktüberwachung einbeziehen."
+  },
+  {
+    "key": "u1025",
+    "de": "Übung"
+  },
+  {
+    "key": "u1026",
+    "de": "Nach Einführung eines besseren Fehlerlogs verdoppelt sich die Zahl erfasster Router-Neustarts. Welche Erklärungen prüfst du, bevor du eine verschlechterte Zuverlässigkeit meldest?"
+  },
+  {
+    "key": "u1027",
+    "de": "Vertiefungsübung"
+  },
+  {
+    "key": "u1028",
+    "de": "Zwei reparierbare Systeme werden 200 Stunden beobachtet. System 1 hat Ereignisse bei 50 und 150 Stunden, System 2 bei 150 Stunden. Wie verläuft die MCF, wenn beide durchgehend beobachtet werden?"
+  },
+  {
+    "key": "u1029",
+    "de": "19 Fehlerursachen beseitigen und Verbesserungen nachweisen"
+  },
+  {
+    "key": "u1030",
+    "de": "Einführung"
+  },
+  {
+    "key": "u1031",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Grundlagen <a href=\"#sources/source_Q01\">[Q01]</a> <a href=\"#sources/source_Q08\">[Q08]</a> <a href=\"#sources/source_N02\">[N02]</a> <a href=\"#sources/source_N05\">[N05]</a>  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u1032",
+    "de": "Ein Ersatzteilwechsel ist noch keine Ursachenanalyse"
+  },
+  {
+    "key": "u1033",
+    "de": "Ein Fernseher setzt aus. Nach dem Austausch eines Kabels funktioniert er wieder. Vielleicht war das Kabel defekt; vielleicht wurde beim Austausch nur ein lockerer Stecker neu gesteckt. Das Ergebnis ist wichtig, aber es beweist die Ursache noch nicht. Wir unterscheiden Fehlerbild, Hypothese, Befund und bestätigten Mechanismus."
+  },
+  {
+    "key": "u1034",
+    "de": "Root Cause Analysis, kurz RCA, untersucht die Ursache mit Evidenz. FRACAS bedeutet Failure Reporting, Analysis and Corrective Action System. Es verbindet Fehlermeldung, Untersuchung, Korrektur und Wirksamkeitsprüfung. Ziel ist ein geschlossener Lernprozess, nicht nur eine vollständig ausgefüllte Fehlerliste."
+  },
+  {
+    "key": "u1035",
+    "de": "Hypothesen gezielt unterscheiden"
+  },
+  {
+    "key": "u1036",
+    "de": "Wir sichern zuerst den Zustand und relevante Daten. Danach formulieren wir konkurrierende Erklärungen und wählen Untersuchungen, die sie voneinander trennen. Ein Messwert wird nicht deshalb zum Beweis, weil er zu unserer bevorzugten Erklärung passt. Wenn ein Fehler nicht reproduzierbar ist, dokumentieren wir die verbleibende Unsicherheit."
+  },
+  {
+    "key": "u1037",
+    "de": "Ishikawa-Diagramme helfen, mögliche Einflussgruppen zu sammeln. 5 Why kann zu tieferen Fragen führen. Beide Methoden ersetzen keine Messung und keinen belastbaren Befund. Die Kette endet nicht bei „Bedienfehler“ oder „Supplier schuld“, wenn Spezifikation, Bedienbarkeit oder Integrationsannahmen weiterhin ungeklärt sind."
+  },
+  {
+    "key": "u1038",
+    "de": "Eine vermutete Fehlbedienung wird auf Anzeige, Zuordnung, Rückmeldung und Nutzungskontext zurückverfolgt. Erkenntnisse zu sicherheitsrelevanten Bedienhandlungen gehen in die Gebrauchstauglichkeitsbewertung ein. <a href=\"#sources/source_N29\">[N29]</a>"
+  },
+  {
+    "key": "u1039",
+    "de": "Ursache und Verantwortungsbereich trennen"
+  },
+  {
+    "key": "u1040",
+    "de": "Ein Röntgen-Aufnahmeabbruch kann aus einer fehlerhaften Komponente, falscher Systemanforderung, Integrationslücke, Testlücke oder nicht ausreichend beschriebenen Nutzung entstehen. Mehrere Bereiche können gemeinsam beitragen. Ein thermisch auffälliger Detektor kann eine Materialschwäche haben und gleichzeitig außerhalb seines freigegebenen Einsatzbereichs betrieben worden sein."
+  },
+  {
+    "key": "u1041",
+    "de": "Die technische Ursache wird unabhängig von einer frühen organisatorischen Schuldzuweisung untersucht. Anschließend werden Maßnahmen gemeinsam zugeordnet. Eine Supplier-Korrektur kann etwa mit einer Änderung der Einbaubedingung und eines Integrationstests kombiniert werden."
+  },
+  {
+    "key": "u1042",
+    "de": "Korrektur und Korrekturmaßnahme"
+  },
+  {
+    "key": "u1043",
+    "de": "Eine unmittelbare Korrektur stellt den aktuellen Zustand wieder her, etwa durch Austausch oder Wiederanlauf. Eine Korrekturmaßnahme beseitigt die relevante Ursache, beispielsweise durch verbesserte Zugentlastung oder Zustandsprüfung. Ein Neustart kann die Funktion wiederherstellen, während die aktivierende Sequenz unverändert bleibt."
+  },
+  {
+    "key": "u1044",
+    "de": "Jede Maßnahme erhält einen Wirkmechanismus: Warum sollte gerade diese Änderung den Fehler verhindern? Dazu definieren wir einen Reproduktions- beziehungsweise Verifikationstest und einen Regressionstest gegen unerwünschte Nebenwirkungen. Bei Varianten prüfen wir, welche davon betroffen sind."
+  },
+  {
+    "key": "u1045",
+    "de": "Wirksamkeit nachweisen"
+  },
+  {
+    "key": "u1046",
+    "de": "Alltagsbeispiel: Eine tropfende Dichtung wird ersetzt. Ein kurzer Blick zeigt zunächst kein Wasser. Wenn die Undichtigkeit nur nach Erwärmung entsteht, muss die Wirksamkeit unter diesem Zustand geprüft werden. Am Röntgensystem wird die Maßnahme entsprechend gegen die fehlerauslösende Kombination und weitere relevante Use Cases getestet."
+  },
+  {
+    "key": "u1047",
+    "de": "Im Feld vergleichen wir nach Möglichkeit geeignete Kohorten, Nutzung und Ereignisdefinitionen. Bei einem seltenen Fehler braucht auch ein Monat ohne Meldung genügend Nutzung und eine passende statistische Bewertung. Auch die Anlaufzeit einer neuen Population und das Meldeverhalten zählen. Unsicherheit und unbestätigte Fälle bleiben sichtbar."
+  },
+  {
+    "key": "u1048",
+    "de": "Wachstum von Zuverlässigkeit als überprüfbare Entwicklung"
+  },
+  {
+    "key": "u1049",
+    "de": "Ein Verbesserungsprogramm verbindet Fehlerentdeckung, Ursachenanalyse, Änderung und erneuten Nachweis. Ein fester Softwarestand altert nicht dadurch zu weniger Fehlern, dass die Zeit vergeht. Eine Verbesserung benötigt eine wirksame Maßnahme oder eine andere sachlich erklärte Entwicklung."
+  },
+  {
+    "key": "u1050",
+    "de": "Für wiederkehrende Ereignisse kann ein nicht homogener Poissonprozess, kurz NHPP, mit Potenzgesetz geeignet sein. Wir verwenden a als Skalenparameter und b als Exponent, damit die Zeichen nicht mit dem Weibull-Formparameter β verwechselt werden. Die erwartete kumulierte Zahl und die Ereignisintensität lauten: <a href=\"#sources/source_Q28\">[Q28]</a>"
+  },
+  {
+    "key": "u1052",
+    "de": "Bei 0 kleiner b kleiner 1 nimmt die modellierte Intensität ab, bei b gleich 1 bleibt sie konstant und bei b größer 1 steigt sie. Die kumulierte Zahl nimmt trotzdem weiter zu. Manche Quellen definieren eine Wachstumsexponente als 1 minus b; deshalb muss vor dem Vergleich von Zahlen die verwendete Parametrisierung geklärt werden."
+  },
+  {
+    "key": "u1053",
+    "de": "Ein sinkender Trend beweist keine Wirkung einer einzelnen Maßnahme. Weniger Nutzung, andere Meldewege oder eine veränderte Kohorte können ebenfalls wirken. Vor und nach einem Release vergleichen wir definierte Ereignisse, Exposition und Konfiguration. Trendtests und Modellanpassung ergänzen den technischen Befund. Ein Test mit laufenden Änderungen und eine Feldschätzung für einen festen freigegebenen Stand beantworten verschiedene Fragen."
+  },
+  {
+    "key": "u1054",
+    "de": "Schaubild J Potenzgesetzmodelle vor und nach einer Maßnahme  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1055",
+    "de": "Schaubild J Potenzgesetzmodelle vor und nach einer Maßnahme  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1056",
+    "de": "Die beiden logarithmischen Darstellungen trennen die Beobachtung vor und nach einer Maßnahme. Jede Phase beginnt mit eigener lokaler Nutzungszeit bei null; bereits gezählte Ereignisse werden nicht nachträglich gelöscht. Gezeigt sind synthetische Ereigniszeiten und ausdrücklich angenommene Modellkurven M(t) = a t^b, keine angepassten Feldergebnisse. Vor der Maßnahme ist b gleich 1,2, danach b gleich 0,8. Die Steigung der Modellgeraden im Log-Log-Plot entspricht b."
+  },
+  {
+    "key": "u1057",
+    "de": "Die unterschiedlichen Steigungen illustrieren die Methode von Crow-AMSAA beziehungsweise dem Potenzgesetz-NHPP. Für einen Wirksamkeitsnachweis braucht es vergleichbare Ereignisdefinitionen und Nutzung, eine sachgerechte Modellanpassung mit Unsicherheit sowie den technischen Nachweis der Maßnahme. Ein Knick allein beweist keine Ursache. Phasen mit verändertem Produktstand werden kenntlich gemacht; ein einziges unverändertes Modell wird nicht ungeprüft über die Änderung hinweg angepasst. <a href=\"#sources/source_Q28\">[Q28]</a>"
+  },
+  {
+    "key": "u1058",
+    "de": "Das Wissen zurückführen"
+  },
+  {
+    "key": "u1059",
+    "de": "Ein geschlossener Fall verändert bei Bedarf die FMEA, das Systemmodell, Supplier-Anforderungen, Prüfprofile oder Logs. Sonst bleibt die Ursache im Bericht und kann im nächsten Projekt erneut auftreten. Eine Verbesserung ist erst aktiv gelebt, wenn die neue Erkenntnis die nächste Entscheidung beeinflusst."
+  },
+  {
+    "key": "u1060",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u1061",
+    "de": "Ereignis, Zustand, Nutzung und Version sichern."
+  },
+  {
+    "key": "u1062",
+    "de": "Mehrere Hypothesen formulieren und mit geeigneten Befunden prüfen."
+  },
+  {
+    "key": "u1063",
+    "de": "Ursache, Mechanismus und Fehlerwirkung dokumentieren."
+  },
+  {
+    "key": "u1064",
+    "de": "Sofortkorrektur und nachhaltige Maßnahme mit Wirkmechanismus trennen."
+  },
+  {
+    "key": "u1065",
+    "de": "Reproduktion, Regression und Feldwirksamkeit nachweisen."
+  },
+  {
+    "key": "u1066",
+    "de": "Modelle, Anforderungen und Nachweise aktualisieren und den Fall begründet schließen."
+  },
+  {
+    "key": "u1067",
+    "de": "Die Parametrisierung eines verwendeten Wachstumsmodells ausdrücklich angeben."
+  },
+  {
+    "key": "u1068",
+    "de": "Übung"
+  },
+  {
+    "key": "u1069",
+    "de": "Ein WLAN-Problem verschwindet nach einem Router-Neustart. Welche Daten und Prüfungen benötigst du, bevor du den Fehlerfall als nachhaltig gelöst schließen kannst?"
+  },
+  {
+    "key": "u1070",
+    "de": "20 Fallstudien und Arbeitsvorlagen anwenden"
+  },
+  {
+    "key": "u1071",
+    "de": "Einführung"
+  },
+  {
+    "key": "u1072",
+    "de": "Navigation <a href=\"#figures/diagram_A\">Schaubild A  </a><a href=\"#figures/diagram_B\">Schaubild B  </a><a href=\"#figures/diagram_C\">Schaubild C  </a>|  Eigene Lehrfälle mit methodischem Bezug zu den vorherigen Kapiteln  |  <a href=\"#home\">Inhalt</a>"
+  },
+  {
+    "key": "u1073",
+    "de": "Sechs Fehlerpfade durch denselben Untersuchungsablauf"
+  },
+  {
+    "key": "u1074",
+    "de": "Die folgenden Lehrfälle sind erfunden. Sie zeigen, wie dieselbe Aufgabe unterschiedliche Analysewege auslösen kann. Die Kapitelnummern beziehen sich auf diese Fassung."
+  },
+  {
+    "key": "u1075",
+    "de": "<strong>Pfad</strong>"
+  },
+  {
+    "key": "u1076",
+    "de": "<strong>Ausgangsproblem</strong>"
+  },
+  {
+    "key": "u1077",
+    "de": "<strong>Geeigneter Einstieg</strong>"
+  },
+  {
+    "key": "u1078",
+    "de": "<strong>T1 Bereitschaft</strong>"
+  },
+  {
+    "key": "u1079",
+    "de": "<strong>Ein alter Status löst eine ungeeignete Freigabe aus</strong>"
+  },
+  {
+    "key": "u1080",
+    "de": "<strong>5 8 9 16</strong>"
+  },
+  {
+    "key": "u1081",
+    "de": "<strong>T2 Zuordnung</strong>"
+  },
+  {
+    "key": "u1082",
+    "de": "<strong>Ein mobiler Detektor ist dem falschen Auftrag zugeordnet</strong>"
+  },
+  {
+    "key": "u1083",
+    "de": "<strong>3 5 8 16</strong>"
+  },
+  {
+    "key": "u1084",
+    "de": "<strong>T3 Archiv</strong>"
+  },
+  {
+    "key": "u1085",
+    "de": "<strong>Die Verbindung zum Archiv ist unterbrochen</strong>"
+  },
+  {
+    "key": "u1086",
+    "de": "<strong>6 16 18</strong>"
+  },
+  {
+    "key": "u1087",
+    "de": "<strong>T4 Update</strong>"
+  },
+  {
+    "key": "u1088",
+    "de": "<strong>Eine fremde Version verändert das Zeitverhalten</strong>"
+  },
+  {
+    "key": "u1089",
+    "de": "<strong>6 13 17</strong>"
+  },
+  {
+    "key": "u1090",
+    "de": "<strong>T5 Spitzenlast</strong>"
+  },
+  {
+    "key": "u1091",
+    "de": "<strong>Eine ungewohnte Aufnahmefolge erhöht die Temperatur</strong>"
+  },
+  {
+    "key": "u1092",
+    "de": "<strong>4 10 11 12 15</strong>"
+  },
+  {
+    "key": "u1093",
+    "de": "<strong>T6 Feldtrend</strong>"
+  },
+  {
+    "key": "u1094",
+    "de": "<strong>Wiederkehrende Ereignisse nehmen nach einem Release zu</strong>"
+  },
+  {
+    "key": "u1095",
+    "de": "<strong>18 19</strong>"
+  },
+  {
+    "key": "u1096",
+    "de": "T1 führt durch die ausführliche Fallstudie dieses Kapitels. Zusätzlich zur Schnittstellen-FMEA betrachten wir in der Steuerungsanalyse, wann Freigabe und Rückmeldung zulässig sind. Der Nachweis reproduziert die auslösende Reihenfolge und prüft, ob die Maßnahme eine veraltete Meldung zuverlässig erkennt."
+  },
+  {
+    "key": "u1097",
+    "de": "Bei T2 fragen wir zuerst, wo die Zuordnung entsteht und wann sie gültig wird. Logs mit bloßer Gerätekennung reichen nicht: Auftrag, Detektor, Zustand und Zeitpunkt müssen verknüpft sein. Der Integrationstest wechselt die Zuordnung auch während eines offenen Vorgangs. Das Erfolgskriterium umfasst die richtige Identität des Ergebnisses, nicht nur die Existenz eines Bildes."
+  },
+  {
+    "key": "u1098",
+    "de": "Bei T3 untersuchen wir Verbindung, Bestätigung und Rückfallebene. Eine lokale Pufferung wird nur verwendet, wenn sie für die Anwendung spezifiziert und abgesichert ist. Der Test unterbricht die Verbindung vor und nach einer bestätigten Übergabe und prüft anschließend Vollständigkeit, Zuordnung und Wiederanlauf. Im Feld erfassen wir Dauer der Einschränkung und betroffene Vorgänge getrennt."
+  },
+  {
+    "key": "u1099",
+    "de": "Bei T4 sichern wir zunächst die gesamte Versionskombination. Dann vergleichen wir den Schnittstellenvertrag vor und nach dem Update. Ein gezielt verzögerter Status kann die Zeitabhängigkeit prüfen. Die Freigabe wird für die betroffene Kombination ergänzt; unberührte mechanische Nachweise bleiben nutzbar, sofern die Änderung ihre Annahmen nicht beeinflusst."
+  },
+  {
+    "key": "u1100",
+    "de": "Bei T5 vergleichen wir die tatsächliche Lastfolge mit dem qualifizierten Profil. Temperatur am relevanten Ort, Verlustleistung, Kühlung und Pausenzeiten bilden die technische Hypothese. Die Zulieferevidenz zeigt, welche Belastungen bereits abgedeckt sind. Eine gezielte Integrationsmessung und gegebenenfalls eine mechanismengerechte Lebensdauerprüfung schließen die Lücke. Damit bleiben Physik und Komponentennachweise im übergreifenden Ablauf sichtbar."
+  },
+  {
+    "key": "u1101",
+    "de": "Bei T6 beginnen wir mit Ereignisdefinition, Kohorte und Nenner. Eine MCF kann wiederholte Ereignisse zeigen; ein geeignetes Trendmodell unterstützt die Bewertung. Anschließend unterscheiden wir technische Hypothesen anhand reproduzierbarer Tests. Erst ein Zusammenhang zwischen Befund, Maßnahme und belastbarer Wirksamkeitsprüfung rechtfertigt die Verbesserungsentscheidung."
+  },
+  {
+    "key": "u1102",
+    "de": "T1 Ein Auftrag muss zum richtigen Bild führen"
+  },
+  {
+    "key": "u1103",
+    "de": "Die folgende Fallstudie ist frei erfunden. Sie verbindet die Methoden und ist kein Bericht über einen Kundenfehler oder ein tatsächlich eingesetztes Produkt. Unter hoher Last tritt ein sporadischer Aufnahmeabbruch auf. Ein Detektoraustausch scheint zunächst zu helfen, der Fehler kommt aber zurück."
+  },
+  {
+    "key": "u1104",
+    "de": "Ein einfaches Alltagsbild ist die Abholung einer Pizza: Die Nachricht „fertig“ gilt nur für eine konkrete Bestellung. Eine alte Benachrichtigung darf nicht für die nächste Bestellung verwendet werden. Wenn mehrere Bestellungen gleichzeitig bearbeitet werden, brauchen Auftrag, Status und Ausgabe eine konsistente Zuordnung. Am Röntgensystem ist der Zusammenhang technisch und sicherheitsrelevant, aber das Zuordnungsproblem lässt sich so leicht verstehen."
+  },
+  {
+    "key": "u1105",
+    "de": "Schritt 1 Das Ereignis und die Grenze festlegen"
+  },
+  {
+    "key": "u1106",
+    "de": "Wir definieren zunächst die Systemfunktion: Für einen gültigen Auftrag soll ein entsprechend zugeordnetes, verwendbares Bild bereitgestellt werden. Ein Abbruch wird mit Zustand, Zeit und Ergebnis dokumentiert. Wir unterscheiden fehlendes Bild, Bild mit unzulässiger Qualität, Schutzunterbrechung und einen erfolgreichen Wiederanlauf."
+  },
+  {
+    "key": "u1107",
+    "de": "Die erste Grenze umfasst das Gesamtsystem. Anschließend betrachten wir den Detektor und seine Kommunikation gesondert. Die Systemsteuerung, Expositionskoordination, Versorgung und Kühlung gehören bei dieser zweiten Betrachtung zu seiner Umgebung. Schaubild B verhindert, dass wir alle Ursachen in den austauschbaren Detektor hineininterpretieren."
+  },
+  {
+    "key": "u1108",
+    "de": "Schritt 2 Nutzung und Ketten modellieren"
+  },
+  {
+    "key": "u1109",
+    "de": "Wir erfassen Expositionsfolge, Pausen, Kommunikation, Temperatur, Hardware- und Softwarestände. Der Normalablauf enthält Auftrag, Konfiguration, Bereitschaft, Freigabe, Exposition und Bildbereitstellung. Zu jedem Signal gehören Auftragsbezug, Gültigkeit und erwarteter Zustand."
+  },
+  {
+    "key": "u1110",
+    "de": "Das Nutzungsprofil enthält sowohl verteilte Einzelaufnahmen als auch eine zulässige hoch ausgelastete Sequenz. Wir prüfen, welche Belastungen gemeinsam auftreten können. Eine höhere Temperatur und eine spätere Nachricht werden nicht ohne Begründung als unabhängig betrachtet."
+  },
+  {
+    "key": "u1111",
+    "de": "Schritt 3 Hypothesen und Fehleranalysen verbinden"
+  },
+  {
+    "key": "u1112",
+    "de": "Wir untersuchen vier Lehrhypothesen: eine temperaturabhängige Detektorfunktion, ein Versorgungseinbruch, eine unterbrochene Bildübertragung und eine veraltete Bereitschaft. Die Interface-FMEA verfolgt lokale Abweichungen zur Systemwirkung. Der Fehlerbaum verbindet alternative Pfade zum Top Event kein verwendbares Bild."
+  },
+  {
+    "key": "u1113",
+    "de": "<strong>Hypothese</strong>"
+  },
+  {
+    "key": "u1114",
+    "de": "<strong>Unterscheidender Befund</strong>"
+  },
+  {
+    "key": "u1115",
+    "de": "<strong>Gezielte Untersuchung</strong>"
+  },
+  {
+    "key": "u1116",
+    "de": "<strong>Temperaturabhängige Funktion</strong>"
+  },
+  {
+    "key": "u1117",
+    "de": "<strong>Fehler folgt der lokalen Temperatur</strong>"
+  },
+  {
+    "key": "u1118",
+    "de": "<strong>Last und Kühlung kontrolliert variieren</strong>"
+  },
+  {
+    "key": "u1119",
+    "de": "<strong>Versorgungseinbruch</strong>"
+  },
+  {
+    "key": "u1120",
+    "de": "<strong>Zeitlich passender elektrischer Einbruch</strong>"
+  },
+  {
+    "key": "u1121",
+    "de": "<strong>Relevante Versorgung während Ablauf messen</strong>"
+  },
+  {
+    "key": "u1122",
+    "de": "<strong>Übertragungsfehler</strong>"
+  },
+  {
+    "key": "u1123",
+    "de": "<strong>Daten oder Kennungen fehlen</strong>"
+  },
+  {
+    "key": "u1124",
+    "de": "<strong>Übertragung gezielt unterbrechen und beobachten</strong>"
+  },
+  {
+    "key": "u1125",
+    "de": "<strong>Veralteter Status</strong>"
+  },
+  {
+    "key": "u1126",
+    "de": "<strong>Status gehört nicht zum aktuellen Zustand</strong>"
+  },
+  {
+    "key": "u1127",
+    "de": "<strong>Alte und verspätete Meldung kontrolliert einspeisen</strong>"
+  },
+  {
+    "key": "u1128",
+    "de": "Schritt 4 Nachweise des Zulieferers abgleichen"
+  },
+  {
+    "key": "u1129",
+    "de": "Der Supplier hat seine definierte Ausführung und Belastung qualifiziert. Wir prüfen den tatsächlichen Stand, das Temperaturprofil, die beobachteten Funktionen und die Randbedingungen. Passt der Nachweis, übernehmen wir ihn. Bleibt eine relevante Lücke, definieren wir eine Ergänzung. Wir wiederholen nicht pauschal alle Klima- und Mechaniktests, nur weil im System ein Abbruch auftritt."
+  },
+  {
+    "key": "u1130",
+    "de": "In diesem Lehrfall ist das normale Komponentenverhalten zunächst innerhalb der belegten Bedingungen. Der Befund allein schließt trotzdem nicht jede Komponentenursache aus. Wir halten den Status bestätigt, widerlegt oder noch offen je Hypothese fest und suchen gezielt weiter."
+  },
+  {
+    "key": "u1131",
+    "de": "Schritt 5 Einen unterscheidenden Test durchführen"
+  },
+  {
+    "key": "u1132",
+    "de": "Wir erzeugen unter kontrollierten Bedingungen eine verspätete Bereitschaftsmeldung aus einem vorherigen Auftrag. Gleichzeitig prüfen wir den Zustand des Detektors und die Entscheidungen der Systemsteuerung mit konsistenten Zeitstempeln. Im Lehrfall zeigt sich: Der Empfänger verwendet den gespeicherten Wert ohne ausreichenden aktuellen Auftrags- und Gültigkeitsbezug."
+  },
+  {
+    "key": "u1133",
+    "de": "Die Ursache liegt damit in der Integration beziehungsweise dem Schnittstellenvertrag. Der Austausch der Komponente hat möglicherweise nur den Ablauf neu gestartet und deshalb kurzfristig geholfen. Eine zusätzliche lange mechanische Prüfung hätte diesen Fehlerpfad nicht adressiert."
+  },
+  {
+    "key": "u1134",
+    "de": "Schritt 6 Anforderungen und Maßnahmen ableiten"
+  },
+  {
+    "key": "u1135",
+    "de": "Eine aktualisierte Anforderung beschreibt, wie Statusmeldung, Auftragskennung, Gültigkeit und Freigabe zusammenhängen. Sender und Empfänger erhalten einen abgestimmten Vertrag. Die konkrete technische Lösung wird im Produktprozess entworfen und geprüft; der Lehrfall schreibt keinen universellen Schutzalgorithmus vor."
+  },
+  {
+    "key": "u1136",
+    "de": "<strong>Modellbezug</strong>"
+  },
+  {
+    "key": "u1137",
+    "de": "<strong>Nachweisfrage</strong>"
+  },
+  {
+    "key": "u1138",
+    "de": "<strong>Nachweise im Lehrfall</strong>"
+  },
+  {
+    "key": "u1139",
+    "de": "<strong>Funktion Bild bereitstellen</strong>"
+  },
+  {
+    "key": "u1140",
+    "de": "<strong>Bleibt Auftrag und Output konsistent</strong>"
+  },
+  {
+    "key": "u1141",
+    "de": "<strong>Durchgängiger Aufnahmeablauf</strong>"
+  },
+  {
+    "key": "u1142",
+    "de": "<strong>Schnittstelle Bereitschaft</strong>"
+  },
+  {
+    "key": "u1143",
+    "de": "<strong>Werden veraltete Informationen erkannt</strong>"
+  },
+  {
+    "key": "u1144",
+    "de": "<strong>Integrationstest mit alten Kennungen</strong>"
+  },
+  {
+    "key": "u1145",
+    "de": "<strong>Zustand Wiederanlauf</strong>"
+  },
+  {
+    "key": "u1146",
+    "de": "<strong>Werden frühere Aufträge korrekt behandelt</strong>"
+  },
+  {
+    "key": "u1147",
+    "de": "<strong>Recovery-Sequenzen an mehreren Punkten</strong>"
+  },
+  {
+    "key": "u1148",
+    "de": "<strong>Profil hohe Last</strong>"
+  },
+  {
+    "key": "u1149",
+    "de": "<strong>Funktioniert die Zuordnung unter relevanter Last</strong>"
+  },
+  {
+    "key": "u1150",
+    "de": "<strong>Stress- und Timingvariationen</strong>"
+  },
+  {
+    "key": "u1151",
+    "de": "Schritt 7 Regression und Freigabe"
+  },
+  {
+    "key": "u1152",
+    "de": "Wir wiederholen den auslösenden Fall und prüfen angrenzende Sequenzen: Normalbetrieb, Start, Wiederanlauf, doppelte Meldung, Verbindungsverlust und relevante Varianten. Virtuelle Tests erweitern die Sequenzabdeckung; reale Prüfungen untersuchen die physikalisch relevanten Effekte. Die Nachweismatrix nennt die geprüfte Konfiguration und verbleibende Grenzen."
+  },
+  {
+    "key": "u1153",
+    "de": "Die Freigabe basiert nicht nur auf dem verschwundenen Abbruch. Wir prüfen auch, ob die Maßnahme keine falschen Sperren, unzulässigen Wartezeiten oder neue Inkonsistenzen erzeugt. In Schaubild A geht die Arbeit anschließend in die Feldauswertung über."
+  },
+  {
+    "key": "u1154",
+    "de": "Schritt 8 Wirksamkeit und Lernen"
+  },
+  {
+    "key": "u1155",
+    "de": "Wir beobachten vergleichbare Versionen und Nutzungsgruppen. Logs unterscheiden den alten Fehlerpfad von anderen Aufnahmeabbrüchen. Ein sinkender Gesamtaustausch ohne passende Ereignisdaten wäre kein ausreichender Wirksamkeitsnachweis. Bei neuen Befunden wird die Ursachenhypothese erneut bewertet."
+  },
+  {
+    "key": "u1156",
+    "de": "Der geschlossene Fall aktualisiert FMEA, Schnittstellenmodell, Anforderungen und Testfälle. Schaubild C zeigt den Weg: Feldfehler führt zu K18 und K19, die Ursache weiter zu K8 und K16. Neue Nachweisfragen können K11 oder K15 hinzunehmen. Ein Fall benötigt oft mehrere Wege."
+  },
+  {
+    "key": "u1157",
+    "de": "Weitere kurze Lehrfälle"
+  },
+  {
+    "key": "u1158",
+    "de": "Ein Röhrenproblem tritt nur bei einer bestimmten Lastfolge auf. Wir beginnen mit Nutzungsprofil und physikalischem Mechanismus, prüfen Supplier-Evidenz und planen bei Bedarf eine passende quantitative Absicherung. Ein reiner Standard-Funktionstest reicht nicht für eine verschleißbezogene Aussage."
+  },
+  {
+    "key": "u1159",
+    "de": "Eine Halterung bekommt nach vielen Bewegungen Spiel. Lastpfad, Verbindung und zyklisches Profil werden geprüft. Ein statischer FEM-Nachweis beantwortet die Ermüdungsfrage nicht."
+  },
+  {
+    "key": "u1160",
+    "de": "Eine Softwarefunktion benötigt nach langer Laufzeit zunehmend Speicher. Wir verwenden Langlauf- und Ressourcenbeobachtung, prüfen Wiederanlauf und operationales Profil und führen den Befund in Architektur und Regression zurück. Ein Austausch der Elektronik wäre ohne entsprechenden Befund keine nachhaltige Lösung."
+  },
+  {
+    "key": "u1161",
+    "de": "So gehen wir vor"
+  },
+  {
+    "key": "u1162",
+    "de": "Den passenden Fehlerpfad T1 bis T6 als Einstieg wählen und den Weg bis zum Wirksamkeitsnachweis verfolgen."
+  },
+  {
+    "key": "u1163",
+    "de": "Bewertungsgrenze, Nutzung und Hypothesen festhalten."
+  },
+  {
+    "key": "u1164",
+    "de": "Nachweise auswählen und Ergebnisse mit den Anforderungen vergleichen."
+  },
+  {
+    "key": "u1165",
+    "de": "Maßnahmen prüfen und Erkenntnisse in Modelle und Feldmonitoring zurückführen."
+  },
+  {
+    "key": "u1166",
+    "de": "Übung"
+  },
+  {
+    "key": "u1167",
+    "de": "Wähle einen bekannten Alltagsfehler, etwa ausbleibendes Warmwasser oder einen aussetzenden Kopfhörer. Bearbeite ihn mit Systemsteckbrief, drei Hypothesen, geeignetem Nachweis und Wirksamkeitsprüfung. Nutze danach dieselben Schritte für eine technische Röntgenfunktion."
+  },
+  {
+    "key": "u1168",
+    "de": "Anhang A Musterantworten"
+  },
+  {
+    "key": "u1169",
+    "de": "Kapitel 1 bis 5"
+  },
+  {
+    "key": "u1170",
+    "de": "Zu Kapitel 1: Für kontinuierliche Verbindung ist jeder ungeplante Neustart ein möglicher Funktionsausfall, obwohl der Router schnell wieder verfügbar wird. Ein automatischer Neustart kann eine gute Wiederherstellbarkeit zeigen, aber die Missionszuverlässigkeit bleibt davon getrennt. Geplante Unterbrechungen werden vorher definiert."
+  },
+  {
+    "key": "u1171",
+    "de": "Zu Kapitel 2: Der Hersteller weist die Waschmaschinenfunktion und seine spezifizierten Aufstellbedingungen nach. Die Einbaubewertung prüft, ob Platz, Untergrund, Befestigung und Belüftung dazu passen. Ein begründeter Integrationsnachweis kann erforderlich sein, ohne die gesamte Gerätequalifikation zu wiederholen."
+  },
+  {
+    "key": "u1172",
+    "de": "Zu Kapitel 3: Am Gesamtkühlschrank liegen Stromversorgung, Raum und Nutzer außerhalb. Beim Kompressor gehören Steuerung, Kühlkreislauf, Befestigung und Teile des Geräts zusätzlich zur Umgebung. Wärme- und Energieflüsse bleiben an beiden Grenzen relevant."
+  },
+  {
+    "key": "u1173",
+    "de": "Zur Vertiefungsübung in Kapitel 3: Der Raumwechsel allein reicht nicht. Für ein eigenständiges System müssten insbesondere ein eigener operativer Zweck und eigenständige Führung begründet sein. Im beschriebenen Produkt bleibt der Detektor ein Subsystem. Beim Wechsel prüfen wir Zuordnung, Konfiguration und Zustand."
+  },
+  {
+    "key": "u1174",
+    "de": "Zu Kapitel 4: Benötigt werden unter anderem Betätigungskraft, Schlüssel- und Schlossausführung, Feuchte, Temperatur, Wartung, Verschmutzung und zulässiger Verschleiß. Zehn Kalenderjahre mit zehn gegenüber hundert Betätigungen täglich erzeugen unterschiedliche Zykluszahlen. Sie können trotzdem gemeinsame kalenderzeitabhängige Mechanismen enthalten."
+  },
+  {
+    "key": "u1175",
+    "de": "Zu Kapitel 5: Stromversorgung bereitstellen, Kommunikation aushandeln, Ladestrom regeln und Energie im Akku speichern sind Teilfunktionen. Mechanische Verbindung, Daten und Energie sind unterschiedliche Flüsse. Ein angeschlossenes Kabel kann unpassend, beschädigt oder nicht ausreichend leistungsfähig sein."
+  },
+  {
+    "key": "u1176",
+    "de": "Kapitel 6 bis 10"
+  },
+  {
+    "key": "u1177",
+    "de": "Zu Kapitel 6: Ein zweiter Repeater kann bestimmte lokale Ausfälle oder Abdeckungsprobleme abfangen. Gemeinsamer Router, Stromkreis, Konfiguration und Funkstörung bleiben mögliche gemeinsame Ursachen. Auch die Nutzung des alternativen Wegs muss funktionieren."
+  },
+  {
+    "key": "u1178",
+    "de": "Zur Vertiefungsübung in Kapitel 6: Offen bedeutet ungeprüft. Die Kombination ist damit nicht freigegeben. Wir prüfen die Änderungswirkung und führen einen gezielten Kompatibilitätsnachweis. Eine begrenzte Nutzung unter Bedingungen benötigt eine ausdrücklich begründete und zulässige Entscheidung im Produktprozess; zusätzliche Feldbeobachtung allein ersetzt keine Freigabe. Eine Neuqualifikation aller Komponenten ist aus dem Archiv-Upgrade nicht abzuleiten."
+  },
+  {
+    "key": "u1179",
+    "de": "Zu Kapitel 7: Laufzeit pro Ladung wird für ein definiertes Leistungsprofil festgelegt. Zyklenlebensdauer und Kalenderalter beschreiben Kapazität beziehungsweise Funktion über unterschiedliche Beanspruchungen. Ein Populationsziel ergänzt die Zahl der geeigneten Einheiten und das Nachweisniveau. Die Zielwerte werden aus der Anwendung abgeleitet, nicht aus der Übung übernommen."
+  },
+  {
+    "key": "u1180",
+    "de": "Zu Kapitel 8: Die Funktion lautet, einen Tastendruck innerhalb einer definierten Zeit akustisch anzuzeigen. Die Fehlermöglichkeit ist verspätete Ausgabe. Ursachen können verzögerte Funkübertragung oder ein falscher Softwarezustand sein. Der Besucher erhält keine rechtzeitige Rückmeldung; „Klingel defekt“ benennt weder die Abweichung noch ihren Zeitbezug."
+  },
+  {
+    "key": "u1181",
+    "de": "Zu Kapitel 9: Feuchte Lagerung kann beide Lampen beziehungsweise Kontakte gemeinsam schädigen. Unabhängige Batterien beseitigen diese gemeinsame Ursache nicht. Herkunft und Lagerung müssen in die Redundanzbewertung eingehen."
+  },
+  {
+    "key": "u1182",
+    "de": "Zur Vertiefungsübung in Kapitel 9: Die Aufteilung ergibt 20 FIT für den gemeinsamen und 180 FIT für den unabhängigen Anteil. Das ist noch keine Ausfallwahrscheinlichkeit des redundanten Systems. Nur begründet unabhängige Ereignisse dürfen in eine Parallelrechnung eingehen; gemeinsame Ursachen werden zusätzlich im Architekturmodell berücksichtigt."
+  },
+  {
+    "key": "u1183",
+    "de": "Zu Kapitel 10: Alterung, Korrosion und Gelenkspiel können die Beanspruchbarkeit verändern. Zu prüfen sind relevante Kombinationen aus Zustand, Windlast, Benutzung und vorheriger Lagerung. Ein Neumuster-Grenztest allein begründet keine Reserve für den gealterten Zustand."
+  },
+  {
+    "key": "u1184",
+    "de": "Kapitel 11 bis 15"
+  },
+  {
+    "key": "u1185",
+    "de": "Zu Kapitel 11: Zuerst wird der tatsächliche Temperatur- und Einbaubereich mit den Herstellergrenzen verglichen. Dann wird geprüft, welche Ausführung und Funktion der vorhandene Nachweis abdeckt. Eine gezielte thermische Ergänzung kann sinnvoll sein; eine erneute Regenprüfung schließt eine thermische Lücke ohne entsprechende Temperaturbewertung nicht."
+  },
+  {
+    "key": "u1186",
+    "de": "Zu Kapitel 12: Die Abschlussprüfung zeigt, dass die gemessene Funktion danach vorhanden war. Unbeobachtete Unterbrechungen während der Vibration bleiben offen. Der Nachweis benötigt eine passende Beobachtung während der Beanspruchung, wenn solche Fehler relevant sind."
+  },
+  {
+    "key": "u1187",
+    "de": "Zu Kapitel 13: Andere Dateien, Grenzgrößen, beschädigte Inhalte, Verbindungsverlust, parallele Nutzung, Unterbrechung und Wiederanlauf sind mögliche zusätzliche Fälle. Welche benötigt werden, bestimmen Funktion, Profil und Fehleranalyse. Beliebig viele Zufallsdateien ohne Testorakel sind ebenfalls unzureichend."
+  },
+  {
+    "key": "u1188",
+    "de": "Zu Kapitel 14: Die acht noch funktionsfähigen Geräte enthalten Überlebensinformation. Werden nur die zwei Ausfälle gemittelt, wird diese Information ignoriert und eine andere, selektierte Gruppe beschrieben. Ein zensierungsgerechtes Verfahren und passende Modellannahmen sind erforderlich."
+  },
+  {
+    "key": "u1189",
+    "de": "Zu Kapitel 15: Fünf Erfolge bis zur Zielnutzung erlauben keinen binomialen Nullausfallnachweis von 99 Prozent Zuverlässigkeit bei 95 Prozent Konfidenzniveau. Zu prüfen sind eine größere Stichprobe, eine angepasste Forderung, geeignete zusätzliche Evidenz oder ein begründetes anderes Modell. Eine längere Prüfung kann unter einem begründeten Weibullmodell mit bekanntem Formparameter eine andere Nachweisbasis liefern. Bei β gleich 2 benötigen fünf Muster rund 7,72-mal die Zielnutzung. Die Modellannahme und ihre Unsicherheit sind entscheidend. Höhere Belastung ohne validierte Übertragung löst den Mangel nicht."
+  }
+]

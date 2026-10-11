@@ -1,0 +1,2230 @@
+[
+  {
+    "key": "u1190",
+    "de": "Zur Vertiefungsübung in Kapitel 15: P(X ≤ 1) mit X binomial verteilt und Ausfallwahrscheinlichkeit 1 − R ergibt rund 32,3 Prozent bei R gleich 0,95 und 76,5 Prozent bei R gleich 0,98. Der Plan prüft R mindestens 0,90 bei 95 Prozent einseitigem Konfidenzniveau. Bei R gleich 0,95 scheitert er dennoch in etwa zwei von drei Versuchen. Konfidenzniveau und Chance auf einen bestandenen Nachweis beantworten verschiedene Fragen."
+  },
+  {
+    "key": "u1191",
+    "de": "Kapitel 16 bis 20"
+  },
+  {
+    "key": "u1192",
+    "de": "Zu Kapitel 16: Zu prüfen sind Protokoll, Datenrate, Timing, Netzwerk, Version, Ressourcen und gemeinsame Fehlerreaktion. Einzeltests der Geräte sagen nicht, ob ihre Schnittstellen unter dem tatsächlichen Übertragungsprofil zusammenpassen."
+  },
+  {
+    "key": "u1193",
+    "de": "Zu Kapitel 17: Die Software kann andere Schalthäufigkeit, Temperaturen oder Lastfolgen erzeugen. Damit ändern sich mögliche Beanspruchungen der Hardware. Die tatsächliche Wirkung bestimmt die betroffenen Nachweise, nicht der Umstand, dass nur Software geändert wurde."
+  },
+  {
+    "key": "u1194",
+    "de": "Zu Kapitel 18: Eine erhöhte Erkennungsrate, andere Ereignisdefinitionen, längere Beobachtung, höhere Nutzung oder ein echter Anstieg kommen infrage. Zuerst werden Nenner, Kohorten und Messverfahren vergleichbar gemacht."
+  },
+  {
+    "key": "u1195",
+    "de": "Zur Vertiefungsübung in Kapitel 18: Bei 50 Stunden steigt die MCF um 1/2 auf 0,5. Bei 150 Stunden steigt sie um 2/2 auf 1,5. Bis 200 Stunden bleibt sie dort. Das ist die mittlere kumulierte Ereigniszahl je System und kein Anteil defekter Systeme; wiederholte Ereignisse derselben Einheit bleiben enthalten."
+  },
+  {
+    "key": "u1196",
+    "de": "Zu Kapitel 19: Vor und nach dem Neustart werden Zustand, Last, Konfiguration und relevante Logs gesichert. Konkurrierende Hypothesen werden geprüft, die auslösende Sequenz reproduziert und eine Maßnahme gegen die Ursache nachgewiesen. Ein Neustart allein ist meist nur eine Wiederherstellung."
+  },
+  {
+    "key": "u1197",
+    "de": "Zu Kapitel 20: Eine gute Bearbeitung enthält einen klaren Funktionsverlust, eine passende Grenze, mehrere unterscheidbare Hypothesen und eine Prüfung mit Entscheidungskriterium. Die Maßnahme wird unter den auslösenden Bedingungen und gegen Nebenwirkungen geprüft. Die Arbeitsvorlagen in Anhang B helfen bei der Dokumentation."
+  },
+  {
+    "key": "u1198",
+    "de": "Anhang B Arbeitsvorlagen"
+  },
+  {
+    "key": "u1199",
+    "de": "Systemsteckbrief mit Schnittstellenanalyse"
+  },
+  {
+    "key": "u1200",
+    "de": "Diese Vorlage wird für jede neu gewählte Systemgrenze verwendet. Sie wird nicht nur beim Gesamtgerät ausgefüllt. Ein kurzer ausgefüllter Beispielwert steht jeweils hinter der Feldbeschreibung; für das Projekt wird er ersetzt."
+  },
+  {
+    "key": "u1201",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u1202",
+    "de": "<strong>Eintrag im Projekt</strong>"
+  },
+  {
+    "key": "u1203",
+    "de": "<strong>Bewertungsfrage</strong>"
+  },
+  {
+    "key": "u1204",
+    "de": "<strong>Beispielsweise sporadischen Verlust der Bildbereitstellung untersuchen</strong>"
+  },
+  {
+    "key": "u1205",
+    "de": "<strong>Systemgrenze und Version</strong>"
+  },
+  {
+    "key": "u1206",
+    "de": "<strong>Produktgrenze oder Ablaufgrenze nennen; Hardware, Software und Einbau festhalten</strong>"
+  },
+  {
+    "key": "u1207",
+    "de": "<strong>Eigener Zweck</strong>"
+  },
+  {
+    "key": "u1208",
+    "de": "<strong>Zweck außerhalb des betrachteten Ablaufs angeben; beim Subsystem gegebenenfalls nicht eigenständig belegt</strong>"
+  },
+  {
+    "key": "u1209",
+    "de": "<strong>Änderungsbefugnis</strong>"
+  },
+  {
+    "key": "u1210",
+    "de": "<strong>Wer über das Element entscheidet und Änderungen durchsetzen kann</strong>"
+  },
+  {
+    "key": "u1211",
+    "de": "<strong>Änderungsweg</strong>"
+  },
+  {
+    "key": "u1212",
+    "de": "<strong>Wer wen informiert und wie betroffene Nachweise neu bewertet werden</strong>"
+  },
+  {
+    "key": "u1213",
+    "de": "<strong>Funktion und Erfolg</strong>"
+  },
+  {
+    "key": "u1214",
+    "de": "<strong>Erwarteten Output und zulässige Degradation definieren</strong>"
+  },
+  {
+    "key": "u1215",
+    "de": "<strong>Inputs und Outputs</strong>"
+  },
+  {
+    "key": "u1216",
+    "de": "<strong>Richtung, Einheit, Toleranz, Timing und Auftragsbezug festhalten</strong>"
+  },
+  {
+    "key": "u1217",
+    "de": "<strong>Weitere Einwirkungen</strong>"
+  },
+  {
+    "key": "u1218",
+    "de": "<strong>Temperatur, Versorgung, Strahlung, Mechanik und andere relevante Größen</strong>"
+  },
+  {
+    "key": "u1219",
+    "de": "<strong>Rückwirkungen</strong>"
+  },
+  {
+    "key": "u1220",
+    "de": "<strong>Wärme, Kräfte, Emissionen und Fehlerfortpflanzung</strong>"
+  },
+  {
+    "key": "u1221",
+    "de": "<strong>Zustände und Übergänge</strong>"
+  },
+  {
+    "key": "u1222",
+    "de": "<strong>Start, bereit, aktiv, Wiederanlauf und Fehler</strong>"
+  },
+  {
+    "key": "u1223",
+    "de": "<strong>Nutzung und Annahmen</strong>"
+  },
+  {
+    "key": "u1224",
+    "de": "<strong>Profile, Quellen und noch offene Annahmen</strong>"
+  },
+  {
+    "key": "u1225",
+    "de": "<strong>Ergebnis und Übergabe</strong>"
+  },
+  {
+    "key": "u1226",
+    "de": "<strong>Verknüpfung zu Architektur, Anforderungen und FMEA</strong>"
+  },
+  {
+    "key": "u1227",
+    "de": "Zum Ausfüllen: Thema und ID ____________________  Verantwortliche Rolle ____________________  Stand ____________________."
+  },
+  {
+    "key": "u1228",
+    "de": "Für jede relevante Schnittstelle wird eine Zeile oder ein eigenes Blatt angelegt: Sender, Empfänger, Signal oder physikalischer Fluss, Gültigkeitszustand, Fehlerabweichungen, erwartete Reaktion und Nachweis. Ein Review prüft insbesondere fehlende Rückwirkungen und ungeklärte Zustandsannahmen."
+  },
+  {
+    "key": "u1229",
+    "de": "Nachweise des Zulieferers bewerten"
+  },
+  {
+    "key": "u1230",
+    "de": "Diese Vorlage dokumentiert die technische Übernahmeentscheidung. Ein vorhandener Prüfbericht wird referenziert und nicht lediglich in ein neues Formular abgeschrieben."
+  },
+  {
+    "key": "u1231",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u1232",
+    "de": "<strong>Auszufüllende Bewertung</strong>"
+  },
+  {
+    "key": "u1233",
+    "de": "<strong>Komponente und Lieferstand</strong>"
+  },
+  {
+    "key": "u1234",
+    "de": "<strong>Teilenummer, Revision, Firmware und relevante Prozessmerkmale</strong>"
+  },
+  {
+    "key": "u1235",
+    "de": "<strong>Benötigter Einsatz</strong>"
+  },
+  {
+    "key": "u1236",
+    "de": "<strong>Funktion, Einbau, Profil und Zielnutzung</strong>"
+  },
+  {
+    "key": "u1237",
+    "de": "<strong>Vorliegende Evidenz</strong>"
+  },
+  {
+    "key": "u1238",
+    "de": "<strong>Bericht, Muster, Datum, Profil, Ausfälle und Rohdaten</strong>"
+  },
+  {
+    "key": "u1239",
+    "de": "<strong>Vergleich</strong>"
+  },
+  {
+    "key": "u1240",
+    "de": "<strong>Welche Bedingungen passen und welche weichen ab</strong>"
+  },
+  {
+    "key": "u1241",
+    "de": "<strong>Repräsentativität</strong>"
+  },
+  {
+    "key": "u1242",
+    "de": "<strong>Warum decken die Muster die gelieferte Ausführung ab</strong>"
+  },
+  {
+    "key": "u1243",
+    "de": "<strong>Statistik</strong>"
+  },
+  {
+    "key": "u1244",
+    "de": "<strong>Modell, Unabhängigkeit, Zensierung, Konfidenzniveau und Grenzen</strong>"
+  },
+  {
+    "key": "u1245",
+    "de": "<strong>Restlücken</strong>"
+  },
+  {
+    "key": "u1246",
+    "de": "<strong>Benötigte Ergänzung mit technischer Begründung</strong>"
+  },
+  {
+    "key": "u1247",
+    "de": "<strong>Entscheidung</strong>"
+  },
+  {
+    "key": "u1248",
+    "de": "<strong>Akzeptiert, eingeschränkt akzeptiert oder ergänzende Evidenz nötig</strong>"
+  },
+  {
+    "key": "u1249",
+    "de": "<strong>Rückmeldung und Änderungen</strong>"
+  },
+  {
+    "key": "u1250",
+    "de": "<strong>Supplier-Kontakt, Information und Neubewertungsweg</strong>"
+  },
+  {
+    "key": "u1251",
+    "de": "Zum Ausfüllen: Evidenz-ID ____________________  Entscheider ____________________  Bedingungen der Übernahme ____________________."
+  },
+  {
+    "key": "u1252",
+    "de": "Reviewfragen: Werden Abweichungen und Ausfälle sichtbar? Sind die verwendeten Messorte und Funktionen passend? Kann die Integration die dokumentierten Einsatzgrenzen einhalten? Ist geregelt, wie Änderungen und bestätigte Feldfehler zurückgemeldet werden?"
+  },
+  {
+    "key": "u1253",
+    "de": "Arbeitsblatt für die FMEA"
+  },
+  {
+    "key": "u1254",
+    "de": "Der FMEA-Bogen wird mit Struktur, Funktion und Schnittstelle vorbereitet. Die folgende Feldfolge kann als Vorlage in das freigegebene Unternehmenswerkzeug übertragen werden."
+  },
+  {
+    "key": "u1255",
+    "de": "<strong>Feldgruppe</strong>"
+  },
+  {
+    "key": "u1256",
+    "de": "<strong>Erforderlicher Inhalt</strong>"
+  },
+  {
+    "key": "u1257",
+    "de": "<strong>Bezug</strong>"
+  },
+  {
+    "key": "u1258",
+    "de": "<strong>ID, Grenze, Ebene, Funktion, Zustand und Version</strong>"
+  },
+  {
+    "key": "u1259",
+    "de": "<strong>Fehlermöglichkeit</strong>"
+  },
+  {
+    "key": "u1260",
+    "de": "<strong>Konkrete Abweichung einschließlich Zeit und Kontext</strong>"
+  },
+  {
+    "key": "u1261",
+    "de": "<strong>Ursache</strong>"
+  },
+  {
+    "key": "u1262",
+    "de": "<strong>Mögliche Ursache und physikalischer oder logischer Mechanismus</strong>"
+  },
+  {
+    "key": "u1263",
+    "de": "<strong>Wirkungen</strong>"
+  },
+  {
+    "key": "u1264",
+    "de": "<strong>Lokal, nächsthöhere Ebene und Systemfunktion getrennt</strong>"
+  },
+  {
+    "key": "u1265",
+    "de": "<strong>Vorhandene Kontrollen</strong>"
+  },
+  {
+    "key": "u1266",
+    "de": "<strong>Prävention und Erkennung mit Evidenz</strong>"
+  },
+  {
+    "key": "u1267",
+    "de": "<strong>Bewertung</strong>"
+  },
+  {
+    "key": "u1268",
+    "de": "<strong>Gültige Skalen, Annahmen und relevante Risikoverknüpfung</strong>"
+  },
+  {
+    "key": "u1269",
+    "de": "<strong>Maßnahme</strong>"
+  },
+  {
+    "key": "u1270",
+    "de": "<strong>Wirkmechanismus, verantwortliche Rolle und Termin</strong>"
+  },
+  {
+    "key": "u1271",
+    "de": "<strong>Wirksamkeit</strong>"
+  },
+  {
+    "key": "u1272",
+    "de": "<strong>Test oder anderer geeigneter Nachweis und Ergebnis</strong>"
+  },
+  {
+    "key": "u1273",
+    "de": "<strong>Restzustand</strong>"
+  },
+  {
+    "key": "u1274",
+    "de": "<strong>Aktualisierte Bewertung und noch offene Punkte</strong>"
+  },
+  {
+    "key": "u1275",
+    "de": "Zum Ausfüllen: FMEA-ID ____________________  Schnittstellenbezug ____________________  Verknüpfter Nachweis ____________________."
+  },
+  {
+    "key": "u1276",
+    "de": "Reviewfragen: Ist die Fehlerwirkung wirklich über alle Ebenen verfolgt? Ist ein veralteter korrekter Wert von einem falschen Wert unterschieden? Sind gemeinsame Ressourcen und Fehlerkombinationen an ergänzende Analysen übergeben? Ist eine Maßnahme erst nach ihrer Wirksamkeitsprüfung geschlossen?"
+  },
+  {
+    "key": "u1277",
+    "de": "Statistischer Prüfplan"
+  },
+  {
+    "key": "u1278",
+    "de": "Die Entscheidung wird vor Testbeginn vereinbart. Alle Beispielzahlen aus den Kapiteln werden durch begründete Projektwerte ersetzt."
+  },
+  {
+    "key": "u1279",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u1280",
+    "de": "<strong>Eintrag</strong>"
+  },
+  {
+    "key": "u1281",
+    "de": "<strong>Ziel</strong>"
+  },
+  {
+    "key": "u1282",
+    "de": "<strong>Funktion, Ausfall, Population und Zielnutzung</strong>"
+  },
+  {
+    "key": "u1283",
+    "de": "<strong>Anforderung</strong>"
+  },
+  {
+    "key": "u1284",
+    "de": "<strong>Zuverlässigkeit oder Rate, Konfidenzniveau und Richtung der Grenze</strong>"
+  },
+  {
+    "key": "u1285",
+    "de": "<strong>Modell</strong>"
+  },
+  {
+    "key": "u1286",
+    "de": "<strong>Binomial, konstante Rate, Lebensdauer oder anderes begründetes Modell</strong>"
+  },
+  {
+    "key": "u1287",
+    "de": "<strong>Annahmen</strong>"
+  },
+  {
+    "key": "u1288",
+    "de": "<strong>Unabhängigkeit, Repräsentativität und Zensierung</strong>"
+  },
+  {
+    "key": "u1289",
+    "de": "<strong>Muster</strong>"
+  },
+  {
+    "key": "u1290",
+    "de": "<strong>Zahl, Serienbezug, Varianten und Zuteilung</strong>"
+  },
+  {
+    "key": "u1291",
+    "de": "<strong>Beanspruchung</strong>"
+  },
+  {
+    "key": "u1292",
+    "de": "<strong>Profil, Messort, Betriebszustand und Testfolge</strong>"
+  },
+  {
+    "key": "u1293",
+    "de": "<strong>Entscheidung</strong>"
+  },
+  {
+    "key": "u1294",
+    "de": "<strong>Zulässige Ausfälle, Auswertung und Akzeptanzregel</strong>"
+  },
+  {
+    "key": "u1295",
+    "de": "<strong>Beschleunigung</strong>"
+  },
+  {
+    "key": "u1296",
+    "de": "<strong>Mechanismus, Modellparameter, Validierung und Unsicherheit</strong>"
+  },
+  {
+    "key": "u1297",
+    "de": "<strong>Abbruch</strong>"
+  },
+  {
+    "key": "u1298",
+    "de": "<strong>Sicherheits-, Funktions- und organisatorische Abbruchregeln</strong>"
+  },
+  {
+    "key": "u1299",
+    "de": "<strong>Daten</strong>"
+  },
+  {
+    "key": "u1300",
+    "de": "<strong>Rohdaten, Ereigniszeiten, Zensierungen und Ausschlüsse</strong>"
+  },
+  {
+    "key": "u1301",
+    "de": "Zum Ausfüllen: Prüfplan-ID ____________________  Freigabe vor Testbeginn ____________________  Auswertungsverantwortlicher ____________________."
+  },
+  {
+    "key": "u1302",
+    "de": "Reviewfragen: Welches Ergebnis kann dieser Plan überhaupt liefern? Wie wahrscheinlich ist sein Erfolg bei einer angenommenen tatsächlich guten Population? Werden kurze Wiederholungen desselben Geräts fälschlich als unabhängige Einheiten gezählt? Ist eine mechanistische Hochrechnung ausreichend begründet?"
+  },
+  {
+    "key": "u1303",
+    "de": "Integrationsmatrix und Freigabeevidenz"
+  },
+  {
+    "key": "u1304",
+    "de": "Die Integrationsmatrix verknüpft Anforderungen, Fehlerpfade, Testebenen und konkrete Ergebnisse. Für jede Zeile wird ein vorhandener Nachweis referenziert oder eine offene Aktivität definiert."
+  },
+  {
+    "key": "u1305",
+    "de": "<strong>Feldgruppe</strong>"
+  },
+  {
+    "key": "u1306",
+    "de": "<strong>Inhalt</strong>"
+  },
+  {
+    "key": "u1307",
+    "de": "<strong>Bezug</strong>"
+  },
+  {
+    "key": "u1308",
+    "de": "<strong>Anforderung, Funktion, Schnittstelle und FMEA- oder Fehlerbaum-ID</strong>"
+  },
+  {
+    "key": "u1309",
+    "de": "<strong>Szenario</strong>"
+  },
+  {
+    "key": "u1310",
+    "de": "<strong>Startzustand, normale beziehungsweise ungünstige Nutzung und Fehlervariation</strong>"
+  },
+  {
+    "key": "u1311",
+    "de": "<strong>Testebene</strong>"
+  },
+  {
+    "key": "u1312",
+    "de": "<strong>Software, virtuell, reale Teilkette oder Gesamtsystem</strong>"
+  },
+  {
+    "key": "u1313",
+    "de": "<strong>Orakel</strong>"
+  },
+  {
+    "key": "u1314",
+    "de": "<strong>Erwartete Funktion, erlaubte Schutzreaktion und unzulässiges Verhalten</strong>"
+  },
+  {
+    "key": "u1315",
+    "de": "<strong>Messung</strong>"
+  },
+  {
+    "key": "u1316",
+    "de": "<strong>Stimuli, Zeitbasis, Messunsicherheit und Beobachtung</strong>"
+  },
+  {
+    "key": "u1317",
+    "de": "<strong>Ergebnis</strong>"
+  },
+  {
+    "key": "u1318",
+    "de": "<strong>Konfiguration, bestanden, nicht bestanden oder Aussage eingeschränkt</strong>"
+  },
+  {
+    "key": "u1319",
+    "de": "<strong>Freigabe</strong>"
+  },
+  {
+    "key": "u1320",
+    "de": "<strong>Übernommene Evidenz, Lücke, Bedingung und Entscheidung</strong>"
+  },
+  {
+    "key": "u1321",
+    "de": "Zum Ausfüllen: Matrix-ID ____________________  Konfiguration ____________________  Freigabeentscheidung ____________________."
+  },
+  {
+    "key": "u1322",
+    "de": "Reviewfragen: Ist der Komponentenbereich tatsächlich eingehalten? Welche Wirkung ist nur modelliert und welche real geprüft? Sind Recovery und Varianten enthalten? Welche Reserve wurde gemessen und unter welchen Kombinationen gilt sie?"
+  },
+  {
+    "key": "u1323",
+    "de": "Fallblatt für FRACAS"
+  },
+  {
+    "key": "u1324",
+    "de": "Der Fehlerfall wird von der ersten Meldung bis zur Wirksamkeitsentscheidung verfolgt. Neue Erkenntnisse können eine frühere Hypothese verändern; der Status bleibt nachvollziehbar."
+  },
+  {
+    "key": "u1325",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u1326",
+    "de": "<strong>Inhalt</strong>"
+  },
+  {
+    "key": "u1327",
+    "de": "<strong>Ereignis</strong>"
+  },
+  {
+    "key": "u1328",
+    "de": "<strong>Was, wann, welches Gerät, welche Funktion und welche Nutzung</strong>"
+  },
+  {
+    "key": "u1329",
+    "de": "<strong>Konfiguration</strong>"
+  },
+  {
+    "key": "u1330",
+    "de": "<strong>Hardware, Software, Einbau und relevante Änderungen</strong>"
+  },
+  {
+    "key": "u1331",
+    "de": "<strong>Daten und Befund</strong>"
+  },
+  {
+    "key": "u1332",
+    "de": "<strong>Logs, Messungen, Teileanalyse und Sicherheit des Befunds</strong>"
+  },
+  {
+    "key": "u1333",
+    "de": "<strong>Hypothesen</strong>"
+  },
+  {
+    "key": "u1334",
+    "de": "<strong>Konkurrierende Erklärungen und unterscheidende Prüfungen</strong>"
+  },
+  {
+    "key": "u1335",
+    "de": "<strong>Bestätigte Ursache</strong>"
+  },
+  {
+    "key": "u1336",
+    "de": "<strong>Mechanismus, Fehlerpfad und noch offene Fragen</strong>"
+  },
+  {
+    "key": "u1337",
+    "de": "<strong>Sofortkorrektur</strong>"
+  },
+  {
+    "key": "u1338",
+    "de": "<strong>Wiederherstellung mit Grenzen und Verantwortlichem</strong>"
+  },
+  {
+    "key": "u1339",
+    "de": "<strong>Nachhaltige Maßnahme</strong>"
+  },
+  {
+    "key": "u1340",
+    "de": "<strong>Wirkmechanismus, Umsetzung und Regression</strong>"
+  },
+  {
+    "key": "u1341",
+    "de": "<strong>Wirksamkeit</strong>"
+  },
+  {
+    "key": "u1342",
+    "de": "<strong>Reproduktion, geeignete Felddaten und Unsicherheit</strong>"
+  },
+  {
+    "key": "u1343",
+    "de": "<strong>Rückführung</strong>"
+  },
+  {
+    "key": "u1344",
+    "de": "<strong>Modelle, FMEA, Supplier, Anforderungen und Prüfprofile</strong>"
+  },
+  {
+    "key": "u1345",
+    "de": "<strong>Abschluss</strong>"
+  },
+  {
+    "key": "u1346",
+    "de": "<strong>Entscheidung, Voraussetzungen und Wiedereröffnungskriterium</strong>"
+  },
+  {
+    "key": "u1347",
+    "de": "Zum Ausfüllen: Fall-ID ____________________  Verantwortlicher ____________________  Abschlussentscheidung ____________________."
+  },
+  {
+    "key": "u1348",
+    "de": "Reviewfragen: Ist ein Serviceaustausch mit einem bestätigten Fehler verwechselt worden? Ist die Maßnahme gegen die Ursache gerichtet? Sind Vorher und Nachher vergleichbar? Kann ein seltenes Ereignis bei der bisherigen Beobachtung überhaupt mit ausreichender Aussage beurteilt werden?"
+  },
+  {
+    "key": "u1349",
+    "de": "Einsatzvertrag und Versionsmatrix"
+  },
+  {
+    "key": "u1350",
+    "de": "Der Einsatzvertrag ergänzt das Zulieferreview oder den Vertrag einer externen Gegenstelle. Er beschreibt die technische Gültigkeit der übernommenen Evidenz."
+  },
+  {
+    "key": "u1351",
+    "de": "<strong>Feld</strong>"
+  },
+  {
+    "key": "u1352",
+    "de": "<strong>Eintrag</strong>"
+  },
+  {
+    "key": "u1353",
+    "de": "<strong>Gegenstand und Version</strong>"
+  },
+  {
+    "key": "u1354",
+    "de": "<strong>Komponente oder eigenständiges System mit eindeutigem Stand</strong>"
+  },
+  {
+    "key": "u1355",
+    "de": "<strong>Zugesicherte Leistung</strong>"
+  },
+  {
+    "key": "u1356",
+    "de": "<strong>Output, Qualität, Timing und gültige Zustände</strong>"
+  },
+  {
+    "key": "u1357",
+    "de": "<strong>Annahmen</strong>"
+  },
+  {
+    "key": "u1358",
+    "de": "<strong>Inputs, Umwelt, Nutzungsprofil und gemeinsame Ressourcen</strong>"
+  },
+  {
+    "key": "u1359",
+    "de": "<strong>Verletzte Annahme</strong>"
+  },
+  {
+    "key": "u1360",
+    "de": "<strong>Erkennung, zulässige Reaktion und Wiederanlauf</strong>"
+  },
+  {
+    "key": "u1361",
+    "de": "<strong>Evidenz</strong>"
+  },
+  {
+    "key": "u1362",
+    "de": "<strong>Bericht, geprüfte Muster, Aussage und verbleibende Lücken</strong>"
+  },
+  {
+    "key": "u1363",
+    "de": "<strong>Änderungen und Monitoring</strong>"
+  },
+  {
+    "key": "u1364",
+    "de": "<strong>Verantwortlicher Meldeweg, Konfiguration und Feldbeobachtung</strong>"
+  },
+  {
+    "key": "u1365",
+    "de": "Die Versionsmatrix nennt pro erlaubter Kombination Hardware, Firmware, Steuerung und relevante Gegenstelle. Dazu werden Funktionsumfang, Profil, Nachweis-ID und Freigabestatus festgehalten. Ein Versionsname allein ersetzt keinen Nachweis. Ungeprüfte und gesperrte Kombinationen werden unterschiedlich gekennzeichnet."
+  },
+  {
+    "key": "u1366",
+    "de": "Anhang C Glossar"
+  },
+  {
+    "key": "u1367",
+    "de": "Einführung"
+  },
+  {
+    "key": "u1368",
+    "de": "<strong>Begriff</strong>"
+  },
+  {
+    "key": "u1369",
+    "de": "<strong>Bedeutung in diesem Handbuch</strong>"
+  },
+  {
+    "key": "u1370",
+    "de": "<strong>Akzeptanzkriterium</strong>"
+  },
+  {
+    "key": "u1371",
+    "de": "<strong>Vorab festgelegte Regel für die Entscheidung über ein Ergebnis</strong>"
+  },
+  {
+    "key": "u1372",
+    "de": "<strong>B10</strong>"
+  },
+  {
+    "key": "u1373",
+    "de": "<strong>Nutzung bis zum modellierten Ausfall von zehn Prozent der Population</strong>"
+  },
+  {
+    "key": "u1374",
+    "de": "<strong>Beschleunigungsfaktor</strong>"
+  },
+  {
+    "key": "u1375",
+    "de": "<strong>Modellierte Relation der Lebensdauern bei zwei Belastungen für einen Mechanismus</strong>"
+  },
+  {
+    "key": "u1376",
+    "de": "<strong>Konfidenzniveau</strong>"
+  },
+  {
+    "key": "u1377",
+    "de": "<strong>Überdeckungseigenschaft eines frequentistischen Verfahrens unter seinen Annahmen</strong>"
+  },
+  {
+    "key": "u1378",
+    "de": "<strong>Credible Interval</strong>"
+  },
+  {
+    "key": "u1379",
+    "de": "<strong>Bayesscher Parameterbereich auf Grundlage von Prior und Daten</strong>"
+  },
+  {
+    "key": "u1380",
+    "de": "<strong>Derating</strong>"
+  },
+  {
+    "key": "u1381",
+    "de": "<strong>Begrenzung einer relevanten Belastung unter Berücksichtigung der Beanspruchbarkeit</strong>"
+  },
+  {
+    "key": "u1382",
+    "de": "<strong>DoE</strong>"
+  },
+  {
+    "key": "u1383",
+    "de": "<strong>Design of Experiments, geplante Untersuchung von Faktoren und Wechselwirkungen</strong>"
+  },
+  {
+    "key": "u1384",
+    "de": "<strong>Nachweismatrix</strong>"
+  },
+  {
+    "key": "u1385",
+    "de": "<strong>Zuordnung von Anforderungen zu geeigneten Nachweisen und deren Grenzen</strong>"
+  },
+  {
+    "key": "u1386",
+    "de": "<strong>FEM</strong>"
+  },
+  {
+    "key": "u1387",
+    "de": "<strong>Finite-Elemente-Methode zur modellbasierten Berechnung physikalischer Größen</strong>"
+  },
+  {
+    "key": "u1388",
+    "de": "<strong>FMEA</strong>"
+  },
+  {
+    "key": "u1389",
+    "de": "<strong>Failure Modes and Effects Analysis, Analyse von Fehlermöglichkeiten und Wirkungen</strong>"
+  },
+  {
+    "key": "u1390",
+    "de": "<strong>FMECA</strong>"
+  },
+  {
+    "key": "u1391",
+    "de": "<strong>FMEA mit einer zusätzlichen Kritikalitätsbewertung</strong>"
+  },
+  {
+    "key": "u1392",
+    "de": "<strong>FRACAS</strong>"
+  },
+  {
+    "key": "u1393",
+    "de": "<strong>Failure Reporting, Analysis and Corrective Action System</strong>"
+  },
+  {
+    "key": "u1394",
+    "de": "<strong>FTA</strong>"
+  },
+  {
+    "key": "u1395",
+    "de": "<strong>Fault Tree Analysis, Analyse von einem Top Event zu Ursachen und Kombinationen</strong>"
+  },
+  {
+    "key": "u1396",
+    "de": "<strong>HALT</strong>"
+  },
+  {
+    "key": "u1397",
+    "de": "<strong>Explorative beschleunigte Suche nach Schwachstellen und Grenzen</strong>"
+  },
+  {
+    "key": "u1398",
+    "de": "<strong>HASS</strong>"
+  },
+  {
+    "key": "u1399",
+    "de": "<strong>Geeignet abgesichertes beschleunigtes Screening auf Fertigungsfehler</strong>"
+  },
+  {
+    "key": "u1400",
+    "de": "<strong>Hazard Rate</strong>"
+  },
+  {
+    "key": "u1401",
+    "de": "<strong>Momentane bedingte Ausfallrate der noch überlebenden Einheiten</strong>"
+  },
+  {
+    "key": "u1402",
+    "de": "<strong>I/O</strong>"
+  },
+  {
+    "key": "u1403",
+    "de": "<strong>Inputs und Outputs über eine definierte Systemgrenze</strong>"
+  },
+  {
+    "key": "u1404",
+    "de": "<strong>Life Cycle Profile</strong>"
+  },
+  {
+    "key": "u1405",
+    "de": "<strong>Belastungen und Zustände über die gesamte Lebensgeschichte</strong>"
+  },
+  {
+    "key": "u1406",
+    "de": "<strong>MBSE</strong>"
+  },
+  {
+    "key": "u1407",
+    "de": "<strong>Modellbasiertes Systems Engineering mit verknüpften Sichten und Nachweisen</strong>"
+  },
+  {
+    "key": "u1408",
+    "de": "<strong>Mission Profile</strong>"
+  },
+  {
+    "key": "u1409",
+    "de": "<strong>Zustände und Belastungen einer definierten Nutzung</strong>"
+  },
+  {
+    "key": "u1410",
+    "de": "<strong>MTBF</strong>"
+  },
+  {
+    "key": "u1411",
+    "de": "<strong>Mittlerer Abstand betrachteter Ausfälle in einem geeigneten reparierbaren Modell</strong>"
+  },
+  {
+    "key": "u1412",
+    "de": "<strong>MTTF</strong>"
+  },
+  {
+    "key": "u1413",
+    "de": "<strong>Mittlere Nutzung bis zum betrachteten Ausfall</strong>"
+  },
+  {
+    "key": "u1414",
+    "de": "<strong>MTTR</strong>"
+  },
+  {
+    "key": "u1415",
+    "de": "<strong>Mittlere Reparaturzeit gemäß festgelegter Zeitdefinition</strong>"
+  },
+  {
+    "key": "u1416",
+    "de": "<strong>No Fault Found</strong>"
+  },
+  {
+    "key": "u1417",
+    "de": "<strong>Fehlerursache am untersuchten Teil nicht bestätigt, der Befund lässt einen Systemfehler weiterhin offen</strong>"
+  },
+  {
+    "key": "u1418",
+    "de": "<strong>Operationales Profil</strong>"
+  },
+  {
+    "key": "u1419",
+    "de": "<strong>Relevante Häufigkeiten und Folgen von Softwareeingaben und Zuständen</strong>"
+  },
+  {
+    "key": "u1420",
+    "de": "<strong>Power</strong>"
+  },
+  {
+    "key": "u1421",
+    "de": "<strong>Wahrscheinlichkeit einer statistischen Entscheidung bei einer angegebenen Alternative</strong>"
+  },
+  {
+    "key": "u1422",
+    "de": "<strong>RBD</strong>"
+  },
+  {
+    "key": "u1423",
+    "de": "<strong>Reliability Block Diagram, Erfolgsstruktur einer definierten Funktion</strong>"
+  },
+  {
+    "key": "u1424",
+    "de": "<strong>RCA</strong>"
+  },
+  {
+    "key": "u1425",
+    "de": "<strong>Root Cause Analysis, Ursachenuntersuchung mit Evidenz</strong>"
+  },
+  {
+    "key": "u1426",
+    "de": "<strong>Zuverlässigkeit (Reliability)</strong>"
+  },
+  {
+    "key": "u1427",
+    "de": "<strong>Zuverlässigkeit der definierten Funktion unter Bedingungen über Nutzung</strong>"
+  },
+  {
+    "key": "u1428",
+    "de": "<strong>RPZ</strong>"
+  },
+  {
+    "key": "u1429",
+    "de": "<strong>Risikoprioritätszahl als Hilfsgröße einer definierten Bewertungsmethode</strong>"
+  },
+  {
+    "key": "u1430",
+    "de": "<strong>Screening</strong>"
+  },
+  {
+    "key": "u1431",
+    "de": "<strong>Prüfung zum Erkennen bestimmter Fehler in gefertigten Einheiten</strong>"
+  },
+  {
+    "key": "u1432",
+    "de": "<strong>System of Interest</strong>"
+  },
+  {
+    "key": "u1433",
+    "de": "<strong>Das für die jeweilige Frage abgegrenzte betrachtete System</strong>"
+  },
+  {
+    "key": "u1434",
+    "de": "<strong>Testorakel</strong>"
+  },
+  {
+    "key": "u1435",
+    "de": "<strong>Regel oder Referenz zur Bewertung des beobachteten Testoutputs</strong>"
+  },
+  {
+    "key": "u1436",
+    "de": "<strong>Zensierung</strong>"
+  },
+  {
+    "key": "u1437",
+    "de": "<strong>Lebensdauer nur teilweise bekannt, etwa Überleben bis zum Testende</strong>"
+  },
+  {
+    "key": "u1438",
+    "de": "<strong>Fähigkeit (Capability)</strong>"
+  },
+  {
+    "key": "u1439",
+    "de": "<strong>Übergreifende Leistung, die durch Zusammenwirken entsteht</strong>"
+  },
+  {
+    "key": "u1440",
+    "de": "<strong>System of Systems (SoS)</strong>"
+  },
+  {
+    "key": "u1441",
+    "de": "<strong>Verbund eigenständiger Systeme mit übergreifender Fähigkeit</strong>"
+  },
+  {
+    "key": "u1442",
+    "de": "<strong>Einsatzvertrag</strong>"
+  },
+  {
+    "key": "u1443",
+    "de": "<strong>Technische Zusage mit Annahmen, Nachweisen und Änderungsweg</strong>"
+  },
+  {
+    "key": "u1444",
+    "de": "<strong>Aussagewahrscheinlichkeit</strong>"
+  },
+  {
+    "key": "u1445",
+    "de": "<strong>Weitere Bezeichnung für das Konfidenzniveau; Interpretation ausdrücklich festlegen</strong>"
+  },
+  {
+    "key": "u1446",
+    "de": "<strong>Nachweiserfolgswahrscheinlichkeit</strong>"
+  },
+  {
+    "key": "u1447",
+    "de": "<strong>Chance, die vorab festgelegte Annahmeregel bei einem wahren Niveau zu erfüllen</strong>"
+  },
+  {
+    "key": "u1448",
+    "de": "<strong>Mittlere kumulierte Ereigniszahl (MCF)</strong>"
+  },
+  {
+    "key": "u1449",
+    "de": "<strong>Mittlere kumulierte Zahl wiederkehrender Ereignisse pro Einheit</strong>"
+  },
+  {
+    "key": "u1450",
+    "de": "<strong>NHPP</strong>"
+  },
+  {
+    "key": "u1451",
+    "de": "<strong>Poissonprozess mit zeitabhängiger Ereignisintensität</strong>"
+  },
+  {
+    "key": "u1452",
+    "de": "<strong>Resilienz</strong>"
+  },
+  {
+    "key": "u1453",
+    "de": "<strong>Fähigkeit, Störungen zu bewältigen und Leistung aufrechtzuerhalten oder wiederherzustellen</strong>"
+  },
+  {
+    "key": "u1454",
+    "de": "<strong>STPA</strong>"
+  },
+  {
+    "key": "u1455",
+    "de": "<strong>Systemtheoretische Gefährdungsanalyse von Steuerung und Rückmeldung</strong>"
+  },
+  {
+    "key": "u1456",
+    "de": "<strong>Verfügbarkeit (Availability)</strong>"
+  },
+  {
+    "key": "u1457",
+    "de": "<strong>Anteil der definierten Zeit, in der die benötigte Funktion nutzbar ist</strong>"
+  },
+  {
+    "key": "u1458",
+    "de": "<strong>Robustheit (Robustness)</strong>"
+  },
+  {
+    "key": "u1459",
+    "de": "<strong>Geringe Empfindlichkeit der Funktion gegenüber relevanten Abweichungen</strong>"
+  },
+  {
+    "key": "u1460",
+    "de": "<strong>Gemeinsame Ursache (Common Cause)</strong>"
+  },
+  {
+    "key": "u1461",
+    "de": "<strong>Ursache, die mehrere Elemente oder Funktionen zugleich beeinflusst</strong>"
+  },
+  {
+    "key": "u1462",
+    "de": "<strong>Verifikation (Verification)</strong>"
+  },
+  {
+    "key": "u1463",
+    "de": "<strong>Prüfung der Erfüllung spezifizierter Anforderungen</strong>"
+  },
+  {
+    "key": "u1464",
+    "de": "<strong>Validierung (Validation)</strong>"
+  },
+  {
+    "key": "u1465",
+    "de": "<strong>Prüfung der Eignung für den vorgesehenen Einsatz</strong>"
+  },
+  {
+    "key": "u1466",
+    "de": "<strong>Qualifikation (Qualification)</strong>"
+  },
+  {
+    "key": "u1467",
+    "de": "<strong>Nachweis der Eignung für einen definierten Anforderungs- und Einsatzbereich</strong>"
+  },
+  {
+    "key": "u1468",
+    "de": "<strong>Kaplan-Meier-Schätzer</strong>"
+  },
+  {
+    "key": "u1469",
+    "de": "<strong>Nichtparametrische Schätzung einer Überlebensfunktion mit geeigneter Zensierung</strong>"
+  },
+  {
+    "key": "u1470",
+    "de": "<strong>Maximum Likelihood</strong>"
+  },
+  {
+    "key": "u1471",
+    "de": "<strong>Parameterschätzung anhand der Wahrscheinlichkeit der beobachteten Daten</strong>"
+  },
+  {
+    "key": "u1472",
+    "de": "<strong>Digitaler Zwilling (Digital Twin)</strong>"
+  },
+  {
+    "key": "u1473",
+    "de": "<strong>Modell einer konkreten Einheit mit definiertem Daten- und Zustandsbezug</strong>"
+  },
+  {
+    "key": "u1474",
+    "de": "Anhang D Formeln und Entscheidungsregeln"
+  },
+  {
+    "key": "u1475",
+    "de": "Welche Formel zu welcher Frage passt"
+  },
+  {
+    "key": "u1476",
+    "de": "<strong>Frage</strong>"
+  },
+  {
+    "key": "u1477",
+    "de": "<strong>Ansatz</strong>"
+  },
+  {
+    "key": "u1478",
+    "de": "<strong>Wichtige Voraussetzung</strong>"
+  },
+  {
+    "key": "u1479",
+    "de": "<strong>Welche Einheiten überleben die Nutzung t</strong>"
+  },
+  {
+    "key": "u1480",
+    "de": "<strong>R und F einer Lebensdauerverteilung</strong>"
+  },
+  {
+    "key": "u1481",
+    "de": "<strong>Einheitliche Ausfalldefinition und geeignete Population</strong>"
+  },
+  {
+    "key": "u1482",
+    "de": "<strong>Wie werden unabhängige Erfolgswege kombiniert</strong>"
+  },
+  {
+    "key": "u1483",
+    "de": "<strong>Serien- oder idealisiertes Parallelmodell</strong>"
+  },
+  {
+    "key": "u1484",
+    "de": "<strong>Passende Struktur und begründete Unabhängigkeit</strong>"
+  },
+  {
+    "key": "u1485",
+    "de": "<strong>Wie groß muss eine Nullausfallstichprobe sein</strong>"
+  },
+  {
+    "key": "u1486",
+    "de": "<strong>Binomialer Success Run</strong>"
+  },
+  {
+    "key": "u1487",
+    "de": "<strong>Jede unabhängige Einheit absolviert die definierte Zielnutzung</strong>"
+  },
+  {
+    "key": "u1488",
+    "de": "<strong>Was bedeuten addierte Prüfstunden</strong>"
+  },
+  {
+    "key": "u1489",
+    "de": "<strong>Konstante Rate mit Exponential- oder Poissonmodell</strong>"
+  },
+  {
+    "key": "u1490",
+    "de": "<strong>Die Modellannahme passt tatsächlich zu den Daten und Mechanismen</strong>"
+  },
+  {
+    "key": "u1491",
+    "de": "<strong>Wie wird eine Belastung beschleunigt</strong>"
+  },
+  {
+    "key": "u1492",
+    "de": "<strong>Mechanistisches Beschleunigungsmodell</strong>"
+  },
+  {
+    "key": "u1493",
+    "de": "<strong>Gleicher relevanter Mechanismus und begründete Modellparameter</strong>"
+  },
+  {
+    "key": "u1494",
+    "de": "<strong>Wie werden zulässige Ausfälle im Nachweis behandelt</strong>"
+  },
+  {
+    "key": "u1495",
+    "de": "<strong>Einseitige Clopper-Pearson-Grenze und vorab festgelegte Annahmezahl</strong>"
+  },
+  {
+    "key": "u1496",
+    "de": "<strong>Unabhängige repräsentative Einheiten mit gleichem Zielprofil</strong>"
+  },
+  {
+    "key": "u1497",
+    "de": "<strong>Wie werden wiederkehrende Ereignisse beschrieben</strong>"
+  },
+  {
+    "key": "u1498",
+    "de": "<strong>Mittlere kumulierte Ereigniszahl MCF</strong>"
+  },
+  {
+    "key": "u1499",
+    "de": "<strong>Gleiche Nutzungsachse und Ereignisdefinition; Wiederholungen und Beobachtungsenden erfassen</strong>"
+  },
+  {
+    "key": "u1500",
+    "de": "<strong>Wie wird ein Ereignistrend modelliert</strong>"
+  },
+  {
+    "key": "u1501",
+    "de": "<strong>Potenzgesetz-NHPP mit eindeutiger Parametrisierung</strong>"
+  },
+  {
+    "key": "u1502",
+    "de": "<strong>Modellpassung, vergleichbare Nutzung und Änderungen des Produktstands beachten</strong>"
+  },
+  {
+    "key": "u1503",
+    "de": "<strong>Was bedeutet eine gemessene Verbesserung</strong>"
+  },
+  {
+    "key": "u1504",
+    "de": "<strong>Vergleich geeigneter Kohorten und Unsicherheit</strong>"
+  },
+  {
+    "key": "u1505",
+    "de": "<strong>Gleiche Definition, passende Nutzung und vergleichbare Beobachtung</strong>"
+  },
+  {
+    "key": "u1506",
+    "de": "Die Reihenfolge vor jeder Rechnung"
+  },
+  {
+    "key": "u1507",
+    "de": "Zuerst klären wir Entscheidung, Population, Funktion, Profil und Mechanismus. Danach wählen wir das Modell und prüfen die Daten. Schätzung und Unsicherheit werden mit ihren Bedingungen berichtet. Fehlende Voraussetzungen bleiben offene Aufgaben."
+  },
+  {
+    "key": "u1508",
+    "de": "Beispielzahlen richtig verwenden"
+  },
+  {
+    "key": "u1509",
+    "de": "Die geprüften Rechenbeispiele erklären die Methoden. Projektziele, Belastungsprofile, Schutzgrenzen und Freigabekriterien folgen aus der tatsächlichen Anwendung und den freigegebenen Anforderungen. Beispielzahlen sind keine Produktempfehlungen."
+  },
+  {
+    "key": "u1510",
+    "de": "Anhang E Änderungen und Reviewentscheidungen"
+  },
+  {
+    "key": "u1511",
+    "de": "Änderungen gegenüber ChatGPT XYZ2"
+  },
+  {
+    "key": "u1512",
+    "de": "Diese finale Fassung V03 basiert auf ChatGPT XYZ2 und dem Review Claudexyz V02 vom 9. Oktober 2026. Die Kapitelnummern 1 bis 20 bleiben erhalten. Die folgende Liste benennt die geänderten Abschnitte je Kapitel; die anschließende Tabelle ergänzt die Änderungen außerhalb der Kapitel."
+  },
+  {
+    "key": "u1513",
+    "de": "<strong>Kapitel</strong>"
+  },
+  {
+    "key": "u1514",
+    "de": "<strong>Status</strong>"
+  },
+  {
+    "key": "u1515",
+    "de": "<strong>Geänderte Stellen und Inhalte</strong>"
+  },
+  {
+    "key": "u1516",
+    "de": "<strong>1</strong>"
+  },
+  {
+    "key": "u1517",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1518",
+    "de": "<strong>Verweis auf zwei Grenzen; Bewertungsendpunkt im Arbeitsablauf</strong>"
+  },
+  {
+    "key": "u1519",
+    "de": "<strong>2</strong>"
+  },
+  {
+    "key": "u1520",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1521",
+    "de": "<strong>EMV und Gebrauchstauglichkeit ergänzt; N21 zitiert</strong>"
+  },
+  {
+    "key": "u1522",
+    "de": "<strong>3</strong>"
+  },
+  {
+    "key": "u1523",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1524",
+    "de": "<strong>SoS früher erklärt; Steckbrieffelder und Vertiefungsübung ergänzt; Schaubild D neu</strong>"
+  },
+  {
+    "key": "u1525",
+    "de": "<strong>4</strong>"
+  },
+  {
+    "key": "u1526",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1527",
+    "de": "<strong>Untersuchungsablauf vor das Lastbeispiel gestellt; Zählregel in den Arbeitsablauf integriert</strong>"
+  },
+  {
+    "key": "u1528",
+    "de": "<strong>5</strong>"
+  },
+  {
+    "key": "u1529",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1530",
+    "de": "<strong>Schnittstellenvertrag vor die Gegenprüfungen gestellt; Arbeitsschritt ergänzt</strong>"
+  },
+  {
+    "key": "u1531",
+    "de": "<strong>6</strong>"
+  },
+  {
+    "key": "u1532",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1533",
+    "de": "<strong>Versionsmatrix an Architekturbeispiel angebunden; neue Übung</strong>"
+  },
+  {
+    "key": "u1534",
+    "de": "<strong>7</strong>"
+  },
+  {
+    "key": "u1535",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1536",
+    "de": "<strong>Kennzahlendpunkt früher erklärt; Grammatik zum Konfidenzniveau korrigiert</strong>"
+  },
+  {
+    "key": "u1537",
+    "de": "<strong>8</strong>"
+  },
+  {
+    "key": "u1538",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1539",
+    "de": "<strong>Übergaben vor Auswahl der FMEA eingeordnet; Bedienhandlungen mit Gebrauchstauglichkeit verknüpft</strong>"
+  },
+  {
+    "key": "u1540",
+    "de": "<strong>9</strong>"
+  },
+  {
+    "key": "u1541",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1542",
+    "de": "<strong>Gemeinsame Ursachen vor Parallelrechnung; FTA und RBD visualisiert; STPA und neue Übung eingebunden</strong>"
+  },
+  {
+    "key": "u1543",
+    "de": "<strong>10</strong>"
+  },
+  {
+    "key": "u1544",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1545",
+    "de": "<strong>Vorhersagen und Beschleunigungsmodelle vor die Anwendung gestellt; ungeeigneten Beleg entfernt</strong>"
+  },
+  {
+    "key": "u1546",
+    "de": "<strong>11</strong>"
+  },
+  {
+    "key": "u1547",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1548",
+    "de": "<strong>Einsatzvertrag vor Nachweisreview gestellt; Arbeitsschritt ergänzt</strong>"
+  },
+  {
+    "key": "u1549",
+    "de": "<strong>12</strong>"
+  },
+  {
+    "key": "u1550",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1551",
+    "de": "<strong>Allgemeine Prüfmethoden erhalten; Beobachtung im Arbeitsablauf und EMV-Bezug ergänzt</strong>"
+  },
+  {
+    "key": "u1552",
+    "de": "<strong>13</strong>"
+  },
+  {
+    "key": "u1553",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1554",
+    "de": "<strong>Updates und KI im Arbeitsablauf ergänzt; sprachlich vereinheitlicht</strong>"
+  },
+  {
+    "key": "u1555",
+    "de": "<strong>14</strong>"
+  },
+  {
+    "key": "u1556",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1557",
+    "de": "<strong>Vorwissen an Konfidenz angeschlossen; Badewannenmodell und zensierter Weibullplot ergänzt</strong>"
+  },
+  {
+    "key": "u1558",
+    "de": "<strong>15</strong>"
+  },
+  {
+    "key": "u1559",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1560",
+    "de": "<strong>Statistische Nachweiswege zusammengeführt; Begriffe und Tabelle korrigiert; Vertiefungsübung ergänzt</strong>"
+  },
+  {
+    "key": "u1561",
+    "de": "<strong>16</strong>"
+  },
+  {
+    "key": "u1562",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1563",
+    "de": "<strong>Gesamtablauf vor Ergebnisbewertung gestellt; Rückkehr und EMV im Nachweis verankert</strong>"
+  },
+  {
+    "key": "u1564",
+    "de": "<strong>17</strong>"
+  },
+  {
+    "key": "u1565",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1566",
+    "de": "<strong>Nachweismatrix vereinheitlicht; Versionen und offene Kombinationen im Arbeitsablauf</strong>"
+  },
+  {
+    "key": "u1567",
+    "de": "<strong>18</strong>"
+  },
+  {
+    "key": "u1568",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1569",
+    "de": "<strong>MCF und Verfügbarkeit vor Entscheidungsweg gestellt; neue Übung mit Musterantwort</strong>"
+  },
+  {
+    "key": "u1570",
+    "de": "<strong>19</strong>"
+  },
+  {
+    "key": "u1571",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1572",
+    "de": "<strong>Wachstumsmodell vor Rückführung eingeordnet; Crow-AMSAA-Grafik und Bedienanalyse ergänzt</strong>"
+  },
+  {
+    "key": "u1573",
+    "de": "<strong>20</strong>"
+  },
+  {
+    "key": "u1574",
+    "de": "<strong>Überarbeitet</strong>"
+  },
+  {
+    "key": "u1575",
+    "de": "<strong>Sechs Fehlerpfade vor die ausführliche T1-Fallstudie gestellt; Vorgehensliste ergänzt</strong>"
+  },
+  {
+    "key": "u1576",
+    "de": "Änderungen an Navigation und Arbeitsmitteln"
+  },
+  {
+    "key": "u1577",
+    "de": "<strong>Stelle</strong>"
+  },
+  {
+    "key": "u1578",
+    "de": "<strong>Änderung</strong>"
+  },
+  {
+    "key": "u1579",
+    "de": "<strong>Lesepfade</strong>"
+  },
+  {
+    "key": "u1580",
+    "de": "<strong>Untersuchungsablauf und Betreiberschnittstellen als Einstieg ergänzt</strong>"
+  },
+  {
+    "key": "u1581",
+    "de": "<strong>Schaubild A</strong>"
+  },
+  {
+    "key": "u1582",
+    "de": "<strong>Lebensdauer und Konfidenzniveau sprachlich vereinheitlicht</strong>"
+  },
+  {
+    "key": "u1583",
+    "de": "<strong>Schaubild C</strong>"
+  },
+  {
+    "key": "u1584",
+    "de": "<strong>Navigator um Grenzen, Versionen, STPA, Vorhersage, Einsatzvertrag, MCF und Wachstum erweitert</strong>"
+  },
+  {
+    "key": "u1585",
+    "de": "<strong>Schaubild D</strong>"
+  },
+  {
+    "key": "u1586",
+    "de": "<strong>Detektor und Generator getrennt; Bereitschaft, Archivbestätigung und Ressourceneinwirkungen dargestellt</strong>"
+  },
+  {
+    "key": "u1587",
+    "de": "<strong>Schaubild E</strong>"
+  },
+  {
+    "key": "u1588",
+    "de": "<strong>Singular Ausfall in der Legende korrigiert</strong>"
+  },
+  {
+    "key": "u1589",
+    "de": "<strong>Schaubilder G bis J</strong>"
+  },
+  {
+    "key": "u1590",
+    "de": "<strong>Badewannenmodell, zensierter Weibullplot, FTA mit RBD und Crow-AMSAA-Darstellung ergänzt</strong>"
+  },
+  {
+    "key": "u1591",
+    "de": "<strong>Anhang A</strong>"
+  },
+  {
+    "key": "u1592",
+    "de": "<strong>Musterantworten zu den fünf neuen Vertiefungsübungen ergänzt</strong>"
+  },
+  {
+    "key": "u1593",
+    "de": "<strong>Anhang B</strong>"
+  },
+  {
+    "key": "u1594",
+    "de": "<strong>Eigener Zweck, Änderungsbefugnis und Änderungsweg in den Systemsteckbrief aufgenommen</strong>"
+  },
+  {
+    "key": "u1595",
+    "de": "<strong>Anhang C</strong>"
+  },
+  {
+    "key": "u1596",
+    "de": "<strong>Deutsche und englische Begriffe sowie Satzbau vereinheitlicht</strong>"
+  },
+  {
+    "key": "u1597",
+    "de": "<strong>Anhang D</strong>"
+  },
+  {
+    "key": "u1598",
+    "de": "<strong>Zusätzliche Nachweiswege mit Ausfällen, MCF und Wachstum in die Methodenauswahl aufgenommen</strong>"
+  },
+  {
+    "key": "u1599",
+    "de": "<strong>Anhang E</strong>"
+  },
+  {
+    "key": "u1600",
+    "de": "<strong>Frühere Darstellung des Dissenses korrigiert; Änderungen für V03 dokumentiert</strong>"
+  },
+  {
+    "key": "u1601",
+    "de": "<strong>Literatur</strong>"
+  },
+  {
+    "key": "u1602",
+    "de": "<strong>N28 und N29 ergänzt; ungenutzte Q02 und Q05 sowie ungeeigneter Beleg Q26 entfernt</strong>"
+  },
+  {
+    "key": "u1603",
+    "de": "<strong>Gesamtes Dokument</strong>"
+  },
+  {
+    "key": "u1604",
+    "de": "<strong>Nachweismatrix vereinheitlicht; zitierte Aussagen mit Anführungszeichen; verdichtete Überschriften umformuliert; Konfidenzniveau lektoriert</strong>"
+  },
+  {
+    "key": "u1605",
+    "de": "Fachliche Entscheidungen aus dem zweiten Review"
+  },
+  {
+    "key": "u1606",
+    "de": "Claudes Hinweis auf isoliert angehängte Ergänzungen wurde übernommen. Die Ergänzungen stehen nun dort, wo sie für die nächste Erklärung oder Entscheidung benötigt werden. Die Listen „So gehen wir vor“ greifen sie ausdrücklich auf. Die Alltagsbeispiele bleiben erhalten; neue Aufgaben erlauben den Übergang zur fachlichen Anwendung."
+  },
+  {
+    "key": "u1607",
+    "de": "Die SoS-Sicht wird in diesem Handbuch an der Ablaufgrenze geprüft. Innerhalb der Produktgrenze bleibt die rekursive Systemzerlegung der Ausgangspunkt. Ein Raumwechsel eines Detektors reicht für die SoS-Einordnung nicht. Eigener Zweck und Änderungsbefugnis müssen tatsächlich belegt sein. Wir beschreiben diese Befugnisse, statt ohne Grundlage einen SoS-Typ zu vergeben."
+  },
+  {
+    "key": "u1608",
+    "de": "Komponentenspezifische Ausfallmechanismen einzelner Baugruppen werden nicht als eigener Katalog aufgenommen. Die allgemeinen Prüfmethoden für elektrische Belastung, Aufbau- und Verbindungstechnik, Temperatur, Feuchte, Strahlenfestigkeit, Lagerung und Mechanik bleiben in Kapitel 12 erhalten. Sie dienen der Bewertung von Zulieferevidenz und werden nicht pauschal als wiederholte Eigenprüfung verlangt."
+  },
+  {
+    "key": "u1609",
+    "de": "Die frühere Fassung hatte Claudes Vorschlag an dieser Stelle als Ausschluss allgemeiner Prüfmethoden wiedergegeben. Das war unzutreffend und ist hier korrigiert. Die Prüfmethodensammlung war zwischen den beiden Ansätzen kein fachlicher Dissens."
+  },
+  {
+    "key": "u1610",
+    "de": "Bei der Archiv-Übung wurde die vorgeschlagene bedingte Nutzung präzisiert: Feldbeobachtung allein macht eine ungeprüfte Kombination nicht zulässig. Eine Nutzung unter Bedingungen braucht eine begründete Entscheidung im geltenden Produktprozess. Bei STPA formulieren wir eine begründete Methodenauswahl; sie wird nicht für jeden beliebigen Ablauf verpflichtend gemacht."
+  },
+  {
+    "key": "u1611",
+    "de": "Der öffentliche Hinweis zu SN 29500 wird nicht als Normbeleg verwendet. Das Handbuch behauptet keine intern geprüfte Ausgabe. Nicht eingesehene Normvolltexte bleiben als solche erkennbar. Die neuen Grafiken unterscheiden Modellannahmen, synthetische Ereignisse und Schätzungen aus Lehrdaten. So wird eine Illustration nicht mit einem Wirksamkeitsnachweis verwechselt."
+  },
+  {
+    "key": "u1612",
+    "de": "Literatur und Standards"
+  },
+  {
+    "key": "u1613",
+    "de": "Einführung"
+  },
+  {
+    "key": "u1614",
+    "de": "Die Quellenschlüssel verbinden Kapitel und Literatur. Lehrbücher und Handbücher dienen der methodischen Orientierung und Vertiefung; das Fachbuch enthält eigene Erklärungen und Beispiele. Die Normenliste ist eine methodische Auswahl, kein vollständiges Verzeichnis der für ein bestimmtes Produkt anwendbaren Anforderungen."
+  },
+  {
+    "key": "u1615",
+    "de": "Vor normativer Anwendung werden gültige Fassungen, Änderungen und nationale beziehungsweise europäische Übernahmen anhand des freigegebenen Normenprozesses geprüft. Die Detailanforderungen werden in den lizenzierten Normfassungen nachgeschlagen. Eine offizielle Katalogbeschreibung bestätigt nicht die vollständige Erfüllung einer Norm."
+  },
+  {
+    "key": "u1616",
+    "de": "Lehrbücher und wissenschaftliche Quellen"
+  },
+  {
+    "key": "u1618",
+    "de": "Öffentliches Inhaltsverzeichnis und Verlagsbeschreibung ausgewertet."
+  },
+  {
+    "key": "u1619",
+    "de": "<a href=\"https://www.wiley-vch.de/en/areas-interest/mathematics-statistics/system-reliability-theory-978-1-119-37352-0\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1621",
+    "de": "Öffentliches Inhaltsverzeichnis und Verlagsbeschreibung ausgewertet."
+  },
+  {
+    "key": "u1622",
+    "de": "<a href=\"https://www.wiley-vch.de/de/fachgebiete/mathematik-und-statistik/statistical-methods-for-reliability-data-978-1-118-11545-9\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1624",
+    "de": "Öffentliches Inhaltsverzeichnis und Verlagsbeschreibung ausgewertet."
+  },
+  {
+    "key": "u1625",
+    "de": "<a href=\"https://link.springer.com/book/10.1007/978-3-662-72967-0\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1627",
+    "de": "Öffentliche Lehrinhalte ausgewertet."
+  },
+  {
+    "key": "u1628",
+    "de": "<a href=\"https://www.ima.uni-stuttgart.de/lehre/lehrveranstaltungen-master/drv/\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1630",
+    "de": "Öffentlicher Aufbau und Online-Handbuch ausgewertet."
+  },
+  {
+    "key": "u1631",
+    "de": "<a href=\"https://www.nasa.gov/reference/systems-engineering-handbook/\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1633",
+    "de": "Öffentliches Handbuch, insbesondere funktionale, Design- und Schnittstellen-FMECA."
+  },
+  {
+    "key": "u1634",
+    "de": "<a href=\"https://standards.nasa.gov/sites/default/files/standards/GSFC/Baseline/0/GSFC-HDBK-8004_Approved_1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1636",
+    "de": "Repository-Metadaten und Abstract als Vertiefungshinweis."
+  },
+  {
+    "key": "u1637",
+    "de": "<a href=\"https://mediatum.ub.tum.de/1463135\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1639",
+    "de": "Autorenvolltext in der Deutschen Nationalbibliothek, Abstract und Methodenüberblick ausgewertet."
+  },
+  {
+    "key": "u1640",
+    "de": "<a href=\"https://d-nb.info/1278960716/34\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1642",
+    "de": "Autorenfassung und Abstract ausgewertet; keine eigenständige Norm."
+  },
+  {
+    "key": "u1643",
+    "de": "<a href=\"https://arxiv.org/abs/2212.04550\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1645",
+    "de": "Testplanung; ergänzend https://www.itl.nist.gov/div898/handbook/apr/section3/apr312.htm zu Weibull- und Lognormaltests."
+  },
+  {
+    "key": "u1646",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr3.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1647",
+    "de": "Öffentliche statistische Methodenabschnitte"
+  },
+  {
+    "key": "u1649",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1650",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr123.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1652",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1653",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1655",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1656",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section2/apr211.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1658",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1659",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr311.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1661",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1662",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr162.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1664",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1665",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1667",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1668",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section3/apr314.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1670",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1671",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section1/apr151.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1673",
+    "de": "Öffentlicher Methodenabschnitt; Recherche 08.10.2026."
+  },
+  {
+    "key": "u1674",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr411.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1676",
+    "de": "Öffentlicher Fachabschnitt eingesehen 09.10.2026; SoS Merkmale und Grenzen der Einordnung."
+  },
+  {
+    "key": "u1677",
+    "de": "<a href=\"https://sebokwiki.org/wiki/Systems_of_Systems_(SoS)\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1679",
+    "de": "Öffentlicher Volltext verfügbar; relevante Grundlagen und Methodendarstellung eingesehen 09.10.2026."
+  },
+  {
+    "key": "u1680",
+    "de": "<a href=\"https://psas.scripts.mit.edu/home/get_file.php?name=STPA_Handbook.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1682",
+    "de": "Öffentlicher Methodenabschnitt eingesehen 09.10.2026."
+  },
+  {
+    "key": "u1683",
+    "de": "<a href=\"https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1685",
+    "de": "Öffentlicher Methodenabschnitt eingesehen 09.10.2026; Konfidenzrichtung und Prüfschema beachten."
+  },
+  {
+    "key": "u1686",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr451.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1688",
+    "de": "Öffentliche Verlagsbeschreibung und Kapitelübersicht eingesehen 09.10.2026; Buchvolltext nicht eingesehen."
+  },
+  {
+    "key": "u1689",
+    "de": "<a href=\"https://epubs.siam.org/doi/book/10.1137/1.9780898718454\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1691",
+    "de": "Öffentlicher Methodenabschnitt eingesehen 09.10.2026; Wachstumsexponente je Parametrisierung unterscheiden."
+  },
+  {
+    "key": "u1692",
+    "de": "<a href=\"https://www.itl.nist.gov/div898/handbook/apr/section4/apr452.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1693",
+    "de": "Normen und Standards"
+  },
+  {
+    "key": "u1695",
+    "de": "Offizielle Katalogbeschreibung; Terminologiegrundlage."
+  },
+  {
+    "key": "u1696",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/21886\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1698",
+    "de": "Offizielle Katalogbeschreibung; Management und Lebenszyklus."
+  },
+  {
+    "key": "u1699",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/66489\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1701",
+    "de": "Offizielle Katalogbeschreibung; Anforderungen zwischen Beschaffer und Lieferant."
+  },
+  {
+    "key": "u1702",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/59797\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1704",
+    "de": "Offizielle Katalogbeschreibung; iterative und rekursive Lebenszyklusprozesse."
+  },
+  {
+    "key": "u1705",
+    "de": "<a href=\"https://www.iso.org/standard/81702.html\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1707",
+    "de": "Offizielle Katalogbeschreibung; Planung, Durchführung, Dokumentation und Pflege."
+  },
+  {
+    "key": "u1708",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/26359\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1710",
+    "de": "Offizielle Katalogbeschreibung; Fehlerbaumanalyse."
+  },
+  {
+    "key": "u1711",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/4311\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1713",
+    "de": "Offizielle Katalogbeschreibung; qualitative und quantitative RBD-Analyse."
+  },
+  {
+    "key": "u1714",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/25647\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1716",
+    "de": "Offizielle Katalogbeschreibung; Erfolgsanteile, unabhängige Versuche und Prüfpläne."
+  },
+  {
+    "key": "u1717",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/61933\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1719",
+    "de": "Offizielle Katalogbeschreibung; konstante Rate beziehungsweise Intensität als Modellannahme."
+  },
+  {
+    "key": "u1720",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/65838\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1722",
+    "de": "Offizielle Katalogbeschreibung; Daten aus Prüfungen und Betrieb."
+  },
+  {
+    "key": "u1723",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/5698\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1725",
+    "de": "Offizielle Katalogbeschreibung; beschleunigte Tests und Screening."
+  },
+  {
+    "key": "u1726",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/66842\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1728",
+    "de": "Offizielle Katalogbeschreibung; Tailoring von Umweltprüfungen."
+  },
+  {
+    "key": "u1729",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/501\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1731",
+    "de": "Offizielle Katalogbeschreibung; Temperaturwechsel."
+  },
+  {
+    "key": "u1732",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/71503\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1734",
+    "de": "Offizielle Katalogbeschreibung; konstante feuchte Wärme ohne Kondensation."
+  },
+  {
+    "key": "u1735",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/82357\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1737",
+    "de": "Offizieller Katalog; Sinusvibration."
+  },
+  {
+    "key": "u1738",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/544\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1740",
+    "de": "Offizieller Katalog; mechanischer Schock."
+  },
+  {
+    "key": "u1741",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/514\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1743",
+    "de": "Offizieller Katalog; Lagerbedingungen. Korrektur https://webstore.iec.ch/en/publication/101234."
+  },
+  {
+    "key": "u1744",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/30876\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1746",
+    "de": "Offizielle Katalogbeschreibung; Risikomanagement über den Lebenszyklus."
+  },
+  {
+    "key": "u1747",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/60565\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1749",
+    "de": "Offizielle Katalogbeschreibung; deckt nicht die abschließende Gerätevalidierung und Freigabe ab."
+  },
+  {
+    "key": "u1750",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/22794\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1752",
+    "de": "Offizieller Katalog; Kontext des Qualitätsmanagementsystems."
+  },
+  {
+    "key": "u1753",
+    "de": "<a href=\"https://www.iso.org/standard/59752.html\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1755",
+    "de": "Offizieller Katalog; modalitätsspezifischer Kontext, kein pauschaler Lebensdauernachweis."
+  },
+  {
+    "key": "u1756",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/69988\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1758",
+    "de": "Nur öffentliche Katalogbeschreibung; Normvolltext nicht eingesehen. Basissicherheit und wesentliche Leistungsmerkmale."
+  },
+  {
+    "key": "u1759",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/67497\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1761",
+    "de": "Nur öffentliche Katalogbeschreibung; Normvolltext nicht eingesehen. Vernetzte Gesundheits IT."
+  },
+  {
+    "key": "u1762",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/34263\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1764",
+    "de": "Nur öffentliche Katalogbeschreibung; Normvolltext nicht eingesehen. Security im Softwarelebenszyklus."
+  },
+  {
+    "key": "u1765",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/63293\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1767",
+    "de": "Öffentliche Katalogbeschreibung und Abstract eingesehen 09.10.2026; Normvolltext nicht eingesehen. Revision vor Anwendung prüfen."
+  },
+  {
+    "key": "u1768",
+    "de": "<a href=\"https://www.iso.org/standard/71955.html\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1770",
+    "de": "Öffentliche Rechtsquelle; Artikel 83 bis 86 eingesehen 09.10.2026. Originalrechtsakte und Anwendbarkeit im Produktprozess prüfen."
+  },
+  {
+    "key": "u1771",
+    "de": "<a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20260719\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1773",
+    "de": "Nur öffentliche Katalogbeschreibung; Normvolltext nicht eingesehen. Referenzbedingungen und Umrechnung vorhandener Raten keine eigenen Basisraten."
+  },
+  {
+    "key": "u1774",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/59985\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1776",
+    "de": "Offizielle Katalogbeschreibung eingesehen 09.10.2026; elektromagnetische Störgrößen, Emissionen und Prüfungen. Normvolltext nicht eingesehen."
+  },
+  {
+    "key": "u1777",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/67554\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1779",
+    "de": "Offizielle Katalogbeschreibung eingesehen 09.10.2026; Gebrauchstauglichkeit im Sicherheitskontext. Normvolltext nicht eingesehen."
+  },
+  {
+    "key": "u1780",
+    "de": "<a href=\"https://webstore.iec.ch/en/publication/67220\" target=\"_blank\" rel=\"noopener noreferrer\">Quelle öffnen</a>"
+  },
+  {
+    "key": "u1781",
+    "de": "Schaubild A Zuverlässigkeitsprozess  Eigener Lebenszyklusentwurf mit Kapitelverweisen."
+  },
+  {
+    "key": "u1782",
+    "de": "Zuverlässigkeitsprozess"
+  },
+  {
+    "key": "u1783",
+    "de": "Schaubild B Systemgrenze und Zerlegung  Eigene Darstellung der rekursiven Systembetrachtung."
+  },
+  {
+    "key": "u1784",
+    "de": "Systemgrenze"
+  },
+  {
+    "key": "u1785",
+    "de": "Schaubild C Methodennavigator  Eigene Darstellung für den Einstieg mit einer Bewertungsfrage."
+  },
+  {
+    "key": "u1786",
+    "de": "Methodennavigator"
+  },
+  {
+    "key": "u1787",
+    "de": "Schaubild D Produktgrenze und Untersuchungsablauf  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1788",
+    "de": "Zwei Grenzen und die mögliche Sicht als System of Systems"
+  },
+  {
+    "key": "u1789",
+    "de": "Schaubild I Fehlerbaum und Blockdiagramm des Treppenhauslichts  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1790",
+    "de": "Fehlerbaum und Blockdiagramm am selben Beispiel"
+  },
+  {
+    "key": "u1791",
+    "de": "Schaubild G Badewannenkurve als Denkmodell  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1792",
+    "de": "Modelle anhand von Daten und Mechanismen wählen"
+  },
+  {
+    "key": "u1793",
+    "de": "Schaubild H Weibullplot mit rechtszensierten Beobachtungen  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1794",
+    "de": "Einen Weibullplot mit zensierten Daten lesen"
+  },
+  {
+    "key": "u1795",
+    "de": "Schaubild E Nachweiserfolgswahrscheinlichkeit der drei Prüfpläne  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1796",
+    "de": "Einen Nachweis trotz beobachteter Ausfälle führen"
+  },
+  {
+    "key": "u1797",
+    "de": "Schaubild F Wiederkehrende Ereignisse im MCF Lehrbeispiel  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1798",
+    "de": "Reparierte Systeme mit wiederkehrenden Ereignissen auswerten"
+  },
+  {
+    "key": "u1799",
+    "de": "Schaubild J Potenzgesetzmodelle vor und nach einer Maßnahme  Eigene Darstellung für den beschriebenen Lehrfall."
+  },
+  {
+    "key": "u1800",
+    "de": "Wachstum von Zuverlässigkeit als überprüfbare Entwicklung"
+  }
+]
