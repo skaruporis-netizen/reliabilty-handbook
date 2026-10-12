@@ -58,3 +58,7 @@ node tests/check.mjs
 Der Workflow **Handbook · Verify and publish** prüft Änderungen an `main` und Pull Requests und legt `dist/` als GitHub-Pages-Artefakt ab. Die eigentliche Pages-Veröffentlichung ist zunächst ein ausdrücklich gewählter manueller Lauf. Nach der einmaligen Aktivierung unter **Settings → Pages → Source: GitHub Actions** kann die Anwendung veröffentlicht werden. Siehe [Schritt-für-Schritt-Anleitung](docs/GITHUB_PAGES.md).
 
 Die Migration ändert die bestehende Sites-Veröffentlichung nicht. Eine neue GitHub-Pages-Domain hat einen anderen Browser-Speicher: vorhandene Notizen zuerst als JSON exportieren und auf der neuen Domain importieren.
+
+## Experten-Review ab Version 1.1.0
+
+Die Webseite bietet Hinweise je Kapitel und Abschnitt sowie eine zentrale Review-Übersicht. [Ablauf, Versionierung und Copilot-Redaktion](docs/REVIEW.md). Zum Speichern wird ein GitHub-Konto benötigt. Die KI-Bearbeitung wird auf GitHub vom Verantwortlichen beauftragt. Geprüfte Änderungen auf `main` werden automatisch über Pages veröffentlicht.
